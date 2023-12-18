@@ -1,0 +1,913 @@
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array.
+    -For each element, iterate through the remaining elements.
+        -If the current element is greater than ""count"", increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""max_length"" as 0.
+Step 2. Iterate through the array.
+    -If the current element is greater than ""max_length"", update ""max_length"" with the current element.
+Step 3. Return ""max_length""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is equal to n, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the array.
+    -For each element, iterate through the remaining elements.
+        -If the current element is not equal to k, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Iterate through each pair of elements in the list.
+Step 2. Check if the two elements are equal.
+    -If they are, return True.
+Step 3. If no pair of elements are found, return False."
+"How to solve:
+Step 1. Convert the integer i to its binary representation.
+Step 2. Check if the length of the binary representation is 1.
+    -If it is, return 0.
+    -If it is not, return 0."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list.
+    -If the element is not in the ""result"" list, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable `max_length` as 0.
+Step 2. Iterate through each element in `nums`.
+    - For each element, iterate through each element.
+        - If the current element is greater than `max_length`, update `max_length` with the current element.
+Step 3. Return `max_length`."
+"How to solve:
+Step 1. Initialize an empty list to store the prime factors.
+Step 2. Iterate through each number in the input list.
+    -Check if the number is prime.
+        -If it is prime, add it to the list of prime factors.
+Step 3. Return the list of prime factors."
+"How to solve:
+Step 1. Initialize a variable `max_diff` as 0.
+Step 2. Iterate through each element in `nums`.
+    - Calculate the difference between the current element and the previous element.
+    - If the difference is smaller than `max_diff`, update `max_diff` with the new value.
+Step 3. Return `max_diff`."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the elements of ""a_list"".
+    -Add each element to ""count"".
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the elements in the array.
+    -If the element is even, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is a digit, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Check if n is less than or equal to 0. If so, return False.
+Step 2. Initialize a variable ""result"" as 1.
+Step 3. Iterate from 2 to the square root of n.
+    -If n is divisible by any number in this range, return False.
+    -Otherwise, return False."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 1.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is positive, multiply ""result"" by 2 and add the result to ""result"".
+    -If the current number is negative, multiply ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Check if n is equal to 0. If it is, return 1.
+Step 2. Initialize a variable n as 1.
+Step 3. Iterate n times.
+    -Check if n is equal to n.
+       -If it is, increment n by 1.
+    -If it is not, reset n to 1.
+Step 4. Return n."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the characters in s1 and s2 simultaneously.
+    -If the characters are not equal, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 0.
+Step 2. Iterate through the coefficients of a and b.
+    -Add the result to ""result"".
+Step 3. Return the value of ""result""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the characters in the string.
+    -If the characters are not equal, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable `result` as 1.
+Step 2. Iterate from 1 to n.
+    - Multiply `result` by the current number.
+Step 3. Return `result`."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 0.
+Step 2. Iterate through the elements of x and y.
+    -Multiply each element with the current element.
+    -Add the result to ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is even, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable `max_length` as 0.
+Step 2. Iterate through the array `nums`.
+    - If the current element is greater than `max_length`, update `max_length` with the current element.
+Step 3. Return `max_length`."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array.
+    -For each element, iterate through the remaining elements.
+        -If the current element is greater than or equal to the next element, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Calculate the midpoint of the hexadecimal number.
+Step 2. Return the calculated value."
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through the range from 1 to n+1 with a step of 2.
+    -Add the square of each number to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through numbers from 1 to n.
+    -If n is divisible by the current number, add the current number to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Check if x and y are equal.
+Step 2. If y is less than or equal to x, return True.
+Step 3. Otherwise, return False."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the input string.
+    -If the character is '1', increment the count by 1.
+    -If the character is '2', increment the count by 1.
+Step 3. Return the concatenated value."
+"How to solve:
+Step 1. Calculate the difference between a and b.
+Step 2. If the absolute difference is greater than or equal to 0, return a.
+Step 3. Calculate the remainder of a divided by b.
+Step 4. Divide the total by the number of digits.
+Step 5. Return the result."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the range from 1 to n-1 with a step size of 2.
+    -Add the square of each number to the ""sum"".
+Step 3. Return the ""sum""."
+"How to solve:
+Step 1. Sort the array in ascending order.
+Step 2. Return the first element of the sorted array."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through numbers from 1 to n.
+    -If n is divisible by the current number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 1.
+Step 2. Iterate through the range from 1 to n-1 with a step of 2.
+    -Multiply ""result"" by the current value of ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -Add each number to ""count"".
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is a digit, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array.
+    -If the current element is positive, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is positive, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the range from 0 to n-1.
+    -Add the current number to ""sum"".
+    -Increment ""sum"" by 1.
+Step 3. Calculate the value of ""sum"" by dividing ""sum"" by ""sum"".
+Step 4. Return the value of ""sum""."
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through numbers from 1 to N.
+    -Add each number to sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array ""nums"".
+    -If the current element is different from the previous element, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable `max_length` as 0.
+Step 2. Iterate through each element in `nums`.
+    - If the element is not in `nums`, add it to `max_length`.
+Step 3. Return `max_length`."
+"How to solve:
+Step 1. Initialize a variable `max_length` as 0.
+Step 2. Iterate through each element `num` in the array.
+    - For each element, iterate through the remaining elements.
+        - If the current element is greater than `max_length`, update `max_length` with the current element.
+Step 3. Return `max_length`."
+"How to solve:
+Step 1. Initialize a variable `count` as 0 to keep track of the number of subarrays.
+Step 2. Iterate through the array `nums`.
+    - Add each element to `count`.
+Step 3. Return `count`."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input array ""nums"".
+    - Calculate the absolute difference between the current element and the previous element.
+    - Append the absolute difference to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable ""min_length"" as 0.
+Step 2. Iterate through the array ""nums"".
+    -For each element, calculate the minimum of the current element and append it to ""min_length"".
+Step 3. Return ""min_length""."
+"How to solve:
+Step 1. Initialize a variable `max_diff` as 0.
+Step 2. Iterate through each element in `nums`.
+    - Calculate the difference between the current element and `num_diff`.
+    - If the difference is smaller than `max_diff`, update `max_diff` and `max_diff` with the new value.
+Step 3. Return `max_diff`."
+"How to solve:
+Step 1. Check if the lengths of x and y are equal.
+    -If they are, return True.
+    -If they are not, return False."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the sentence.
+    -If the character is a vowel, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 0.
+Step 2. Iterate through the range from left to right.
+    -If the current number is greater than or equal to the previous number, update ""result"" with the current number.
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize a variable ""largest"" as 0.
+Step 2. Iterate through the elements in the array.
+    -If the current element is smaller than ""largest"", update ""largest"" with the current element.
+Step 3. Return ""largest""."
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate from 1 to n.
+    -Add each number to sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each row in the matrix.
+    - Initialize a variable called ""sum"" as 0.
+    - Iterate through each element in the row.
+         - Multiply the element with the current element and column.
+         - Add the result to ""sum"".
+    - Append ""sum"" to ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the bits of the given number.
+    -If the current bit is 1, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the array.
+    -Add each element to ""sum"".
+Step 3. If ""sum"" is equal to ""sum"", return True. Otherwise, return False."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the bits of the array.
+    -If the current bit is 1, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is not equal to the previous character, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 0.
+Step 2. Iterate through the range from N to N.
+    -Check if the current number is divisible by K.
+    -If it is, increment ""result"" by 1.
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize an empty list to store the result.
+Step 2. Iterate through the range from 1 to n-1.
+    -For each iteration, append the result to the result list.
+Step 3. Return the result list."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -If the current number is different from the previous number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -Add the square of each number to ""sum"".
+Step 3. If the sum is equal to n, return True. Otherwise, return False."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is 'a', increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is not equal to the specified number, add it to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the array.
+    -For each number, calculate the absolute value of the number.
+    -Add the absolute value of the number to the ""sum"" variable.
+Step 3. Return the ""sum"" variable."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is '1', increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable `count` as 0 to keep track of the number of subarrays.
+Step 2. Iterate through the array `nums`.
+    - If the current element is greater than the previous element, increment `count` by 1.
+Step 3. Return `count`."
+"How to solve:
+Step 1. Sort the array in ascending order.
+Step 2. If the length of the array is odd, return the middle element.
+Step 3. If the length of the array is even, return the average of the two middle elements."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array.
+    -If the current element is positive, increment ""count"" by 1.
+    -If the current element is negative, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable `result` as 0.
+Step 2. Iterate through the range from 0 to n-1 with a step of 2.
+    - Multiply `result` by 2.
+Step 3. Return `result`."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -If the current number is not equal to the next number, increment ""count"" by 1.
+Step 3. If ""count"" is equal to 2, return True. Otherwise, return False."
+"How to solve:
+Step 1. Initialize a variable `result` as 1.
+Step 2. Iterate from 1 to n.
+    - Multiply `result` by the current number.
+Step 3. Return `result`."
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through each character in the input sequence.
+    -Add the character to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate from 1 to n.
+    -Add the value of each term to ""sum"".
+Step 3. Return the value of ""sum""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array.
+    -If the current element is equal to the given value, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the range from 1 to n.
+    -For each iteration, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Convert the integer n to a binary representation.
+Step 2. Count the number of bits in the binary representation.
+Step 3. Return the binary representation."
+"How to solve:
+Step 1. Initialize a variable `count` as 0.
+Step 2. Iterate through the elements in `nums`.
+    - If the current element is less than or equal to `num`, increment `count` by 1.
+    - If `count` is greater than 0, return `count`.
+Step 3. Return `count`."
+"How to solve:
+Step 1. Convert the given number to degrees.
+Step 2. Return the result."
+"How to solve:
+Step 1. Calculate the difference between n and n.
+Step 2. Multiply the result by 2.
+Step 3. Return the result."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -Add the current number to ""sum"".
+Step 3. Return ""sum""."
+"How to solve:
+Step 1. Check if the input number is a number.
+Step 2. If the input number is a number, convert it to a list of numbers.
+Step 3. Return the list of numbers."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -If the current number is different from the previous number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -Add the current number to ""sum"".
+Step 3. Return ""sum""."
+"How to solve:
+Step 1. Initialize an empty list to store the unique characters.
+Step 2. Iterate through the characters in the input string.
+    -If the character is not in the dictionary, add it with a value of 1.
+    -If the character is already in the list, increment its value by 1.
+Step 3. Find the maximum value in the dictionary.
+Step 4. Return the list of unique characters."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through the range from 0 to n-1.
+    -If the current number is even, append it to the ""result"" list.
+    -Otherwise, append the current number to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable `max_num` as 0.
+Step 2. Iterate through each element `num` in `num`.
+    - Check if `num` is divisible by both `num` and `num`.
+    - If it is, update `num` by dividing it by `num`.
+Step 3. Return `max_num`."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to N.
+    -If the current number is not equal to N, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable `count` as 0.
+Step 2. Iterate through each character in `text`.
+    -If the character is '#', increment `count` by 1.
+Step 3. Return `count`."
+"How to solve:
+Step 1. Calculate the mean of the input array.
+Step 2. Calculate the difference between the minimum and maximum values.
+Step 3. Calculate the difference between the minimum and maximum values.
+Step 4. Divide the difference by the difference.
+Step 5. Return the result."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -Check if the current number is prime.
+         -If it is, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the input string.
+    -If the character is a digit, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable `max_length` as 0.
+Step 2. Iterate through each element in `nums`.
+    - Calculate the absolute difference between the current element and `num_length`.
+    - If the absolute difference is greater than `max_length`, update `max_length` with the new value.
+Step 3. Return `max_length`."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a digit, add it to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the input string.
+    -If the character is a number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize an empty string to store the result.
+Step 2. Iterate through the characters in the input string.
+    -If the character is '0', skip it.
+    -Otherwise, add the character to the result string.
+    -Otherwise, add the character to the result string.
+Step 3. Return the result string."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is less than or equal to the previous number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array.
+    -For each element, iterate through the remaining elements.
+        -If the remaining elements are not equal, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Iterate through each word in the sentence.
+Step 2. Check if the word is in the sentence.
+    -If it is, return True.
+Step 3. If no word is found, return False."
+"How to solve:
+Step 1. Convert the integer n to a string.
+Step 2. Use the built-in int() function to calculate the length of the string.
+Step 3. Return the length of the string."
+"How to solve:
+Step 1. Check if n is less than or equal to 0.
+    -If true, return True.
+    -If false, return False."
+"How to solve:
+Step 1. Check if the value of x is equal to 1.
+    -If yes, return True.
+    -If no, return False."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is not a vowel, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through each character in the string.
+    -Increment count by 1 for each character.
+    -If count is 0, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable `min_diff` as 0.
+Step 2. Iterate through each element in `nums`.
+    - Calculate the absolute difference between the current element and `min_diff`.
+    - If the absolute difference is smaller than `min_diff`, update `min_diff` with the new value.
+Step 3. Return `min_diff`."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from left to right.
+    -If the current number is greater than or equal to the previous number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable `result` as 1.
+Step 2. Iterate from 1 to n.
+    - Multiply `result` by 2.
+Step 3. Return `result`."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -If the current number is divisible by the current number, update ""sum"" to the current number.
+Step 3. Return ""sum""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is positive, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -Add each number to ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is not a digit, add it to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Check if the length of the input string is equal to 1.
+Step 2. If it is, return True. Otherwise, return False."
+"How to solve:
+Step 1. Iterate through each element in the list.
+Step 2. Check if the element is a valid integer.
+    -If yes, return True.
+    -If no, return False."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through the range from 0 to n-1.
+    -For each number, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through the range from 0 to n-1.
+    -If the index is even, append it to the ""result"" list.
+    -If the index is odd, append 1 to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array.
+    -For each element, iterate through the remaining elements.
+        -If the current element is 1, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Check if the length of the input array is equal to 1.
+    -If it is, return True.
+    -If it is not, return False."
+"How to solve:
+Step 1. Check if the length of the input rectangle is less than or equal to 0. If so, return an error message.
+Step 2. Calculate the area of the triangle using the formula: area = (base * height) / 2.
+Step 3. Return the calculated area."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is an uppercase letter, add it to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Calculate the number of buckets needed by dividing the number of buckets by 2.
+Step 2. Round the result to the nearest integer.
+Step 3. Return the rounded number."
+"How to solve:
+Step 1. Iterate through each element in the array.
+Step 2. Check if the element is not already in the set.
+    -If not, return False.
+Step 3. If all elements are equal, return True."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is not in the ""result"" list, add it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable ""max_num"" as 0.
+Step 2. Iterate through each element in ""num"".
+    -If the element is greater than ""max_num"", update ""max_num"" with the current element.
+Step 3. Return ""max_num""."
+"How to solve:
+Step 1. Initialize a variable ""max_num"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is a digit, convert it to an integer and update max_num.
+Step 3. Return max_num."
+"How to solve:
+Step 1. Initialize a variable ""max_length"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is an integer, update ""max_length"" with the new value.
+Step 3. Return ""max_length""."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 0.
+Step 2. Iterate through the range from 1 to N.
+    - Multiply the current number by the current number.
+    - Add the result to ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Check if the length of the string is equal to 1.
+    -If it is, return False.
+    -If it is not, return False."
+"How to solve:
+Step 1. Initialize a variable `result` as 1.
+Step 2. Iterate from 1 to n.
+    - Multiply `result` by 2.
+Step 3. Return `result`."
+"How to solve:
+Step 1. Convert both strings to lowercase.
+Step 2. Iterate through the characters of the string.
+    -If the characters are not equal, return False.
+Step 3. If all characters are equal, return True."
+"How to solve:
+Step 1. Check if x and y is equal to 0.
+    -If true, return True.
+    -If false, return False."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n-1 with a step of 2.
+    -If the current number is less than or equal to n, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the array ""nums"".
+    -For each element, calculate the absolute difference between the current element and the previous element.
+    -Add the absolute difference to ""sum"".
+Step 3. Return ""sum""."
+"How to solve:
+Step 1. Check if n is less than 0. If so, return 0.
+Step 2. Divide n by 2.
+Step 3. Return the result."
+"How to solve:
+Step 1. Initialize a variable `result` as 0.
+Step 2. Iterate from 1 to n.
+    - Multiply `result` by the current number.
+Step 3. Return `result`."
+"How to solve:
+Step 1. Initialize a variable `result` as 1.
+Step 2. Iterate through the range from 1 to N.
+    - Multiply `result` by the current number.
+Step 3. Return `result`."
+"How to solve:
+Step 1. Check if the length of the array is odd or even.
+Step 2. If the length is even, return True.
+Step 3. Otherwise, return False."
+"How to solve:
+Step 1. Initialize a variable `count` as 0.
+Step 2. Iterate through the range from 1 to N.
+    - Check if the current number is prime.
+        - If it is, increment `count` by 1.
+Step 3. Return `count`."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array.
+    -If the current element is positive, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Convert the given number to a string.
+Step 2. Find the index of the string in the string.
+Step 3. Remove the substring from the string.
+Step 4. Return the resulting string."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each element in the array.
+    -If the element is not equal to the previous element, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through each character in the string.
+    -Convert the character to its ASCII value.
+    -Add the ASCII value to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is less than or equal to the previous number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""max_num"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is divisible by the current number, update ""max_num"" to the current number.
+Step 3. Return ""max_num""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is '1', increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the elements of X and Y.
+    -Add the corresponding element to ""sum"".
+    -If the index of the element is greater than max_sum, update ""sum"" to the current index.
+Step 3. Return ""sum""."
+"How to solve:
+Step 1. Initialize a variable ""max_length"" as 0.
+Step 2. Iterate through the array ""nums"".
+    -If the current element is greater than ""max_length"", update ""max_length"" with the current element.
+Step 3. Return ""max_length""."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the array.
+    -If the current element is not equal to k, add it to ""sum"".
+Step 3. Return ""sum""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -If the current number is not equal to the previous number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the elements in the array ""nums"".
+    -Add each element to ""sum"".
+Step 3. Return ""sum""."
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through the range from 1 to n.
+    -Add each number to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Calculate the square root of the input number.
+Step 2. If the square root is 0, return the result.
+Step 3. Otherwise, return the square root."
+"How to solve:
+Step 1. Initialize a variable `result` as 0.
+Step 2. Iterate through the range of `x` with a step of 2.
+    - Multiply `result` by the current number.
+    - Add the result to `result`.
+Step 3. Return `result`."
+"How to solve:
+Step 1. Initialize an empty string to store the result.
+Step 2. Iterate through each character in the input string.
+    -Convert the character to its ASCII value.
+    -Append the ASCII value to the result string.
+Step 3. Return the result string."
+"How to solve:
+Step 1. Convert the integer n to a string.
+Step 2. Check if the length of the string is equal to 2.
+    -If it is, return True.
+    -If it is not, return False."
+"How to solve:
+Step 1. Iterate through each character in the string.
+Step 2. Check if the character is a vowel.
+    -If it is, return True.
+Step 3. If no letters are found, return False."
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the range from start to end (inclusive).
+    -Check if the current number is prime.
+        -If it is, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""min_diff"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is less than min_diff, update min_diff.
+Step 3. Return min_diff."
+"How to solve:
+Step 1. Calculate the area of the triangle using the formula: area = π * r^2.
+Step 2. Return the calculated area."
+"How to solve:
+Step 1. Sort the input list of strings.
+Step 2. Return the sorted list."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array ""nums"".
+    -If the current element is greater than the next element, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is a space, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Iterate through the array.
+Step 2. Check if the current element is equal to the given number.
+    -If it is, return the number.
+Step 3. If no number is found, return None."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each row in the input array.
+    -Find the maximum value in the corresponding row.
+    -Append the result to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Check if the input `x` is equal to `y`.
+    -If it is, return True.
+    -If it is not, return False."
+"How to solve:
+Step 1. Initialize a variable `count` as 0 to keep track of the number of vowels.
+Step 2. Iterate through the range from 1 to n.
+    - If the current number is even, increment `count` by 1.
+Step 3. Return `count`."
+"How to solve:
+Step 1. Initialize an empty dictionary.
+Step 2. Iterate through each element in the array.
+    -If the element is not in the dictionary, add it as a key with a value of 1.
+    -If the element is already in the dictionary, increment its value by 1.
+Step 3. Return the dictionary."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each node in the tree.
+    -If the node value is a leaf node, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 0 to n-1.
+    -If the current number is greater than or equal to the previous number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is different from the previous number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""max_length"" as 0.
+Step 2. Iterate through each element in the array.
+    - Calculate the absolute difference between the current element and the previous element.
+    - If the absolute difference between the current element and the previous element is greater than max_length, update max_length.
+Step 3. Return max_length."
+"How to solve:
+Step 1. Calculate the mean of the input number.
+Step 2. Calculate the standard deviation of the input number.
+Step 3. Return the normalized value."
+"How to solve:
+Step 1. Initialize a variable `count` as 0 to keep track of the number of subarrays.
+Step 2. Iterate through the array `nums`.
+    - Add each element to `count`.
+Step 3. Return `count`."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array ""nums"".
+    -For each element, iterate through the remaining elements.
+        -If the current element is greater than ""count"", increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -Check if the current number is prime.
+        -If it is prime, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current bit is 1, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to N.
+    -If the current number is even, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through numbers from 1 to n.
+    -Convert each number to an integer and add it to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize a variable ""largest"" as 0.
+Step 2. Iterate through the elements in the list ""lst"".
+    -If the element is greater than ""largest"", update ""largest"" with the current element.
+Step 3. Return ""largest""."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is greater than or equal to the previous number, update ""sum"" with the current number.
+Step 3. Return ""sum""."

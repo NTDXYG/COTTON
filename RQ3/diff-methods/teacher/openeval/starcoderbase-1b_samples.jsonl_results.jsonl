@@ -1,0 +1,178 @@
+{"task_id": "Open/0", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/1", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/2", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/3", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/4", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/5", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/6", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/7", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/8", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/9", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/10", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/11", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/12", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/13", "completion": "    def f( n ) :\n        if n == 1 :\n            return True\n        elif n % 2 == 0 :\n            return False\n        else :\n            return f( n // 2 )\n    return f( n )\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/14", "completion": "    if n % 4 == 0 :\n        return n\n    else :\n        return \"\"\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/15", "completion": "    if ( n <= 1 ) :\n        return 0\n    if ( t <= 0 ) :\n        return -1\n    if ( n == 2 ) :\n        return 1\n    if ( n == 3 ) :\n        return 1\n    if ( n % 2 == 0 ) :\n        return 0\n    if ( n % 3 == 0 ) :\n        return 0\n    if ( n % 5 == 0 ) :\n        return 0\n    if ( n % 7 == 0 ) :\n        return 0\n    if ( n % 11 == 0 ) :\n        return 0\n    if ( n % 13 == 0 ) :\n        return 0\n    if ( n % 17 == 0 ) :\n        return 0\n    if ( n % 19 == 0 ) :\n        return 0\n    if ( n % 23 == 0 ) :\n        return 0\n    if ( n % 29 == 0 ) :\n        return 0\n    if ( n % 31 == 0 ) :\n        return 0\n    if ( n % 37 == 0 ) :\n        return 0\n    if ( n", "result": "failed: invalid syntax (<string>, line 45)", "passed": false}
+{"task_id": "Open/16", "completion": "    if s1[n] == '0' and s2[n] == '1' or s1[n] == '1' and s2[n] == '0' or s1[n] == '0' and s2[n] == 'Z' or s1[n] == 'Z' and s2[n] == '0':\n        return True\n    else:\n        return False\n", "result": "failed: string index out of range", "passed": false}
+{"task_id": "Open/17", "completion": "    return (x * (a + b) * (c - d)) / ((a * d) - (b * c))\n", "result": "passed", "passed": true}
+{"task_id": "Open/18", "completion": "    count = 0\n    for i in range(len(s)):\n        if i % 2 == 0:\n            count += 1\n        else:\n            count -= 1\n    return min(count, len(s) - count)\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/19", "completion": "    count = 0\n    for i in range(1,n+1) :\n        if i**2 <= n :\n            count += 1\n    return count\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/20", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/21", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/22", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/23", "completion": "    if i == n :\n        return count\n    if sum == 0 :\n        count += subsetSum( arr, n, i + 1, sum, count )\n    else :\n        count += subsetSum( arr, n, i + 1, sum - arr[i], count )\n    return count\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/24", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/25", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/26", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/27", "completion": "    return x <= y\n", "result": "passed", "passed": true}
+{"task_id": "Open/28", "completion": "    return 9 * n * n - 9 * n + 1\n", "result": "passed", "passed": true}
+{"task_id": "Open/29", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/30", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/31", "completion": "    arr.sort()\n    return arr[k-1]\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/32", "completion": "    return pow(3,n-1)\n", "result": "passed", "passed": true}
+{"task_id": "Open/33", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/34", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/35", "completion": "    count = 0\n    for i in range(1, n+1) :\n        i = str(i)\n        count += i.count(d)\n    return count\n", "result": "failed: must be str, not int", "passed": false}
+{"task_id": "Open/36", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/37", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/38", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/39", "completion": "    return sum ( range ( 1, N + 1 ) )\n", "result": "passed", "passed": true}
+{"task_id": "Open/40", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/41", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/42", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/43", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/44", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/45", "completion": "    min_element = arr[0]\n    for i in range(1, n) :\n        if arr[i] < min_element :\n            min_element = arr[i]\n    return min_element * (n - 1)\n\narr = [1, 2, 3, 4, 5]", "result": "failed: list index out of range", "passed": false}
+{"task_id": "Open/46", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/47", "completion": "    return ( a * x1 + b * y1 + c ) == 0\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/48", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/49", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/50", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/51", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/52", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/53", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/54", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/55", "completion": "    return n & 1 == 1\n", "result": "passed", "passed": true}
+{"task_id": "Open/56", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/57", "completion": "    if N % K == 0 :\n        return N\n    else :\n        return N - ( N % K )\n", "result": "passed", "passed": true}
+{"task_id": "Open/58", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/59", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/60", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/61", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/62", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/63", "completion": "\n    min_value = arr[0]\n    for i in range(1, n) :\n        sum_log = 0\n        for j in range(i) :\n            sum_log += math.log(arr[j], 2)\n        if sum_log < min_value * math.log(n, 2) :\n            min_value = arr[i]\n    return min_value\n\narr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]", "result": "failed: ", "passed": false}
+{"task_id": "Open/64", "completion": "    if len(s) == 0 :\n        return -1\n    start = 0\n    end = 0\n    max_len = 0\n    for i in range(len(s)) :\n        if s[i] == '1' :\n            start = end + 1\n        else :\n            end = i + 1\n        max_len = max(max_len, end - start + 1)\n    return s[start:start + max_len]\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/65", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/66", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/67", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/68", "completion": "    if n == 1 :\n        return 0\n    else :\n        v = []\n        while n!= 0 :\n            v.append( n % 5 )\n            n = n // 5\n        result = 0\n        for i in range( len( v ) - 1, -1, -1 ) :\n            result = result * 10 + v[i]\n        return 2 * result\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/69", "completion": "    return (n & (n - 1)) == 0\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/70", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/71", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/72", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/73", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/74", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/75", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/76", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/77", "completion": "    return radian * 180 / math.pi\n", "result": "failed: name 'math' is not defined", "passed": false}
+{"task_id": "Open/78", "completion": "    return int( math.floor( n / 2 ) )\n", "result": "passed", "passed": true}
+{"task_id": "Open/79", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/80", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/81", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/82", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/83", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/84", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/85", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/86", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/87", "completion": "    count = 0\n    for i in range(len(str)):\n        if str[i] == substr[0]:\n            count += 1\n    return count\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/88", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/89", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/90", "completion": "    count = 0\n    for i in range(l, r+1) :\n        if i % 10 == 2 or i % 10 == 3 or i % 10 == 9 :\n            count += 1\n    return count\n", "result": "passed", "passed": true}
+{"task_id": "Open/91", "completion": "    # Step 1.\n    dic = {}\n    # Step 2.\n    max_length = 0\n    # Step 3.\n    for i in range(len(arr)) :\n        dic[arr[i]] = 0\n    # Step 4.\n    for i in range(len(arr)) :\n        for j in range(i+1, len(arr)) :\n            diff = arr[i] - arr[j]\n            if diff in dic :\n                dic[diff] += 1\n            else :\n                dic[diff] = 2\n            if dic[diff] > max_length :\n                max_length = dic[diff]\n    # Step 5.\n    return max_length\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/92", "completion": "    max_len = 0\n    max_substring = \"\"\n    for i in range( len( str ) ) :\n        if str[i].isalpha() :\n            if i % 2 == 0 :\n                if len( str[i:i+2] ) > max_len :\n                    max_len = len( str[i:i+2] )\n                    max_substring = str[i:i+2]\n    return max_substring if max_len > 0 else \"-1\"\n\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/93", "completion": "    if n < 1 :\n        return 0\n    else :\n        return 1 + count ( n / 2 )\n", "result": "passed", "passed": true}
+{"task_id": "Open/94", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/95", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/96", "completion": "    # Step 1. Calculate the total sum of the array.\n    totalSum = 0\n    for i in range( len( arr ) ) :\n        totalSum += arr[ i ]\n    \n    # Step 2. Initialize a variable to keep track of the sum of elements before the split point.\n    sumBeforeSplit = 0\n    \n    # Step 3. Iterate through the array.\n    for i in range( len( arr ) ) :\n        sumBeforeSplit += arr[ i ]\n        \n        # If the sum of elements before the split point is equal to one-third of the total sum of the array and the sum of elements after the split point is equal to two-thirds of the total sum of the array, return 1.\n        if sumBeforeSplit == ( totalSum / 3 ) :\n            return 1\n    \n    # Step 4. If no split point is found, return 0.\n    return 0\n", "result": "passed", "passed": true}
+{"task_id": "Open/97", "completion": "    return word in sentence\n", "result": "passed", "passed": true}
+{"task_id": "Open/98", "completion": "    return int(math.log10(n))+1\n", "result": "passed", "passed": true}
+{"task_id": "Open/99", "completion": "    return ( a == b ) and ( a == c ) and ( b == c ) and ( k == 0 )\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/100", "completion": "    return ( x ^ y ) & ( x ^ ( x >> 1 ) ) == y\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/101", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/102", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/103", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/104", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/105", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/106", "completion": "    sum_divisors = 0\n    for i in range( 1, n + 1 ) :\n        if n % i == 0 :\n            sum_divisors += i\n    return sum_divisors == n\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/107", "completion": "    return (N % 100) + (N % 400)\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/108", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/109", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/110", "completion": "    def validate ( n ) :\n        s = str(n)\n        for i in s :\n            if s.count(i) > 1 :\n                return False\n        return True\n    return validate\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/111", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/112", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/113", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/114", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/115", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/116", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/117", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/118", "completion": "    return int( math.ceil( math.sqrt( 8 * p + 1 ) / 2 ) )\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/119", "completion": "    return len( set( arr ) ) == len( arr )\n", "result": "passed", "passed": true}
+{"task_id": "Open/120", "completion": "    set = set()\n    for i in range( len( string ) ) :\n        if i + 1 < len( string ) :\n            set.add( string[ i ] + string[ i + 1 ] )\n    return len( set )\n", "result": "failed: local variable 'set' referenced before assignment", "passed": false}
+{"task_id": "Open/121", "completion": "    if lower == higher :\n        return lower\n    else :\n        return 2\n", "result": "passed", "passed": true}
+{"task_id": "Open/122", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/123", "completion": "    # Write your code here.\n    longest = \"\"\n    current = \"\"\n    for i in range(len(s)):\n        if s[i].isdigit():\n            current += s[i]\n        else:\n            if len(current) > len(longest):\n                longest = current\n            current = \"\"\n    if len(current) > len(longest):\n        longest = current\n    return longest\n", "result": "passed", "passed": true}
+{"task_id": "Open/124", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/125", "completion": "    pass\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/126", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/127", "completion": "    return len(A) == len(B)\n", "result": "failed: object of type 'int' has no len()", "passed": false}
+{"task_id": "Open/128", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/129", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/130", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/131", "completion": "    def fn ( x ) :\n        if ( x % 4 ) == 0 :\n            return 0\n        elif ( x % 4 ) == 3 :\n            return 1\n        else :\n            return 2\n    return fn\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/132", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/133", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/134", "completion": "    if ( arr[0] % 2 == 0 ) and ( arr[-1] % 2 == 0 ) and ( n % 2 == 0 ) :\n        return True\n    else :\n        return False\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/135", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/136", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/137", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/138", "completion": "    count = 0\n    for i in range(n):\n        if arr[i] > arr[i-1]:\n            count += 1\n            arr[i] = arr[i-1]\n    return count\n", "result": "passed", "passed": true}
+{"task_id": "Open/139", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/140", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/141", "completion": "    return x * y // math.gcd( x, y )\n", "result": "passed", "passed": true}
+{"task_id": "Open/142", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/143", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/144", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/145", "completion": "    if n <= 0 :\n        return -1\n    if n == 1 :\n        return arr[0]\n    if k == 0 :\n        return arr[0]\n    if k == 1 :\n        return arr[0]\n    if k == arr[0] :\n        return arr[0]\n    if k == arr[1] :\n        return arr[1]\n    if k == arr[2] :\n        return arr[2]\n    if k == arr[3] :\n        return arr[3]\n    if k == arr[4] :\n        return arr[4]\n    if k == arr[5] :\n        return arr[5]\n    if k == arr[6] :\n        return arr[6]\n    if k == arr[7] :\n        return arr[7]\n    if k == arr[8] :\n        return arr[8]\n    if k == arr[9] :\n        return arr[9]\n    if k == arr[10] :\n        return arr[10]\n    if k == arr[11] :\n        return arr[11]\n    if k == arr[12] :\n        return arr[12]\n    if k == arr", "result": "failed: invalid syntax (<string>, line 41)", "passed": false}
+{"task_id": "Open/146", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/147", "completion": "    target = (arr[0] + arr[len(arr)-1]) / 2\n    operations = 0\n    for i in range(len(arr)) :\n        operations += abs(arr[i] - target)\n    return operations\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/148", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/149", "completion": "    return s ** 0.5\n", "result": "passed", "passed": true}
+{"task_id": "Open/150", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/151", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/152", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/153", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/154", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/155", "completion": "    if n == 0 :\n        return 0\n    else :\n        return min( abs(n-2**math.floor(math.log(n,2))), abs(n-2**(math.ceil(math.log(n,2)))))\n", "result": "passed", "passed": true}
+{"task_id": "Open/156", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/157", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/158", "completion": "    low = 0\n    high = size - 1\n    mid = 0\n    while low <= high:\n        mid = (low + high) // 2\n        if ar[mid] - ar[low]!= mid - low:\n            high = mid - 1\n        else:\n            low = mid + 1\n    return ar[low]\n", "result": "failed: list index out of range", "passed": false}
+{"task_id": "Open/159", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/160", "completion": "    for i in range( len( arr ) ) :\n        if arr[ i ] % 2 == 0 :\n            return arr[ i ]\n    return None\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/161", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/162", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/163", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/164", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/165", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/166", "completion": "    current = source\n    count = 0\n    while current!= dest :\n        count += 1\n        current += step\n        if current == dest :\n            return count\n        current -= step\n        if current == dest :\n            return count\n        current += -step\n        if current == dest :\n            return count\n        current -= -step\n        if current == dest :\n            return count\n    return sys.maxsize\n", "result": "timed out", "passed": false}
+{"task_id": "Open/167", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/168", "completion": "    max_len = 0\n    curr_len = 0\n    for i in arr :\n        if i >= 0 :\n            curr_len += 1\n        else :\n            max_len = max(max_len, curr_len)\n            curr_len = 0\n    return max_len if curr_len == 0 else max_len + 1\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/169", "completion": "    return math.sqrt( (m * m) + (n * n) )\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/170", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/171", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/172", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/173", "completion": "", "result": "failed: ", "passed": false}
+{"task_id": "Open/174", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/175", "completion": "    return math.log10(n) * k\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/176", "completion": "\n", "result": "failed: ", "passed": false}
+{"task_id": "Open/177", "completion": "", "result": "failed: ", "passed": false}

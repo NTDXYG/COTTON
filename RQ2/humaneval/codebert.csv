@@ -1,0 +1,899 @@
+"How to solve:
+Step 1. Iterate through each pair of numbers in the list.
+Step 2. Check if the absolute difference between the two numbers.
+    -If it is, return True.
+Step 3. If no pair is found, return False."
+"How to solve:
+Step 1. Initialize an empty string to store the result.
+Step 2. Iterate through each character in the input string.
+    -If the character is a space, skip it.
+    -Otherwise, add the character to the result string.
+Step 3. Return the result string."
+"How to solve:
+Step 1. Convert the integer to a string.
+Step 2. Find the index of the decimal point in the string.
+Step 3. Convert the decimal point to a string.
+Step 4. Check if the length of the string is less than or equal to the desired length.
+    -If so, return the string as is.
+Step 5. Convert the string back to an integer and return it."
+"How to solve:
+Step 1. Iterate through the elements in the list.
+Step 2. Check if the current element is equal to the next element.
+    -If yes, return True.
+Step 3. If no non-zero elements are found, return False."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through each element in X.
+    -Calculate the absolute difference between the current element and the mean.
+    -If the absolute difference is greater than max_sum, update max_sum.
+Step 3. Return the mean."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list.
+    -Multiply the element with the separator.
+    -Append the result to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize an empty stack.
+Step 2. Iterate through each character in the input string.
+    -If the character is an opening parenthesis, push it onto the stack.
+    -If the character is a closing parenthesis, pop the top element from the stack.
+    -If the character is a closing parenthesis, pop the top element from the stack.
+Step 3. Return the stack."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each string in the input list.
+    -If the length of the string is greater than the given number, add it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -Add each number to ""sum"".
+Step 3. Return ""sum""."
+"How to solve:
+Step 1. Initialize an empty list to store the rolling maximum values.
+Step 2. Iterate through the elements in the input list.
+    -For each element, find the corresponding index from the current element and append it to the list.
+Step 3. Return the list of rotated elements."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a palindrome, add it to the ""result"" string.
+    -If the character is a palindrome, check if the previous character in the ""result"" string is also a palindrome.
+    -If it is, add the character to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Convert the input x and y to a string.
+Step 2. Initialize an empty string called ""result"".
+Step 3. Iterate through each character in the string.
+    -If the character is '0', append the character to the result string.
+    -If the character is '0', append '0' to the result string.
+Step 4. Return the result string."
+"How to solve:
+Step 1. Check if the input list is empty. If it is, return None.
+Step 2. Initialize a variable ""longest"" as an empty string.
+Step 3. Iterate through the characters in the input list.
+    -If the length of the current string is greater than the length of ""longest"", update ""longest"" with the current string.
+Step 4. Return ""longest""."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 0.
+Step 2. Iterate from 1 to the minimum of a and b.
+    -If both a and b are divisible by the current number, update ""result"" to the current number.
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize an empty list to store the prefixes.
+Step 2. Iterate through the range from 0 to n.
+    -For each iteration, append it to the list of prefixes.
+Step 3. Return the list of prefixes."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate from 1 to n.
+    -Convert each number to a string and append it to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize an empty set to store distinct characters.
+Step 2. Iterate through each character in the string.
+    -Add each character to the set.
+Step 3. Return the length of the set."
+"How to solve:
+Step 1. Initialize an empty list to store the decoded values.
+Step 2. Iterate through the range from 1 to n-1.
+    -For each iteration, append it to the list of musical values.
+Step 3. Return the list of decoded values."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array.
+    -If the current element is equal to the given value, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each element in the input list ""num"".
+    -If the element is a number, append it to the ""result"" string.
+    -If the element is a number, append it to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list ""num"".
+    -If the element is not already in ""result"", add it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the numbers in the list.
+    -If the number is less than or equal to the given number, add it to the ""sum"".
+Step 3. Return the ""sum""."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each value in the input list.
+    -If the value is an integer, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Use the built-in len() function to calculate the length of the string.
+Step 2. Return the length of the string."
+"How to solve:
+Step 1. Initialize a variable ""largest"" as 0.
+Step 2. Iterate through numbers from 1 to n.
+    -If n is divisible by the current number, update ""largest"" to the current number.
+Step 3. Return ""largest""."
+"How to solve:
+Step 1. Initialize an empty list to store the prime factors.
+Step 2. Iterate through the range from 1 to n-1.
+    -If the current number is prime, add it to the list of prime factors.
+Step 3. Return the list of prime factors."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list.
+    -If the element is not already in the ""result"" list, add it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is uppercase, convert it to lowercase and add it to ""result"".
+    -If the character is uppercase, add it to ""result"".
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize an empty string.
+Step 2. Iterate through the list of strings.
+    -Concatenate each string to the result string.
+Step 3. Return the result string."
+"How to solve:
+Step 1. Initialize an empty list to store the filtered strings.
+Step 2. Iterate through each string in the input list.
+    -If the string starts with the given prefix, add it to the filtered list.
+Step 3. Return the filtered list of filtered strings."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list.
+    -If the element is positive, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Check if n is less than 2. If so, return False.
+Step 2. Iterate from 2 to the square root of n.
+    -If n is divisible by any number in this range, return False.
+Step 3. If no number divides n, return True."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the elements in xs.
+    -If the current element is positive, increment ""count"" by 1.
+Step 3. Return the value of ""count""."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through the indices of l.
+    -If the index is even, append the value to ""result"".
+    -If the index is odd, append the value to ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list.
+    -If the element is not already in the ""result"" list, add it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable max_element as the first element of the list.
+Step 2. Iterate through the list starting from the second element.
+    -If the current element is greater than max_element, update max_element.
+Step 3. Return max_element."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the input string.
+    -If the character is '#', increment count by 1.
+Step 3. Return the value of count."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through the indices of l.
+    -If the index is even, append the value at that index to ""result"".
+    -If the index is odd, append the value at that index to ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a digit, append it to the ""result"" string.
+    -Otherwise, append the character to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 2 to n-1.
+    -Check if the current number is prime.
+        -If it is prime, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Iterate through the list of integers.
+Step 2. For each integer, check if it is already in the dictionary.
+    -If it is, return True.
+Step 3. If no triplet is found, return False."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -If the current number is different from the previous number, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Create an empty list called ""result"".
+Step 2. Iterate through the elements in the input list.
+    -Append the element to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Iterate through the list of pairs.
+Step 2. Check if the current element is equal to the next element.
+    -If it is, return True.
+Step 3. If no pair of elements is found, return False."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a digit, convert it to an integer and add it to the result string.
+    -If the character is not a digit, convert it to an integer and add it to the result string.
+Step 3. Return the result string."
+"How to solve:
+Step 1. Calculate the area of the triangle using the formula: (base * height) / 2.
+Step 2. Return the calculated area."
+"How to solve:
+Step 1. Initialize an empty list to store the Fibonacci sequence.
+Step 2. Iterate through the range from 0 to n-1.
+    -Calculate the next number by adding the previous two numbers.
+    -Append the next number to the list.
+Step 3. Return the list of Fibonacci numbers."
+"How to solve:
+Step 1. Sort the list in ascending order.
+Step 2. If the length of the list is odd, return the middle element.
+Step 3. If the length of the list is even, return the average of the two middle elements."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is not equal to ""result"", add it to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 1.
+Step 2. Iterate from 1 to n.
+    -Multiply ""result"" by the current number.
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a digit, append it to the ""result"" string.
+    -Otherwise, append the character itself to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a vowel, skip it.
+    -Otherwise, add the character to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Iterate through each element in lst.
+Step 2. Check if the element is less than lst.
+    -If true, return True.
+Step 3. If no element is found, return False."
+"How to solve:
+Step 1. Add x and y.
+Step 2. Return the sum."
+"How to solve:
+Step 1. Convert s1 and s2 to strings.
+Step 2. Iterate through the characters in s1 and s2 simultaneously.
+    -If the characters are not equal, return False.
+Step 3. If all characters are equal, return True."
+"How to solve:
+Step 1. Check if n is 0 or 1. If so, return n.
+Step 2. Initialize variables a and b as 0 and 1 respectively.
+Step 3. Iterate from 2 to n.
+    -Calculate the next Fibonacci number by adding a and b.
+    -Update a and b to the next Fibonacci numbers.
+Step 4. Return b."
+"How to solve:
+Step 1. Initialize an empty stack.
+Step 2. Iterate through each character in the string.
+    -If the character is an opening bracket, push it onto the stack.
+    -If the character is a closing bracket, check if the stack is empty. If it is, return False.
+    -If the stack is not empty, pop the top element from the stack.
+Step 3. After iterating through all characters, check if the stack is empty. If it is, return True. Otherwise, return False."
+"How to solve:
+Step 1. Iterate through the list starting from the second element.
+Step 2. If the current element is less than or equal to the next element, return False.
+Step 3. If the loop completes without returning False, return True."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in ""lst"".
+    -If the element is not already in ""result"", add it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Check if n is less than 2. If so, return n.
+Step 2. Iterate from 2 to the square root of n.
+    -If n is divisible by any number in this range, return False.
+Step 3. If no number divides n, return True."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate from 1 to n.
+    -Add each number to ""sum"".
+Step 3. Return ""sum""."
+"How to solve:
+Step 1. Initialize an empty stack.
+Step 2. Iterate through each character in the string.
+    -If the character is an opening bracket, push it onto the stack.
+    -If the character is a closing bracket, check if the stack is empty. If it is, return False.
+    -If the stack is not empty, pop the top element from the stack.
+Step 3. After iterating through all characters, check if the stack is empty. If it is, return True. Otherwise, return False."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 0.
+Step 2. Iterate through the elements of x and y simultaneously.
+    -Multiply the corresponding elements of x and y.
+    -Add the result to ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize an empty list to store the Fibonacci sequence.
+Step 2. Iterate through the range from 0 to n-1.
+    -Calculate the next Fibonacci number by adding the previous two numbers.
+    -Append the next number to the list.
+Step 3. Return the list of Fibonacci numbers."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the sentence.
+    -If the character is a vowel, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Convert the integer `x` to a string.
+Step 2. Find the index of the character in the string.
+Step 3. Reverse the string.
+Step 4. Return the reversed string."
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through each character in the string.
+    -Add the character to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is '#', increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable `closest_index` as None.
+Step 2. Iterate through the elements in `nums`.
+    -If the current element is smaller than `closest_value`, update `closest_value` with the current element.
+Step 3. Return `closest_value`."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the list of integers.
+    -If the current integer is not equal to the previous integer, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list.
+    -If the element is not in the range of the smallest element, append it to the ""result"" list.
+    -Otherwise, append the element to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Check if the length of the input string is less than or equal to 1. If so, return an error message.
+Step 2. Calculate the area of the triangle using the formula:
+    - Calculate the area of the triangle.
+    - Add the calculated area to the total area.
+Step 3. Return the total area."
+"How to solve:
+Step 1. Check if the length of the list is less than or equal to 1. If so, return False.
+Step 2. Initialize a variable called ""sum"" as 0.
+Step 3. Iterate through each element in the list.
+    -Check if the element is greater than or equal to the current element.
+    -If it is, update ""sum"" to the current element.
+Step 4. Return True."
+"How to solve:
+Step 1. Initialize a variable `count` as 0 to keep track of the number of swaps.
+Step 2. Iterate through the elements in the array `nums`.
+    - If the current element is less than the previous element, increment `count` by 1.
+Step 3. Return `count`."
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the characters in lst1 and str2 simultaneously.
+    -If the characters are not equal, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Check if the number is less than 2. If so, return False.
+Step 2. Iterate from 2 to the square root of the number.
+    -If the number is divisible by any of the iterations, return False.
+Step 3. If the loop completes without finding a divisor, return True."
+"How to solve:
+Step 1. Check if n is less than or equal to 1. If so, return False.
+Step 2. Iterate from 1 to n.
+    -If n is divisible by any number in this range, return True.
+Step 3. If no number divides n, return False."
+"How to solve:
+Step 1. Check if the input is an integer.
+    -If it is, return True.
+    -If it is not, return False."
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through each character in the string.
+    -Check if the character is a prime number.
+        -If yes, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is '0', append '0' to the ""result"" string.
+    -Otherwise, append the character to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Iterate through each character in the string.
+Step 2. Check if the character is a digit.
+    -If not, return False.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize an empty list to store the letter grades.
+Step 2. Iterate through each character in the input string.
+    -If the character is 'A', append 'B' to the list.
+    -If the character is 'D', append 'B' to the list.
+    -If the character is 'D', append 'B' to the list.
+    -Otherwise, append the character to the list.
+Step 3. Return the list of letter grades."
+"How to solve:
+Step 1. Iterate through each character in the string.
+Step 2. Check if the character is a prime number.
+    -If it is, return True.
+Step 3. If no prime number is found, return False."
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the numbers from 1 to n-1.
+    -If the number is positive, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through each digit in the binary representation.
+    -Add the digit to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through the elements in the input list ""lst"".
+    -If the element is odd, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a space, skip it.
+    -Otherwise, add the character to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each row in the input list.
+    -Iterate through each element in the row.
+        -If the element is not already in the ""result"" list, append it to the ""result"" list.
+Step 3. Sort the ""result"" list in ascending order.
+Step 4. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the ""array"".
+    -If the element is greater than or equal to the given value, append it to the ""result"" list.
+    -Otherwise, calculate the difference between the current element and the last element of the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a letter, append it to the ""result"" string.
+    -Otherwise, append the character itself to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Iterate through the elements of the list.
+Step 2. Check if the current element is smaller than the next element.
+    -If it is, return the current element.
+Step 3. If no element is found, return None."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the sentence.
+    -If the character is 'y', increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Check if the sum of all numbers in the list is equal to 0.
+    -If yes, return True.
+    -If no, return False."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the message.
+    -If the character is a letter, add it to the ""result"" string.
+    -If the character is a space, check if the next character in the ""result"" string is also a vowel.
+        -If it is, add a space to the ""result"" string.
+       -If it is not a space, add it to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the list of integers.
+    -For each integer, check if it is prime.
+        -If it is prime, add it to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Check if the input dictionary is empty. If it is, return True.
+Step 2. Iterate through the keys in the dictionary.
+    -If any key is not in the dictionary, return False.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize an empty list to store the prime numbers.
+Step 2. Iterate through the range from 1 to n (inclusive).
+    - Check if the number is prime.
+       - If it is prime, add it to the list of prime numbers.
+Step 3. Return the list of prime numbers."
+"How to solve:
+Step 1. Convert the input number to a string.
+Step 2. Initialize a variable ""product"" as 0.
+Step 3. Iterate through each character in the string.
+    -Multiply the character by the absolute value of the character.
+Step 4. Return the value of ""product""."
+"How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the characters in the string.
+    -If the character is a vowel, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 0.
+Step 2. Iterate through the range from left to right.
+    -If the current number is less than or equal to the previous number, update ""result"" to the current number.
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -If the current number is even, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Split the input string by spaces to get a list of words.
+Step 3. Iterate through each word in the list.
+    -Convert the word to an integer and append it to the ""result"" string.
+Step 4. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize a variable ""largest"" as None.
+Step 2. Iterate through the range from left to right.
+    -If the current number is smaller than ""largest"", update ""largest"" with the current number.
+Step 3. Return ""largest""."
+"How to solve:
+Step 1. Check if n is less than or equal to 0. If so, return -1.
+Step 2. Initialize a variable called ""sum"" as 0.
+Step 3. Iterate from 0 to n-1.
+    -Add each number to ""sum"".
+Step 4. Calculate the average by dividing ""sum"" by ""sum"".
+Step 5. Return the value of ""sum""."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list.
+    -If the element is not already in the ""result"" list, add it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a number, append it to the ""result"" list.
+    -If the character is a number, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through the range from 1 to n (inclusive).
+    -If the current number is even, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the range from 1 to n.
+    -If the current number is even, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each element in the array.
+    -If the element is positive, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Iterate through the array.
+Step 2. Check if the current element is equal to the next element.
+    -If it is, return True.
+Step 3. If no pair of elements are found, return False."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the elements in lst1.
+    -If the current element is less than or equal to the previous element, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize an empty dictionary to store the frequency of each letter.
+Step 2. Iterate through the characters in the input string.
+    -If the character is not already in the dictionary, add it with a value of 1.
+    -If the character is already in the dictionary, increment its value by 1.
+Step 3. Find the maximum frequency in the dictionary.
+Step 4. Return the dictionary of frequencies."
+"How to solve:
+Step 1. Initialize two pointers, one at the beginning of the string and one at the end of the string.
+Step 2. Iterate through the characters of the string.
+    -If the characters at the two pointers are not equal, return False.
+    -Increment the pointers.
+Step 3. If all characters are equal, return True."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list.
+    -If the element is odd, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable `max_sum` as 0.
+Step 2. Iterate through the array `nums`.
+    -Add each element to `sum`.
+    -If `sum_sum` is greater than `max_sum`, update `max_sum` with the new value.
+Step 3. Return `max_sum`."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each row in the grid.
+    -If the value at the current index is greater than or equal to the maximum value in the row, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through the array ""nums"".
+    -If the current element is different from the next element, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a vowel, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the sentence.
+    -If the character is a vowel, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is not a vowel, append it to ""result"".
+    -Otherwise, append the character to ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize a variable `max_length` as 0.
+Step 2. Iterate through the array `nums`.
+    - Add each element to `num`.
+Step 3. Return `max_length`."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the elements in the list.
+    -If the element is even, add it to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through the array.
+    -Add each element to the sum.
+    -If the sum is not divisible by 3, add it to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through the range from 1 to n-1.
+    -If the current number is even, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Import the necessary libraries.
+Step 2. Define a function that takes in the following parameters:
+    -Check if the string starts with a number.
+    -If it does, return True.
+    -If it doesn't, return False."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a space, add it to the ""result"" list.
+    -If the character is a whitespace, check if the previous character in the ""result"" list is empty. If it is, add a space to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Check if the list is sorted in ascending order.
+    -If yes, return True.
+    -If no, return False."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the input string.
+    -If the character is '1', increment ""count"" by 1.
+    -If the character is '2', check if ""count"" is equal to 2.
+         -If it is, increment ""count"" by 1.
+Step 3. Return ""count""."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through each element in the array.
+    -If the element is positive, multiply it by 1 and add it to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each cell in the input list.
+    -For each cell, generate a random number between 0 and 1.
+    -Check if the cell is in the grid.
+        -If it is, add the cell to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the range from 1 to n-1 with a step of 2.
+    -If n is even, add it to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is not a digit, add it to ""result"".
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize an empty stack.
+Step 2. Iterate through each character in the string.
+    -If the character is an opening bracket, push it onto the stack.
+    -If the character is a closing bracket, check if the stack is empty or if the top of the stack is the corresponding opening bracket. If not, return False.
+Step 3. After iterating through all characters, check if the stack is empty. If not, return False.
+Step 4. Return True."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through the elements in the list.
+    -For each element, iterate through the remaining elements.
+        -Add the squared element to ""sum"".
+Step 3. Return ""sum""."
+"How to solve:
+Step 1. Get the last character of the word.
+Step 2. Check if the last character is a string.
+Step 3. Check if the last character is a letter.
+Step 4. If both conditions are met, return True. Otherwise, return False."
+"How to solve:
+Step 1. Initialize a variable ""max_element"" as 0.
+Step 2. Iterate through the array.
+    -If the current element is greater than ""max_element"", update ""max_element"" with the current element.
+Step 3. Return ""max_element""."
+"How to solve:
+Step 1. Initialize a variable ""smallest"" as an empty list.
+Step 2. Iterate through the elements in reverse order.
+    -If the current element is smaller than ""largest"", update ""largest"" with the current element.
+    -If the current element is smaller than ""largest"", update ""largest"" to the current element.
+Step 3. Return ""largest""."
+"How to solve:
+Step 1. Check if the input is a string.
+    -If it is, return a list of boolean values.
+    -If it is not, raise a ValueError."
+"How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through the range from 1 to n-1.
+    -If the current number is even, add it to sum.
+Step 3. If the sum is even, return True. Otherwise, return False."
+"How to solve:
+Step 1. Initialize a variable ""result"" as 1.
+Step 2. Iterate from 1 to n.
+    -Multiply ""result"" by the current number.
+Step 3. Return ""result""."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a space, append ""_"" to ""result"".
+    -Otherwise, append the character to ""result"".
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is not a letter, add it to the ""result"" string.
+    -If the character is a whitespace, check if the previous character in the ""result"" string is already in the ""result"" string.
+       -If it is, add the previous character to the ""result"" string.
+        -If it is not, break the loop.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through each element in the list.
+    -Check if the element is an integer.
+    -If it is, add it to the sum.
+Step 3. Return the sum."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a number, append it to the ""result"" string.
+    -If the character is a space, append it to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Check if n is less than or equal to 0. If so, return False.
+Step 2. Check if n is divisible by 2. If so, return True.
+Step 3. Check if n is divisible by 2. If so, return False.
+Step 4. Iterate through each element in the array.
+    -Calculate the absolute difference between the current element and the next element.
+    -If the absolute difference is greater than or equal to the previous element, return False.
+Step 5. Return True."
+"How to solve:
+Step 1. Sort the list of integers in ascending order.
+Step 2. Return the sorted list."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each element in the array.
+    -If the element is an integer, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize an empty list to store the triplets.
+Step 2. Iterate through each character in the input string.
+    -If the character is a positive integer, add it to the list.
+Step 3. Return the list of triplets."
+"How to solve:
+Step 1. Create a dictionary to store the frequency of each planet.
+Step 2. Iterate through the planets in the input list.
+    -If the planet is not in the dictionary, add it with a value of 1.
+    -If the planet is already in the dictionary, increment its frequency by 1.
+Step 3. Find the maximum frequency in the dictionary.
+Step 4. Return the planet name."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each string in the input list ""nums"".
+    -If the length of the string is odd, append it to the ""result"" list.
+Step 3. Sort the ""result"" list in descending order.
+Step 4. Return the ""result"" list."
+"How to solve:
+Step 1. Check if n is less than or equal to 1. If so, return False.
+Step 2. Check if n is divisible by any number in this range. If so, return True.
+Step 3. If n is not divisible by 2, return False."
+"How to solve:
+Step 1. Initialize a variable ""sum"" as 0.
+Step 2. Iterate through each element in the list.
+    -If the element is a positive integer, add it to the ""sum"" variable.
+Step 3. Return the ""sum"" variable."
+"How to solve:
+Step 1. Initialize an empty list to store the results.
+Step 2. Iterate through the characters in the input string.
+    -If the character is not in the dictionary, add it with a count of 1.
+    -If the character is already in the dictionary, increment its count by 1.
+Step 3. Return the dictionary."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is uppercase, add it to the ""result"" string.
+    -If the character is not a lowercase letter, add it to the ""result"" string.
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Check if the lengths of word1 and word2 are equal. If not, return False.
+Step 2. Iterate through the characters of word1 and word2.
+    -If any character in the word are not equal, return False.
+Step 3. If all characters are equal, return True."
+"How to solve:
+Step 1. Initialize a variable ""count"" as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is 'num', increment count by 1.
+    -If the character is 'num', increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize an empty string to store the result.
+Step 2. Iterate through the characters in the input string.
+    -If the character is a digit, add it to the result string.
+    -If the character is not a digit, add it to the result string.
+Step 3. Return the result string."
+"How to solve:
+Step 1. Check if the length of the list is less than or equal to 1. If so, return True.
+Step 2. Check if the sum of the two elements is equal to the third element. If so, return False.
+Step 3. Iterate through the remaining elements of the list.
+    -Check if the current element is equal to the next element.
+    -If it is, return True.
+    -If it is not, return False."
+"How to solve:
+Step 1. Initialize an empty list to store the unique characters.
+Step 2. Iterate through the characters in the input string.
+    -If the character is not already in the dictionary, add it with a count of 1.
+    -If the character is already in the dictionary, increment its count by 1.
+Step 3. Find the maximum count in the dictionary.
+Step 4. Return the list of unique characters."
+"How to solve:
+Step 1. Initialize a variable `count` as 0.
+Step 2. Iterate through the `nums` array.
+    -If the current element is greater than or equal to the previous element, increment `count` by 1.
+Step 3. Return `count`."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list ""x"".
+    -If the element is a list, append it to the ""result"" list.
+    -Otherwise, append the element to the ""result"" list.
+Step 3. Return the ""result"" list."
+"How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a letter, convert it to uppercase and add it to ""result"".
+    -If the character is not a lowercase letter, add it to ""result"".
+Step 3. Return the ""result"" string."
+"How to solve:
+Step 1. Import the necessary modules.
+Step 2. Define a function that takes a string as input and returns a string.
+Step 3. Use the hashlib.md5() function to check if the string is empty.
+    -If it is, return None.
+    -If it is not, return None."
+"How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each character in the input string.
+    -If the character is a digit, add it to the ""result"" list.
+Step 3. Sort the ""result"" list in ascending order.
+Step 4. Return the ""result"" list."

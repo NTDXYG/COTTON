@@ -1,0 +1,1032 @@
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through numbers.
+    -If number is closer to any other number than threshold, add to account balance.
+Step 3. Return False."
+"def separate_paren_groups(paren_string: str) -> List[str]:
+    """""" Input to this function is a string containing multiple groups of nested parentheses. Your goal is to
+    separate those group into separate strings and return the list of those.
+    Separate groups are balanced (each open brace is properly closed) and not nested within each other
+    Ignore any spaces in the input string.
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Calculate mean of the list.
+Step 2. Calculate absolute difference between each element and mean.
+Step 3. Calculate the average of the absolute differences."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize balance as 0.
+Step 2. Iterate through string.
+    -If current character is (, increment balance by 1.
+    -If current character is ), decrement balance by 1.
+    -If balance is < 0, return False.
+Step 3. Return balance."
+"How to solve:
+Step 1. Initialize a list to store filtered strings.
+Step 2. Iterate through strings.
+    -If substring is found, add to filtered strings list.
+Step 3. Return filtered strings list."
+"How to solve:
+Step 1. Initialize sum and product as 0.
+Step 2. Iterate through numbers.
+    -add value to sum.
+    -multiply value to product.
+Step 3. Return tuple consisting of sum and product."
+"How to solve:
+Step 1. Initialize max_list as empty list.
+Step 2. Iterate through numbers.
+    -If current element is greater than max_list[-1], append current element to max_list.
+Step 3. Return max_list."
+"def is_palindrome(string: str) -> bool:
+    """""" Test if given string is a palindrome """"""
+    return string == string[::-1]
+
+
+def make_palindrome(string: str) -> str:
+    """""" Find the shortest palindrome that begins with a supplied string.
+    Algorithm idea is simple:
+    - Find the longest postfix of supplied string that is a palindrome.
+    - Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+    """"""
+
+def is_palindrome(string: str) -> bool:
+    """""" Test if given string is a palindrome """"""
+    return string == string[::-1]
+
+
+def make_palindrome(string: str) -> str:
+    """""" Find the shortest palindrome that begins with a supplied string.
+    Algorithm idea is simple:
+    - Find the longest postfix of supplied string that is a palindrome.
+    - Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+    """""""
+"def string_xor(a: str, b: str) -> str:
+    """""" Input are two strings a and b consisting only of 1s and 0s.
+    Perform binary XOR on these inputs and return result also as a string.
+    """""""
+"How to solve:
+Step 1. Initialize longest_string as None.
+Step 2. Iterate through strings.
+    -If string is longer than longest_string, update longest_string.
+Step 3. Return longest_string."
+"def greatest_common_divisor(a: int, b: int) -> int:
+    """""" Return a greatest common divisor of two integers a and b
+    """""""
+"def all_prefixes(string: str) -> List[str]:
+    """""" Return list of all prefixes from shortest to longest of the input string
+    """""""
+"def string_sequence(n: int) -> str:
+    """""" Return a string containing space-delimited numbers starting from 0 upto n inclusive.
+    """""""
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If character is not in count, add 1 to count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize list of zeros.
+Step 2. Iterate through music_string.
+    -If current character is 'o', add one to current index.
+    -If current character is 'o|', add two to current index.
+    -If current character is '.|', add four to current index.
+Step 3. Return list of integers."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If substring is found, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a list of numbers.
+Step 2. Iterate through numbers.
+    -If number is 'zero', append to list.
+    -If number is 'one', append to list.
+    -If number is 'two', append to list.
+    -If number is 'three', append to list.
+    -If number is 'four', append to list.
+    -If number is 'five', append to list.
+    -If number is'six', append to list.
+    -If number is'seven', append to list.
+    -If number is 'eight', append to list.
+    -If number is 'nine', append to list.
+Step 3. Return list of numbers."
+"How to solve:
+Step 1. Sort the list.
+Step 2. Initialize variables.
+    -smallest_diff = float('inf')
+    -smallest_diff_index = -1
+    -second_smallest_diff = float('inf')
+    -second_smallest_diff_index = -1
+Step 3. Iterate through the list.
+    -If the current number is the smallest difference, update the smallest_diff and smallest_diff_index.
+    -If the current number is the second smallest difference, update the second_smallest_diff and second_smallest_diff_index.
+Step 4. Return the smallest_diff_index and second_smallest_diff_index."
+"How to solve:
+Step 1. Initialize list of zeros.
+Step 2. Iterate through numbers.
+    -If number is less than zero, add one to zero list.
+    -If number is greater than zero, subtract one from zero list.
+Step 3. Return zero list."
+"def filter_integers(values: List[Any]) -> List[int]:
+    """""" Filter given list of any python values only for integers
+    """""""
+"def strlen(string: str) -> int:
+    """""" Return length of given string
+    """""""
+"How to solve:
+Step 1. Initialize largest_divisor as n.
+Step 2. Iterate through n, if n is divisible by largest_divisor, return largest_divisor.
+Step 3. Return n."
+"def factorize(n: int) -> List[int]:
+    """""" Return list of prime factors of given integer in the order from smallest to largest.
+    Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+    Input number should be equal to the product of all factors
+    """""""
+"How to solve:
+Step 1. Initialize list as empty.
+Step 2. Iterate through numbers.
+    -If number is not in list, append to list.
+Step 3. Return list."
+"def flip_case(string: str) -> str:
+    """""" For a given string, flip lowercase characters to uppercase and uppercase to lowercase.
+    """""""
+"def concatenate(strings: List[str]) -> str:
+    """""" Concatenate list of strings into a single string
+    """""""
+"How to solve:
+Step 1. Initialize result as an empty list.
+Step 2. Iterate through strings.
+    -If string starts with prefix, add to result.
+Step 3. Return result."
+"def get_positive(l: list):
+    """"""Return only positive numbers in the list.
+    """""""
+"How to solve:
+Step 1. Initialize n as the number to check.
+Step 2. If n is 1, return False.
+Step 3. If n is 2, return True.
+Step 4. If n is even, return False.
+Step 5. If n is prime, return True.
+Step 6. If n is not prime, return False."
+"How to solve:
+Step 1. Initialize x as 0.
+Step 2. Iterate through xs.
+    -If poly(x) < 0, return x.
+Step 3. Return None."
+"def sort_third(l: list):
+    """"""This function takes a list l and returns a list l' such that
+    l' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal
+    to the values of the corresponding indicies of l, but sorted.
+    """""""
+"How to solve:
+Step 1. Initialize a set.
+Step 2. Iterate through list.
+    -If element is already in set, return False.
+    -If element is not in set, add element to set.
+    -Return True."
+"How to solve:
+Step 1. Initialize max_element as 0.
+Step 2. Iterate through l.
+    -If element > max_element, set max_element to element.
+Step 3. Return max_element."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through integers less than n.
+    -If integer is divisible by 11 or 13, increment count.
+Step 3. Return count."
+"def sort_even(l: list):
+    """"""This function takes a list l and returns a list l' such that
+    l' is identical to l in the odd indicies, while its values at the even indicies are equal
+    to the values of the even indicies of l, but sorted.
+    """""""
+"def encode_cyclic(s: str):
+    """"""    returns encoded string by cycling groups of three characters.
+    """"""    # split string to groups. Each of length 3.
+    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]
+    # cycle elements in each group. Unless group has fewer elements than 3.
+    groups = [(group[1:] + group[0]) if len(group) == 3 else group for group in groups]
+    return """".join(groups)
+
+
+def decode_cyclic(s: str):
+    """"""    takes as input string encoded with encode_cyclic function. Returns decoded string.
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize the number of collisions to 0.
+Step 2. Iterate through the array of operations.
+    -If the left car is moving to the left, add 1 to the number of collisions.
+    -If the right car is moving to the right, add 1 to the number of collisions.
+Step 3. Return the number of collisions."
+"def incr_list(l: list):
+    """"""Return list with elements incremented by 1.
+    """""""
+"How to solve:
+Step 1. Initialize a set to store the values.
+Step 2. Iterate through the list.
+    -If the value is in the set, return True.
+    -If the value is not in the set, add it to the set.
+Step 3. Return False."
+"def change_base(x: int, base: int):
+    """"""Change numerical base of input number x to base.
+    return string representation after the conversion.
+    base numbers are less than 10.
+    """""""
+"How to solve:
+Step 1. Initialize area as 0.
+Step 2. Calculate area as a * h / 2.
+Step 3. Return area."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Sort the list.
+Step 2. If there are an odd number of elements, return the middle element.
+Step 3. If there are an even number of elements, return the average of the middle two elements."
+"def is_palindrome(text: str):
+    """"""    Checks if given string is a palindrome
+    """""""
+"def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    """"""
+
+def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    """"""
+
+def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    """"""
+
+def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    """"""
+
+def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    """"""
+
+def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    """"""
+
+def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    """"""
+
+def modp(n: int, p: int):
+    """"""Return"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def remove_vowels(text):
+    """"""    remove_vowels is a function that takes string and returns string without vowels.
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def add(x: int, y: int):
+    """"""Add two numbers x and y
+    """""""
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through characters of s0 and s1.
+    -If characters are not equal, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize a stack.
+Step 2. Iterate through brackets.
+    -If bracket is "">"", push it to the stack.
+    -If bracket is ""<"", pop the stack until the last "">"" is popped.
+    -If the stack is empty, return False.
+    -If the last "">"" is not popped, return False.
+    -If the stack is not empty, return True."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def common(l1: list, l2: list):
+    """"""Return sorted unique common elements for two lists.
+    """""""
+"def largest_prime_factor(n: int):
+    """"""Return the largest prime factor of n. Assume n > 1 and is not a prime.
+    """""""
+"def sum_to_n(n: int):
+    """"""sum_to_n is a function that sums numbers from 1 to n.
+    """"""
+
+def sum_to_n(n: int):
+    """"""sum_to_n is a function that sums numbers from 1 to n.
+    """"""
+
+def sum_to_n(n: int):
+    """"""sum_to_n is a function that sums numbers from 1 to n.
+    """"""
+
+def sum_to_n(n: int):
+    """"""sum_to_n is a function that sums numbers from 1 to n.
+    """"""
+
+def sum_to_n(n: int):
+    """"""sum_to_n is a function that sums numbers from 1 to n.
+    """"""
+
+def sum_to_n(n: int):
+    """"""sum_to_n is a function that sums numbers from 1 to n.
+    """"""
+
+def sum_to_n(n: int):
+    """"""sum_to_n is a function that sums numbers from 1 to n.
+    """"""
+
+def sum_to_n(n:"
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through brackets.
+    -If bracket is ""("" and count is 0, increment count.
+    -If bracket is "")"" and count is not 0, decrement count.
+    -If bracket is ""("" and count is not 0, return False.
+    -If bracket is "")"" and count is 0, increment count.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize fibfib(0) == 0 and fibfib(1) == 0.
+Step 2. Iterate through operations.
+    -If n == 0, return 0.
+    -If n == 1, return 0.
+    -If n == 2, return 1.
+    -If n == 3, return fibfib(n-1) + fibfib(n-2) + fibfib(n-3).
+Step 3. Return fibfib(n)."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through s.
+    -If s[i] is a vowel, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def digit_sum(s):
+    """"""Task
+    Write a function that takes a string as input and returns the sum of the upper characters only'
+    ASCII codes.
+    """""""
+"How to solve:
+Step 1. Initialize the number of fruits as 0.
+Step 2. Iterate through the string.
+    -If the current character is an 'o' increment the number of fruits by 1.
+    -If the current character is an 'a' increment the number of fruits by 1.
+Step 3. Return the number of fruits."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize the max_freq as 0.
+Step 2. Iterate through the list.
+    -If the frequency of the element is greater than max_freq, update max_freq.
+Step 3. Return the max_freq."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize a, b, c as 0.
+Step 2. Iterate through operations.
+    -If the sum of a, b, c is greater than the third side, return the area of the triangle.
+    -Else, return -1."
+"How to solve:
+Step 1. Initialize the balance to 0.
+Step 2. Iterate through the list of operations.
+    -If the balance is negative, return False.
+    -If the balance is positive, add the value to the balance.
+    -If the balance is 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize count to 0.
+Step 2. Iterate through arr.
+    -If arr[i] is not equal to arr[len(arr)-1-i], increment count by 1.
+Step 3. Return count."
+"def total_match(lst1, lst2):
+    """"""    Write a function that accepts two lists of strings and returns the list that has 
+    total number of chars in the all strings of the list less than the other list.
+
+    if the two lists have the same number of chars, return the first list.
+    """""""
+"How to solve:
+Step 1. Initialize a list of primes.
+Step 2. Iterate through the list of primes.
+    -If a is divisible by any prime, return False.
+    -If a is not divisible by any prime, add a to the list of primes.
+Step 3. Return True."
+"def is_simple_power(x, n):
+    """"""Your task is to write a function that returns true if a number x is a simple
+    power of n and false in other cases.
+    x is a simple power of n if n**int=x
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the number.
+    -If digit is a digit, increment count.
+Step 3. Return count."
+"def binary_to_decimal(binary):
+    """"""You will be given a number in binary form and your task is to convert it to
+    decimal format. The function should return a string, with each character representing a decimal
+    number. Each character in the string will be '0' or '1'.
+
+    There will be an extra couple of characters 'db' at the beginning and at the end of the string.
+    The extra characters are there to help with the format.
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+    -If account balance >= 3, check if every 3 consecutive letters are distinct.
+    -If account balance >= 3, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize list of grades as empty list.
+Step 2. Iterate through grades.
+    -If GPA is 4.0, add 'A+' to list.
+    -If GPA is 3.7, add 'A' to list.
+    -If GPA is 3.3, add 'A-' to list.
+    -If GPA is 3.0, add 'B+' to list.
+    -If GPA is 2.7, add 'B' to list.
+    -If GPA is 2.3, add 'B-' to list.
+    -If GPA is 2.0, add 'C+' to list.
+    -If GPA is 1.7, add 'C' to list.
+    -If GPA is 1.3, add 'C-' to list.
+    -If GPA is 1.0, add 'D+' to list.
+    -If GPA is 0.7, add 'D' to list.
+    -If GPA is 0.0, add 'D-' to list.
+Step 3. Return list of grades."
+"def prime_length(string):
+    """"""Write a function that takes a string and returns True if the string
+    length is a prime number or False otherwise
+    """""""
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through n.
+    -If n is 1, increment count by 1.
+    -If n is 2, increment count by 1.
+    -If n is 3, increment count by 1.
+    -If n is 4, increment count by 1.
+    -If n is 5, increment count by 1.
+    -If n is 6, increment count by 1.
+    -If n is 7, increment count by 1.
+    -If n is 8, increment count by 1.
+    -If n is 9, increment count by 1.
+    -If n is 10, increment count by 1.
+    -If n is 11, increment count by 1.
+    -If n is 12, increment count by 1.
+    -If n is 13, increment count by 1.
+    -If n is 14, increment count by 1.
+    -If n is 15, increment count by 1.
+    -If n is 16, increment count by 1.
+    -If n is 17, increment count by 1.
+    -If n is 18, increment count by"
+"def solve(N):
+    """"""Given a positive integer N, return the total sum of its digits in binary.
+    """""""
+"def add(lst):
+    """"""Given a non-empty list of integers lst. add the even elements that are at odd indices..
+    """""""
+"def anti_shuffle(s):
+    """"""    Write a function that takes a string and returns an ordered version of it.
+    Ordered version of string, is a string where all words (separated by space)
+    are replaced by a new word where all the characters arranged in
+    ascending order based on ascii value.
+    Note: You should keep the order of words and blank spaces in the sentence.
+    """""""
+"How to solve:
+Step 1. Initialize list of tuples as empty list.
+Step 2. Iterate through lst.
+    -If x is in lst, append tuple to list of tuples.
+Step 3. Return list of tuples."
+"How to solve:
+Step 1. Initialize array as empty list.
+Step 2. Iterate through array.
+    -If sum( first index value, last index value) is odd, append first index value to array.
+    -If sum( first index value, last index value) is even, append last index value to array.
+Step 3. Return array."
+"def encrypt(s):
+    """"""Create a function encrypt that takes a string as an argument and
+    returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters 
+    shift down by two multiplied to two places.
+    """""""
+"def next_smallest(lst):
+    """"""    You are given a list of integers.
+    Write a function next_smallest() that returns the 2nd smallest element of the list.
+    Return None if there is no such element.
+    """""""
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the string.
+    -If the word is ""I"", increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def encode(message):
+    """"""    Write a function that takes a message, and encodes in such a 
+    way that it swaps case of all letters, replaces all vowels in 
+    the message with the letter that appears 2 places ahead of that 
+    vowel in the english alphabet. 
+    Assume only letters.
+    """""""
+"def prime_sum(lst):
+    """"""You are given a list of integers.
+    You need to find the largest prime value and return the sum of its digits.
+    """""""
+"How to solve:
+Step 1. Iterate through dictionary.
+    -If key is string, check if key is lower or upper case.
+    -If key is not a string, return False.
+    -If all keys are strings in lower or upper case, return True.
+Step 2. Return False."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through n.
+    -If n is divisible by i, increment count.
+Step 3. Return count."
+"def multiply(a, b):
+    """"""Complete the function that takes two integers and returns 
+    the product of their unit digits.
+    Assume the input is always valid.
+    """""""
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through s.
+    -If index is even, add 1 to count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize the list to contain n elements, where n is the number of levels.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Split the string into words.
+Step 2. Return the array of words."
+"How to solve:
+Step 1. Initialize x and y as the first two numbers in the range.
+Step 2. Iterate through the range [x, y] inclusive.
+    -If the number is even, then increment x.
+    -If the number is odd, then increment y.
+    -If the number is not even or odd, then return -1.
+Step 3. Return the biggest even number in the range."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return -1.
+Step 3. Return the average of the integers from n through m (including n and m)."
+"How to solve:
+Step 1. Initialize a list of all integers from 1 to x.
+Step 2. Iterate through the list.
+    -If the current element has an even digit, remove it from the list.
+Step 3. Return the list."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize list as [1].
+Step 2. Iterate through operations.
+    -If the value of the element at index i is even, add the value of i to the list.
+    -If the value of the element at index i is odd, add the value of i to the list.
+Step 3. Return the list."
+"How to solve:
+Step 1. Initialize count of even and odd integer palindromes to zero.
+Step 2. Iterate through range(1, n+1).
+    -If n is a palindrome, increment count of even and odd integer palindromes by 1.
+Step 3. Return count of even and odd integer palindromes."
+"How to solve:
+Step 1. Initialize count to 0.
+Step 2. Iterate through arr.
+    -If number is positive, add to count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize array as empty list.
+Step 2. Iterate through array.
+    -If array[i] < array[i-1] then append array[i] to the end of the array.
+    -If array[i] > array[i-1] then shift all elements of the array to the right by one position.
+    -If array[i] == array[i-1] then do nothing.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize lst1 and lst2 as empty lists.
+Step 2. Iterate through lst1 and lst2.
+    -If the element is even, add it to lst2.
+    -If the element is odd, add it to lst1.
+Step 3. If lst1 is empty, return ""YES"".
+Step 4. If lst2 is empty, return ""NO"".
+Step 5. If lst1 is not empty, return ""NO""."
+"def histogram(test):
+    """"""Given a string representing a space separated lowercase letters, return a dictionary
+    of the letter with the most repetition and containing the corresponding count.
+    If several letters have the same occurrence, return all of them.
+    """""""
+"def reverse_delete(s,c):
+    """"""Task
+    We are given two strings s and c, you have to deleted all the characters in s that are equal to any character in c
+    then check if the result string is palindrome.
+    A string is called palindrome if it reads the same backward as forward.
+    You should return a tuple containing the result string and True/False for the check.
+    """""""
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through lst.
+    -If the length of the string is odd, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize min_sum as 0.
+Step 2. Iterate through nums.
+    -If sum of current subarray is less than min_sum, update min_sum.
+Step 3. Return min_sum."
+"How to solve:
+Step 1. Initialize buckets as 0.
+Step 2. Iterate through grid.
+    -If grid[i][j] == 1, add 1 to bucket.
+    -If grid[i][j] == 0, add 1 to bucket.
+    -If grid[i][j] < 0, add 1 to bucket.
+Step 3. Return bucket."
+"def sort_array(arr):
+    """"""    In this Kata, you have to sort an array of non-negative integers according to
+    number of ones in their binary representation in ascending order.
+    For similar number of ones, sort based on decimal value.
+    """""""
+"How to solve:
+Step 1. Initialize a list to store all the words.
+Step 2. Iterate through the string s.
+    -If the character is a space, skip it.
+    -If the character is a letter, add it to the list.
+Step 3. Return the list."
+"How to solve:
+Step 1. Initialize index as 0.
+Step 2. Iterate through word.
+    -If word[index] is a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to result.
+    -If word[index] is not a vowel, add index to"
+"How to solve:
+Step 1. Initialize a stack.
+Step 2. Iterate through the list of characters.
+    -If character is '(', push it to the stack.
+    -If character is ')', pop the top element from the stack and check if it's balanced.
+    -If balanced, pop the top element from the stack and check if it's balanced.
+    -If balanced, pop the top element from the stack and check if it's balanced.
+    -If balanced, pop the top element from the stack and check if it's balanced.
+    -If balanced, pop the top element from the stack and check if it's balanced.
+    -If balanced, pop the top element from the stack and check if it's balanced.
+    -If balanced, pop the top element from the stack and check if it's balanced.
+    -If balanced, pop the top element from the stack and check if it's balanced.
+    -If balanced, pop the top element from the stack and check if it's balanced.
+    -If balanced, pop the top element from the stack and check if it's balanced.
+    -If balanced, pop the top element from the"
+"How to solve:
+Step 1. Initialize a list of length k.
+Step 2. Iterate through arr.
+    -If arr[i] > max(arr[:i]), replace max with arr[i].
+Step 3. Return the list."
+"def solution(lst):
+    """"""Given a non-empty list of integers, return the sum of all of the odd elements that are in even positions.
+    """""""
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through arr.
+    -If len(arr) < k, return sum.
+    -If len(arr) == k, return sum + arr[k-1].
+    -If len(arr) > k, return sum + arr[k-1] + arr[k]."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize list to store words.
+Step 2. Iterate through txt.
+    -If txt is a number, return the number.
+    -If txt is a string, split on whitespace and add to list.
+Step 3. Return list."
+"How to solve:
+Step 1. Initialize list as empty.
+Step 2. Iterate through list.
+    -If list is empty, return True.
+    -If list is not empty, check if list[i] > list[i+1].
+        -If list[i] > list[i+1], return False.
+        -If list[i] < list[i+1], return True.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize the length of intersection as 0.
+Step 2. Iterate through the two intervals.
+    -If the two intervals don't intersect, return ""NO"".
+    -If the two intervals intersect, increment the length of intersection by 1.
+Step 3. Return ""YES"" if the length of intersection is a prime number,
+    otherwise return ""NO""."
+"How to solve:
+Step 1. Iterate through arr.
+    -If arr[i] is positive, multiply arr[i] by 1.
+    -If arr[i] is negative, multiply arr[i] by -1.
+    -If arr[i] is zero, multiply arr[i] by 0.
+    -Add arr[i] to sum.
+Step 2. Return sum."
+"### Output:
+How to solve:
+Step 1. Initialize the list of values to be returned.
+Step 2. Iterate through operations.
+    -If the operation is a withdrawal, add the value to the list of values.
+    -If the operation is a deposit, add the value to the list of values.
+    -If the operation is a withdrawal and the account balance is < 0, return False.
+    -If the operation is a deposit and the account balance is >= 0, return True.
+Step 3. Return the list of values."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def digits(n):
+    """"""Given a positive integer n, return the product of the odd digits.
+    Return 0 if all digits are even.
+    """""""
+"def is_nested(string):
+    """"""    Create a function that takes a string as input which contains only square brackets.
+    The function should return True if and only if there is a valid subsequence of brackets 
+    where at least one bracket in the subsequence is nested.
+    """""""
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through list.
+    -Add each element to sum.
+    -If element is greater than 0, add element to sum.
+Step 3. Return sum."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize largest_index as -1.
+Step 2. Iterate through arr.
+    -If arr[i] < arr[i-1] and largest_index < i-1, set largest_index as i.
+Step 3. Return largest_index."
+"How to solve:
+Step 1. Initialize a variable to hold the largest negative integer.
+Step 2. Initialize a variable to hold the smallest positive integer.
+Step 3. Iterate through the list.
+    -If the current element is negative, set the largest negative integer to the current element.
+    -If the current element is positive, set the smallest positive integer to the current element.
+Step 4. Return the tuple (largest negative integer, smallest positive integer)."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 1.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def fix_spaces(text):
+    """"""    Given a string text, replace all spaces in it with underscores, 
+    and if a string has more than 2 consecutive spaces, 
+    then replace all consecutive spaces with -
+    """""""
+"How to solve:
+Step 1. Initialize a variable to hold the file's name.
+Step 2. Split the file's name into two parts:
+    - The first part is the file's name without the extension.
+    - The second part is the file's extension.
+Step 3. Check if the file's name is valid.
+    - If the file's name is valid, return 'Yes'.
+    - If the file's name is invalid, return 'No'."
+"def sum_squares(lst):
+    """"""""
+    This function will take a list of integers. For all entries in the list, the function shall square the integer entry if its index is a 
+    multiple of 3 and will cube the integer entry if its index is a multiple of 4 and not a multiple of 3. The function will not 
+    change the entries in the list whose indexes are not a multiple of 3 or 4. The function shall then return the sum of all entries.
+    """""""
+"def words_in_sentence(sentence):
+    """"""    You are given a string representing a sentence,
+    the sentence contains some words separated by a space,
+    and you have to return a string that contains the words from the original sentence,
+    whose lengths are prime numbers,
+    the order of the words in the new string should be the same as the original one.
+    
+    Constraints:
+        * 1 <= len(sentence) <= 100
+        * sentence contains only letters
+    """""""
+"How to solve:
+Step 1. Initialize result as 0.
+Step 2. Iterate through operations.
+    -If x is a fraction, convert it to a float.
+    -If n is a fraction, convert it to a float.
+    -If x * n is a whole number, add it to result.
+    -If x * n is not a whole number, add it to result and return False.
+Step 3. Return result."
+"def order_by_points(nums):
+    """"""    Write a function which sorts the given list of integers
+    in ascending order according to the sum of their digits.
+    Note: if there are several items with similar sum of their digits,
+    order them based on their index in original list.
+    """""""
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through nums.
+    -If num is greater than 10 and both first and last digits of num are odd, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize array a as [0].
+Step 2. Iterate through array a.
+    -If i is even, add i * i - i + 1 to array a.
+Step 3. Return the number of triples."
+"def bf(planet1, planet2):
+    """"""    There are eight planets in our solar system: the closerst to the Sun 
+    is Mercury, the next one is Venus, then Earth, Mars, Jupiter, Saturn, 
+    Uranus, Neptune.
+    Write a function that takes two planet names as strings planet1 and planet2. 
+    The function should return a tuple containing all planets whose orbits are 
+    located between the orbit of planet1 and the orbit of planet2, sorted by 
+    the proximity to the sun. 
+    The function should return an empty tuple if planet1 or planet2
+    are not correct planet names.
+    """""""
+"How to solve:
+Step 1. Initialize a list of strings.
+Step 2. Iterate through the list of strings.
+    -If the length of the string is odd, delete it.
+    -If the length of the string is even, add it to the list.
+Step 3. Return the list of strings."
+"def x_or_y(n, x, y):
+    """"""A simple program which should return the value of x if n is 
+    a prime number and should return the value of y otherwise.
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize the array of differences to be an empty list.
+Step 2. Iterate through the scores and guesses.
+    -If the guess is correct, add 0 to the list of differences.
+    -If the guess is incorrect, add the difference between the guess and the score to the list of differences.
+Step 3. Return the list of differences."
+ClassName.StrongestExtensionName
+"How to solve:
+Step 1. Initialize a variable to store the first word.
+Step 2. Initialize a variable to store the second word.
+Step 3. Iterate through the first word.
+    -If the second word is a substring of the first word, return True.
+Step 4. Iterate through the second word.
+    -If the second word is a substring of the first word, return True.
+Step 5. Return False."
+"How to solve:
+Step 1. Initialize count of even and odd digits as 0.
+Step 2. Iterate through the number.
+    -If the digit is even, increment even count.
+    -If the digit is odd, increment odd count.
+Step 3. Return a tuple of even and odd count."
+"def int_to_mini_roman(number):
+    """"""    Given a positive integer, obtain its roman numeral equivalent as a string,
+    and return it in lowercase.
+    Restrictions: 1 <= num <= 1000
+    """""""
+"How to solve:
+Step 1. Initialize a, b, c as 0.
+Step 2. Iterate through operations.
+    -If a + b > c and a + c > b and b + c > a, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize max_len as 0.
+Step 2. Iterate through words.
+    -If len(word) > max_len, update max_len.
+Step 3. Return max_len."
+"How to solve:
+Step 1. Initialize number of eaten carrots as 0.
+Step 2. Iterate through operations.
+    -add value to number of eaten carrots.
+    -If number of eaten carrots < number of carrots needed, return [ number of eaten carrots, number of remaining carrots ].
+Step 3. Return [ number of eaten carrots, number of remaining carrots ]."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def solve(s):
+    """"""You are given a string s.
+    if s[i] is a letter, reverse its case from lower to upper or vise versa, 
+    otherwise keep it as it is.
+    If the string contains no letters, reverse the string.
+    The function should return the resulted string.
+    """""""
+"def string_to_md5(text):
+    """"""    Given a string 'text', return its md5 hash equivalent string.
+    If 'text' is an empty string, return None.
+    """""""
+"def generate_integers(a, b):
+    """"""    Given two positive integers a and b, return the even digits between a
+    and b, in ascending order.
+    """""""

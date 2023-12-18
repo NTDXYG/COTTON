@@ -1,0 +1,164 @@
+{"task_id": "HumanEval/0", "completion": "    for i in range(len(numbers)):\n        for j in range(i + 1, len(numbers)):\n            if abs(numbers[i] - numbers[j]) <= threshold:\n                return True\n    return False\n"}
+{"task_id": "HumanEval/1", "completion": "    result = \"\"\n    for char in paren_string:\n        if char == \"(\":\n            result += char\n        elif char == \")\":\n            pass\n        else:\n            result += char\n    return result.split()\n\n"}
+{"task_id": "HumanEval/2", "completion": "    return number - int(number)\n\n"}
+{"task_id": "HumanEval/3", "completion": "    for i in range(len(operations) - 1):\n        if operations[i] == operations[i + 1]:\n            return False\n    return True\n\n"}
+{"task_id": "HumanEval/4", "completion": "    result = []\n    for i in range(len(numbers)):\n        result.append(abs(numbers[i] - numbers[i - 1]))\n    return sum(result) / len(numbers)\n\n"}
+{"task_id": "HumanEval/5", "completion": "    result = []\n    for number in numbers:\n        result.append(str(number))\n    result.append(str(delimeter))\n    return result\n\n"}
+{"task_id": "HumanEval/6", "completion": "    stack = []\n    for char in paren_string:\n        if char == '(':\n            stack.append(1)\n        elif char == ')':\n            if not stack:\n                return [0]\n            stack.pop()\n    return stack\n\n"}
+{"task_id": "HumanEval/7", "completion": "    return [s for s in strings if substring in s]\n"}
+{"task_id": "HumanEval/8", "completion": "    sum_ = 0\n    product = 1\n    for number in numbers:\n        sum_ += number\n        product *= number\n    return sum_, product\n\n"}
+{"task_id": "HumanEval/9", "completion": "    rolling_max = []\n    for number in numbers:\n        if number > max(rolling_max):\n            rolling_max.append(number)\n    return rolling_max\n\n"}
+{"task_id": "HumanEval/10", "completion": "    result = ''\n    for char in string:\n        if is_palindrome(char):\n            result += char\n    return result\n\n"}
+{"task_id": "HumanEval/11", "completion": "    return bin(int(a, 2) ^ int(b, 2))[2:].zfill(len(a))\n\n"}
+{"task_id": "HumanEval/12", "completion": "    if not strings:\n        return None\n    return max(strings, key=len)\n"}
+{"task_id": "HumanEval/13", "completion": "    if b == 0:\n        return a\n    return greatest_common_divisor(b, a % b)\n\n"}
+{"task_id": "HumanEval/14", "completion": "    prefixes = []\n    for char in string:\n        if char.isupper():\n            prefixes.append(char)\n    return prefixes\n\n"}
+{"task_id": "HumanEval/15", "completion": "    return''.join(str(i) for i in range(n))\n"}
+{"task_id": "HumanEval/16", "completion": "    distinct_characters = set()\n    for character in string:\n        distinct_characters.add(character)\n    return len(distinct_characters)\n\n"}
+{"task_id": "HumanEval/17", "completion": "    count = 0\n    for c in music_string:\n        if c.isdigit():\n            count += 1\n    return count\n\n"}
+{"task_id": "HumanEval/18", "completion": "    count = 0\n    for i in range(len(string)):\n        if string[i] == substring[0]:\n            count += 1\n            substring = substring[1:]\n        elif substring == '':\n            return count\n    return 0\n\n"}
+{"task_id": "HumanEval/19", "completion": "    result = ''\n    for char in numbers:\n        if char.isdigit():\n            result += char\n        else:\n            result += char.lower()\n    return result\n\n"}
+{"task_id": "HumanEval/20", "completion": "    largest = numbers[0]\n    for number in numbers[1:]:\n        if number < largest:\n            largest = number\n    return largest, largest\n\n"}
+{"task_id": "HumanEval/21", "completion": "    result = []\n    for number in numbers:\n        if number < result[-1]:\n            result.append(number)\n        else:\n            result.append(0)\n    return result\n\n"}
+{"task_id": "HumanEval/22", "completion": "    return [int(value) for value in values if isinstance(value, int)]\n"}
+{"task_id": "HumanEval/23", "completion": "    return len(string)\n\n"}
+{"task_id": "HumanEval/24", "completion": "    result = 1\n    while n % result == 0:\n        result += 1\n    return result\n\n"}
+{"task_id": "HumanEval/25", "completion": "    factors = []\n    for i in range(2, n + 1):\n        if n % i == 0:\n            factors.append(i)\n            factors.append(n // i)\n    return factors\n"}
+{"task_id": "HumanEval/26", "completion": "    result = []\n    for number in numbers:\n        if number not in result:\n            result.append(number)\n    return result\n\n"}
+{"task_id": "HumanEval/27", "completion": "    result = \"\"\n    for char in string:\n        if char.isupper():\n            result += char.lower()\n        else:\n            result += char.upper()\n    return result\n"}
+{"task_id": "HumanEval/28", "completion": "    return ''.join(strings)\n"}
+{"task_id": "HumanEval/29", "completion": "    return [s for s in strings if s.startswith(prefix)]\n"}
+{"task_id": "HumanEval/30", "completion": "    result = []\n    for num in l:\n        if num > 0:\n            result.append(num)\n    return result\n"}
+{"task_id": "HumanEval/31", "completion": "    if n <= 1:\n        return False\n    if n == 2:\n        return True\n    if n % 2 == 0:\n        return False\n    for i in range(3, int(n ** 0.5) + 1, 2):\n        if n % i == 0:\n            return False\n    return True\n"}
+{"task_id": "HumanEval/32", "completion": "    result = []\n    for i in range(len(xs)):\n        diff = abs(xs[i] - xs[i + 1])\n        result.append(diff)\n    return max(result)\n\n"}
+{"task_id": "HumanEval/33", "completion": "    result = []\n    for i in l:\n        if i % 3!= 0:\n            result.append(i)\n    result.sort()\n    return result\n"}
+{"task_id": "HumanEval/34", "completion": "    return sorted(set(l))\n"}
+{"task_id": "HumanEval/35", "completion": "    return max(l)\n\n"}
+{"task_id": "HumanEval/36", "completion": "    count = 0\n    for i in range(1, n+1):\n        if i % 11 == 0 or i % 13 == 0:\n            count += 1\n    return count\n"}
+{"task_id": "HumanEval/37", "completion": "    result = []\n    for i in range(len(l)):\n        if i % 2 == 0:\n            result.append(l[i])\n    return result\n\n"}
+{"task_id": "HumanEval/38", "completion": "    # initialize result string\n    result = \"\"\n    # iterate through each character in the input string\n    for c in s:\n        # if character is a digit, add it to the result string\n        if c.isdigit():\n            result += c\n        # otherwise, add the character to the result string\n        else:\n            result += c\n    return result\n\n"}
+{"task_id": "HumanEval/39", "completion": "    count = 0\n    for i in range(2, n+1):\n        if is_prime(i):\n            count += 1\n    return count\n"}
+{"task_id": "HumanEval/40", "completion": "    counter = 0\n    for i in range(len(l)):\n        for j in range(i+1, len(l)):\n            if l[i] > l[j]:\n                l[i], l[j] = l[j], l[i]\n                counter += 1\n    return counter\n"}
+{"task_id": "HumanEval/41", "completion": "    count = 0\n    for i in range(n):\n        if i!= n-1:\n            if i!= 0 and i!= n-2:\n                count += 1\n    return count\n"}
+{"task_id": "HumanEval/42", "completion": "    return [x + 1 for x in l]\n"}
+{"task_id": "HumanEval/43", "completion": "    if len(l) <= 1:\n        return None\n    for i in range(len(l)):\n        for j in range(i + 1, len(l)):\n            if l[i] + l[j] == 0:\n                return False\n    return True\n"}
+{"task_id": "HumanEval/44", "completion": "    if base < 2:\n        raise ValueError(\"Base must be greater than 1\")\n    if base < 10:\n        return str(x)\n    else:\n        result = ''\n        while x > 0:\n            remainder = x % base\n            x = x // base\n            result = str(remainder) + result\n        return result\n\n"}
+{"task_id": "HumanEval/45", "completion": "    return a * h / 2\n"}
+{"task_id": "HumanEval/46", "completion": "    if n == 0:\n        return 0\n    elif n == 1:\n        return 0\n    elif n == 2:\n        return 2\n    elif n == 3:\n        return 0\n    else:\n        return fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4)\n\n"}
+{"task_id": "HumanEval/47", "completion": "    if len(l) % 2 == 0:\n        return (l[len(l)//2] + l[len(l)//2-1])/2\n    else:\n        return l[len(l)//2]\n"}
+{"task_id": "HumanEval/48", "completion": "    return text == text[::-1]\n"}
+{"task_id": "HumanEval/49", "completion": "    return pow(2, n, p)\n\n"}
+{"task_id": "HumanEval/50", "completion": "    return \"\".join([chr(ord(ch) - 5 + ord(\"a\")) for ch in s])\n\n"}
+{"task_id": "HumanEval/51", "completion": "    result = ''\n    for char in text:\n        if char.lower() in 'aeiou':\n            result += char\n    return result\n"}
+{"task_id": "HumanEval/52", "completion": "    for i in l:\n        if i < t:\n            return False\n    return True\n\n"}
+{"task_id": "HumanEval/53", "completion": "    return x + y\n\n"}
+{"task_id": "HumanEval/54", "completion": "    if len(s0)!= len(s1):\n        return False\n    for i in range(len(s0)):\n        if s0[i]!= s1[i]:\n            return False\n    return True\n\n"}
+{"task_id": "HumanEval/55", "completion": "    if n <= 1:\n        return n\n    return fib(n - 1) + fib(n - 2)\n\n"}
+{"task_id": "HumanEval/56", "completion": "    stack = []\n    for c in brackets:\n        if c == \"<\":\n            stack.append(c)\n        elif c == \">\":\n            if len(stack) == 0:\n                return False\n            else:\n                stack.pop()\n        else:\n            return False\n    return len(stack) == 0\n"}
+{"task_id": "HumanEval/57", "completion": "    for i in range(len(l) - 1):\n        if l[i] >= l[i + 1]:\n            return False\n    return True\n"}
+{"task_id": "HumanEval/58", "completion": "    return list(set(l1).intersection(set(l2)))\n"}
+{"task_id": "HumanEval/59", "completion": "    largest = 1\n    for i in range(2, n):\n        if n % i == 0:\n            largest += 1\n    return largest\n"}
+{"task_id": "HumanEval/60", "completion": "    return sum(range(1, n + 1))\n"}
+{"task_id": "HumanEval/61", "completion": "    stack = []\n    for c in brackets:\n        if c == \"(\":\n            stack.append(c)\n        elif c == \")\":\n            if len(stack) == 0:\n                return False\n            else:\n                stack.pop()\n        else:\n            return False\n    return len(stack) == 0\n"}
+{"task_id": "HumanEval/62", "completion": "    result = []\n    for i in range(len(xs) - 1):\n        result.append(xs[i + 1] - xs[i])\n    return result\n\n"}
+{"task_id": "HumanEval/63", "completion": "    if n == 0:\n        return 0\n    elif n == 1:\n        return 0\n    elif n == 2:\n        return 1\n    else:\n        return fibfib(n - 1) + fibfib(n - 2) + fibfib(n - 3)\n\n"}
+{"task_id": "HumanEval/64", "completion": "    count = 0\n    for c in s:\n        if c in 'aeiou':\n            count += 1\n    return count\n"}
+{"task_id": "HumanEval/65", "completion": "    if shift > len(str(x)):\n        return circular_shift(circular_shift(x, shift - len(str(x))), shift)\n    else:\n        return str(x)[shift:] + str(x)[0:shift]\n"}
+{"task_id": "HumanEval/66", "completion": "    result = \"\"\n    for char in s:\n        if char.isalpha():\n            result += char\n    return result\n\n"}
+{"task_id": "HumanEval/67", "completion": "    count = 0\n    for i in s:\n        if i == i[::-1]:\n            count += 1\n    return count\n"}
+{"task_id": "HumanEval/68", "completion": "    result = []\n    for node in arr:\n        if node % 2 == 0:\n            result.append(node)\n    return result if result else []\n"}
+{"task_id": "HumanEval/69", "completion": "    if lst == []:\n        return -1\n    freq = {}\n    for i in lst:\n        if i not in freq:\n            freq[i] = 1\n        else:\n            freq[i] += 1\n    max_freq = max(freq.values())\n    return max_freq\n"}
+{"task_id": "HumanEval/70", "completion": "    result = []\n    for num in lst:\n        if num % 2 == 0:\n            result.append(num)\n    result.sort()\n    return result\n"}
+{"task_id": "HumanEval/71", "completion": "    if len(a) < 2 or len(b) < 2 or len(c) < 2:\n        return -1\n    else:\n        s1 = a[0] + b[0] + c[0]\n        s2 = a[1] + b[1] + c[1]\n        s3 = a[2] + b[2] + c[2]\n        if s1 > s2 and s1 > s3:\n            return s1 * (s1 - s2) / 2\n        elif s2 > s1 and s2 > s3:\n            return s2 * (s2 - s1) / 2\n        elif s3 > s1 and s3 > s2:\n            return s3 * (s3 - s1) / 2\n        else:\n            return -1\n"}
+{"task_id": "HumanEval/72", "completion": "    d = {}\n    for i in q:\n        if i in d:\n            d[i] += 1\n        else:\n            d[i] = 1\n    return sum(d.values()) <= w\n"}
+{"task_id": "HumanEval/73", "completion": "    count = 0\n    for i in range(len(arr)):\n        if arr[i]!= arr[len(arr) - 1 - i]:\n            count += 1\n    return count\n\n"}
+{"task_id": "HumanEval/74", "completion": "    result = []\n    for i in lst1:\n        if i in lst2:\n            result.append(i)\n    return result\n"}
+{"task_id": "HumanEval/75", "completion": "    if len(a) < 2:\n        return False\n    for i in range(2, int(math.sqrt(len(a))) + 1):\n        if a[i] % 3 == 0:\n            return False\n    return True\n\n"}
+{"task_id": "HumanEval/76", "completion": "    if n <= 0:\n        return False\n    if n == 1:\n        return True\n    return is_simple_power(x, n // 2)\n\n"}
+{"task_id": "HumanEval/77", "completion": "    if isinstance(a, int):\n        return True\n    else:\n        return False\n"}
+{"task_id": "HumanEval/78", "completion": "    count = 0\n    for char in num:\n        if char.isdigit():\n            count += 1\n    return count\n"}
+{"task_id": "HumanEval/79", "completion": "    result = \"\"\n    for char in decimal:\n        if char == \"0\":\n            result += \"0\"\n        elif char == \"0\":\n            result += \"1\"\n        else:\n            result += char\n    return result\n\n"}
+{"task_id": "HumanEval/80", "completion": "    max_length = 0\n    for char in s:\n        if char.isdigit():\n            max_length += 1\n    return max_length >= 3 and max_length % 3 == 0\n\n"}
+{"task_id": "HumanEval/81", "completion": "    return sorted(grades)\n"}
+{"task_id": "HumanEval/82", "completion": "    if len(string) < 2:\n        return False\n    for i in range(2, int(math.sqrt(len(string))) + 1):\n        if len(string) % i == 0:\n            return False\n    return True\n"}
+{"task_id": "HumanEval/83", "completion": "    count = 0\n    for i in range(1, n+1):\n        if i % 2 == 0:\n            count += 1\n    return count\n"}
+{"task_id": "HumanEval/84", "completion": "    sum_digits = 0\n    for i in range(len(str(N))):\n        sum_digits += int(str(N)[i])\n    return str(sum_digits)\n\n"}
+{"task_id": "HumanEval/85", "completion": "    sum = 0\n    for i in lst:\n        if i % 2 == 0:\n            sum += i\n    return sum\n\n"}
+{"task_id": "HumanEval/86", "completion": "    result = \"\"\n    for char in s:\n        if char == \" \":\n            result += char\n        else:\n            result += char.lower()\n    return result\n"}
+{"task_id": "HumanEval/87", "completion": "    result = []\n    for row in lst:\n        for col in row:\n            diff = abs(x - col)\n            result.append((row, col, diff))\n    result.sort(key=lambda x: x[0])\n    result.sort(key=lambda x: x[1], reverse=True)\n    return result\n\n"}
+{"task_id": "HumanEval/88", "completion": "    count = {}\n    for i in range(len(array)):\n        if array[i] in count:\n            count[array[i]] += 1\n        else:\n            count[array[i]] = 1\n    sorted_array = []\n    for i in sorted(count.items(), key=lambda x: x[1], reverse=True):\n        sorted_array.append(i[0])\n    return sorted_array\n"}
+{"task_id": "HumanEval/89", "completion": "    return \"\"\n"}
+{"task_id": "HumanEval/90", "completion": "    if not lst:\n        return None\n    largest = lst[0]\n    for i in lst[1:]:\n        if i < largest:\n            largest = i\n    return largest\n\n"}
+{"task_id": "HumanEval/91", "completion": "    count = 0\n    for char in S:\n        if char == 'a':\n            count += 1\n        elif char == 'B':\n            count += 1\n    return count\n\n"}
+{"task_id": "HumanEval/92", "completion": "    if x == 0:\n        return True\n    elif y == 0:\n        return True\n    elif z == 0:\n        return True\n    else:\n        return False\n"}
+{"task_id": "HumanEval/93", "completion": "    \n    return \"\"\n"}
+{"task_id": "HumanEval/94", "completion": "    largest = 0\n    for num in lst:\n        if num > 0 and num % 2 == 0:\n            largest += 1\n    return largest\n"}
+{"task_id": "HumanEval/95", "completion": "    if not dict:\n        return False\n    for key in dict:\n        if not isinstance(key, str):\n            return False\n    for key in dict:\n        if key.islower():\n            dict[key] = 1\n        elif key.isupper():\n            dict[key] = 1\n    return dict\n\n"}
+{"task_id": "HumanEval/96", "completion": "    result = []\n    for i in range(2, n+1):\n        if is_prime(i):\n            result.append(i)\n    return result\n"}
+{"task_id": "HumanEval/97", "completion": "    product = 1\n    for char in a:\n        product *= int(char)\n    return product\n"}
+{"task_id": "HumanEval/98", "completion": "    count = 0\n    for c in s:\n        if c.isupper():\n            count += 1\n    return count\n"}
+{"task_id": "HumanEval/99", "completion": "    result = 0\n    for char in value:\n        if char.isdigit():\n            if result == 0:\n                result = int(char)\n            else:\n                result += int(char)\n    return result\n\n"}
+{"task_id": "HumanEval/100", "completion": "    result = []\n    for i in range(n):\n        if i % 2 == 0:\n            result.append(i)\n    return result\n\n"}
+{"task_id": "HumanEval/101", "completion": "    return s.split()\n\n"}
+{"task_id": "HumanEval/102", "completion": "    result = []\n    for i in range(x, y+1):\n        if i % 2 == 0:\n            result.append(i)\n    return result\n"}
+{"task_id": "HumanEval/103", "completion": "    sum = 0\n    for i in range(n, m + 1):\n        if i > m:\n            return -1\n        if i > sum:\n            sum = i\n    return sum\n\n"}
+{"task_id": "HumanEval/104", "completion": "    result = []\n    for num in x:\n        if num % 2 == 0:\n            result.append(num)\n    result.sort()\n    return result\n"}
+{"task_id": "HumanEval/105", "completion": "    result = \"\"\n    for char in arr:\n        if char >= 1 and char <= 9:\n            result += str(char)\n    return sorted(result[::-1])\n\n"}
+{"task_id": "HumanEval/106", "completion": "    result = []\n    for i in range(n+1):\n        if i % 2 == 0:\n            result.append(i)\n    return result\n"}
+{"task_id": "HumanEval/107", "completion": "    count = 0\n    for i in range(1, n+1):\n        if i % 2 == 0:\n            count += 1\n        else:\n            count -= 1\n    return count, count\n"}
+{"task_id": "HumanEval/108", "completion": "    count = 0\n    for num in arr:\n        if num >= 0:\n            count += 1\n    return count\n"}
+{"task_id": "HumanEval/109", "completion": "    if not arr:\n        return True\n    if len(arr) == 1:\n        return True\n    if arr[0] >= arr[1]:\n        return True\n    return False\n\n"}
+{"task_id": "HumanEval/110", "completion": "    result = 0\n    for i in range(len(lst1)):\n        if lst1[i]!= result:\n            result += 1\n    return result == 0\n"}
+{"task_id": "HumanEval/111", "completion": "    return {}\n\n"}
+{"task_id": "HumanEval/112", "completion": "    return None\n"}
+{"task_id": "HumanEval/113", "completion": "    result = []\n    for i in lst:\n        if i % 2 == 1:\n            result.append(i)\n    return result\n"}
+{"task_id": "HumanEval/114", "completion": "    max_sum = nums[0]\n    for num in nums[1:]:\n        max_sum = max(max_sum + num, num)\n    return max_sum\n\n"}
+{"task_id": "HumanEval/115", "completion": "    max_count = 0\n    for i in range(len(grid)):\n        for j in range(len(grid[i])):\n            if grid[i][j] == 1:\n                max_count = max(max_count, j + 1)\n    return max_count\n\n"}
+{"task_id": "HumanEval/116", "completion": "    return sorted(arr)\n"}
+{"task_id": "HumanEval/117", "completion": "    result = []\n    for word in s.split():\n        if len(word) >= n:\n            result.append(word)\n    return result\n\n"}
+{"task_id": "HumanEval/118", "completion": "    count = 0\n    for char in word:\n        if char in \"aeiou\":\n            count += 1\n        else:\n            break\n    return count\n"}
+{"task_id": "HumanEval/119", "completion": "    result = \"\"\n    for char in lst:\n        if char == \"(\":\n            result += char\n        elif char == \")\":\n            if result == \"\":\n                return \"No\"\n            else:\n                result = result[:-1]\n    if result == \"\":\n        return \"Yes\"\n    else:\n        return \"No\"\n"}
+{"task_id": "HumanEval/120", "completion": "    result = []\n    for i in range(len(arr)):\n        if arr[i] == k:\n            result.append(arr[i])\n    return result\n\n"}
+{"task_id": "HumanEval/121", "completion": "    sum = 0\n    for element in lst:\n        if element % 2 == 0:\n            sum += element\n    return sum\n"}
+{"task_id": "HumanEval/122", "completion": "    result = []\n    for i in range(len(arr)):\n        if i < k:\n            result.append(arr[i])\n    return result\n\n"}
+{"task_id": "HumanEval/123", "completion": "    result = []\n    for i in range(1, n+1):\n        if i % 2 == 0:\n            result.append(i)\n        else:\n            result.append(3*i+1)\n    return result\n"}
+{"task_id": "HumanEval/124", "completion": "    if not isinstance(date, str):\n        return False\n    if not date:\n        return False\n    if len(date) < 1:\n        return False\n    if not date.isdigit():\n        return False\n    if int(date) < 1 or int(date) > 31:\n        return False\n    if int(date) < 1 or int(date) > 30:\n        if int(date) % 12 == 0:\n            if int(date) % 4 == 0:\n                if int(date) % 100!= 0:\n                    return False\n            else:\n                return False\n        else:\n            return False\n    if int(date) < 1 or int(date) > 12:\n        return False\n    if not date.replace('-', '/').isdigit():\n        return False\n    return True\n\n"}
+{"task_id": "HumanEval/125", "completion": "    count = 0\n    for char in txt:\n        if char == \" \":\n            count += 1\n        else:\n            break\n    return count\n"}
+{"task_id": "HumanEval/126", "completion": "    for i in range(1, len(lst)):\n        if lst[i] < lst[i - 1]:\n            return False\n    return True\n\n"}
+{"task_id": "HumanEval/127", "completion": "    count = 0\n    sum = 0\n    for i in range(len(interval1)):\n        if interval1[i] == interval2[i]:\n            count += 1\n        else:\n            sum += count\n            count = 1\n    if count == 0:\n        return \"YES\"\n    else:\n        return \"NO\"\n\n"}
+{"task_id": "HumanEval/128", "completion": "    result = []\n    for i in arr:\n        if i!= 0:\n            result.append(i)\n    return result\n\n"}
+{"task_id": "HumanEval/129", "completion": "\n    # Step 1. Initialize a variable `max_distance` as 0.\n    max_distance = 0\n\n    # Step 2. Iterate through each row in `nums`.\n    for row in grid:\n        # Step 3. For each column, iterate through the columns starting from that cell.\n        for col in row:\n            # If the current cell is smaller than `max_distance`, update `max_distance` with the current cell.\n            if col < max_distance:\n                max_distance = col\n\n    return max_distance\n\n"}
+{"task_id": "HumanEval/130", "completion": "    result = []\n    for i in range(1, n + 1):\n        if i <= n:\n            result.append(i)\n    return result\n\n"}
+{"task_id": "HumanEval/131", "completion": "    product = 1\n    for i in range(1, n+1):\n        if i % 2 == 0:\n            product *= i\n    return product\n"}
+{"task_id": "HumanEval/132", "completion": "    stack = []\n    for char in string:\n        if char == '[':\n            stack.append(char)\n        elif char == ']':\n            if len(stack) == 0:\n                return False\n            elif stack[-1] == '[':\n                stack.pop()\n            else:\n                return False\n    return len(stack) == 0\n"}
+{"task_id": "HumanEval/133", "completion": "    result = []\n    for i in lst:\n        if i not in result:\n            result.append(i)\n    return result\n"}
+{"task_id": "HumanEval/134", "completion": "    return txt[-1].isalpha() and not txt[-1].isspace()\n\n"}
+{"task_id": "HumanEval/135", "completion": "    if len(arr) == 1:\n        return 0\n    else:\n        return max(can_arrange(arr[1:]) if arr[0] <= arr[1] else -1, can_arrange(arr[1:]))\n"}
+{"task_id": "HumanEval/136", "completion": "    largest = None\n    for i in lst:\n        if largest is None or i < largest:\n            largest = i\n    return largest, lst[0] if lst else None\n"}
+{"task_id": "HumanEval/137", "completion": "    if len(a) == 1:\n        return a[0]\n    elif len(b) == 1:\n        return b[0]\n    else:\n        return max(a, b)\n"}
+{"task_id": "HumanEval/138", "completion": "    sum = 0\n    for i in range(1, n+1):\n        if i % 2 == 0:\n            sum += i\n    return sum % 4 == 0\n\n"}
+{"task_id": "HumanEval/139", "completion": "    result = 1\n    for i in range(1, n+1):\n        result *= i\n    return result\n"}
+{"task_id": "HumanEval/140", "completion": "    result = \"\"\n    for char in text:\n        if char == \" \":\n            result += \"_\"\n        else:\n            result += char\n    return result\n\n"}
+{"task_id": "HumanEval/141", "completion": "    if len(file_name) < 3:\n        return \"File name is too short\"\n    if file_name[0] not in 'aA':\n        return \"File name should start with a latin alphapet letter\"\n    if file_name[-1] not in '0123456789.':\n        return \"File name should end with a digit\"\n    if file_name[1] == '.':\n        return \"File name should not have a dot\"\n    if file_name[1] not in 'txt exe dll':\n        return \"File name should end with one of these: txt exe dll\"\n    return \"Yes\"\n"}
+{"task_id": "HumanEval/142", "completion": "    sum = 0\n    for i in lst:\n        if i % 3 == 0 or i % 4 == 0:\n            sum += i ** 2\n    return sum\n\n"}
+{"task_id": "HumanEval/143", "completion": "    words = sentence.split()\n    new_words = []\n    for word in words:\n        if is_prime(word):\n            new_words.append(word)\n    return''.join(new_words)\n\n"}
+{"task_id": "HumanEval/144", "completion": "    result = 0\n    for c in x:\n        if c.isdigit():\n            result = result * 10 + int(c)\n        elif c == '/':\n            if result > 1:\n                result = result - 1\n            else:\n                return False\n    if result > 1:\n        return True\n    else:\n        return False\n"}
+{"task_id": "HumanEval/145", "completion": "    pass\n"}
+{"task_id": "HumanEval/146", "completion": "    count = 0\n    for num in nums:\n        if num >= 10 and num % 10 == 1 and num % 100!= 10:\n            count += 1\n    return count\n\nnums = [15, -73, 14, -15]"}
+{"task_id": "HumanEval/147", "completion": "    prime_numbers = []\n    for i in range(1, n + 1):\n        if i % 3 == 0:\n            prime_numbers.append(i)\n    return len(prime_numbers)\n\n"}
+{"task_id": "HumanEval/148", "completion": "    # Step 1.\n    freq = {}\n    for i in range(10):\n        freq[i] = 0\n    # Step 2.\n    for i in range(1, 10):\n        freq[i] += freq[i - 1]\n    # Step 3.\n    diff = 10 - int(input())\n    # Step 4.\n    return [planet for planet in planets if (freq[diff] - freq[planet]) % 2 == 0]\n"}
+{"task_id": "HumanEval/149", "completion": "    result = []\n    for word in lst:\n        if len(word) < 3:\n            result.append(word)\n    result.sort(reverse=True)\n    return result\n"}
+{"task_id": "HumanEval/150", "completion": "    if n % 2 == 0:\n        return x\n    else:\n        return y\n"}
+{"task_id": "HumanEval/151", "completion": "    sum = 0\n    for num in lst:\n        if num % 2 == 0:\n            sum += num ** 2\n    return sum\n\n"}
+{"task_id": "HumanEval/152", "completion": "    result = 0\n    for i in range(len(guess)):\n        if guess[i] <= game[i]:\n            result += 1\n    return result\n"}
+{"task_id": "HumanEval/153", "completion": "    result = ''\n    for character in class_name:\n        if character.isalpha():\n            result += character\n    result = sorted(result, reverse=True)\n    return result\n\n"}
+{"task_id": "HumanEval/154", "completion": "    if len(a)!= len(b):\n        return False\n    for i in range(len(a)):\n        if a[i]!= b[i]:\n            return False\n    return True\n"}
+{"task_id": "HumanEval/155", "completion": "    if num == 0:\n        return (0, 0)\n    elif num < 0:\n        return (0, 1)\n    else:\n        num_str = str(num)\n        if len(num_str) % 2 == 0:\n            return (int(num_str), 0)\n        else:\n            return (int(num_str[0]), int(num_str[1:]))\n\n"}
+{"task_id": "HumanEval/156", "completion": "    result = ''\n    while number > 0:\n        remainder = number % 10\n        number = number // 10\n        result = str(remainder) + result\n    return result.lower()\n\n"}
+{"task_id": "HumanEval/157", "completion": "    if a <= 1 or b <= 1 or c <= 1:\n        return False\n    sum_of_squares = (a + b) ** 2 + (b + c) ** 2 + (c + a) ** 2\n    for word in words:\n        if sum_of_squares == word:\n            return True\n    return False\n"}
+{"task_id": "HumanEval/158", "completion": "    result = \"\"\n    for char in words:\n        if char.isdigit():\n            result += char\n    result = sorted(result, reverse=True)\n    return result\n"}
+{"task_id": "HumanEval/159", "completion": "    count = 0\n    for num in nums:\n        if num == need:\n            count += 1\n        else:\n            count += 1\n    return [count, remaining]\n\n"}
+{"task_id": "HumanEval/160", "completion": "    result = []\n    for i in range(len(operand) - 1):\n        if operand[i] == operand[i + 1]:\n            result.append(operand[i])\n        else:\n            result.append(operand[i])\n    return result\n\n"}
+{"task_id": "HumanEval/161", "completion": "    result = \"\"\n    for c in s:\n        if c.isalpha():\n            result += c.lower()\n        else:\n            result += c\n    return result\n"}
+{"task_id": "HumanEval/162", "completion": "    if not text:\n        return None\n    return md5(text.encode('utf-8')).hexdigest()\n\n"}
+{"task_id": "HumanEval/163", "completion": "    digits = []\n    for char in str(a):\n        if char.isdigit():\n            digits.append(int(char))\n    digits.sort()\n    return digits\n\n"}

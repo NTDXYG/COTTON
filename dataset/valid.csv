@@ -1,0 +1,2521 @@
+src,tgt
+"def count_vowels(string):
+    """""" Write a function that takes in a string and returns the number of vowels (a, e, i, o, u) present in the string. 
+    """"""","How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is a vowel, increment count by 1.
+Step 3. Return the value of count."
+"def min_penalty(customers: str) -> int:
+    """"""You are given the customer visit log of a shop represented by a **0-indexed** string `customers` consisting only of characters `'N'` and `'Y'`:
+    
+    *   if the `ith` character is `'Y'`, it means that customers come at the `ith` hour
+    *   whereas `'N'` indicates that no customers come at the `ith` hour.
+    
+    If the shop closes at the `jth` hour (`0 <= j <= n`), the **penalty** is calculated as follows:
+    
+    *   For every hour when the shop is open and no customers come, the penalty increases by `1`.
+    *   For every hour when the shop is closed and customers come, the penalty increases by `1`.
+    
+    Return _the **earliest** hour at which the shop must be closed to incur a **minimum** penalty._
+    
+    **Note** that if a shop closes at the `jth` hour, it means the shop is closed at the hour `j`.
+    """"""","How to solve:
+Step 1. Initialize the minimum penalty as infinity and the earliest hour as -1.
+Step 2. Iterate through each hour from 0 to n.
+    - Count the number of hours when the shop is open and no customers come.
+    - Count the number of hours when the shop is closed and customers come.
+    - Calculate the penalty for the current hour.
+    - If the penalty is less than the minimum penalty, update the minimum penalty and the earliest hour.
+Step 3. Return the earliest hour."
+"def intprod(xs):
+    """"""Product of a sequence of integers
+    """"""","How to solve:
+Step 1. Initialize product as 1.
+Step 2. Iterate through the sequence of integers.
+    -Multiply each integer with the product.
+Step 3. Return the final product."
+"def int_to_str(value: int) -> str:
+    """"""Formats single integer into string 'XX', where X is a digit
+    """"""","How to solve:
+Step 1. Convert the integer value to a string.
+Step 2. Return the string."
+"def update_assessment_templates(downgrade=False):
+    """"""Update assigned people categaries for asessment template
+    """"""","How to solve:
+Step 1. Check if the ""downgrade"" parameter is set to True.
+Step 2. If ""downgrade"" is True, update the assigned people categories for the assessment template.
+Step 3. If ""downgrade"" is False, do not make any changes to the assigned people categories.
+Step 4. Return the updated assessment templates."
+"def onev(x):
+    """"""Set all components of x to one
+    x can be a row and/or column vectors.
+    """"""","How to solve:
+Step 1. Iterate through each component of x.
+Step 2. Set each component of x to 1.
+Step 3. Return x."
+"def stations_by_distance(stations, p):
+    """"""Sorts stations by distance from closest to furthest from a coordinate p.
+    Inputs
+    
+    list of MonitoringStation objects
+    p       : tuple of floats for the coordinate p
+    
+    Returns
+    
+    a list of (station, distance) tuples, where distance (float) is the distance
+    of the station (MonitoringStation) from coordinate p. This list is sorted by distance
+    """"""","How to solve:
+Step 1. Create an empty list to store the (station, distance) tuples.
+Step 2. Iterate through the stations.
+    -Calculate the distance between each station and coordinate p.
+    -Append the (station, distance) tuple to the list.
+Step 3. Sort the list of tuples by distance.
+Step 4. Return the sorted list."
+"def towers(n, fr, to, spare):
+    """"""int > 0 for size of plate stack
+    fr: designates tower plates are moved from
+    to: designates tower plates are moved to
+    spare: designates the spare stack
+    """"""","How to solve:
+Step 1. If n == 1, move the plate from fr to to tower.
+Step 2. Otherwise, recursively move n-1 plates from fr to spare tower using to tower as spare.
+Step 3. Move the largest plate from fr to to tower.
+Step 4. Recursively move n-1 plates from spare to to tower using fr tower as spare."
+"def closest_detection(detections):
+    """"""Finds the detection closest to the image center
+    """"""","How to solve:
+Step 1. Initialize the closest detection as None.
+Step 2. Calculate the image center coordinates.
+Step 3. Iterate through the detections.
+    -Calculate the distance between each detection and the image center.
+    -If the closest detection is None or the distance is smaller than the previous closest detection, update the closest detection.
+Step 4. Return the closest detection."
+"def list_2_ranges(ixs):
+    """"""Take a list of indexes and returns a list of intervals in the form of [start, length] list.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the intervals.
+Step 2. Sort the list of indexes.
+Step 3. Iterate through the sorted list of indexes.
+    -If the current index is the first index or the current index is not consecutive with the previous index, 
+    add a new interval [current index, 1] to the list of intervals.
+    -Otherwise, increment the length of the last interval by 1.
+Step 4. Return the list of intervals."
+"def _check3_select(a0, a1, a2):
+    """"""Validate the inputs of a select() array operation
+    """"""","How to solve:
+Step 1. Validate the inputs of a select() array operation.
+Step 2. There are three inputs: a0, a1, and a2.
+Step 3. No further information is provided about the validation process."
+"def _p_3pl(ability, discrimination, difficulty, guessing):
+    """"""The probability that this person gets this question correct
+    alpha = discrimination of the test
+    theta = ability of person
+    beta / alpha = difficulty of question
+    """"""","How to solve:
+Step 1. Calculate the probability of getting the question correct using the formula:
+    probability = 1 / (1 + exp(-ability * discrimination * (difficulty - guessing)))
+Step 2. Return the calculated probability."
+"def pixel_color(x, y):
+    """"""Given an x,y position, return the corresponding color.
+    The Bayer array defines a superpixel as a collection of 4 pixels
+    set in a square grid.
+    
+    R G
+    G B
+    
+    `ds9` and other image viewers define the coordinate axis from the
+    lower left corner of the image, which is how a traditional x-y plane
+    is defined and how most images would expect to look when viewed. This
+    means that the `(0, 0)` coordinate position will be in the lower left
+    corner of the image.
+    
+    When the data is loaded into a `numpy` array the data is flipped on the
+    vertical axis in order to maintain the same indexing/slicing features.
+    This means the the `(0, 0)` coordinate position is in the upper-left
+    corner of the array when output. When plotting this array one can use
+    the `origin='lower'` option to view the array as would be expected in
+    a normal image although this does not change the actual index.
+    
+    
+    
+    Image dimensions.
+    
+    
+    
+    Bayer Pattern (as seen in ds9).
+    
+    x / j
+    
+    
+    
+    
+    
+    This can be described by.
+    
+    
+    
+    
+    """"""","How to solve:
+Step 1. Define the Bayer array pattern.
+Step 2. Define the image dimensions.
+Step 3. Given an x, y position, determine the corresponding color using the Bayer array pattern.
+Step 4. Return the corresponding color."
+"def find_matches(words, min_match_ratio):
+    """"""Find matches given a match ratio
+    This method is very slow for a large number of words - hopefully multiprocessing helps
+    Returns the list of couples that match the ratio threshold
+    """"""","How to solve:
+Step 1. Iterate through each word in the list of words.
+Step 2. Compare each word with every other word in the list.
+Step 3. Calculate the match ratio between the two words.
+Step 4. If the match ratio is greater than or equal to the min_match_ratio, add the pair of words to the list of matches.
+Step 5. Return the list of matches."
+"def is_number(number_str):
+    """"""Test if number_str is number including infraformat logic.
+    """"""","How to solve:
+Step 1. Use a try-except block to catch any exceptions that occur when trying to convert number_str to a number.
+Step 2. If no exception is raised, return True.
+Step 3. If an exception is raised, return False."
+"def sanitizeStr(s):
+    """"""Sanitizes provided string in sequential order.
+    """"""","How to solve:
+Step 1. Initialize an empty string called ""sanitized_str"".
+Step 2. Iterate through each character in the input string.
+    -If the character is alphanumeric or a space, add it to the ""sanitized_str"".
+Step 3. Return the ""sanitized_str""."
+"def _encode_state_dict(state_dict):
+    """"""Since dicts of (type, state_key) -> event_id cannot be serialized in
+    JSON we need to convert them to a form that can.
+    """"""","How to solve:
+Step 1. Iterate through the keys in the state_dict.
+Step 2. For each key, convert the key to a tuple of (type, state_key).
+Step 3. Create a new dictionary where the keys are the converted tuples and the values are the event_ids from the original state_dict.
+Step 4. Return the new dictionary."
+"def validUtf8(data):
+    """"""Given an integer array `data` representing the data, return whether it is a valid **UTF-8** encoding (i.e. it translates to a sequence of valid UTF-8 encoded characters).
+    
+    A character in **UTF8** can be from **1 to 4 bytes** long, subjected to the following rules:
+    
+    1.  For a **1-byte** character, the first bit is a `0`, followed by its Unicode code.
+    2.  For an **n-bytes** character, the first `n` bits are all one's, the `n + 1` bit is `0`, followed by `n - 1` bytes with the most significant `2` bits being `10`.
+    
+    This is how the UTF-8 encoding would work:
+    
+         Number of Bytes   |        UTF-8 Octet Sequence
+                           |              (binary)
+       --------------------+-----------------------------------------
+                1          |   0xxxxxxx
+                2          |   110xxxxx 10xxxxxx
+                3          |   1110xxxx 10xxxxxx 10xxxxxx
+                4          |   11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
+    
+    `x` denotes a bit in the binary form of a byte that may be either `0` or `1`.
+    
+    **Note:** The input is an array of integers. Only the **least significant 8 bits** of each integer is used to store the data. This means each integer represents only 1 byte of data.
+    """"""","How to solve:
+Step 1. Initialize a variable `num_bytes` as 0.
+Step 2. Iterate through each integer in the `data` array.
+    - If `num_bytes` is 0, check the number of bytes for the current integer.
+        - If the first bit is 0, it is a 1-byte character.
+        - If the first 3 bits are 110, it is a 2-byte character.
+        - If the first 4 bits are 1110, it is a 3-byte character.
+        - If the first 5 bits are 11110, it is a 4-byte character.
+        - If none of the above conditions are met, return False.
+        - Set `num_bytes` to the number of bytes for the current character.
+    - If `num_bytes` is not 0, check if the current integer starts with 10.
+        - If it does not start with 10, return False.
+        - Decrement `num_bytes` by 1.
+    - If `num_bytes` becomes negative, return False.
+Step 3. If `num_bytes` is 0 at the end, return True. Otherwise, return False."
+"def average_even_divisible_by_three(nums):
+    """"""Given an integer array `nums` of **positive** integers, return _the average value of all even integers that are divisible by_ `3`_._
+    
+    Note that the **average** of `n` elements is the **sum** of the `n` elements divided by `n` and **rounded down** to the nearest integer.
+    """"""","How to solve:
+Step 1. Initialize a variable `sum` as 0 and a variable `count` as 0.
+Step 2. Iterate through each number in `nums`.
+    -If the number is even and divisible by 3, add it to `sum` and increment `count` by 1.
+Step 3. If `count` is 0, return 0.
+Step 4. Calculate the average by dividing `sum` by `count` and rounding down to the nearest integer.
+Step 5. Return the average."
+"def unique_elements(input_list):
+    """""" Write a function in Python that takes in a list of integers and returns a new list that contains only the unique elements from the input list, sorted in ascending order.
+    The function should have a time complexity of O(nlogn), where n is the length of the input list. The space complexity should be O(1), as the new list should be returned in place without using any additional space.
+    """"""","How to solve:
+Step 1. Sort the input list in ascending order.
+Step 2. Initialize a new list to store the unique elements.
+Step 3. Iterate through the sorted input list.
+    -If the current element is not equal to the previous element, add it to the new list.
+Step 4. Return the new list."
+"def child_i(elt, i):
+    """"""Return the i'th child element of elt.  Indexing starts at 1.
+    """"""","How to solve:
+Step 1. Return the i'th child element of elt."
+"def convert_to_listbase_pseudo_word(word: str) -> str:
+    """"""Returns the pseudo-word for the word, if it exists in the lists.
+    """"""","How to solve:
+Step 1. Check if the word exists in the lists.
+Step 2. If it exists, return the corresponding pseudo-word.
+Step 3. If it doesn't exist, return None."
+"def primes(max_num):
+    """"""get prime numbers up to max_num
+    """"""","How to solve:
+Step 1. Initialize an empty list to store prime numbers.
+Step 2. Iterate through numbers from 2 to max_num.
+    -Check if the number is prime.
+        -If it is prime, add it to the list of prime numbers.
+Step 3. Return the list of prime numbers."
+"def max_integer(list=[]):
+    """"""Function to find and return the max integer in a list of integers
+    If the list is empty, the function returns None
+    """"""","How to solve:
+Step 1. Initialize a variable max_int as None.
+Step 2. Iterate through the list.
+    -If the current element is greater than max_int, update max_int with the current element.
+Step 3. Return max_int."
+"def add_prefix(msg, prefix):
+    """"""Adds the prefix to the message, used when generating a notification about property change .
+    If the prefix is already in place does nothing.
+    """"""","How to solve:
+Step 1. Check if the prefix is already in place in the message.
+    -If yes, do nothing.
+    -If no, add the prefix to the message.
+Step 2. Return the modified message."
+"def sort_key(sort: SortMode) -> Callable[[""Member""], Any]:
+    """"""Given sort mode, returns a key function which sorts members
+    by that option using the stored times and delta.
+    """"""","How to solve:
+Step 1. Define a function that takes a sort mode as input and returns a key function.
+Step 2. The key function takes a ""Member"" object as input and returns a value based on the sort mode.
+Step 3. Use the stored times and delta to calculate the value for each member.
+Step 4. Sort the members based on the calculated value.
+Step 5. Return the key function."
+"def fibonacci(n):
+    """""" Write a recursive function to compute the nth Fibonacci number. The function should take an integer parameter `n` and return the nth Fibonacci number. You can assume that `n` will always be a positive integer. 
+    """"""","How to solve:
+Step 1. If n is 0, return 0.
+Step 2. If n is 1, return 1.
+Step 3. Otherwise, return the sum of the (n-1)th and (n-2)th Fibonacci numbers."
+"def editdist(X,Y):
+    """"""Computes edit distance between two strings
+    Input
+    
+    s, t = Two strings
+    
+    Output
+    
+    Outputs an integer value indicating the distance between the two strings
+    """"""","How to solve:
+Step 1. Initialize a 2D matrix of size (len(X)+1) x (len(Y)+1) with all elements as 0.
+Step 2. Iterate through the matrix and fill in the values based on the following rules:
+    - If i = 0, then dp[i][j] = j (insertion)
+    - If j = 0, then dp[i][j] = i (deletion)
+    - If X[i-1] = Y[j-1], then dp[i][j] = dp[i-1][j-1] (no operation)
+    - Otherwise, dp[i][j] = 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) (insertion, deletion, substitution)
+Step 3. Return dp[len(X)][len(Y)]."
+"def os_installer_product_info(catalog, workdir, ignore_cache=False):
+    """"""Returns a dict of info about products that look like macOS installers
+    """"""","How to solve:
+Step 1. Initialize an empty dictionary to store the product information.
+Step 2. Iterate through the catalog.
+    -Check if the product is a macOS installer by checking its name or other attributes.
+    -If it is a macOS installer, add its information to the dictionary.
+Step 3. Return the dictionary of product information."
+"def is_numeric(number):
+    """"""Checks if an object is a number.
+    """"""","How to solve:
+Step 1. Check if the object is an instance of int or float.
+Step 2. If it is, return True.
+Step 3. Otherwise, return False."
+"def countComponents(n, edges):
+    """"""You have a graph of `n` nodes. You are given an integer `n` and an array `edges` where `edges[i] = [ai, bi]` indicates that there is an edge between `ai` and `bi` in the graph.
+    
+    Return _the number of connected components in the graph_.
+    """"""","How to solve:
+Step 1. Create an empty graph with `n` nodes.
+Step 2. Iterate through `edges`.
+    - Add an edge between `ai` and `bi` in the graph.
+Step 3. Initialize a set `visited` to keep track of visited nodes.
+Step 4. Initialize a variable `count` to keep track of the number of connected components.
+Step 5. Iterate through each node in the graph.
+    - If the node is not in `visited`, perform a depth-first search starting from that node.
+        - Mark the node as visited.
+        - Increment `count` by 1.
+        - Perform a depth-first search on all adjacent nodes.
+Step 6. Return `count`."
+"def countSteppingNumbers(low, high):
+    """"""A **stepping number** is an integer such that all of its adjacent digits have an absolute difference of exactly `1`.
+    
+    *   For example, `321` is a **stepping number** while `421` is not.
+    
+    Given two integers `low` and `high`, return _a sorted list of all the **stepping numbers** in the inclusive range_ `[low, high]`.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the stepping numbers.
+Step 2. Iterate through the range from low to high (inclusive).
+    -Check if the current number is a stepping number.
+        -If it is, add it to the list.
+Step 3. Return the sorted list of stepping numbers."
+"def double_array_value(arr):
+    """"""double of array_values
+    Add 1 more parameter to make this become calculation of 2 arrays
+    """"""","How to solve:
+Step 1. Iterate through the array.
+    -Double the value of each element.
+Step 2. Return the modified array."
+"def convert(digits=str, base1=int, base2=int) -> str:
+    """"""Convert given digits in base1 to digits in base2.
+    """"""","How to solve:
+Step 1. Convert digits from base1 to base10.
+Step 2. Convert digits from base10 to base2.
+Step 3. Return the converted digits."
+"def check_need(cls, need):
+    """"""Check if need is a CommunityRole.
+    """"""","How to solve:
+Step 1. Check if the input ""need"" is an instance of the class ""CommunityRole"".
+Step 2. Return True if it is, and False if it is not."
+"def read_libsvm(fname, num_features=0):
+    """"""Reads a libsvm formatted data and outputs the training set (sparse matrix)[1],
+    the label set and the number of features. The number of features
+    can either be provided as a parameter or inferred from the data.
+    
+    Example usage.
+    
+    
+    
+    
+    """"""","How to solve:
+Step 1. Open the file with the given filename.
+Step 2. Read each line of the file.
+Step 3. Split each line into label and feature values.
+Step 4. Convert the feature values into a sparse matrix.
+Step 5. Return the training set (sparse matrix), the label set, and the number of features."
+"def _encoder(string):
+    """"""Take a potentially unicode string and encode it
+    as UTF-8.
+    """"""","How to solve:
+Step 1. Encode the input string as UTF-8.
+Step 2. Return the encoded string."
+"def anagram_lambda(texts,str):
+  """"""
+  Write a function to find all anagrams of a string in a given list of strings using lambda function.
+  """"""","How to solve:
+Step 1. Define a lambda function that takes a string and checks if it is an anagram of the given string.
+Step 2. Use the filter() function with the lambda function and the list of strings as arguments to filter out the anagrams.
+Step 3. Return the filtered list of anagrams."
+"def groups_from_xml(root_xml: ElementTree.Element, groups: OrderedDict, blocks: OrderedDict):
+    """"""Populates the supplied dictionary of groups and assign blocks based on an XML tree
+    """"""","How to solve:
+Step 1. Iterate through each element in the root_xml.
+Step 2. For each element, extract the group name and block name.
+Step 3. Add the group name and block name to the groups and blocks dictionaries, respectively.
+Step 4. Return the updated dictionaries."
+"def cross(X, Y):
+    """"""Get all combinations across values of X and Y
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the combinations.
+Step 2. Iterate through each value in X.
+    -Iterate through each value in Y.
+        -Append the combination of the current values from X and Y to the list.
+Step 3. Return the list of combinations."
+"def move_queen(board, row_index, col_index):
+    """"""Move a queen to a desired position in the column
+    """"""","How to solve:
+Step 1. Update the value of the queen's current position in the board to 0.
+Step 2. Update the value of the desired position in the board to 1.
+Step 3. Return the updated board."
+"def count_names_starting_with_a(names):
+    """"""You are provided with a list of names.
+    Your task is to count the number of names that start with the letter ""A"".
+    Names are separated by commas.
+    """"""","How to solve:
+Step 1. Initialize a counter variable to 0.
+Step 2. Split the names string into a list of names.
+Step 3. Iterate through each name in the list.
+    -If the first letter of the name is ""A"", increment the counter.
+Step 4. Return the counter."
+"def remove_leading_zeroes(mask: BINS) -> BINS:
+    """"""Remove leading zeroes from a mask.
+    """"""","How to solve:
+Step 1. Initialize a variable to store the result.
+Step 2. Iterate through the mask.
+    -If the current character is not a zero, add it to the result.
+    -If the current character is a zero and the result is not empty, add it to the result.
+Step 3. Return the result."
+"def sort_list(list_of_numbers):
+    """""" In Python, write code to sort a list of integers in ascending order. 
+    """"""","How to solve:
+Step 1. Use the built-in sort() function to sort the list in ascending order.
+Step 2. Return the sorted list."
+"def can_delete(f):
+    """"""Return true if this file should not be deleted in a mop.
+    """"""","How to solve:
+Step 1. Check if the file should not be deleted in a mop.
+Step 2. Return True if the file should not be deleted, otherwise return False."
+"def find_pairs(lst, target_sum):
+    """""" Create a function that takes in two parameters, a list of integers and a target sum. 
+    The function should return a list of all pairs of integers from the input list that add up to the target sum. 
+    If there are no such pairs, the function should return an empty list.
+    The function should have a time complexity of O(n^2), where n is the length of the input list.
+    """"""","How to solve:
+Step 1. Initialize an empty list called ""pairs"".
+Step 2. Iterate through each element in the input list.
+    -For each element, iterate through the rest of the elements in the list.
+    -If the sum of the current element and the other element equals the target sum, add the pair to the ""pairs"" list.
+Step 3. Return the ""pairs"" list."
+"def is_not_too_similar(candidate_sentence, already_selected_sentences, method, similarity_threshold):
+    """"""Given a candidate sentence compare to all other already selected sentence and keep only those that aren't within 0.6 of another sentence
+    ARGS: candidate_sentence(Sentence), already_selected_sentences(list), method(str)
+    Returns: Bool
+    """"""","How to solve:
+Step 1. Iterate through each sentence in already_selected_sentences.
+Step 2. Calculate the similarity between candidate_sentence and each sentence in already_selected_sentences using the specified method.
+Step 3. If the similarity is greater than or equal to the similarity_threshold, return False.
+Step 4. If all comparisons are below the similarity_threshold, return True."
+"def is_unique(xs):
+    """"""Tests if all x in xs belong to the same instance
+    """"""","How to solve:
+Step 1. Initialize a variable `instance` with the first element of `xs`.
+Step 2. Iterate through the elements of `xs` starting from the second element.
+    - If the current element is not equal to `instance`, return False.
+Step 3. Return True."
+"def intersect(nums1, nums2):
+    """"""Given two integer arrays `nums1` and `nums2`, return _an array of their intersection_. Each element in the result must appear as many times as it shows in both arrays and you may return the result in **any order**.
+    """"""","How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in nums1.
+    -If the element is also present in nums2 and not already in the result list, add it to the result list.
+Step 3. Return the result list."
+"def triangle_area(a, b, c):
+    """"""Create a Python function to calculate the area of a triangle using Heron’s formula.
+    """"""","How to solve:
+Step 1. Calculate the semi-perimeter of the triangle using the formula: s = (a + b + c) / 2.
+Step 2. Calculate the area of the triangle using Heron's formula: area = sqrt(s * (s - a) * (s - b) * (s - c)).
+Step 3. Return the calculated area."
+"def map(fn, xs=None, gen=False):
+    """"""Map a function to an iterable, curried
+    if gen is True, it will try to coerce the returned generator into the input's type
+    """"""","How to solve:
+Step 1. Define a function named ""map"" that takes three parameters: fn, xs, and gen.
+Step 2. If xs is not provided, set it to None.
+Step 3. If gen is not provided, set it to False.
+Step 4. Return a curried version of the map function that takes an iterable as input.
+Step 5. If gen is True, try to coerce the returned generator into the input's type."
+"def create_stopwords(lst_langs=[""english""], lst_add_words=[], lst_keep_words=[]):
+    """"""Concatenate a list of stopwords using both words grabbed from nltk and user-specified words.
+    Parameters
+    
+    list
+    List of strings designating the languages for a nltk.corpus.stopwords.words query. If empty list is passed, no stopwords will be queried from nltk.
+    lst_add_words: list
+    List of words to add to stopwords list. If these words are already included in the nltk query, a duplicate will not be added.
+    lst_keep_words: list
+    List of words to remove from stopwords list. This is usually used to modify default stop words that might be of interest to PV.
+    
+    Returns
+    
+    List
+    List of alphabetized stopwords
+    """"""","How to solve:
+Step 1. Initialize an empty list called ""stopwords"".
+Step 2. If lst_langs is not empty:
+    - Iterate through each language in lst_langs.
+    - Query nltk.corpus.stopwords.words for stopwords of each language.
+    - Add the stopwords to the ""stopwords"" list.
+Step 3. Add lst_add_words to the ""stopwords"" list, excluding any duplicates that are already in the list.
+Step 4. Remove lst_keep_words from the ""stopwords"" list.
+Step 5. Sort the ""stopwords"" list alphabetically.
+Step 6. Return the ""stopwords"" list."
+"def stringWithDifferentDifference(words):
+    """"""You are given an array of equal-length strings `words`. Assume that the length of each string is `n`.
+    
+    Each string `words[i]` can be converted into a **difference integer array** `difference[i]` of length `n - 1` where `difference[i][j] = words[i][j+1] - words[i][j]` where `0 <= j <= n - 2`. Note that the difference between two letters is the difference between their **positions** in the alphabet i.e. the position of `'a'` is `0`, `'b'` is `1`, and `'z'` is `25`.
+    
+    *   For example, for the string `""acb ""`, the difference integer array is `[2 - 0, 1 - 2] = [2, -1]`.
+    
+    All the strings in words have the same difference integer array, **except one**. You should find that string.
+    
+    Return _the string in_ `words` _that has different **difference integer array**._
+    """"""","How to solve:
+Step 1. Initialize an empty dictionary to store the difference integer arrays.
+Step 2. Iterate through each word in the input array.
+    - Initialize an empty list to store the difference integer array for the current word.
+    - Iterate through each character in the current word.
+        - Calculate the difference between the positions of the current character and the next character.
+        - Append the difference to the difference integer array list.
+    - Convert the difference integer array list to a tuple.
+    - If the tuple is already in the dictionary, increment the count for that tuple.
+    - Otherwise, add the tuple to the dictionary with a count of 1.
+Step 3. Iterate through the dictionary.
+    - If the count for a tuple is 1, return the corresponding word from the input array.
+Step 4. Return None if no word with a different difference integer array is found."
+"def extract_rear(test_tuple):
+  """"""
+  Write a function to extract only the rear index element of each string in the given tuple.
+  """"""","How to solve:
+Step 1. Initialize an empty list to store the rear index elements.
+Step 2. Iterate through each string in the given tuple.
+    -Get the rear index element of the string using negative indexing.
+    -Append the rear index element to the list.
+Step 3. Return the list of rear index elements."
+"def round_mantissa(arg, decimals=0):
+    """"""Rounds the fractional part of a floating point number mantissa or Numpy
+    vector of floating point numbers to a given number of digits. Integers are
+    not altered. The mantissa used is that of the floating point number(s)
+    when expressed in `normalized scientific notation
+    `_
+    """"""","How to solve:
+Step 1. Check if the input is a floating point number or a numpy vector of floating point numbers.
+Step 2. If the input is a floating point number, round the fractional part of the mantissa to the given number of digits using the round() function.
+Step 3. If the input is a numpy vector of floating point numbers, iterate through each element and round the fractional part of the mantissa to the given number of digits using the round() function.
+Step 4. Return the rounded number or vector."
+"def EB_factorization_n2k(n):
+    """"""This function returns the k value given n. k is the number of L and U parameters
+    in the EB factorization on a square I-TN matrix of size n.
+    """"""","How to solve:
+Step 1. Initialize k as 0.
+Step 2. Iterate from 1 to n.
+    -If n is divisible by i, increment k by 1.
+Step 3. Return k."
+"def heap_assending(nums):
+  """"""
+  Write a function to sort a given list of elements in ascending order using heap queue algorithm.
+  """"""","How to solve:
+Step 1. Import the heapq module.
+Step 2. Use the heapify() function from the heapq module to convert the list into a heap.
+Step 3. Create an empty list called ""sorted_nums"" to store the sorted elements.
+Step 4. Use a while loop to repeatedly pop the smallest element from the heap and append it to the sorted_nums list.
+Step 5. Return the sorted_nums list."
+"def swap_elements(arr):
+    """""" Write a function that takes an array of integers as input and randomly swaps two elements in the array. 
+    The function should return the modified array. The array should contain unique elements, have a length of at least 10, 
+    and the swapped elements should be at least 5 positions apart. Additionally, the function should ensure that the swapped 
+    elements are not adjacent to each other in the modified array.
+    """"""","How to solve:
+Step 1. Check if the length of the array is at least 10. If not, return an error message.
+Step 2. Generate two random indices within the range of the array.
+Step 3. Check if the difference between the two indices is at least 5. If not, generate new indices.
+Step 4. Check if the two elements at the generated indices are adjacent to each other. If so, generate new indices.
+Step 5. Swap the elements at the generated indices.
+Step 6. Return the modified array."
+"def level_to_exp(level):
+    """"""Convert level to equivalent total EXP.
+    """"""","How to solve:
+Step 1. Initialize total_exp as 0.
+Step 2. Iterate from 1 to level.
+    -Add current level to total_exp.
+Step 3. Return total_exp."
+"def rotate(string, n):
+    """"""Rotate characters in a string.
+    Expects string and n (int) for number of characters to move.
+    """"""","How to solve:
+Step 1. Split the string into a list of characters.
+Step 2. Use slicing to rotate the characters in the list.
+    -If n is positive, move the first n characters to the end of the list.
+    -If n is negative, move the last n characters to the beginning of the list.
+Step 3. Join the characters in the list back into a string.
+Step 4. Return the rotated string."
+"def update_options_dpd1(dpd2_val) -> list:
+    """"""Updates the contents of the first dropdown menu based of the value of the second dropdown.
+    """"""","How to solve:
+Step 1. Get the value of the second dropdown menu.
+Step 2. Based on the value of the second dropdown menu, update the contents of the first dropdown menu.
+Step 3. Return the updated contents of the first dropdown menu as a list."
+"def sum_positive_elements(arr):
+    """""" Write a function that sums the elements of an array, but exclude any negative numbers from the summation. 
+    """"""","How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through the elements of the array.
+    -If the element is positive, add it to the sum.
+Step 3. Return the sum."
+"def numberOfBoomerangs(points):
+    """"""You are given `n` `points` in the plane that are all **distinct**, where `points[i] = [xi, yi]`. A **boomerang** is a tuple of points `(i, j, k)` such that the distance between `i` and `j` equals the distance between `i` and `k` **(the order of the tuple matters)**.
+    
+    Return _the number of boomerangs_.
+    """"""","How to solve:
+Step 1. Initialize a variable `count` as 0 to keep track of the number of boomerangs.
+Step 2. Iterate through each point in the `points` list.
+Step 3. For each point, create a dictionary `distances` to store the distances between the current point and all other points.
+Step 4. Iterate through each other point in the `points` list.
+    - Calculate the distance between the current point and the other point.
+    - Increment the count of the corresponding distance in the `distances` dictionary.
+Step 5. Iterate through the values in the `distances` dictionary.
+    - For each value, if it is greater than or equal to 2, increment the `count` by the number of possible combinations of 2 points from that value.
+Step 6. Return the `count`."
+"def shuffle_list(nums):
+    """""" Write a Python function to shuffle (randomly reorder) a list of numbers. The function should not use any built-in shuffle functions or libraries.
+    You can assume that the input list will always contain at least one number.
+    """"""","How to solve:
+Step 1. Iterate through the list from the last element to the first element.
+Step 2. Generate a random index between 0 and the current index.
+Step 3. Swap the current element with the element at the random index.
+Step 4. Return the shuffled list."
+"def XOR_F_i(state, inp, wl):
+    """"""Input mapping
+    mapping input blocks to a state variable + XOR step of the alternating
+    input construction
+    
+    input = 1 blocklength string
+    wl    = wordlength of the RadioGatun hash object
+    """"""","How to solve:
+Step 1. Take the state, input, and wordlength as input parameters.
+Step 2. Perform an XOR operation between the state and input.
+Step 3. Return the result of the XOR operation."
+"def countSubstrings(s: str) -> int:
+    """"""Given a string `s`, return _the number of **palindromic substrings** in it_.
+    
+    A string is a **palindrome** when it reads the same backward as forward.
+    
+    A **substring** is a contiguous sequence of characters within the string.
+    """"""","How to solve:
+Step 1. Initialize a variable `count` as 0 to keep track of the number of palindromic substrings.
+Step 2. Iterate through each character in the string `s`.
+Step 3. For each character, expand around it to check for palindromic substrings.
+    - Expand around the character by considering both odd and even length palindromes.
+    - For each expansion, check if the substring is a palindrome.
+    - If it is, increment `count` by 1.
+Step 4. Return the final value of `count`."
+"def is_candidate(word, letters):
+    """"""Checks wether a word can be written
+    with the given set of letters
+    """"""","How to solve:
+Step 1. Iterate through each character in the word.
+Step 2. Check if the character is in the set of letters.
+    -If not, return False.
+Step 3. If all characters are in the set of letters, return True."
+"def radsort(unslist):
+    """"""Returns a sorted list. Accepts only a list containing positive
+    integers.
+    """"""","How to solve:
+Step 1. Initialize an empty list called ""sorted_list"".
+Step 2. Iterate through each element in ""unslist"".
+    -If the element is a positive integer, add it to ""sorted_list"".
+Step 3. Sort ""sorted_list"" in ascending order.
+Step 4. Return ""sorted_list""."
+"def sum_of_squares(nums):
+    """"""This function calculates the sum of the squares of a given list of numbers
+    """"""","How to solve:
+Step 1. Initialize a variable sum_of_squares as 0.
+Step 2. Iterate through the given list of numbers.
+    -For each number, square it and add it to sum_of_squares.
+Step 3. Return sum_of_squares."
+"def palindrome(d: int)-> str:
+    """"""Function is getting the digits of the number, left shifting it by multiplying
+    it with 10 at each iteration and adding it the previous result.
+    Input: Integer
+    Output: String (Sentence telling if the number is palindrome or not)
+    """"""","How to solve:
+Step 1. Convert the input number to a string.
+Step 2. Initialize a variable ""reversed_num"" as an empty string.
+Step 3. Iterate through each digit in the string representation of the number.
+    - Add each digit to the beginning of ""reversed_num"".
+Step 4. If the reversed_num is equal to the string representation of the number, return ""Palindrome"".
+    Otherwise, return ""Not Palindrome""."
+"def _bracket_group(x: str) -> Optional[tuple[str, str, str]]:
+    """"""Divide a string in three parts: before, inside, and after the first bracket group.
+    Return `None` if the square brackets never close or open.
+    """"""","How to solve:
+Step 1. Initialize variables `before`, `inside`, and `after` as empty strings.
+Step 2. Initialize variables `open_bracket` and `close_bracket` as 0.
+Step 3. Iterate through each character in the string.
+    -If character is '[', increment `open_bracket` by 1.
+    -If character is ']', increment `close_bracket` by 1.
+    -If `open_bracket` is equal to `close_bracket`, set `inside` as the substring from the first open bracket to the last close bracket.
+        -Set `before` as the substring before the first open bracket.
+        -Set `after` as the substring after the last close bracket.
+        -Return a tuple of `before`, `inside`, and `after`.
+Step 4. If `open_bracket` is not equal to `close_bracket`, return None."
+"def concatenate_strings(str1, str2):
+    """""" Write a function in Python that takes in two strings as input and concatenates them together. 
+    The function should check if either of the input strings is empty or contains only whitespace characters, 
+    and if so, it should raise a ValueError. Additionally, the function should ignore any leading or trailing whitespace 
+    in the input strings before concatenating them.
+    """"""","How to solve:
+Step 1. Check if either of the input strings is empty or contains only whitespace characters. If so, raise a ValueError.
+Step 2. Remove leading and trailing whitespace from the input strings.
+Step 3. Concatenate the input strings together.
+Step 4. Return the concatenated string."
+"def status_map(state):
+    """"""Return a numeric value in place of the string value for state
+    """"""","How to solve:
+Step 1. Create a dictionary mapping string values to numeric values.
+Step 2. Return the numeric value corresponding to the input state."
+"def GCD(dollars):
+    """"""Find greatest common divisor of list of dollar ammounts.
+    Works with integer and floats.
+    """"""","How to solve:
+Step 1. Initialize a variable gcd as the first element of the dollars list.
+Step 2. Iterate through the remaining elements of the dollars list.
+    - Update gcd as the greatest common divisor of gcd and the current element.
+Step 3. Return gcd."
+"def parabola(list1, list2, list3, plo=False, pri=False, **kwargs):
+    """"""Plots a parabola on pre-existing graph between points
+    list1, list2, and list3,
+    returns the parameters of the parabola
+    as in the form y = ax^2 + bx + c,
+    and optionally prints the equation of the parabola
+    in the form y = ax^2 + bx + c.
+    """"""","How to solve:
+Step 1. Plot a parabola on a pre-existing graph between the points list1, list2, and list3.
+Step 2. Calculate the parameters of the parabola in the form y = ax^2 + bx + c.
+Step 3. If plo is True, print the equation of the parabola in the form y = ax^2 + bx + c.
+Step 4. Return the parameters of the parabola."
+"def count_substring(string, sub_string) -> int:
+    """"""Returns the count of sub_string occurences in string.
+    Uses a moving window to check sections of the string for the substring.
+    """"""","How to solve:
+Step 1. Initialize a count variable as 0.
+Step 2. Iterate through the string using a moving window of length equal to the length of the sub_string.
+    -If the substring is equal to the current section of the string, increment the count variable.
+Step 3. Return the count variable."
+"def square_area(geron_area: float, side_3: float, accuracy: int) -> float:
+    """"""This function counts side of square in triangle.
+    Return this side.
+    """"""","How to solve:
+Step 1. Calculate the area of the triangle using the Heron's formula.
+Step 2. Calculate the side of the square using the formula: side = sqrt(geron_area) * side_3 / accuracy.
+Step 3. Return the calculated side of the square."
+"def fullwidth(st):
+    """"""\
+    Return the fullwidth version of the given string.
+    """"""","How to solve:
+Step 1. Initialize an empty string called ""fullwidth_str"".
+Step 2. Iterate through each character in the given string.
+    -If the character is a space, append a fullwidth space to ""fullwidth_str"".
+    -If the character is a lowercase letter, convert it to the corresponding fullwidth letter and append it to ""fullwidth_str"".
+    -If the character is a digit, convert it to the corresponding fullwidth digit and append it to ""fullwidth_str"".
+    -If the character is a punctuation mark, convert it to the corresponding fullwidth punctuation mark and append it to ""fullwidth_str"".
+Step 3. Return ""fullwidth_str""."
+"def find_lcs(strings):
+    """"""Find longest common substring of all strings in list
+    """"""","How to solve:
+Step 1. Initialize a variable ""lcs"" as an empty string.
+Step 2. Iterate through each character in the first string in the list.
+    -For each character, check if it is present in all other strings.
+    -If it is present in all other strings, add it to ""lcs"".
+Step 3. Return ""lcs""."
+"def find_extrema_over_data_set(arr):
+    """"""Find max and min over a range of number arrays
+    """"""","How to solve:
+Step 1. Initialize max and min variables as the first element of the array.
+Step 2. Iterate through the array.
+    -If the current element is greater than max, update max.
+    -If the current element is less than min, update min.
+Step 3. Return max and min."
+"def parse_definition(definition):
+    """"""Parse a Kismet definition into a (source, optionsmap) tuple
+    """"""","How to solve:
+Step 1. Split the definition string into two parts: source and optionsmap.
+Step 2. Return the tuple (source, optionsmap)."
+"def row_min(left, right, **kwargs):
+    """"""RowMin Component
+    Returns the minimum of the left and right arguments, per row. Note that left and right arguments must share the same data types.
+    """"""","How to solve:
+Step 1. Iterate through each row of the left and right arguments.
+Step 2. Compare the values in the same position of each row.
+Step 3. Return the minimum value for each row."
+"def fwdsubs(L, b):
+    """"""Solving a lower triangular system by forward-substitution
+    Input matrix L is an n by n lower triangular matrix
+    Input vector b is n by 1
+    Output vector x is the solution to the linear system
+    L x = b
+    """"""","How to solve:
+Step 1. Initialize an empty vector x of size n.
+Step 2. Iterate through the rows of L from top to bottom.
+    -For each row, calculate the dot product of the row and the corresponding elements of x.
+    -Subtract this value from the corresponding element of b.
+    -Divide the result by the diagonal element of the row.
+    -Assign this value to the corresponding element of x.
+Step 3. Return the vector x."
+"def GetTypes():
+    """"""Get a list of all test types.
+    """"""","How to solve:
+Step 1. Return a list of all test types."
+"def from_text(cls, text, strict=True):
+    """"""Parse an XML from a string.
+    """"""","How to solve:
+Step 1. Create a class method named ""from_text"" that takes in three parameters: cls, text, and strict.
+Step 2. Inside the method, parse the XML from the given string.
+Step 3. Return the parsed XML."
+"def from_cfloat_to_pyfloat(data, num_floats, length):
+    """"""Convert a C float double pointer to a list of lists of Python floats
+    Parameters
+    
+    data : list
+    C float double pointer
+    num_floats : list
+    Num floats per list in data
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the converted data.
+Step 2. Iterate through the data list.
+    -Create a sublist of length num_floats[i] from the current position in data.
+    -Convert each element in the sublist to a Python float.
+    -Append the sublist to the converted data list.
+Step 3. Return the converted data list."
+"def gen_sublists(arr, size):
+    """"""Generator that yields sequential sublists of the specified size from the
+    given list.
+    
+    
+    
+    If the size is larger than the length of the given list, an empty list
+    is generated.
+    
+    
+    
+    
+    """"""","How to solve:
+Step 1. Initialize a variable `start` as 0.
+Step 2. Iterate while `start` is less than the length of the given list.
+    - Initialize a variable `end` as `start` + `size`.
+    - Yield the sublist from index `start` to index `end`.
+    - Increment `start` by `size`.
+Step 3. If the size is larger than the length of the given list, yield an empty list."
+"def shift(Z,x,y):
+    """"""shift surface Z by coordinates x,y
+    """"""","How to solve:
+Step 1. Shift the surface Z by the coordinates x and y."
+"def correlationify(x):
+    """"""return a covariance matrix into a correlation matrix
+    """"""","How to solve:
+Step 1. Calculate the standard deviation of each column in the covariance matrix.
+Step 2. Divide each element in the covariance matrix by the product of the standard deviations of the corresponding columns.
+Step 3. Return the resulting correlation matrix."
+"def similar_by_word(word):
+    """"""Returns the most similar word to a given word.
+    """"""","How to solve:
+Step 1. Initialize a variable to store the most similar word.
+Step 2. Iterate through a list of words.
+    -Calculate the similarity between each word and the given word.
+    -If the similarity is higher than the current most similar word, update the most similar word.
+Step 3. Return the most similar word."
+"def asint(text):
+    """"""Safely converts a string to an integer, returning None if the string
+    is None.
+    """"""","How to solve:
+Step 1. Check if the input string is None.
+    -If it is, return None.
+Step 2. Convert the string to an integer using the int() function.
+Step 3. Return the converted integer."
+"def filter_by_book_style(bibtexs, book_style):
+    """"""Returns bibtex objects of the selected book type.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the selected bibtex objects.
+Step 2. Iterate through each bibtex object in the input list.
+    -Check if the book style of the bibtex object matches the desired book style.
+    -If it does, add the bibtex object to the selected bibtex objects list.
+Step 3. Return the selected bibtex objects list."
+"def cross(a, b):
+    """"""Returns the cross-product of vectors a and b.
+    """"""","How to solve:
+Step 1. Calculate the cross-product of vectors a and b.
+Step 2. Return the result."
+"def take(string: str, n: int):
+    """"""Return the first n characters of a string. Will return the
+    original string if n is less than or equal to len(string).
+    """"""","How to solve:
+Step 1. Check if n is less than or equal to the length of the string.
+    -If True, return the first n characters of the string.
+    -If False, return the original string."
+"def sort_final_data(report_data: list) -> list:
+    """"""sorts data using three keys: day, issue/PR and branch name
+    messy nested sort worth it for easy copy & paste output
+    outer sort = day of week (ascending)
+    2nd sort = issue/PR (ascending)
+    inner sort = branch name (descending)
+    """"""","How to solve:
+Step 1. Sort the report_data list using three keys: day, issue/PR, and branch name.
+    - The outer sort should be in ascending order based on the day of the week.
+    - The second sort should be in ascending order based on the issue/PR.
+    - The inner sort should be in descending order based on the branch name.
+Step 2. Return the sorted report_data list."
+"def DistanceBetweenLineRanges((start1, end1), (start2, end2)):
+    """"""Given two ranges, compute the (unsigned) distance between them.
+    """"""","How to solve:
+Step 1. Compute the distance between the two ranges.
+    -If end1 < start2, the distance is start2 - end1.
+    -If end2 < start1, the distance is start1 - end2.
+    -Otherwise, the distance is 0.
+Step 2. Return the computed distance."
+"def ip(M, N):
+    """"""
+    
+    M and N must be from the same layout
+    """"""","How to solve:
+Step 1. Check if M and N have the same layout.
+Step 2. If they have the same layout, return True.
+Step 3. If they do not have the same layout, return False."
+"def _get_details(product_id: int) -> dict:
+    """"""queries the product catalog to associate metadata with a
+    product id.
+    """"""","How to solve:
+Step 1. Query the product catalog using the product id.
+Step 2. Retrieve the metadata associated with the product id.
+Step 3. Return the metadata as a dictionary."
+"def integer_break(n):
+    """"""Given an integer `n`, break it into the sum of `k` **positive integers**, where `k >= 2`, and maximize the product of those integers.
+    
+    Return _the maximum product you can get_.
+    """"""","How to solve:
+Step 1. Initialize a list `dp` of size `n+1` with all elements set to 0.
+Step 2. Iterate from 2 to `n+1`.
+    - For each `i`, iterate from 1 to `i//2 + 1`.
+        - Calculate the maximum product of breaking `i` into `j` and `i-j`.
+        - Update `dp[i]` with the maximum product.
+Step 3. Return `dp[n]`."
+"def sentences(a, b):
+    """"""Return sentences in both a and b
+    """"""","How to solve:
+Step 1. Split string a into sentences and store in a list.
+Step 2. Split string b into sentences and store in a list.
+Step 3. Iterate through the sentences in list a.
+    -If the sentence is also in list b, add it to a new list.
+Step 4. Return the new list of sentences."
+"def subject_marks(subjectmarks):
+""""""
+Write a function to sort a list of tuples using lambda.
+""""""","How to solve:
+Step 1. Use the sorted() function to sort the list of tuples.
+Step 2. Use a lambda function as the key parameter in the sorted() function to specify the sorting criteria.
+Step 3. Return the sorted list of tuples."
+"def filter_strings(strings, substring):
+    """""" You're given a list of strings and a substring. Your task is to filter out the strings that
+    contain the given substring and return a new list with only those strings.
+    """"""","How to solve:
+Step 1. Initialize an empty list called ""filtered_strings"".
+Step 2. Iterate through each string in the ""strings"" list.
+    -If the substring is found in the string, append the string to the ""filtered_strings"" list.
+Step 3. Return the ""filtered_strings"" list."
+"def _convert_ascii_to_rgba(arr: np.ndarray, size_px=32) -> np.ndarray:
+    """"""Convert an ascii array to an image array using the loaded font
+    """"""","How to solve:
+Step 1. Import the necessary libraries.
+Step 2. Define a function that takes an ascii array and size_px as input and returns an image array.
+Step 3. Convert the ascii array to an image array using the loaded font.
+Step 4. Return the image array."
+"def is_probability(cube: Cube) -> bool:
+    """"""Determines whether an iris.cube.Cube contains probability data at
+    a range of thresholds
+    """"""","How to solve:
+Step 1. Check if the input cube contains probability data at a range of thresholds.
+Step 2. Return True if the cube contains probability data, otherwise return False."
+"def filter_data(txt):
+    """"""Remove unwanted lines from txt.
+    """"""","How to solve:
+Step 1. Split the text into lines.
+Step 2. Iterate through each line.
+    -If the line is unwanted, remove it from the list of lines.
+Step 3. Join the remaining lines back into a single string.
+Step 4. Return the filtered text."
+"def sequentize(string):
+    """"""Notate consecutive characters as sequence
+    (1-4 instead of 1234)
+    """"""","How to solve:
+Step 1. Initialize an empty string to store the result.
+Step 2. Iterate through the characters in the input string.
+    -If the current character is the same as the next character, continue to the next iteration.
+    -If the current character is different from the next character, append the current character to the result string.
+Step 3. Return the result string."
+"def case_insensitive_name(package_name):
+    """"""Convert a package name to a case-insensitive name.
+    An upper case character is converted to its lowercase equivalent followed by
+    an underscore.
+    
+    A hyphen is converted to two underscores.
+    
+    Digits and lowercase characters and left as-is.
+    
+    
+    """"""","How to solve:
+Step 1. Initialize an empty string called ""result"".
+Step 2. Iterate through each character in the package name.
+    -If the character is an uppercase letter, convert it to lowercase and add an underscore to the result.
+    -If the character is a hyphen, add two underscores to the result.
+    -Otherwise, add the character to the result as-is.
+Step 3. Return the result."
+"def find_missing_number(arr):
+    """""" Write a code to find the missing number in the given array, where the array is sorted in ascending order and contains distinct integers. 
+    The missing number will always be a single number and will be between the minimum and maximum values of the array.
+    Additional instructions:
+    - Your code should have a time complexity of O(log n).
+    - You are not allowed to use any built-in functions or libraries to find the missing number.
+    - You are not allowed to use any additional data structures or create any new arrays.
+    - You are not allowed to use arithmetic operations or mathematical formulas to find the missing number.
+    - You are not allowed to use any loops or recursive functions to find the missing number.
+    - You can assume that the array will always contain at least three elements.
+    """"""","How to solve:
+Step 1. Find the middle element of the array.
+Step 2. Calculate the expected sum of the elements from the minimum to the maximum value of the array using the formula: (maximum * (maximum + 1) / 2) - (minimum * (minimum - 1) / 2).
+Step 3. Calculate the actual sum of the elements in the array using the formula: (arr[0] + arr[-1]) * (len(arr) + 1) / 2.
+Step 4. Subtract the actual sum from the expected sum to find the missing number.
+Step 5. Return the missing number."
+"def prepare_columns_for_sql(column_list, data_code=100):
+    """"""Creates a string with all the columns for a new tuple
+    """"""","How to solve:
+Step 1. Initialize an empty string called ""columns_string"".
+Step 2. Iterate through each column in the column_list.
+    -Add the column to the columns_string.
+    -If it's not the last column, add a comma after the column.
+Step 3. Return the columns_string."
+"def read_state_json(input_path):
+    """"""Read the state JSON file and return the results.
+    """"""","How to solve:
+Step 1. Open the JSON file at the given input path.
+Step 2. Read the contents of the file.
+Step 3. Parse the JSON data.
+Step 4. Return the parsed JSON data."
+"def find_intersection(list1, list2):
+    """""" Create a python function which finds the intersection of two lists and returns a list containing the common elements. 
+    The function should also handle duplicate elements correctly.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the common elements.
+Step 2. Iterate through each element in list1.
+    -If the element is also present in list2 and not already in the common elements list, add it to the list.
+Step 3. Return the common elements list."
+"def poor_pigs(buckets, minutes_to_die, minutes_to_test):
+    """"""There are `buckets` buckets of liquid, where **exactly one** of the buckets is poisonous. To figure out which one is poisonous, you feed some number of (poor) pigs the liquid to see whether they will die or not. Unfortunately, you only have `minutesToTest` minutes to determine which bucket is poisonous.
+    
+    You can feed the pigs according to these steps:
+    
+    1.  Choose some live pigs to feed.
+    2.  For each pig, choose which buckets to feed it. The pig will consume all the chosen buckets simultaneously and will take no time. Each pig can feed from any number of buckets, and each bucket can be fed from by any number of pigs.
+    3.  Wait for `minutesToDie` minutes. You may **not** feed any other pigs during this time.
+    4.  After `minutesToDie` minutes have passed, any pigs that have been fed the poisonous bucket will die, and all others will survive.
+    5.  Repeat this process until you run out of time.
+    
+    Given `buckets`, `minutesToDie`, and `minutesToTest`, return _the **minimum** number of pigs needed to figure out which bucket is poisonous within the allotted time_.
+    """"""","How to solve:
+Step 1. Calculate the number of tests that can be performed within the given time: `tests = minutes_to_test // minutes_to_die + 1`.
+Step 2. Calculate the number of pigs needed to perform all the tests: `pigs = ceil(log(buckets, tests))`.
+Step 3. Return the minimum number of pigs needed."
+"def count_uppercase(string):
+    """""" Write a function to calculate the number of uppercase letters in a given string, but you cannot use the built-in function to convert a character to uppercase. Additionally, you are not allowed to use any loops or recursion in your solution. 
+    """"""","How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through each character in the string.
+    -If the character is uppercase, increment count by 1.
+Step 3. Return count."
+"def how_many(aDict):
+    """"""A dictionary, where all the values are lists.
+    returns: int, how many values are in the dictionary.
+    """"""","How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the values in the dictionary.
+    -For each value, increment count by the length of the list.
+Step 3. Return count."
+"def find_median(arr):
+    """""" Generate a program that accepts an integer array and returns its median value. Handle the case when the array contains an even number of elements. Additionally, handle the case when the array is empty and when it contains duplicate values. Implement the solution using a recursive approach. 
+    """"""","How to solve:
+Step 1. Check if the array is empty. If it is, return None.
+Step 2. Sort the array in ascending order.
+Step 3. Check if the length of the array is odd. If it is, return the middle element.
+Step 4. If the length of the array is even, calculate the average of the two middle elements and return it.
+Step 5. Handle the case when the array contains duplicate values by removing duplicates before sorting.
+Step 6. Implement the solution using a recursive approach by dividing the array into two halves and recursively finding the median of each half."
+"def find_matrix_size(coordinates):
+    """"""This finds the maximum x and y values from the list of coordinates
+    coordinates -> dict of coordinate objects
+    returns max rows and columns values, plus 1 added space because of 0 indexing
+    """"""","How to solve:
+Step 1. Initialize max_rows and max_columns as 0.
+Step 2. Iterate through the coordinates.
+    -Update max_rows if the current coordinate's row value is greater than max_rows.
+    -Update max_columns if the current coordinate's column value is greater than max_columns.
+Step 3. Return max_rows + 1 and max_columns + 1."
+"def prime_factor(n):
+    """"""Find the prime factorization of n
+    Efficient implementation. Find the factorization by trial division, using
+    the optimization of dividing only by two and the odd integers.
+    
+    An improvement on trial division by two and the odd numbers is wheel
+    factorization, which uses a cyclic set of gaps between potential primes to
+    greatly reduce the number of trial divisions. Here we use a 2,3,5-wheel
+    
+    Factoring wheels have the same O(sqrt(n)) time complexity as normal trial
+    division, but will be two or three times faster in practice.
+    
+    
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the prime factors.
+Step 2. Divide the number by 2 until it is no longer divisible by 2.
+Step 3. Divide the number by odd numbers starting from 3 until it is no longer divisible by any of them.
+Step 4. If the number is greater than 2, it is a prime factor itself.
+Step 5. Return the list of prime factors."
+"def sum_square_difference(limit):
+    """"""Function returns difference between the sum of the squares up to and including limit and the square of the
+    sum up to and including limit.
+    
+    
+    
+    limit >= 1 and type(limit) == int
+    
+    
+    """"""","How to solve:
+Step 1. Initialize sum_of_squares as 0 and sum_up_to_limit as 0.
+Step 2. Iterate from 1 to limit.
+    -Add the square of each number to sum_of_squares.
+    -Add each number to sum_up_to_limit.
+Step 3. Calculate the square of sum_up_to_limit.
+Step 4. Return the difference between sum_of_squares and the square of sum_up_to_limit."
+"def prelu(z, alpha=0.5, max_value=None, threshold=0.0):
+    """"""Parametric rectified linear unit activation function implem
+    entation. If alpha is 0., prelu outputs same values as relu.
+    """"""","How to solve:
+Step 1. Calculate the output of the PReLU activation function for a given input z.
+    - If z < 0, output = alpha * z.
+    - If z >= 0, output = z.
+Step 2. If max_value is not None, clip the output to be less than or equal to max_value.
+Step 3. If threshold is not 0.0, apply the threshold to the output.
+Step 4. Return the final output."
+"def convert_bool(value):
+    """"""Convert a string to True or False
+    If a boolean is passed in, it is returned as-is. Otherwise the function
+    maps the following strings, ignoring case.
+    
+    
+    """"""","How to solve:
+Step 1. Check if the input value is already a boolean. If it is, return the value as-is.
+Step 2. If the input value is a string, map the following strings to their corresponding boolean values:
+    - ""true"" or ""t"" -> True
+    - ""false"" or ""f"" -> False
+    - Any other string -> None
+Step 3. Return the mapped boolean value or None."
+"def _rows_for(cls, filter):
+    """"""Convert a filter to field value pairs.
+    """"""","How to solve:
+Step 1. Iterate through the fields of the class.
+Step 2. For each field, check if it matches the filter.
+    -If it does, add the field and its value to a list of field-value pairs.
+Step 3. Return the list of field-value pairs."
+"def insertion_sort(arr):
+    """"""Performs an Insertion Sort on the array arr.
+    """"""","How to solve:
+Step 1. Iterate through the array starting from the second element.
+Step 2. For each element, compare it with the elements before it and insert it in the correct position.
+Step 3. Return the sorted array."
+"def maxKilledEnemies(grid):
+    """"""Given an `m x n` matrix `grid` where each cell is either a wall `'W'`, an enemy `'E'` or empty `'0'`, return _the maximum enemies you can kill using one bomb_. You can only place the bomb in an empty cell.
+    
+    The bomb kills all the enemies in the same row and column from the planted point until it hits the wall since it is too strong to be destroyed.
+    """"""","How to solve:
+Step 1. Initialize a variable `max_killed` to 0.
+Step 2. Iterate through each cell in the grid.
+    - If the cell is empty, calculate the number of enemies that can be killed in the same row and column from that cell.
+    - Update `max_killed` if the number of killed enemies is greater than `max_killed`.
+Step 3. Return `max_killed`."
+"def from_lists(index: int, *lists, default: Any = {}):
+    """"""Returns value of index in first matching list
+    having index `index`. If no match, default
+    is returned.
+    
+    Any
+    """"""","How to solve:
+Step 1. Iterate through the lists.
+Step 2. Check if the index exists in the current list.
+    -If yes, return the value at the index.
+Step 3. If no match is found, return the default value."
+"def fibo(iterations):
+    """"""This function calculate the fibonacci serie, calling itself many times iterations says
+    """"""","How to solve:
+Step 1. Define a function called ""fibo"" that takes an argument ""iterations"".
+Step 2. If iterations is 0 or 1, return iterations.
+Step 3. Otherwise, call the ""fibo"" function recursively with iterations-1 and iterations-2 as arguments and return the sum of the two recursive calls."
+"def abs_diff(a, b, base=0):
+    """"""Absolute value of difference between scalars.
+    """"""","How to solve:
+Step 1. Calculate the absolute difference between a and b.
+Step 2. Return the absolute difference."
+"def double(number):
+    """"""This function returns twice the value of a given number
+    """"""","How to solve:
+Step 1. Multiply the given number by 2.
+Step 2. Return the result."
+"def squared_error(x, rho, x_obs):
+    """"""Proximal operator for squared error (l2 or Fro.
+    
+    Parameters
+    
+    x_obs : array_like
+    Observed array or matrix that you want to stay close to
+    """"""","How to solve:
+Step 1. Calculate the squared error between x and x_obs.
+Step 2. Apply the proximal operator to the squared error using the parameter rho.
+Step 3. Return the result."
+"def plot_model(voi, states, algebraic):
+    """"""Plot variables against variable of integration
+    """"""","How to solve:
+Step 1. Plot the variables ""voi"", ""states"", and ""algebraic"" against the variable of integration."
+"def view_stats():
+    """"""Prints the users current in game stats based upon a load file
+    """"""","How to solve:
+Step 1. Load the file containing the user's stats.
+Step 2. Print the user's current in-game stats."
+"def count_same_pair(nums1, nums2):
+    """"""
+    Write a function to count the same pair in two given lists using map function.
+    """"""","How to solve:
+Step 1. Use the map function to create a list of tuples, where each tuple contains the corresponding elements from nums1 and nums2.
+Step 2. Use the count function to count the number of tuples in the list where the elements are the same.
+Step 3. Return the count."
+"def lower(message: str) -> str:
+    """"""Convert alphas in lowercase in the message.
+    """"""","How to solve:
+Step 1. Convert all alphabets in the message to lowercase.
+Step 2. Return the modified message."
+"def kappa(T, Tmul=0.72, T_offset=70.2, k2=22.1, k3=3.776e5, Tm_input=False):
+    """"""T in celsious, or in K when Tm_input is True
+    """"""","How to solve:
+Step 1. Define a function named ""kappa"" that takes in the following parameters:
+    - T: temperature in Celsius or Kelvin (depending on the value of Tm_input)
+    - Tmul: a float representing a multiplication factor for T (default value is 0.72)
+    - T_offset: a float representing an offset for T (default value is 70.2)
+    - k2: a float representing a constant value (default value is 22.1)
+    - k3: a float representing a constant value (default value is 3.776e5)
+    - Tm_input: a boolean indicating whether T is in Kelvin or Celsius (default value is False)
+Step 2. Check if Tm_input is False:
+    - If True, convert T to Kelvin by adding 273.15 to T.
+Step 3. Calculate the value of kappa using the formula:
+    kappa = T * Tmul + T_offset + k2 * (T ** 2) + k3 / T
+Step 4. Return the calculated value of kappa."
+"def extract_symmetric(test_list):
+  """"""
+  Write a function to extract all the pairs which are symmetric in the given tuple list.
+  """"""","How to solve:
+Step 1. Initialize an empty list to store the symmetric pairs.
+Step 2. Iterate through the given tuple list.
+    -For each tuple, check if the first element is equal to the reverse of the second element.
+    -If it is, add the tuple to the list of symmetric pairs.
+Step 3. Return the list of symmetric pairs."
+"def join_path_with_extension(path_parts, extension=None):
+    """"""Join path parts and safely adding extension
+    path_parts: list of parts of path
+    extension: file extension, if set to None, just calls os.path.join(*path_parts)
+    
+    returns full path with extension
+    """"""","How to solve:
+Step 1. Check if extension is None.
+    -If True, call os.path.join(*path_parts) and return the result.
+Step 2. If extension is not None, join path_parts using os.path.join() and add the extension to the end of the path.
+Step 3. Return the full path with extension."
+"def create_dates(simulation_results: List[List[int]], date_list: List[str]) -> List[str]:
+    """"""Generates a flat list of dates for a list of simulation results.
+    Typically used as x-axis labels of the simulation results.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the dates.
+Step 2. Iterate through each simulation result in the simulation_results list.
+    - Iterate through each date in the date_list.
+        - Append the date to the list of dates.
+Step 3. Return the list of dates."
+"def gcd(a, b):
+    """"""Get the greatest common divisor.
+    """"""","How to solve:
+Step 1. Initialize variables a and b.
+Step 2. Use the Euclidean algorithm to find the greatest common divisor of a and b.
+    -If b is 0, return a.
+    -Otherwise, set a to b and b to the remainder of a divided by b.
+    -Repeat until b is 0.
+Step 3. Return a as the greatest common divisor."
+"def create_header(names: typing.List[str], index: bool, prefix: str) -> typing.List[str]:
+    """"""Create header for output file.
+    An IOError is raised, if the output list is empty.
+    
+    Header names
+    index - Create indexed header
+    prefix - Star file header name prefix
+    
+    List of header entries
+    """"""","How to solve:
+Step 1. Initialize an empty list called ""header"".
+Step 2. Iterate through each name in the ""names"" list.
+    -If ""index"" is True, add the index number and the name to the ""header"" list.
+    -If ""prefix"" is not empty, add the prefix and the name to the ""header"" list.
+    -Otherwise, add just the name to the ""header"" list.
+Step 3. If the ""header"" list is empty, raise an IOError.
+Step 4. Return the ""header"" list."
+"def read_rot_max(folder):
+    """"""Read the maximum rotation displacement from the config files.
+    """"""","How to solve:
+Step 1. Read the config files in the specified folder.
+Step 2. Find the maximum rotation displacement value in the config files.
+Step 3. Return the maximum rotation displacement value."
+"def findweights(pos, ngrid):
+    """"""Calculate CIC weights.
+    Coordinates of nearest grid point (ngp) to each value.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the weights.
+Step 2. Iterate through each position in the input list.
+    - Calculate the coordinates of the nearest grid point (ngp) to the current position.
+    - Append the ngp coordinates to the weights list.
+Step 3. Return the weights list."
+"def factorial_mod(n, p):
+    """"""Calculate the factorial of a given number n modulo p (be aware of numerics).
+    """"""","How to solve:
+Step 1. Initialize a variable `result` as 1.
+Step 2. Iterate from 1 to n.
+    - Multiply `result` by the current number.
+    - Take the modulo p of `result`.
+Step 3. Return `result`."
+"import heapq
+    """"""You are given an array `points` containing the coordinates of points on a 2D plane, sorted by the x-values, where `points[i] = [xi, yi]` such that `xi < xj` for all `1 <= i < j <= points.length`. You are also given an integer `k`.
+    
+    Return _the maximum value of the equation_ `yi + yj + |xi - xj|` where `|xi - xj| <= k` and `1 <= i < j <= points.length`.
+    
+    It is guaranteed that there exists at least one pair of points that satisfy the constraint `|xi - xj| <= k`.
+    """"""","How to solve:
+Step 1. Initialize a max heap.
+Step 2. Iterate through the points.
+    -Pop elements from the heap if the difference between the x-coordinates is greater than k.
+    -Calculate the equation yi + yj + |xi - xj|.
+    -Push the value of yi - xi into the heap.
+Step 3. Return the maximum value from the heap."
+"def find_peak(list_of_integers):
+    """"""That finds a peak in a list of unsorted integers.
+    """"""","How to solve:
+Step 1. Iterate through the list of integers.
+Step 2. Compare each integer with its adjacent integers.
+    -If the current integer is greater than both of its adjacent integers, return the current integer as the peak.
+Step 3. If no peak is found, return None."
+"def remove_cube_halo(cube: Cube, halo_radius: float) -> Cube:
+    """"""Remove halo of halo_radius from a cube.
+    This function converts the halo radius into
+    the number of grid points in the x and y coordinate
+    that need to be removed. It then calls remove_halo_from_cube
+    which only acts on a cube with x and y coordinates so we
+    need to slice the cube and them merge the cube back together
+    ensuring the resulting cube has the same dimension coordinates.
+    """"""","How to solve:
+Step 1. Convert halo_radius into the number of grid points in the x and y coordinates that need to be removed.
+Step 2. Slice the cube to remove the halo from the x and y coordinates.
+Step 3. Merge the sliced cube back together to ensure the resulting cube has the same dimension coordinates.
+Step 4. Return the resulting cube."
+"def product_details_revision(request, article_revision):
+    """"""This function renders the revision of a product.
+    """"""","How to solve:
+Step 1. Get the request and article_revision as input parameters.
+Step 2. Render the revision of the product using the request and article_revision.
+Step 3. Return the rendered revision."
+"def max_sum_subseq(A):
+    """"""
+    Write a function to find the maximum sum of subsequences of given array with no adjacent elements.
+    """"""","How to solve:
+Step 1. Initialize two variables, incl and excl, as the first and second elements of the array, respectively.
+Step 2. Iterate through the array starting from the third element.
+    - Calculate the maximum of incl and excl plus the current element.
+    - Update incl and excl accordingly.
+Step 3. Return the maximum of incl and excl."
+"def daysBetweenDates(year1, month1, day1, year2, month2, day2):
+    """"""Returns the number of days between year1/month1/day1
+    and year2/month2/day2. Assumes inputs are valid dates
+    in Gregorian calendar.
+    """"""","How to solve:
+Step 1. Calculate the number of days in each month of the given years.
+Step 2. Calculate the total number of days from year1/month1/day1 to year2/month2/day2.
+Step 3. Return the total number of days."
+"def update_temp_output_files(temp_output_files, new_file_list, all_input_files):
+    """"""Remove files on the list that are no longer needed and add the new file
+    """"""","How to solve:
+Step 1. Iterate through each file in temp_output_files.
+    -If the file is not in new_file_list and not in all_input_files, remove it from temp_output_files.
+Step 2. Iterate through each file in new_file_list.
+    -If the file is not in temp_output_files, add it to temp_output_files.
+Step 3. Return the updated temp_output_files."
+"def invalidate_wells(platemap, wells, valid=False):
+    """"""Returns updated plate map with specified wells invalidated.
+    """"""","How to solve:
+Step 1. Iterate through the wells to be invalidated.
+Step 2. Set the corresponding well in the plate map to be invalid.
+Step 3. Return the updated plate map."
+"def extract_nth_element(list1, n):
+    """"""
+    Write a function to extract the nth element from a given list of tuples.
+    """"""","How to solve:
+Step 1. Access the nth element of each tuple in the given list.
+Step 2. Return a new list containing the nth elements."
+"def is_same_height(h1, h2):
+    """"""Return true if is the same height of images else return false
+    """"""","How to solve:
+Step 1. Compare the values of h1 and h2.
+Step 2. If h1 is equal to h2, return True.
+Step 3. Otherwise, return False."
+"def findMaxForm(strs, m, n):
+    """"""You are given an array of binary strings `strs` and two integers `m` and `n`.
+    
+    Return _the size of the largest subset of `strs` such that there are **at most**_ `m` `0`_'s and_ `n` `1`_'s in the subset_.
+    
+    A set `x` is a **subset** of a set `y` if all elements of `x` are also elements of `y`.
+    """"""","How to solve:
+Step 1. Initialize a 2D array `dp` of size `(m+1) x (n+1)` with all values set to 0.
+Step 2. Iterate through each string `s` in `strs`.
+    - Count the number of `0`'s and `1`'s in `s`.
+    - Iterate from `i = m` to `0` (backwards) and from `j = n` to `0` (backwards).
+        - If `i` is greater than or equal to the count of `0`'s in `s` and `j` is greater than or equal to the count of `1`'s in `s`, update `dp[i][j]` as the maximum of `dp[i][j]` and `dp[i - count of 0's in s][j - count of 1's in s] + 1`.
+Step 3. Return the value at `dp[m][n]`."
+"from collections import deque
+    """"""There is a 1 million by 1 million grid on an XY-plane, and the coordinates of each grid square are `(x, y)`.
+    
+    We start at the `source = [sx, sy]` square and want to reach the `target = [tx, ty]` square. There is also an array of `blocked` squares, where each `blocked[i] = [xi, yi]` represents a blocked square with coordinates `(xi, yi)`.
+    
+    Each move, we can walk one square north, east, south, or west if the square is **not** in the array of `blocked` squares. We are also not allowed to walk outside of the grid.
+    
+    Return `true` _if and only if it is possible to reach the_ `target` _square from the_ `source` _square through a sequence of valid moves_.
+    """"""","How to solve:
+Step 1. Create a set of blocked squares.
+Step 2. Create a queue and add the source square to it.
+Step 3. While the queue is not empty, do the following:
+    - Pop the current square from the queue.
+    - If the current square is the target square, return True.
+    - Mark the current square as visited.
+    - Add the neighboring squares that are not blocked and not visited to the queue.
+Step 4. If the target square is not reached, return False."
+"def n_sum(n):
+    """""" Write a Python code to calculate the sum of natural numbers up to n. 
+    """"""","How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate from 1 to n.
+    -Add each number to sum.
+Step 3. Return the sum."
+"def validate_not_empty_string(string: Union[str, String]) -> None:
+    """"""Validate specified string is not empty.
+    """"""","How to solve:
+Step 1. Check if the specified string is empty.
+Step 2. If the string is empty, raise an exception or print an error message."
+"def select_one(l):
+    """"""Select and return element from list and pop the value (without replace)
+    """"""","How to solve:
+Step 1. Select an element from the list.
+Step 2. Remove the selected element from the list.
+Step 3. Return the selected element."
+"def aeq(*args):
+    """"""Assert all arguments have the same value
+    """"""","How to solve:
+Step 1. Iterate through all arguments.
+Step 2. Compare each argument to the first argument.
+    -If any argument is not equal to the first argument, return False.
+Step 3. Return True."
+"def _is_close(value_a, value_b, rel_tol=1e-09, abs_tol=0.0):
+    """"""Determines whether two floats are within a tolerance.
+    """"""","How to solve:
+Step 1. Calculate the absolute difference between value_a and value_b.
+Step 2. Calculate the maximum of the relative tolerance (rel_tol) multiplied by the maximum of the absolute values of value_a and value_b, and the absolute tolerance (abs_tol).
+Step 3. If the absolute difference is less than or equal to the maximum tolerance, return True. Otherwise, return False."
+"def largest_even_sum(nums, k):
+    """"""You are given an integer array `nums` and an integer `k`. Find the **largest even sum** of any subsequence of `nums` that has a length of `k`.
+    
+    Return _this sum, or_ `-1` _if such a sum does not exist_.
+    
+    A **subsequence** is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
+    """"""","How to solve:
+Step 1. Initialize a variable `even_sum` as -1.
+Step 2. Sort the `nums` array in non-decreasing order.
+Step 3. Iterate through the `nums` array from the end.
+    - If the current number is even and the length of the subsequence is equal to `k`, update `even_sum` as the sum of the subsequence and break the loop.
+Step 4. Return `even_sum`."
+"def deduplicate(filenames):
+    """"""Deduplicate files and yield groups of identical FileInfo objects
+    """"""","How to solve:
+Step 1. Create an empty dictionary to store FileInfo objects.
+Step 2. Iterate through the filenames.
+    -For each filename, create a FileInfo object.
+    -If the FileInfo object is not already in the dictionary, add it with the filename as the key.
+    -If the FileInfo object is already in the dictionary, append the filename to the list of filenames for that object.
+Step 3. Iterate through the values in the dictionary.
+    -For each value, yield the list of filenames.
+"
+"def plot(volts0, volts1, title=None, save=None):
+    """"""Make a simple plot of the voltage readings on both channels.
+    """"""","How to solve:
+Step 1. Import the necessary libraries for plotting (e.g. matplotlib).
+Step 2. Create a plot with two lines, one for volts0 and one for volts1.
+Step 3. Add a title to the plot if provided.
+Step 4. Save the plot to a file if save parameter is provided."
+"def array_diff(array1, array2):
+    """"""Returns a list of all values of array1 that are NOT present in array2
+    """"""","How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in array1.
+    -If the element is not present in array2, add it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"import heapq
+    """"""You are given an `m x n` binary `grid`, where each `1` represents a brick and `0` represents an empty space. A brick is **stable** if:
+    
+    *   It is directly connected to the top of the grid, or
+    *   At least one other brick in its four adjacent cells is **stable**.
+    
+    You are also given an array `hits`, which is a sequence of erasures we want to apply. Each time we want to erase the brick at the location `hits[i] = (rowi, coli)`. The brick on that location (if it exists) will disappear. Some other bricks may no longer be stable because of that erasure and will **fall**. Once a brick falls, it is **immediately** erased from the `grid` (i.e., it does not land on other stable bricks).
+    
+    Return _an array_ `result`_, where each_ `result[i]` _is the number of bricks that will **fall** after the_ `ith` _erasure is applied._
+    
+    **Note** that an erasure may refer to a location with no brick, and if it does, no bricks drop.
+    """"""","How to solve:
+Step 1. Initialize a variable `result` as an empty list.
+Step 2. Iterate through the `hits` array.
+    -Remove the brick at the location `hits[i]` from the `grid`.
+    -Initialize a variable `count` as 0.
+    -Iterate through each brick in the `grid`.
+        -If the brick is stable, increment `count` by 1.
+    -Append `count` to the `result` list.
+Step 3. Return the `result` list."
+"def read_data(concat):
+    """"""Extract as a list of words
+    """"""","How to solve:
+Step 1. Split the input string by spaces to get a list of words.
+Step 2. Return the list of words."
+"def multiply(inputs, **kwargs):
+    """"""Functional interface to the `Multiply` layer.
+    """"""","How to solve:
+Step 1. Define a function named ""multiply"" that takes two parameters: ""inputs"" and ""**kwargs"".
+Step 2. The function should have a docstring that describes it as a functional interface to the ""Multiply"" layer.
+Step 3. No further implementation details are provided."
+"def moddiv_list(nums1,nums2):
+  """"""
+  Write a function to find modulo division of two lists using map and lambda function.
+  """"""","How to solve:
+Step 1. Use the map function to apply a lambda function to each pair of elements from nums1 and nums2.
+Step 2. The lambda function should perform modulo division on the pair of elements.
+Step 3. Return the result as a list."
+"def max_min_power(stations, r, k):
+    """"""You are given a **0-indexed** integer array `stations` of length `n`, where `stations[i]` represents the number of power stations in the `ith` city.
+    
+    Each power station can provide power to every city in a fixed **range**. In other words, if the range is denoted by `r`, then a power station at city `i` can provide power to all cities `j` such that `|i - j| <= r` and `0 <= i, j <= n - 1`.
+    
+    *   Note that `|x|` denotes **absolute** value. For example, `|7 - 5| = 2` and `|3 - 10| = 7`.
+    
+    The **power** of a city is the total number of power stations it is being provided power from.
+    
+    The government has sanctioned building `k` more power stations, each of which can be built in any city, and have the same range as the pre-existing ones.
+    
+    Given the two integers `r` and `k`, return _the **maximum possible minimum power** of a city, if the additional power stations are built optimally._
+    
+    **Note** that you can build the `k` power stations in multiple cities.
+    """"""","How to solve:
+Step 1. Initialize the maximum possible minimum power as 0.
+Step 2. Iterate through each city in the stations array.
+    - Calculate the minimum power of the city by considering the power stations in its range.
+    - Update the maximum possible minimum power if the current minimum power is greater.
+Step 3. Return the maximum possible minimum power."
+"def min_divisible_value(n1, v1):
+    """"""make sure v1 is divisible by n1, otherwise decrease v1
+    """"""","How to solve:
+Step 1. Check if v1 is divisible by n1.
+    -If it is, return v1.
+    -If it is not, decrease v1 by 1 and repeat step 1.
+"
+"def temp_from_hex(value: str) -> Union[float, bool, None]:
+    """"""Convert a 2's complement 4-byte hex string to an float.
+    """"""","How to solve:
+Step 1. Convert the hex string to an integer using the int() function with base 16.
+Step 2. Check if the most significant bit is 1, indicating a negative number.
+    -If it is, convert the integer to its 2's complement representation by subtracting 2^32.
+Step 3. Convert the 2's complement integer to a float by dividing it by 2^16.
+Step 4. Return the float value."
+"def FiringRatePlot(name: str, directory: str, data: np.ndarray, filetype: str, enable_gap=False, window=250):
+    """"""Plot firing rate of spike data
+    """"""","How to solve:
+Step 1. Import necessary libraries (e.g. numpy, matplotlib).
+Step 2. Define a function FiringRatePlot that takes in the following parameters:
+    -name: a string representing the name of the plot
+    -directory: a string representing the directory where the plot will be saved
+    -data: a numpy array representing the spike data
+    -filetype: a string representing the file type of the saved plot
+    -enable_gap: a boolean indicating whether to enable a gap between spikes (default is False)
+    -window: an integer representing the window size for calculating firing rate (default is 250)
+Step 3. Calculate the firing rate of the spike data using the specified window size.
+Step 4. Plot the firing rate data.
+Step 5. Save the plot to the specified directory with the specified file type.
+Step 6. Return nothing."
+"def prime_list(n: int) -> list:
+    """"""Returns the list of prime numbers from 2 to n.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store prime numbers.
+Step 2. Iterate from 2 to n.
+    -For each number, check if it is prime.
+        -If it is prime, add it to the list.
+Step 3. Return the list of prime numbers."
+"def rnd_el_lst(lst, start=-1, end=-1):
+    """"""Function returns a random element from a list. Using both
+    normal and fisher-yates shuffle
+    """"""","How to solve:
+Step 1. Import the random module.
+Step 2. If start and end are not provided, set start to 0 and end to the length of the list.
+Step 3. If start is provided but end is not, set end to the length of the list.
+Step 4. If start and end are provided, set start to the maximum of 0 and start and end to the minimum of end and the length of the list.
+Step 5. If start is equal to end, return None.
+Step 6. If start is equal to -1, use the normal random.choice() function to return a random element from the list.
+Step 7. Otherwise, use the Fisher-Yates shuffle algorithm to shuffle the list and return the element at index start."
+"def removePrefix(s, prefix):
+    """"""If the string starts with prefix, return the string with the prefix removed.
+    Note: str.lstrip() should work, but gobbles up too many characters.
+    """"""","How to solve:
+Step 1. Check if the string starts with the prefix.
+Step 2. If it does, return the string with the prefix removed.
+Step 3. If it doesn't, return the original string."
+"def check_orthogonality(tensor, ind0, tol=1e-20):
+    """"""Check a tensor if it's orthogonal on one index or some indexes
+    """"""","How to solve:
+Step 1. Iterate through the given tensor.
+Step 2. For each index, calculate the dot product of the tensor with itself.
+Step 3. If the dot product is not equal to 0 within the given tolerance, return False.
+Step 4. If all dot products are equal to 0 within the given tolerance, return True."
+"def result(x,y):
+    """"""Package up the result of this function.
+    """"""","How to solve:
+Step 1. Package up the result of the function.
+Step 2. Return the packaged result."
+"def minVisibleWhiteTiles(floor: str, numCarpets: int, carpetLen: int) -> int:
+    """"""You are given a **0-indexed binary** string `floor`, which represents the colors of tiles on a floor:
+    
+    *   `floor[i] = '0'` denotes that the `ith` tile of the floor is colored **black**.
+    *   On the other hand, `floor[i] = '1'` denotes that the `ith` tile of the floor is colored **white**.
+    
+    You are also given `numCarpets` and `carpetLen`. You have `numCarpets` **black** carpets, each of length `carpetLen` tiles. Cover the tiles with the given carpets such that the number of **white** tiles still visible is **minimum**. Carpets may overlap one another.
+    
+    Return _the **minimum** number of white tiles still visible._
+    """"""","How to solve:
+Step 1. Initialize a variable `visibleWhiteTiles` as 0.
+Step 2. Iterate through the `floor` string.
+    -If the current tile is '1', increment `visibleWhiteTiles` by 1.
+Step 3. Calculate the total number of tiles on the floor using the length of the `floor` string.
+Step 4. Calculate the total number of tiles covered by the carpets using `numCarpets` and `carpetLen`.
+Step 5. Calculate the minimum number of white tiles still visible by subtracting the total covered tiles from the total tiles on the floor.
+Step 6. Return the minimum number of white tiles still visible."
+"def rectangle_perimeter(l,b):
+  """"""
+  Write a function to find the perimeter of a rectangle.
+  """"""","How to solve:
+Step 1. Calculate the perimeter of a rectangle using the formula: perimeter = 2 * (length + breadth).
+Step 2. Return the calculated perimeter."
+"def filter_strings(lst):
+    """""" Given a list of strings, return only strings which start with an uppercase letter and contain at least one lowercase letter.
+    If the input list is empty, return an empty list. If the input list contains any non-string elements or strings that do not meet the requirements, raise a ValueError.
+    """"""","How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the input list.
+    -If the element is not a string, raise a ValueError.
+    -If the element starts with an uppercase letter and contains at least one lowercase letter, append it to the ""result"" list.
+Step 3. Return the ""result"" list."
+"def to_graphviz(git_objects, refs):
+    """"""Return a string with graphviz representing the provided Git objects and
+    refs.
+    """"""","How to solve:
+Step 1. Create an empty string to store the graphviz representation.
+Step 2. Iterate through the git_objects.
+    -For each object, add a node to the graphviz string.
+Step 3. Iterate through the refs.
+    -For each ref, add an edge to the graphviz string connecting the ref to the corresponding object.
+Step 4. Return the graphviz string."
+"def flatten(inner_array):
+    """"""Flattens an array with inner arrays
+    """"""","How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Iterate through each element in the ""inner_array"".
+    -If the element is a list, iterate through each element in the inner list and append it to ""result"".
+    -If the element is not a list, append it to ""result"".
+Step 3. Return ""result""."
+"def sum_digits(number):
+    """"""Develop a Python script to sum up all the individual digits of a given number, while also counting the number of even digits and odd digits in the given number. Additionally, you should implement error handling to ensure that the input is a positive integer.
+    """"""","How to solve:
+Step 1. Initialize variables for sum, count of even digits, and count of odd digits.
+Step 2. Check if the input number is a positive integer. If not, raise an error.
+Step 3. Convert the number to a string.
+Step 4. Iterate through each character in the string.
+    -Convert the character back to an integer.
+    -Add the integer to the sum.
+    -Check if the integer is even or odd and update the respective count.
+Step 5. Return the sum, count of even digits, and count of odd digits."
+"def numberOfMatches(n: int) -> int:
+    """"""You are given an integer `n`, the number of teams in a tournament that has strange rules:
+    
+    *   If the current number of teams is **even**, each team gets paired with another team. A total of `n / 2` matches are played, and `n / 2` teams advance to the next round.
+    *   If the current number of teams is **odd**, one team randomly advances in the tournament, and the rest gets paired. A total of `(n - 1) / 2` matches are played, and `(n - 1) / 2 + 1` teams advance to the next round.
+    
+    Return _the number of matches played in the tournament until a winner is decided._
+    """"""","How to solve:
+Step 1. Initialize a variable `matches` as 0.
+Step 2. While `n` is greater than 1, do the following:
+    - If `n` is even, divide `n` by 2 and add the result to `matches`.
+    - If `n` is odd, subtract 1 from `n`, divide it by 2, add the result to `matches`, and add 1 to `n`.
+Step 3. Return `matches`."
+"def lower_ctr(str):
+      """"""
+      Write a python function to count lower case letters in a given string.
+      """"""","How to solve:
+Step 1. Initialize a counter variable to 0.
+Step 2. Iterate through each character in the string.
+    -If the character is a lowercase letter, increment the counter.
+Step 3. Return the counter value."
+"def conv_bn_relu(name, l, out_channel):
+    """"""A sequence of convolution, batch normalization and ReLU.
+    """"""","How to solve:
+Step 1. Perform a convolution operation on input tensor l with out_channel number of output channels.
+Step 2. Apply batch normalization to the output of the convolution operation.
+Step 3. Apply ReLU activation function to the output of the batch normalization operation.
+Step 4. Return the final output tensor."
+"def available_collapse_methods():
+    """"""Prints the available methods for collapsing the datacube.
+    """"""","How to solve:
+Step 1. Print the available methods for collapsing the datacube."
+"def sort_list(nums):
+    """""" Create a coding program that sorts a given list of numbers into ascending order. 
+    The program should also remove any duplicate numbers from the list before sorting it. 
+    Additionally, the program should not use any built-in sorting functions or libraries to sort the list. 
+    """"""","How to solve:
+Step 1. Remove duplicate numbers from the list.
+Step 2. Implement a sorting algorithm to sort the list in ascending order.
+Step 3. Return the sorted list."
+"def _env_to_list(val):
+    """"""Take a comma separated string and split it.
+    """"""","How to solve:
+Step 1. Split the input string using the comma as the delimiter.
+Step 2. Return the resulting list."
+"def np_int(index, int_type=np.int32):
+    """"""Helper function for testing indexing that converts slices to slices of ints or None, and tuples to
+    tuples of ints or None.
+    """"""","Implementation idea:
+Step 1. Define a function np_int that takes two parameters: index and int_type.
+Step 2. The default value for int_type is np.int32.
+Step 3. The function is used as a helper function for testing indexing.
+Step 4. The function converts slices in index to slices of ints or None, and tuples in index to tuples of ints or None."
+"def legal_date(year, month, day):
+    """"""Check if this is a legal date in the Gregorian calendar
+    """"""","How to solve:
+Step 1. Check if the year is a positive integer.
+Step 2. Check if the month is between 1 and 12.
+Step 3. Check if the day is between 1 and 31, depending on the month.
+Step 4. Return True if all conditions are met, otherwise return False."
+"def calc_angle_deg(group):
+    """"""calculates the angle of the orientation of the mouse in degrees
+    """"""","How to solve:
+Step 1. Calculate the angle of the orientation of the mouse in radians.
+Step 2. Convert the angle from radians to degrees.
+Step 3. Return the angle in degrees."
+"def bst_contains(node, value):
+    """"""Return whether tree rooted at node contains value.
+    Assume node is the root of a Binary Search Tree
+    
+    @param BinaryTree|None node: node of a Binary Search Tree
+    @param object value: value to search for
+    @rtype: bool
+    
+    
+    """"""","How to solve:
+Step 1. Check if the node is None. If it is, return False.
+Step 2. Check if the value of the node is equal to the target value. If it is, return True.
+Step 3. If the target value is less than the value of the node, recursively call the function on the left child of the node.
+Step 4. If the target value is greater than the value of the node, recursively call the function on the right child of the node.
+Step 5. If the target value is not found in the tree, return False."
+"def listN(indict,N=10,rand=False):
+    """"""Print first N items from a dictionary.  Can use 'rand=True' to
+    look at a random selection of dictionary elements.
+    """"""","How to solve:
+Step 1. Iterate through the dictionary.
+Step 2. Print the first N items from the dictionary.
+    -If rand=True, print a random selection of dictionary elements.
+Step 3."
+"def min_val(listval):
+     """"""
+     Write a function to find the minimum value in a given heterogeneous list.
+     """"""","How to solve:
+Step 1. Initialize min_val as the first element of the list.
+Step 2. Iterate through the list.
+    -If the current element is less than min_val, update min_val.
+Step 3. Return min_val."
+"def line(x1: int, y1: int, x2: int, y2: int, col: int) -> int:
+    """"""This function is exactly like pyxel's line function but returns the length of the drawn line
+    """"""","How to solve:
+Step 1. Calculate the length of the line using the distance formula: sqrt((x2 - x1)^2 + (y2 - y1)^2).
+Step 2. Draw the line using the given coordinates and color.
+Step 3. Return the length of the line."
+"def permutation(in_string):
+    """"""Find the permutation of string in lexographic order.
+    """"""","How to solve:
+Step 1. Convert the input string into a list of characters.
+Step 2. Sort the list of characters in lexicographic order.
+Step 3. Use a recursive function to generate all permutations of the sorted list.
+    - Base case: If the length of the list is 1, return the list.
+    - Recursive case: For each character in the list, remove it from the list and recursively generate permutations for the remaining characters. Append the removed character to each permutation and add it to the result list.
+Step 4. Return the result list of permutations."
+"def count_nums(text, position):
+    """"""Returns how many digits in a row in text, starting from pos.
+    """"""","How to solve:
+Step 1. Initialize a variable count as 0.
+Step 2. Iterate through the characters in the text starting from the given position.
+    -If the character is a digit, increment count by 1.
+    -If the character is not a digit, break the loop.
+Step 3. Return the value of count."
+"def alice_wins(piles):
+    """"""Alice and Bob take turns playing a game with **Alice starting first**.
+    
+    In this game, there are `n` piles of stones. On each player's turn, the player should remove any **positive** number of stones from a non-empty pile **of his or her choice**. The first player who cannot make a move loses, and the other player wins.
+    
+    Given an integer array `piles`, where `piles[i]` is the number of stones in the `ith` pile, return `true` _if Alice wins, or_ `false` _if Bob wins_.
+    
+    Both Alice and Bob play **optimally**.
+    """"""","How to solve:
+Step 1. Initialize a variable `alice_turn` as True to keep track of whose turn it is.
+Step 2. Iterate through the `piles` array.
+    - If `alice_turn` is True, Alice removes stones from a non-empty pile of her choice.
+    - If `alice_turn` is False, Bob removes stones from a non-empty pile of his choice.
+    - Update `alice_turn` to the opposite value.
+Step 3. If Alice's turn is True at the end, return True (Alice wins), otherwise return False (Bob wins)."
+"def make_bbox(feats, columns, rmax, cmax, pad):
+    """"""Make bounding boxes for labelled regions
+    Make a list of bounding box coordinates from
+    region properties list or np.array
+    
+    Parameters
+    
+    feats : np.array or list
+    List of RegionProperties or np.array with
+    bounding box coordinates
+    rmax : int
+    Maximum height of an image
+    cmax : int
+    Maximum width of an image
+    pad : int
+    Padding value for the bounding boxes
+    
+    Returns
+    
+    bbox : list
+    List of bounding box coordinates in
+    (xmin, xmax, ymin, ymax) tuples
+    """"""","How to solve:
+Step 1. Initialize an empty list called bbox.
+Step 2. Iterate through each element in feats.
+    -If feats is a np.array, extract the bounding box coordinates.
+    -If feats is a list of RegionProperties, extract the bounding box coordinates from each element.
+    -Add the bounding box coordinates to bbox.
+Step 3. Return bbox."
+"def mle(x):
+    """"""Normal distribution maximum likelihood parameter estimation.
+    Returns (mu, sigma).
+    """"""","How to solve:
+Step 1. Initialize mu and sigma as None.
+Step 2. Use maximum likelihood estimation to estimate the parameters mu and sigma of a normal distribution.
+Step 3. Return the estimated values of mu and sigma."
+"def second_highest_num(arr):
+    """""" Create a function in Python which takes a list and finds the second highest number in it. 
+    """"""","How to solve:
+Step 1. Initialize two variables, highest and second_highest, as negative infinity.
+Step 2. Iterate through the elements in the list.
+    -If an element is greater than highest, update highest and second_highest accordingly.
+    -If an element is less than highest but greater than second_highest, update second_highest.
+Step 3. Return second_highest."
+"def sum_of_numbers(n):
+    """""" You're given a positive integer n. Your task is to find the sum of all numbers from 1 to n.
+    """"""","How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate from 1 to n.
+    -Add each number to sum.
+Step 3. Return sum."
+"def is_table_name_invalid(table_name):
+    """"""Bucket names must be at least 3 and no more than 63 characters long.
+    Bucket names must not contain uppercase characters or underscores.
+    Bucket names must start with a lowercase letter or number.
+    """"""","How to solve:
+Step 1. Check if the length of table_name is less than 3 or greater than 63. If so, return True.
+Step 2. Check if table_name contains uppercase characters or underscores. If so, return True.
+Step 3. Check if table_name starts with a lowercase letter or number. If not, return True.
+Step 4. If none of the above conditions are met, return False."
+"def fifth_Power_Sum(n) :
+    """"""
+    Write a python function to find the sum of fifth power of n natural numbers.
+    """"""","How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through numbers from 1 to n.
+    -Add the fifth power of each number to sum.
+Step 3. Return the value of sum."
+"def group_user_check_linux(group, user):
+    """"""Checks if the given user is a member of the given group. It
+    will return 'False' if the group does not exist.
+    """"""","How to solve:
+Step 1. Check if the given group exists.
+    -If it does not exist, return False.
+Step 2. Check if the given user is a member of the group.
+    -If the user is a member, return True.
+    -If the user is not a member, return False."
+"def zero_one_loss(f_x,y_true):
+    """"""Compute the zero-one loss given the returned value from
+    a linear discrimination function on the feature x and its label y
+    """"""","How to solve:
+Step 1. Compare the returned value from the linear discrimination function with the true label.
+Step 2. If the values are equal, return 0.
+Step 3. If the values are not equal, return 1."
+"def left_Rotate(n,d):
+    """"""
+    Write a python function to left rotate the bits of a given number.
+    """"""","How to solve:
+Step 1. Convert the given number to binary representation.
+Step 2. Left rotate the bits by d positions.
+Step 3. Convert the rotated binary representation back to decimal.
+Step 4. Return the rotated number."
+"def tonFromType(t):
+    """"""Get the type of number from the originator's type.
+    """"""","How to solve:
+Step 1. Get the type of the input number.
+Step 2. Return the type of the number."
+"def map_fn(image, label):
+    """"""Produces multiple transformations of the same batch.
+    """"""","How to solve:
+Step 1. Apply multiple transformations to the image and label.
+Step 2. Return the transformed image and label."
+"def insertion(array, reverse = False):
+    """"""Performs insertion sort on the input array.
+    Args:
+    array (list/iterable)- The array that you want to sort
+    reverse (bool)- True to sort the array in decsending order, else False
+    Returns:
+    sortedArray (list/iterable)- The array after sorting
+    """"""","How to solve:
+Step 1. Iterate through the array starting from the second element.
+Step 2. For each element, compare it with the previous elements and insert it in the correct position.
+    -If reverse is True, compare in descending order.
+    -If reverse is False, compare in ascending order.
+Step 3. Return the sorted array."
+"def balanced_tags(tags):
+    """"""Come up with a balanced series of tags which express the semantics of
+    the given sorted interleaved ones.
+    
+    Return an iterable of (point, is_start, Region/Reg/Line) without any
+    (pointless) zero-width tag spans. The output isn't necessarily optimal, but
+    it's fast and not embarrassingly wasteful of space.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the balanced tags.
+Step 2. Iterate through the given tags.
+    - If the tag is a start tag, add it to the list with is_start set to True.
+    - If the tag is an end tag, add it to the list with is_start set to False.
+Step 3. Return the list of balanced tags."
+"def min_or(a, b, c, d, w):
+    """"""Lower bound of result of ORing 2-intervals.
+    """"""","How to solve:
+Step 1. Find the minimum value among a, b, c, and d.
+Step 2. Find the maximum value among a, b, c, and d.
+Step 3. Calculate the result of ORing the minimum and maximum values.
+Step 4. Return the result."
+"def sum_mean(vector):
+    """"""This function returns the mean and sum of the given vector.
+    Parameters
+    
+    vector : list
+    Can be in any form of that can be turned into numpy array.
+    
+    Return
+    
+    list
+    a list containing the meand and the cumulative sum
+    of the vector
+    """"""","How to solve:
+Step 1. Convert the vector into a numpy array.
+Step 2. Calculate the mean of the vector using numpy.mean() function.
+Step 3. Calculate the cumulative sum of the vector using numpy.cumsum() function.
+Step 4. Return a list containing the mean and cumulative sum."
+"def clean_text(text):
+    """"""Make text lowercase, remove text in square brackets,remove links,remove punctuation
+    and remove words containing numbers.
+    """"""","How to solve:
+Step 1. Convert text to lowercase.
+Step 2. Remove text in square brackets.
+Step 3. Remove links.
+Step 4. Remove punctuation.
+Step 5. Remove words containing numbers."
+"def media_is_eligible(cls, entry=None, state=None):
+    """"""Determine if this media type is eligible for processing
+    """"""","How to solve:
+Step 1. Check if entry and state are None.
+    -If both are None, return True.
+    -If either entry or state is not None, return False."
+"def _sanitize_gpu_ids(gpus: List[int]) -> List[int]:
+    """"""Checks that each of the GPUs in the list is actually available.
+    Raises a MisconfigurationException if any of the GPUs is not available.
+    """"""","How to solve:
+Step 1. Iterate through each GPU in the list.
+Step 2. Check if the GPU is available.
+    -If not available, raise a MisconfigurationException.
+Step 3. Return the list of available GPUs."
+"def sum_of_third_elements(lst):
+    """""" Create a function in Python that takes in a list of integers and returns a new list containing the sum of every third element starting from the second element. 
+    The function should implement a for loop that traverses the given list. Within the loop, keep track of the index position using an additional counter variable. Use the counter variable to check if the current index position is a multiple of 4 starting from 1 (index 0 should be excluded).
+    If the current index position is a multiple of 4, add the corresponding element to a running sum variable. Continue this process until the end of the list is reached.
+    After traversing the entire list, return the new list containing the sums of every third element starting from the second element.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the sums.
+Step 2. Initialize a counter variable to keep track of the index position.
+Step 3. Initialize a running sum variable to store the sum of every third element.
+Step 4. Iterate through the given list using a for loop.
+    - Check if the current index position is a multiple of 4 starting from 1.
+    - If it is, add the corresponding element to the running sum variable.
+    - If it is not, continue to the next iteration.
+Step 5. After traversing the entire list, append the running sum to the new list.
+Step 6. Return the new list containing the sums of every third element starting from the second element."
+"def multdigits(n):
+    """"""multiply the digits of the positive integer n together
+    """"""","How to solve:
+Step 1. Convert the positive integer n to a string.
+Step 2. Initialize a variable product as 1.
+Step 3. Iterate through each character in the string representation of n.
+    -Convert the character to an integer.
+    -Multiply the integer with the product.
+Step 4. Return the product."
+"def sort_descending(d: Dict) -> List[Tuple]:
+    """"""Sorts a dictionary by its keys in a descending order
+    """"""","How to solve:
+Step 1. Convert the dictionary into a list of tuples.
+Step 2. Sort the list of tuples in descending order based on the keys.
+Step 3. Return the sorted list of tuples."
+"def parseValue(value) :
+    """"""Convert values in priority list files to matching value if relevant
+    (boolean or float)
+    """"""","How to solve:
+Step 1. Check if the value is ""true"" or ""false"".
+    -If yes, convert it to a boolean value and return.
+Step 2. Check if the value can be converted to a float.
+    -If yes, convert it to a float and return.
+Step 3. If none of the above conditions are met, return the value as is."
+"def odd_Num_Sum(n) :
+    """"""
+    Write a python function to find the sum of fourth power of first n odd natural numbers.
+    """"""","How to solve:
+Step 1. Initialize a variable sum as 0.
+Step 2. Iterate through the first n odd natural numbers.
+    -For each number, calculate its fourth power and add it to sum.
+Step 3. Return the value of sum."
+"def reduce_possible_codes(possible_codes, guess, fb):
+    """"""Return a set with all elements from possible_codes that would receive
+    the same feedback as the actual feedback from guess, fb,
+    if guess was the secret code.
+    """"""","How to solve:
+Step 1. Create an empty set called ""result"".
+Step 2. Iterate through each code in ""possible_codes"".
+    -If the feedback of the code using the guess is equal to the actual feedback, add the code to the ""result"" set.
+Step 3. Return the ""result"" set."
+"def _delete_note_yesno(notes):
+    """"""Function asking user whether notes are to be deleted.
+    """"""","How to solve:
+Step 1. Ask the user whether they want to delete the notes.
+Step 2. Return the user's response."
+"def decode_inpt(inpt_str):
+    """"""Converts given chess piece string from form ""a1"" to integers row, col
+    """"""","How to solve:
+Step 1. Split the input string into two characters: the letter and the number.
+Step 2. Convert the letter to its corresponding column index by subtracting the ASCII value of 'a' and adding 1.
+Step 3. Convert the number to its corresponding row index by subtracting 1.
+Step 4. Return the row and column indices as integers."
+"def _prepare_index_for_memoryview(i, j, x=None):
+    """"""Convert index and data arrays to form suitable for passing to the
+    Cython fancy getset routines.
+    
+    The conversions are necessary since to (i) ensure the integer
+    index arrays are in one of the accepted types, and (ii) to ensure
+    the arrays are writable so that Cython memoryview support doesn't
+    choke on them.
+    
+    Parameters
+    
+    i, j
+    Index arrays
+    x : optional
+    Data arrays
+    
+    Returns
+    
+    i, j, x
+    Re-formatted arrays (x is omitted, if input was None)
+    """"""","How to solve:
+Step 1. Convert the index arrays to a suitable format for passing to the Cython fancy getset routines.
+Step 2. Ensure that the integer index arrays are in one of the accepted types.
+Step 3. Ensure that the arrays are writable so that Cython memoryview support doesn't choke on them.
+Step 4. If the data array is provided, convert it to a suitable format as well.
+Step 5. Return the re-formatted arrays."
+"from collections import deque
+    """"""Given an `n x n` `grid` containing only values `0` and `1`, where `0` represents water and `1` represents land, find a water cell such that its distance to the nearest land cell is maximized, and return the distance. If no land or water exists in the grid, return `-1`.
+    
+    The distance used in this problem is the Manhattan distance: the distance between two cells `(x0, y0)` and `(x1, y1)` is `|x0 - x1| + |y0 - y1|`.
+    """"""","How to solve:
+Step 1. Initialize a queue to store the coordinates of land cells.
+Step 2. Iterate through the grid and enqueue the coordinates of land cells.
+Step 3. Initialize a distance grid with all cells set to -1.
+Step 4. Iterate through the queue until it is empty.
+    - Dequeue a land cell from the queue.
+    - Iterate through the neighboring cells of the dequeued cell.
+        - If the neighboring cell is a water cell and its distance is -1, update its distance to the distance of the dequeued cell + 1 and enqueue the neighboring cell.
+Step 5. Iterate through the distance grid and find the maximum distance.
+Step 6. Return the maximum distance."
+"def wait_for_sentinel():
+    """"""Demonstrates the   wait_for_event   pattern, where the event
+    is inputting a SENTINEL value to signal the end of user input.
+    
+    This particular example inputs positive integers and processes them
+    by printing their square roots, and when input is finished,
+    printing the sum of those square roots.  User input stops when
+    the user inputs the agreed-upon SENTINEL value of -1.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the square roots.
+Step 2. Create a loop that continues until the user inputs the SENTINEL value of -1.
+    -Inside the loop, prompt the user for an integer input.
+    -If the input is not -1, calculate the square root of the input and append it to the list.
+Step 3. After the loop ends, calculate the sum of the square roots in the list.
+Step 4. Print the sum of the square roots."
+"def map_image_ids(image,remove_zero=True):
+    """"""Convert an image into a list of coordinates and the id (coded by pixel integer value)
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the coordinates and ids.
+Step 2. Iterate through each pixel in the image.
+    -Get the pixel value and coordinates.
+    -If remove_zero is True and the pixel value is 0, skip to the next pixel.
+    -Append the coordinates and pixel value to the list.
+Step 3. Return the list of coordinates and ids."
+"def data_to_html(data):
+    """"""Converts string JSON data into HTML nested list.
+    Function intended for templating usage (single data only)
+    """"""","How to solve:
+Step 1. Convert the string JSON data into a Python object.
+Step 2. Create an empty list to store the HTML nested list.
+Step 3. Iterate through the keys and values of the Python object.
+    - For each key-value pair, create a new list with the key as the first element and the value as the second element.
+    - Append the new list to the HTML nested list.
+Step 4. Return the HTML nested list."
+"def planets_between(planet1, planet2):
+    """""" You're given a dictionary mapping planet names to their order in the solar system. Your task is to find all the planets that are between planet1 and planet2 in the solar system and return them as a sorted tuple.
+    """"""","How to solve:
+Step 1. Initialize an empty list to store the planets between planet1 and planet2.
+Step 2. Iterate through the dictionary of planet names and their order.
+    -If the order of the current planet is between the order of planet1 and planet2, add the planet name to the list.
+Step 3. Sort the list of planets.
+Step 4. Return the sorted list as a tuple."
+"def compare_bibcode(ref_bibcode, ads_bibcode, ads_identifiers):
+    """"""compares bibcode built from reference string with the bibcode from solr,
+    reference bibcode can also be an identifier, so compare against identifier too
+    """"""","How to solve:
+Step 1. Compare the reference bibcode with the bibcode from solr.
+Step 2. If they are not equal, compare the reference bibcode with the identifier.
+Step 3. Return the result of the comparison."
+"def has_alternating_bits(n):
+    """"""Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
+    """"""","How to solve:
+Step 1. Convert the given integer to binary representation.
+Step 2. Iterate through the binary representation.
+    -Check if two adjacent bits have the same value.
+        -If yes, return False.
+Step 3. Return True."
+"def times(x, y):
+    """"""Do something a random amount of times
+    between x & y
+    """"""","How to solve:
+Step 1. Generate a random number between x and y.
+Step 2. Use a loop to repeat a certain action that random number of times."
+"def store_words(name, wl, words):
+    """"""Parameters
+    name : string
+    the name of the file in which store words
+    wl : int
+    word length in bits
+    words : list of int
+    list of integers to store in big endian
+    """"""","How to solve:
+Step 1. Open the file with the given name in write mode.
+Step 2. Iterate through the list of words.
+    - Convert each word to binary representation using the given word length.
+    - Write the binary representation to the file in big endian format.
+Step 3. Close the file."
+"def sum_of_unique_elements(list1, list2):
+    """"""Given two lists of integers, find the sum of all unique elements that are present in both lists.
+    """"""","How to solve:
+Step 1. Initialize an empty set to store unique elements.
+Step 2. Iterate through list1.
+    -If element is not in set, add it to the set.
+Step 3. Iterate through list2.
+    -If element is in set, add it to the sum.
+Step 4. Return the sum."
+"def get_larger_number(num1, num2):
+    """""" Write a function that returns the larger number from two numbers provided. However, the function should also handle cases where the two numbers are equal and return an appropriate message. Additionally, the function should handle cases where one or both of the numbers are negative and return the larger absolute value of the two numbers. If both numbers are negative, the function should return the negative number that is closer to zero. Finally, the function should handle cases where one or both of the numbers are floating-point numbers and return the larger floating-point number.
+    In addition to the above requirements, the function should also handle cases where one or both of the numbers are imaginary numbers and return the larger imaginary number. The function should be able to handle complex numbers as inputs.
+    """"""","How to solve:
+Step 1. Compare the two numbers using the "">"" operator.
+Step 2. If the numbers are equal, return an appropriate message.
+Step 3. If one or both numbers are negative, return the larger absolute value.
+Step 4. If both numbers are negative, return the negative number closer to zero.
+Step 5. If one or both numbers are floating-point numbers, return the larger floating-point number.
+Step 6. If one or both numbers are imaginary numbers, return the larger imaginary number.
+Step 7. Handle complex numbers as inputs."
+"def tolist(x) -> list:
+    """"""Convert a list-like object to a python list.
+    Converts a list-like object into a python list. This function requires no
+    additional packages to be installed, and checks each input using a string of
+    the type. This can be useful for reliably converting tensors to a format
+    supported by json or other logging libraries.
+    """"""","How to solve:
+Step 1. Check the type of the input object.
+Step 2. If the input object is already a list, return it.
+Step 3. If the input object is a tuple, convert it to a list and return it.
+Step 4. If the input object is a numpy array, convert it to a list and return it.
+Step 5. If the input object is a pandas Series or DataFrame, convert it to a list and return it.
+Step 6. If the input object is a torch tensor, convert it to a list and return it.
+Step 7. If the input object is a tensorflow tensor, convert it to a list and return it.
+Step 8. If the input object is a string, split it into a list and return it.
+Step 9. If none of the above conditions are met, raise an error."
+"def decimal_to_binary(decimal):
+    """""" Implement a function that converts a given decimal number into its binary representation using Python. 
+    The function should return a string representation of the binary number.
+    Constraints:
+    - The decimal number is a positive integer.
+    - The decimal number is less than or equal to 10^18.
+    """"""","How to solve:
+Step 1. Initialize an empty string to store the binary representation.
+Step 2. While the decimal number is greater than 0, do the following:
+    - Calculate the remainder of the decimal number divided by 2.
+    - Convert the remainder to a string and add it to the beginning of the binary representation string.
+    - Divide the decimal number by 2 and update its value.
+Step 3. Return the binary representation string."
+"def compute_hull(points: List[tuple]) -> List[Point]:
+    """"""Returns the convex hull of the set of points.
+    """"""","How to solve:
+Step 1. Sort the points in increasing order of their x-coordinates.
+Step 2. Initialize an empty stack.
+Step 3. Push the first two points onto the stack.
+Step 4. For each remaining point, do the following:
+    -While the angle formed by the last two points on the stack and the current point is not a left turn, pop the last point from the stack.
+    -Push the current point onto the stack.
+Step 5. Return the stack as the convex hull."
+"def _get_operator_nodes(nodes):
+    """"""Returns torch IR nodes that need conversion to Relay
+    """"""","How to solve:
+Step 1. Iterate through the nodes.
+Step 2. Check if each node needs conversion to Relay.
+Step 3. Return the nodes that need conversion."
+"def iterable( value, excludeStrings = False ):
+    """""": Determine if the value is iterable.
+    INPUT VARIABLE
+    value            The value to determine the iterability of.
+    excludeStrings   If set to True, then strings will fail this test.
+    
+    RETURN VALUE
+    Returns True if the value can be iterated over.
+    """"""","How to solve:
+Step 1. Check if excludeStrings is set to True.
+    -If True, check if the value is a string.
+        -If True, return False.
+Step 2. Check if the value is iterable.
+    -If True, return True.
+    -If False, return False."
+"def normalized_note(note):
+    """"""Return the normalized version of the input note to avoid dealing with
+    several representation of the same note
+    """"""","How to solve:
+Step 1. Return the input note."
+"def generate_password(stringLenght=8):
+    """"""method  that generate a random password for the user
+    """"""","How to solve:
+Step 1. Import the random module.
+Step 2. Define a function named generate_password that takes an optional parameter stringLength with a default value of 8.
+Step 3. Create a variable named password and set it as an empty string.
+Step 4. Create a variable named characters and set it as a string containing all possible characters for the password.
+Step 5. Use a for loop to iterate stringLength times.
+    -In each iteration, randomly select a character from the characters string and add it to the password string.
+Step 6. Return the generated password."
+"def check_digit(raw_code):
+    """"""Compute the check digit for an ISO 6346 code without that digit
+    """"""","How to solve:
+Step 1. Remove the last digit from the raw_code.
+Step 2. Initialize a variable called ""total"" as 0.
+Step 3. Iterate through each character in the raw_code.
+    -Convert the character to its ASCII value.
+    -Add the ASCII value to the total.
+Step 4. Take the remainder of total divided by 11.
+Step 5. If the remainder is 10, return ""0"". Otherwise, return the remainder as a string."
+"def sentence_similarity(sentence1, sentence2,  stop_words=None):
+    """"""Calculate the similarity of two sentences
+    """"""","How to solve:
+Step 1. Tokenize sentence1 and sentence2 into words.
+Step 2. Remove stop words from the tokenized words if stop_words is provided.
+Step 3. Calculate the similarity between the two sentences using a similarity metric (e.g. cosine similarity).
+Step 4. Return the similarity score."
+"def is_matched(string: str):
+    """"""Returns boolean whether inputted string contain matching angular brackets.
+    """"""","How to solve:
+Step 1. Initialize an empty stack.
+Step 2. Iterate through each character in the string.
+    -If the character is an opening angular bracket, push it onto the stack.
+    -If the character is a closing angular bracket, check if the stack is empty. If it is, return False.
+    -If the stack is not empty, pop the top element from the stack.
+Step 3. After iterating through all characters, check if the stack is empty. If it is, return True. Otherwise, return False."
+"def gen_hex2_grid_map(cell_width: int):
+    """"""generates grid map for hex board
+    """"""","How to solve:
+Step 1. Initialize an empty grid map.
+Step 2. Iterate through each cell in the grid.
+    - Generate the coordinates for each cell based on the cell width.
+    - Add the coordinates to the grid map.
+Step 3. Return the grid map."
+"def max_frame(array):
+    """"""Finds frame with largest mean value from 3d array. \n
+    Useful for automatically showing a frame of interest, as it should find the frame with the largest object.
+    
+    Parameters
+    
+    array : np.array
+    Array of image frames with 3 dimensions, where the third dimension is the frame number.
+    
+    Returns
+    
+    integer
+    The index of the frame with the largest mean value.
+    """"""","How to solve:
+Step 1. Initialize a variable max_mean as 0 and a variable max_frame_index as -1.
+Step 2. Iterate through each frame in the array.
+    -Calculate the mean value of the frame.
+    -If the mean value is greater than max_mean, update max_mean and max_frame_index.
+Step 3. Return max_frame_index."
+"def base36_to_int(string: str) -> int:
+    """"""Convert a base 36 string to an int. Raise ValueError if the input won't fit
+    into an int.
+    """"""","How to solve:
+Step 1. Initialize a variable to store the result.
+Step 2. Iterate through each character in the string.
+    -Convert the character to its corresponding integer value.
+    -Multiply the result by 36 and add the integer value.
+Step 3. If the result is larger than the maximum value of an int, raise a ValueError.
+Step 4. Return the result."
+"def cmp_le(a, b):
+    """"""Compare two values (less than or equal to)
+    """"""","How to solve:
+Step 1. Compare the values of a and b.
+Step 2. If a is less than or equal to b, return True. Otherwise, return False."
+"def t_norm(a, b, ntype):
+    """"""calculates t-norm for param a and b
+    """"""","How to solve:
+Step 1. Calculate the t-norm for parameters a and b based on the specified ntype.
+Step 2. Return the calculated t-norm value."
+"def last_item(array):
+    """"""Returns the last item of an array in a list or an empty list.
+    """"""","How to solve:
+Step 1. Check if the array is empty.
+    -If it is empty, return an empty list.
+Step 2. Return the last item of the array."
+"def wiggleSort(nums):
+    """"""Given an integer array `nums`, reorder it such that `nums[0] <= nums[1] >= nums[2] <= nums[3]...`.
+    
+    You may assume the input array always has a valid answer.
+    """"""","How to solve:
+Step 1. Sort the array in ascending order.
+Step 2. Iterate through the array starting from index 1.
+    -Swap the current element with the previous element if the index is odd and the current element is greater than the previous element.
+    -Swap the current element with the previous element if the index is even and the current element is smaller than the previous element.
+Step 3. Return the modified array."
+"def valid_scenario_id(c):
+    """"""An ArgParse Validator for Scenario ID Input by the User on CMD
+    The argparse library can accept a user created validation function for
+    custom data types. This function makes sure that the input is a capital
+    letter. If the letter is 'A' then the function double checks with a cmd
+    line prompt to double check that the user wants to over-ride the baseline.
+    Typically 'A' is reserved as the baseline identifier for running DSM2
+    scenarios from DWR OCO's Excel WorkSheet.
+    """"""","How to solve:
+Step 1. Define a function named valid_scenario_id that takes a parameter c.
+Step 2. Check if c is a capital letter.
+    -If not, return False.
+Step 3. Check if c is 'A'.
+    -If not, return True.
+    -If yes, prompt the user with a command line prompt to confirm if they want to override the baseline.
+        -If the user confirms, return True.
+        -If the user does not confirm, return False."
+"def contextOf(sentence, r, n):
+    """"""Returns r-radius context of n-th token of the sentence.
+    """"""","How to solve:
+Step 1. Split the sentence into tokens.
+Step 2. Get the n-th token from the list of tokens.
+Step 3. Get the context of the n-th token by taking the r tokens before and after it.
+Step 4. Return the context."
+"def get_Position(a,n,m):
+    """"""
+    Write a python function to find the position of the last removed element from the given array.
+    """"""","How to solve:
+Step 1. Initialize a variable ""position"" as -1.
+Step 2. Remove the last element from the array.
+Step 3. Set ""position"" as the index of the removed element.
+Step 4. Return ""position""."
+"def get_odd_numbers(lst):
+    """""" Write a program that takes in a list of integers and returns a new list containing only the odd numbers in the original list. 
+    The program should also sort the odd numbers in descending order before returning the new list. 
+    Additionally, the program should remove any duplicates from the resulting list and should handle cases where the input list is empty or contains only even numbers.
+    """"""","How to solve:
+Step 1. Initialize an empty list called ""result"".
+Step 2. Check if the input list is empty or contains only even numbers. If so, return an empty list.
+Step 3. Iterate through the input list.
+    -If the number is odd and not already in the result list, add it to the result list.
+Step 4. Sort the result list in descending order.
+Step 5. Return the result list."
+"def median(my_list):
+    """""" Suggest a modification to the following Python code to make it efficient, handle edge cases, and introduce error handling. 
+    """"""","How to solve:
+Step 1. Sort the input list.
+Step 2. Check if the list is empty. If it is, raise an exception or return a default value.
+Step 3. Check if the length of the list is odd or even.
+    -If it is odd, return the middle element.
+    -If it is even, return the average of the two middle elements."
+"def maxNumberOfCopies(s, target):
+    """"""You are given two **0-indexed** strings `s` and `target`. You can take some letters from `s` and rearrange them to form new strings.
+    
+    Return _the **maximum** number of copies of_ `target` _that can be formed by taking letters from_ `s` _and rearranging them._
+    """"""","How to solve:
+Step 1. Initialize a dictionary `s_count` to store the count of each letter in `s`.
+Step 2. Initialize a dictionary `target_count` to store the count of each letter in `target`.
+Step 3. Iterate through each letter in `s` and update the count in `s_count`.
+Step 4. Iterate through each letter in `target` and update the count in `target_count`.
+Step 5. Initialize a variable `max_copies` to store the maximum number of copies of `target`.
+Step 6. Iterate through each letter in `target_count` and calculate the maximum number of copies that can be formed using the counts in `s_count` and `target_count`.
+Step 7. Return `max_copies`."
+"def day_of_the_week(day, month, year):
+    """"""Given a date, return the corresponding day of the week for that date.
+    
+    The input is given as three integers representing the `day`, `month` and `year` respectively.
+    
+    Return the answer as one of the following values `{ ""Sunday "", ""Monday "", ""Tuesday "", ""Wednesday "", ""Thursday "", ""Friday "", ""Saturday ""}`.
+    """"""","How to solve:
+Step 1. Create a list of days of the week: [""Sunday"", ""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday"", ""Saturday""].
+Step 2. Create a list of month codes: [0, 3, 3, 6, 1, 4, 6, 2, 5, 0, 3, 5].
+Step 3. Calculate the century code: century_code = (year // 100) % 4.
+Step 4. Calculate the year code: year_code = (year % 100 + (year % 100) // 4) % 7.
+Step 5. Calculate the month code: month_code = month_codes[month - 1].
+Step 6. Calculate the day code: day_code = (day + month_code + year_code + century_code) % 7.
+Step 7. Return the corresponding day of the week using the day code."
+"def gauss(M, b, d=1e-14):
+    """"""Solves Mx = b and returns the augmented matrix M|b in reduced row
+    echelon form. M is list of lists, and b is a list.
+    """"""","How to solve:
+Step 1. Convert the augmented matrix M|b into reduced row echelon form.
+Step 2. Return the reduced row echelon form of the augmented matrix M|b."
+"def Level(G, n):
+    """"""Level relative to ancestral root[s] at level 0
+    """"""","How to solve:
+Step 1. Initialize a dictionary to store the level of each node.
+Step 2. Set the level of the root node(s) to 0.
+Step 3. Use a breadth-first search algorithm to traverse the graph.
+    - For each node visited, set its level to the level of its parent node plus 1.
+Step 4. Return the level of node n."
+"def many_cases(rand, new_case, *args):
+    """"""generates multiple cases that will be distributed to multiple files
+    """"""","How to solve:
+Step 1. Initialize the function with parameters rand, new_case, and *args.
+Step 2. Generate multiple cases based on the parameters.
+Step 3. Distribute the generated cases to multiple files."
+"def crop(cls, left, right, top, bottom, keep_size=False):
+    """"""The image augumentation sequence.
+    Crops based on a region of interest among other things.
+    left, right, top & bottom are the number of pixels to crop.
+    """"""","How to solve:
+Step 1. Initialize the image augmentation sequence.
+Step 2. Crop the image based on the specified region of interest.
+    -Crop the specified number of pixels from the left, right, top, and bottom of the image.
+Step 3. If keep_size is True, resize the cropped image to the original size.
+Step 4. Return the cropped image."
+"from sortedcontainers import SortedList
+    """"""You are given two integer arrays `nums1` and `nums2` both of the same length. The **advantage** of `nums1` with respect to `nums2` is the number of indices `i` for which `nums1[i] > nums2[i]`.
+    
+    Return _any permutation of_ `nums1` _that maximizes its **advantage** with respect to_ `nums2`.
+    """"""","How to solve:
+Step 1. Create a sorted list from nums1.
+Step 2. Iterate through nums2.
+    -If the current element in nums2 is less than the smallest element in the sorted list, remove the smallest element from the sorted list and append it to the result list.
+    -Otherwise, remove the largest element from the sorted list and append it to the result list.
+Step 3. Return the result list."

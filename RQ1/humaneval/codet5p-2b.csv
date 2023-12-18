@@ -1,0 +1,1309 @@
+":
+How to solve:
+Step 1. Initialize list of numbers.
+Step 2. Iterate through list of numbers.
+    -If two numbers are closer to each other than given threshold, return True.
+    -Else, return False.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize empty list.
+Step 2. Iterate through string.
+    -If current character is an open brace, append to list.
+    -If current character is a closing brace, pop from list.
+    -If list is empty, return list.
+Step 3. Return list."
+":
+How to solve:
+Step 1. Initialize integer part as 0.
+Step 2. Iterate through number.
+    -If number is not a float, return False.
+    -If number is a float, return truncate_number(number).
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a list of zeros.
+Step 2. Iterate through input list.
+    -If current element is not a delimeter, append it to the output list.
+    -If current element is a delimeter, insert it to the output list.
+Step 3. Return output list."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize empty list.
+Step 2. Iterate through strings.
+    -If substring is in string, append string to list.
+Step 3. Return list."
+":
+How to solve:
+Step 1. Initialize sum and product as 0 and 1 respectively.
+Step 2. Iterate through numbers.
+    -add value to sum.
+    -multiply value to product.
+Step 3. Return sum and product."
+":
+How to solve:
+Step 1. Initialize rolling maximum list as empty list.
+Step 2. Iterate through numbers.
+    -If current element is greater than previous element, append it to rolling maximum list.
+    -Else, append previous element to rolling maximum list.
+Step 3. Return rolling maximum list."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize result as empty string.
+Step 2. Iterate through both strings.
+    -If both characters are equal, then XOR result with 0.
+    -Else, XOR result with 1.
+Step 3. Return result as a string."
+":
+How to solve:
+Step 1. Initialize longest string as empty string.
+Step 2. Iterate through strings.
+    -If the length of string is greater than the current longest string, update longest string.
+Step 3. Return longest string."
+":
+How to solve:
+Step 1. Initialize a and b as integers.
+Step 2. Iterate through operations.
+    -If a is greater than b, return a.
+    -If b is greater than a, return b.
+    -If a and b are equal, return a.
+Step 3. Return a."
+":
+How to solve:
+Step 1. Initialize list of prefixes as empty list.
+Step 2. Iterate through string.
+    -If character is a letter, append it to prefixes list.
+    -If character is a number, append it to prefixes list.
+Step 3. Return list of prefixes."
+":
+How to solve:
+Step 1. Initialize a string.
+Step 2. Iterate through numbers from 0 to n inclusive.
+    -add value to string.
+    -If string length is greater than 0, return string.
+Step 3. Return empty string."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If character is lowercase, increment count.
+    -If character is uppercase, increment count.
+Step 3. Return count."
+":
+How to solve:
+Step 1. Initialize list of integers corresponding to how many beats does each note lasts.
+Step 2. Iterate through music string.
+    -If the current character is 'o', append 1 to the list.
+    -If the current character is 'o|', append 2 to the list.
+    -If the current character is '.', append 1 to the list.
+Step 3. Return list of integers corresponding to how many beats does each note lasts."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If substring is found, increment count.
+Step 3. Return count."
+":
+How to solve:
+Step 1. Initialize a list of numbers.
+Step 2. Iterate through the string.
+    -If the character is a digit, append it to the list.
+    -If the character is not a digit, return False.
+Step 3. Sort the list.
+    -Sort the list in ascending order.
+    -Return the string with numbers sorted from smallest to largest."
+":
+How to solve:
+Step 1. Initialize two variables.
+    -smallest_number and largest_number.
+Step 2. Iterate through numbers.
+    -If the current number is smaller than smallest_number, update smallest_number.
+    -If the current number is larger than largest_number, update largest_number.
+Step 3. Return smallest_number and largest_number."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize empty list.
+Step 2. Iterate through values.
+    -If value is an integer, append to list.
+Step 3. Return list."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize list of prime factors.
+Step 2. Iterate through list of prime factors.
+    -If number is prime, add it to list.
+    -If number is not prime, check if it is a factor of the number.
+        -If it is a factor, add it to list.
+        -If it is not a factor, return False.
+Step 3. Return list of prime factors."
+":
+How to solve:
+Step 1. Initialize a set of numbers.
+Step 2. Iterate through numbers.
+    -If number is already in set, remove it.
+    -If number is not in set, add it to set.
+Step 3. Return set."
+":
+How to solve:
+Step 1. Initialize a variable to hold the original string.
+Step 2. Iterate through the original string.
+    -If the character is lowercase, make it uppercase.
+    -If the character is uppercase, make it lowercase.
+Step 3. Return the original string."
+":
+How to solve:
+Step 1. Initialize result as an empty string.
+Step 2. Iterate through strings.
+    -Concatenate strings into result.
+Step 3. Return result."
+":
+How to solve:
+Step 1. Initialize an empty list.
+Step 2. Iterate through strings.
+    -If the string starts with the prefix, append it to the list.
+Step 3. Return the list."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 3. Return True."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a list l' that will contain the values of l, but not divisible by three.
+Step 2. Iterate through l.
+    -If the index is divisible by three, add the value of the corresponding indicies of l to l'.
+    -Otherwise, add the value of the corresponding indicies of l to l'.
+Step 3. Return l'."
+":
+How to solve:
+Step 1. Initialize a set.
+Step 2. Iterate through list.
+    -add value to set.
+    -If value already exists, return False.
+Step 3. Return True."
+":
+How to solve:
+Step 1. Initialize max_element as -1.
+Step 2. Iterate through l.
+    -If current element is greater than max_element, update max_element.
+    -Return max_element."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through integers less than n.
+    -If integer is divisible by 7, increment count.
+    -If integer is divisible by 11, increment count.
+    -If integer is divisible by 13, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer is divisible by both, increment count.
+    -If integer"
+":
+How to solve:
+Step 1. Initialize a new list l' with the same elements as l.
+Step 2. Iterate through l.
+    -If the current element is even, append it to l'.
+    -Else, append it to l'.
+Step 3. Return l'."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a list of prime numbers.
+Step 2. Iterate through list of prime numbers.
+    -If number is divisible by any of the prime numbers, return False.
+    -If number is prime, append it to the list.
+Step 3. Return True."
+":
+How to solve:
+Step 1. Initialize a set of numbers that have been seen.
+Step 2. Iterate through the list.
+    -add value to set.
+    -if value in set, return True.
+    -if value not in set, return False.
+Step 3. Return True."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through operations.
+    -If car_race_collision(operations[i]) returns True, increment count.
+Step 3. Return count."
+":
+How to solve:
+Step 1. Initialize list as 0.
+Step 2. Iterate through list.
+    -increment value by 1.
+Step 3. Return list."
+":
+How to solve:
+Step 1. Initialize a variable to store the sum of the list.
+Step 2. Iterate through the list.
+    -If the current element is not zero, add it to the sum.
+    -If the current element is zero, check if the sum is zero.
+    -If the sum is zero, return True.
+    -If the sum is not zero, return False.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize base as 10.
+Step 2. Iterate through x.
+    -Convert x to string.
+    -Convert string to int.
+    -Convert int to base.
+    -Convert base to string.
+Step 3. Return string representation after the conversion."
+":
+How to solve:
+Step 1. Initialize area as 0.
+Step 2. Iterate through a, h.
+    -If a < 0, return False.
+    -If h < 0, return False.
+    -If a + h > 0, return False.
+    -If a + h == 0, return True.
+Step 3. Return area."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Sort the list.
+Step 2. Iterate through list.
+    -If the current element is even, then add it to the even list.
+    -If the current element is odd, then add it to the odd list.
+    -If the current element is even, then add it to the even list.
+    -If the current element is odd, then add it to the odd list.
+    -If the current element is even, then add it to the even list.
+    -If the current element is odd, then add it to the odd list.
+    -If the current element is even, then add it to the even list.
+    -If the current element is odd, then add it to the odd list.
+    -If the current element is even, then add it to the even list.
+    -If the current element is odd, then add it to the odd list.
+    -If the current element is even, then add it to the even list.
+    -If the current element is odd, then add it to the odd list.
+    -If the current element is even, then add it to the even list."
+":
+How to solve:
+Step 1. Initialize a variable to store the length of the string.
+Step 2. Iterate through the string.
+    -If the current character is a space, skip it.
+    -If the current character is not a space, check if the current character is equal to the last character.
+        -If it is, then increment the count of the number of palindromes.
+Step 3. Return the count of the number of palindromes."
+":
+How to solve:
+Step 1. Initialize modulo p as 1.
+Step 2. Iterate through operations.
+    -modulo p by 2^n.
+    -If modulo p is 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize empty string.
+Step 2. Iterate through string.
+    -If character is vowel, remove it.
+    -If character is not vowel, add it to the empty string.
+Step 3. Return string."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize x and y as 0.
+Step 2. Iterate through operations.
+    -add value to x.
+    -If x < 0, return True.
+    -If y < 0, return True.
+    -If x + y < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize two strings.
+Step 2. Iterate through both strings.
+    -If the characters are the same, return True.
+    -If the characters are not the same, return False.
+Step 3. Return True."
+":
+How to solve:
+Step 1. Initialize a list of fibonacci numbers.
+Step 2. Iterate through list of fibonacci numbers.
+    -add value to list.
+    -If list index is greater than the length of the list, return the last value.
+Step 3. Return the last value."
+":
+How to solve:
+Step 1. Iterate through the string.
+    -If the current character is ""<"", add it to the stack.
+    -If the current character is "">"", pop the top character from the stack.
+    -If the top of the stack is ""<"" and the current character is "">"", return False.
+    -If the top of the stack is ""<"" and the current character is ""<"", return False.
+    -If the top of the stack is ""<"" and the current character is "">"", return False.
+    -If the top of the stack is ""<"" and the current character is ""<"", return False.
+    -If the top of the stack is ""<"" and the current character is ""<"", return False.
+    -If the top of the stack is ""<"" and the current character is ""<"", return False.
+    -If the top of the stack is ""<"" and the current character is ""<"", return False.
+    -If the top of the stack is ""<"" and the current character is ""<"", return False.
+    -If the top of the stack is ""<"" and the current character is ""<"", return False.
+    -If the top"
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize common_elements as empty list.
+Step 2. Iterate through l1 and l2.
+    -If element in l1 and l2 are same, add to common_elements.
+    -Else, return False.
+Step 3. Return common_elements."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through n.
+    -add value to sum.
+    -If sum > n, return False.
+    -If sum == n, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a stack.
+Step 2. Iterate through the string.
+    -If the character is an opening bracket, push it onto the stack.
+    -If the character is a closing bracket, pop the top element from the stack.
+    -If the stack is empty, return False.
+    -If the top element of the stack is not the same as the character, return False.
+Step 3. Return True."
+":
+How to solve:
+Step 1. Initialize derivative of xs as 0.
+Step 2. Iterate through xs.
+    -If xs[i] is a constant, then derivative of xs[i] is 1.
+    -If xs[i] is a variable, then derivative of xs[i] is xs[i+1].
+Step 3. Return derivative of xs."
+":
+How to solve:
+Step 1. Initialize fibfib number sequence as 0, 1, 1.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize vowels_count as 0.
+Step 2. Iterate through string.
+    -If the character is a vowel, add 1 to vowels_count.
+    -If the character is not a vowel, continue.
+Step 3. Return vowels_count."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize the variable to 0.
+Step 2. Iterate through the string.
+    -If the character is 'a' or 'o' then add 1 to the variable.
+Step 3. Return the variable."
+":
+How to solve:
+Step 1. Initialize an empty list.
+Step 2. Iterate through array.
+    -If node is even, append to list.
+Step 3. Return list."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize list as empty.
+Step 2. Iterate through list.
+    -If current value is greater than previous value,
+    then swap the values.
+    -If current value is less than previous value,
+    then append the current value to the list.
+Step 3. Return list."
+":
+How to solve:
+Step 1. Initialize variables for a, b, c.
+Step 2. Iterate through operations.
+    -If a + b > c, return False.
+    -If a + c > b, return False.
+    -If b + c > a, return False.
+    -If a + b + c > 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize balance as 0.
+Step 2. Iterate through operations.
+    -add value to balance.
+    -If balance < 0, return False.
+Step 3. Return True."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through arr.
+    -If the element is not equal to its reverse, increment count.
+Step 3. Return count."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a list of prime numbers.
+Step 2. Iterate through a list of numbers.
+    -If number is divisible by 3, add it to the list.
+    -If number is divisible by 5, add it to the list.
+    -If number is divisible by 7, add it to the list.
+Step 3. Return True if the list contains at least one prime number, else return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a variable to store the cube of some integer number.
+Step 2. Iterate through a list of integers.
+    -If the integer is a cube of some integer number, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 3. Return True."
+":
+How to solve:
+Step 1. Initialize list of letter grades as empty list.
+Step 2. Iterate through grades list.
+    -If GPA is greater than 3.7, append 'A+' to letter grades list.
+    -If GPA is greater than 3.3, append 'A' to letter grades list.
+    -If GPA is greater than 3.0, append 'A-' to letter grades list.
+    -If GPA is greater than 2.7, append 'B+' to letter grades list.
+    -If GPA is greater than 2.3, append 'B' to letter grades list.
+    -If GPA is greater than 2.0, append 'B-' to letter grades list.
+    -If GPA is greater than 1.7, append 'C+' to letter grades list.
+    -If GPA is greater than 1.3, append 'C' to letter grades list.
+    -If GPA is greater than 1.0, append 'C-' to letter grades list.
+    -If GPA is greater than 0.7, append 'D+' to letter grades list.
+    -If GPA is greater than 0.3, append"
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through n-digit positive integers.
+    -If the integer is a multiple of 10, increment count.
+    -If the integer is a multiple of 100, increment count.
+    -If the integer is a multiple of 1000, increment count.
+    -If the integer is a multiple of 10000, increment count.
+    -If the integer is a multiple of 100000, increment count.
+    -If the integer is a multiple of 1000000, increment count.
+    -If the integer is a multiple of 10000000, increment count.
+    -If the integer is a multiple of 100000000, increment count.
+    -If the integer is a multiple of 1000000000, increment count.
+    -If the integer is a multiple of 10000000000, increment count.
+    -If the integer is a multiple of 100000000000, increment count.
+    -If the integer is a multiple of 1000000000000, increment count.
+    -If the integer is a multiple of 10000000000000, increment count.
+    -If the integer is a multiple of 100000000000000, increment count.
+    -If"
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through N.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a list of words.
+Step 2. Iterate through the string.
+    -If the character is a letter, append it to the list.
+    -If the character is a space, append a new word to the list.
+Step 3. Iterate through the list.
+    -If the word is not in the list, append it to the list.
+    -If the word is in the list, replace the word with a new word where all the characters arranged in
+    ascending order based on ascii value.
+Step 4. Return the list."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a new array.
+Step 2. Iterate through the given array.
+    -If the sum( first index value, last index value) is odd, append the value to the new array.
+    -If the sum( first index value, last index value) is even, append the value to the new array in descending order.
+Step 3. Return the new array."
+":
+How to solve:
+Step 1. Initialize a variable to store the encrypted string.
+Step 2. Iterate through the string.
+    -If the character is a letter, add it to the encrypted string.
+    -If the character is a number, add it to the encrypted string.
+Step 3. Return the encrypted string."
+":
+How to solve:
+Step 1. Initialize a variable to store the 2nd smallest element.
+Step 2. Iterate through the list.
+    -If the current element is smaller than the 2nd smallest element, store it in the variable.
+    -If the current element is greater than the 2nd smallest element, return None.
+Step 3. Return the 2nd smallest element."
+":
+How to solve:
+Step 1. Initialize a counter.
+Step 2. Iterate through S.
+    -If the first character is 'I', increment the counter.
+    -If the first character is not 'I', return False.
+Step 3. Return the counter."
+":
+How to solve:
+Step 1. Create a function that takes 3 numbers.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize message as an empty string.
+Step 2. Iterate through message.
+    -If character is a letter, add it to the message.
+    -If character is a vowel, add it to the message.
+    -If character is not a letter, add it to the message.
+Step 3. Return message."
+":
+How to solve:
+Step 1. Initialize largest_prime_value as 0.
+Step 2. Iterate through list.
+    -If the number is prime, add the digits of the number to largest_prime_value.
+    -Else, return the sum of the digits of the number.
+Step 3. Return largest_prime_value."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through numbers from 1 to n.
+    -If number is prime, increment count.
+Step 3. Return count."
+":
+How to solve:
+Step 1. Initialize product as 1.
+Step 2. Iterate through a and b.
+    -If a is a digit, multiply it by product.
+    -If b is a digit, multiply it by product.
+    -If a or b is 0, return product.
+Step 3. Return product."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through s.
+    -If character is uppercase, increment count.
+    -If character is lowercase, increment count.
+    -If character is not uppercase, increment count.
+Step 3. Return count."
+":
+How to solve:
+Step 1. Convert value to integer.
+Step 2. If value is an integer, return it.
+Step 3. If value is not an integer, return the closest integer to it."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Split the string into words.
+Step 2. Return the words."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a list of all even digits.
+Step 2. Iterate through x.
+    -If the element is even, add it to the list.
+    -If the element is odd, return False.
+Step 3. Return the sorted list."
+":
+How to solve:
+Step 1. Initialize an empty array.
+Step 2. Iterate through the array.
+    -If the number is between 1 and 9, add it to the array.
+Step 3. Sort the array.
+Step 4. Reverse the array.
+Step 5. Iterate through the array.
+    -If the number is between 1 and 9, replace each digit by its corresponding name from
+    ""One"", ""Two"", ""Three"", ""Four"", ""Five"", ""Six"", ""Seven"", ""Eight"", ""Nine"".
+Step 6. Return the array."
+":
+How to solve:
+Step 1. Initialize list of size n.
+Step 2. Iterate through list.
+    -If i is even, multiply the value of the element at index i with the factorial of i.
+    -Else, add the value of the element at index i to the sum of numbers from 1 to i.
+Step 3. Return list."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through range(1, n+1).
+    -If n is even, increment count by 2.
+    -If n is odd, increment count by 1.
+Step 3. Return count."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through array.
+    -If the number is negative, then its first signed digit will be negative:
+    e.g. -123 has signed digits -1, 2, and 3.
+    -If the number is positive, then its first signed digit will be positive:
+    e.g. 123 has signed digits 1, 2, and 3.
+    -If the number is zero, then its first signed digit will be zero:
+    e.g. 0 has signed digits 0, 0, and 0.
+    -If the number is positive, then its first signed digit will be positive:
+    e.g. 123 has signed digits 1, 2, and 3.
+    -If the number is negative, then its first signed digit will be negative:
+    e.g. -123 has signed digits -1, 2, and 3.
+    -If the number is zero, then its first signed digit will be zero:
+    e.g. 0 has signed digits 0, 0, and 0.
+    -If the number is negative, then its first signed digit will be negative:"
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize lst1 and lst2 as empty lists.
+Step 2. Iterate through lst1 and lst2.
+    -If the element is even, append it to lst1.
+    -If the element is odd, append it to lst2.
+    -If the element is even, append it to lst1.
+    -If the element is odd, append it to lst2.
+    -If the element is even, append it to lst1.
+    -If the element is odd, append it to lst2.
+    -If the element is even, append it to lst1.
+    -If the element is odd, append it to lst2.
+    -If the element is even, append it to lst1.
+    -If the element is odd, append it to lst2.
+    -If the element is even, append it to lst1.
+    -If the element is odd, append it to lst2.
+    -If the element is even, append it to lst1.
+    -If the element is odd, append it"
+":
+How to solve:
+Step 1. Initialize a dictionary.
+Step 2. Iterate through the string.
+    -If the letter is already in the dictionary, increment the count.
+    -If the letter is not in the dictionary, add it to the dictionary with a count of 1.
+Step 3. Return the dictionary."
+":
+How to solve:
+Step 1. Initialize result string and check variable.
+Step 2. Iterate through s.
+    -If character in s is equal to c, delete it.
+    -If character in s is not equal to c, return False.
+Step 3. Return result string and check variable."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize min_sum as 0.
+Step 2. Iterate through nums.
+    -If sum of current sub-array is less than min_sum, update min_sum.
+    -If sum of current sub-array is greater than min_sum, return min_sum.
+Step 3. Return min_sum."
+":
+How to solve:
+Step 1. Initialize the number of times you need to lower the buckets as 0.
+Step 2. Iterate through the grid.
+    -If the current cell is 1, then you can extract water from it.
+    -If the current cell is 0, then you can't extract water from it.
+    -If the current cell is -1, then you can't extract water from it.
+    -If the current cell is -2, then you can't extract water from it.
+    -If the current cell is -3, then you can't extract water from it.
+    -If the current cell is -4, then you can't extract water from it.
+    -If the current cell is -5, then you can't extract water from it.
+    -If the current cell is -6, then you can't extract water from it.
+    -If the current cell is -7, then you can't extract water from it.
+    -If the current cell is -8, then you can't extract water from it.
+    -If the current cell is -9, then you can't extract water from it.
+    -If the"
+":
+How to solve:
+Step 1. Initialize array as empty.
+Step 2. Iterate through array.
+    -If the number of ones in the binary representation is odd, append it to the array.
+    -If the number of ones in the binary representation is even, append the decimal value.
+Step 3. Return the sorted array."
+":
+How to solve:
+Step 1. Initialize a list of words.
+Step 2. Iterate through string s.
+    -If the string s[i] is a letter, then append s[i] to the list.
+    -If the string s[i] is a space, then append s[i] to the list.
+    -If the string s[i] is a letter, then append s[i] to the list.
+    -If the string s[i] is a space, then append s[i] to the list.
+    -If the string s[i] is a letter, then append s[i] to the list.
+    -If the string s[i] is a space, then append s[i] to the list.
+    -If the string s[i] is a letter, then append s[i] to the list.
+    -If the string s[i] is a space, then append s[i] to the list.
+    -If the string s[i] is a letter, then append s[i] to the list.
+    -If the string s[i] is a space,"
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a list of parentheses.
+Step 2. Iterate through operations.
+    -If the string is empty, return 'Yes'.
+    -If the string is not empty, check if the string is balanced.
+        -If the string is balanced, check if the string is good.
+        -If the string is not balanced, check if the string is balanced.
+            -If the string is balanced, check if the string is good.
+            -If the string is not balanced, check if the string is balanced.
+                -If the string is balanced, check if the string is good.
+                -If the string is not balanced, check if the string is balanced.
+                    -If the string is balanced, check if the string is good.
+                    -If the string is not balanced, check if the string is balanced.
+                        -If the string is balanced, check if the string is good.
+                        -If the string is not balanced, check if the string is balanced.
+                            -If the string is balanced, check if the string is good.
+                            -If the string is not balanced, check if the string is balanced.
+                                -"
+":
+How to solve:
+Step 1. Initialize maximum_list as empty list.
+Step 2. Iterate through arr.
+    -If the current element is greater than maximum_list[-1], append it to the end of the list.
+    -Else, append it to the beginning of the list.
+Step 3. Return maximum_list."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through arr.
+    -If the current element is less than 10, add it to sum.
+    -Else if the current element is less than 100, add it to sum.
+    -Else, add it to sum.
+Step 3. Return sum."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a counter to 0.
+Step 2. Iterate through list.
+    -If current value is greater than previous value, return False.
+    -If current value is less than previous value, increment counter.
+    -If counter is greater than 1, return False.
+Step 3. Return True."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return ""NO"".
+Step 3. Return ""YES""."
+":
+How to solve:
+Step 1. Initialize product as 0.
+Step 2. Iterate through arr.
+    -If number is positive, multiply product by 1.
+    -If number is negative, multiply product by -1.
+    -If number is 0, multiply product by 0.
+Step 3. Return product."
+"#### Output:
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a list of numbers.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through list.
+    -add value to sum.
+    -If value < 0, return False.
+    -Else, return True.
+Step 3. Return sum."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize the largest_index as -1.
+Step 2. Iterate through the array.
+    -If the current element is greater than or equal to the element immediately
+    preceding it, then update the largest_index.
+    -If the current element is less than the element immediately preceding it,
+    then return the largest_index.
+Step 3. Return the largest_index."
+":
+How to solve:
+Step 1. Create a function that returns a tuple (a, b), where 'a' is
+the largest of negative integers, and 'b' is the smallest
+of positive integers in a list.
+Step 2. If there is no negative or positive integers, return them as None.
+Step 3. Return a tuple (a, b)."
+":
+How to solve:
+Step 1. Initialize a variable of type float, or int.
+Step 2. Iterate through operations.
+    -If a real number is represented as a string, the floating point might be. or,
+    -If a real number is represented as a string, the floating point might be. or,
+    -If a real number is represented as a string, the floating point might be. or,
+    -If a real number is represented as a string, the floating point might be. or,
+    -If a real number is represented as a string, the floating point might be. or,
+    -If a real number is represented as a string, the floating point might be. or,
+    -If a real number is represented as a string, the floating point might be. or,
+    -If a real number is represented as a string, the floating point might be. or,
+    -If a real number is represented as a string, the floating point might be. or,
+    -If a real number is represented as a string, the floating point might be. or,
+    -If a real number is represented as a string, the floating point might"
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+    -If account balance == 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Iterate through text.
+    -If the character is a space, replace it with an underscore.
+    -If the character is not a space, continue.
+Step 2. Iterate through text.
+    -If the character is a space, replace it with an underscore.
+    -If the character is not a space, continue.
+Step 3. Iterate through text.
+    -If the character is a space, replace it with an underscore.
+    -If the character is not a space, continue.
+Step 4. Iterate through text.
+    -If the character is a space, replace it with an underscore.
+    -If the character is not a space, continue.
+Step 5. Iterate through text.
+    -If the character is a space, replace it with an underscore.
+    -If the character is not a space, continue.
+Step 6. Iterate through text.
+    -If the character is a space, replace it with an underscore.
+    -If the character is not a space, continue.
+Step 7. Iterate through text.
+    -If the character is a space, replace it with an"
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through list.
+    -If index is a multiple of 3, square the integer entry if its index is a multiple of 3.
+    -If index is a multiple of 4, cube the integer entry if its index is a multiple of 4.
+    -If index is not a multiple of 3 or 4, do nothing.
+    -Add the integer entry to sum.
+Step 3. Return sum."
+":
+How to solve:
+Step 1. Initialize list of prime numbers.
+Step 2. Iterate through sentence.
+    -If word is a prime number, add it to the list.
+Step 3. Iterate through the list and return the new sentence."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a list of integers.
+Step 2. Iterate through list of integers.
+    -If the integer is negative, return False.
+    -If the integer is positive, add the integer to the list.
+Step 3. Return the list."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize planet1 and planet2 as strings.
+Step 2. Initialize planets as a list.
+Step 3. Iterate through planets.
+    -If planet1 or planet2 is not correct planet name, return an empty tuple.
+    -Else, add planet to planets list.
+Step 4. Sort planets list by proximity to sun.
+Step 5. Return planets."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize class name as the first element in the list.
+Step 2. Initialize list of extensions as the second element in the list.
+Step 3. Iterate through extensions.
+    -If the extension's name is the same as the class name, return the extension's name.
+    -If the extension's name is not the same as the class name, return the class name.
+    -If the extension's name is not the same as the class name, return the extension's name.
+    -If the extension's name is not the same as the class name, return the extension's name.
+    -If the extension's name is not the same as the class name, return the extension's name.
+    -If the extension's name is not the same as the class name, return the extension's name.
+    -If the extension's name is not the same as the class name, return the extension's name.
+    -If the extension's name is not the same as the class name, return the extension's name.
+    -If the extension's name is not the same as the class name, return the extension's name.
+    -If"
+":
+How to solve:
+Step 1. Initialize a variable to store the first word.
+Step 2. Initialize a variable to store the second word.
+Step 3. Iterate through the first word.
+    -If the first letter of the second word is equal to the first letter of the first word, then append the second word to the first word.
+    -Else, append the first word to the second word.
+Step 4. Return True if the second word is a substring of the first word, else return False."
+":
+How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through num.
+    -If the current digit is even, increment count.
+    -If the current digit is odd, decrement count.
+Step 3. Return count."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a variable to store the length of the three sides of a triangle.
+Step 2. Iterate through the lengths of the three sides of a triangle.
+    -If the length of the side is equal to the sum of the other two sides, return True.
+    -Otherwise, return False.
+Step 3. Return True."
+":
+How to solve:
+Step 1. Initialize max_unique_characters as 0.
+Step 2. Iterate through words.
+    -If the number of unique characters is greater than max_unique_characters,
+      update max_unique_characters.
+Step 3. Return the word with maximum number of unique characters."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize result as empty string.
+Step 2. Iterate through s.
+    -If the character is a letter, reverse its case from lower to upper or vise versa, 
+    otherwise keep it as it is.
+    -If the character is not a letter, reverse the string.
+Step 3. Append the result to result."
+":
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+":
+How to solve:
+Step 1. Initialize a list of even integers between a and b.
+Step 2. Iterate through list of even integers.
+    -If the integer is even, append it to the list.
+Step 3. Return the list."

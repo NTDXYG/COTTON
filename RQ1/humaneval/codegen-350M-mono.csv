@@ -1,0 +1,1095 @@
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def balance_check(operations: List[int]) -> bool:
+    """""" Given a list of operations, output whether the balance of the account is below zero.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def filter_by_substring(strings: List[str], substring: str) -> List[str]:
+    """""" Filter an input list of strings only for ones that contain given substring
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def make_palindrome(string: str) -> str:
+    """""" Find the shortest palindrome that begins with a supplied string.
+    Algorithm idea is simple:
+    - Find the longest postfix of supplied string that is a palindrome.
+    - Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+    """"""
+
+#"
+"def string_xor(a: str, b: str) -> str:
+    """""" Input are two strings a and b consisting only of 1s and 0s.
+    Perform binary XOR on these inputs and return result also as a string.
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return None.
+Step 3. Return the first one in case of multiple strings of the same length.
+"""""""
+"def greatest_common_divisor(a: int, b: int) -> int:
+    """""" Return a greatest common divisor of two integers a and b
+    """"""
+
+#"
+"def all_prefixes(string: str) -> List[str]:
+    """""" Return list of all prefixes from shortest to longest of the input string
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return 1.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def rescale_to_unit(numbers: List[float]) -> List[float]:
+    """""" Given list of numbers (of at least two elements), apply a linear transform to that list,
+    such that the smallest number will become 0 and the largest will become 1
+    """"""
+
+#"
+"def filter_integers(values: List[Any]) -> List[int]:
+    """""" Filter given list of any python values only for integers
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return 0."
+"def largest_divisor(n: int) -> int:
+    """""" For a given number n, find the largest number that divides n evenly, smaller than n
+    """"""
+
+#"
+"def factorize(n: int) -> List[int]:
+    """""" Return list of prime factors of given integer in the order from smallest to largest.
+    Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+    Input number should be equal to the product of all factors
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def flip_case(string: str) -> str:
+    """""" For a given string, flip lowercase characters to uppercase and uppercase to lowercase.
+    """"""
+
+#"
+"def concatenate(strings: List[str]) -> str:
+    """""" Concatenate list of strings into a single string
+    """"""
+
+#"
+"def filter_by_prefix(strings: List[str], prefix: str) -> List[str]:
+    """""" Filter an input list of strings only for ones that start with a given prefix.
+    """"""
+
+#"
+"def get_positive(l: list):
+    """"""Return only positive numbers in the list.
+    """""""
+"def is_prime(n):
+    """"""Return true if a given number is prime, and false otherwise.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def unique(l: list):
+    """"""Return sorted unique elements in a list
+    """"""
+
+#"
+"def max_element(l: list):
+    """"""Return maximum element in the list.
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def sort_even_odd(l: list):
+    """"""This function takes a list l and returns a list l' such that
+    l' is identical to l in the odd indicies, while its values at the even indicies are equal
+    to the values of the even indicies of l, but sorted.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def fib(n: int):
+    """"""    fib returns n-th number that is a Fibonacci number and it's also prime.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def decr_list(l: list):
+    """"""Return list with elements decremented by 1.
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def change_base(x: int, base: int):
+    """"""Change numerical base of input number x to base.
+    return string representation after the conversion.
+    base numbers are less than 10.
+    """"""
+
+#"
+"def triangle_area(a, h):
+    """"""Given length of a side and high return area for a triangle.
+    """"""
+
+#"
+"def fib4(n: int):
+    """"""The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
+    fib4(0) -> 0
+    fib4(1) -> 0
+    fib4(2) -> 2
+    fib4(3) -> 0
+    fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4).
+    Please write a function to efficiently compute the n-th element of the fib4 number sequence.  Do not use recursion.
+    """""""
+"def median(l: list):
+    """"""Return median of elements in the list l.
+    """""""
+"def is_palindrome(text: str):
+    """"""    Checks if given string is a palindrome
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def add(x: int, y: int):
+    """"""Add two numbers x and y
+    """""""
+"def same_chars(s0: str, s1: str):
+    """"""    Check if two words have the same characters.
+    """"""
+
+#"
+"def fib(n: int):
+    """"""Return n-th Fibonacci number.
+    """"""
+
+#"
+"def correct_bracketing(brackets: str):
+    """""" brackets is a string of ""<"" and "">"".
+    return True if every opening bracket has a corresponding closing bracket.
+    """"""
+
+#"
+"def monotonic(l: list):
+    """"""Return True is list elements are monotonically increasing or decreasing.
+    """""""
+"def common(l1: list, l2: list):
+    """"""Return sorted unique common elements for two lists.
+    """""""
+"def largest_prime_factor(n: int):
+    """"""Return the largest prime factor of n. Assume n > 1 and is not a prime.
+    """"""
+
+#"
+"def sum_to_n(n: int):
+    """"""sum_to_n is a function that sums numbers from 1 to n.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def derivative(xs: list):
+    """""" xs represent coefficients of a polynomial.
+    xs[0] + xs[1] * x + xs[2] * x^2 +....
+     Return derivative of this polynomial in the same form.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return digits reversed.
+Step 3. Return digits reversed."
+"def digit_sum_ascii(s):
+    """"""Task
+    Write a function that takes a string as input and returns the sum of the upper characters only'
+    ASCII codes.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"[0, 0]
+[0, 1]
+[1, 0]
+[1, 1]
+[2, 0]
+[2, 1]
+[3, 0]
+[3, 1]
+[4, 0]
+[4, 1]
+[5, 0]
+[5, 1]
+[6, 0]
+[6, 1]
+[7, 0]
+[7, 1]
+[8, 0]
+[8, 1]
+[9, 0]
+[9, 1]
+[10, 0]
+[10, 1]
+[11, 0]
+[11, 1]
+[12, 0]
+[12, 1]
+[13, 0]
+[13, 1]
+[14, 0]
+[14, 1]
+[15, 0]
+[15, 1]
+[16, 0]
+[16, 1]
+[17, 0]
+[17, 1]
+[18, 0]
+[18, 1]
+[19, 0]
+[19, 1]
+[20, 0]
+[20, 1]
+[21,"
+"def search(lst):
+    """"""    You are given a non-empty list of positive integers. Return the greatest integer that is greater than 
+    zero, and has a frequency greater than or equal to the value of the integer itself. 
+    The frequency of an integer is the number of times it appears in the list.
+    If no such a value exist, return -1.
+    """"""
+
+#"
+"# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # [0, 1, 2, 3, 4, 5,"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return -1."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def smallest_change(arr):
+    """"""    Given an array arr of integers, find the minimum number of elements that need to be changed to make the array palindromic.
+    A palindromic array is an array that is read the same backwards and forwards. In one change, you can change one element to any other element.
+    """"""
+
+#"
+"def total_match(lst1, lst2):
+    """"""    Write a function that accepts two lists of strings and returns the list that has 
+    total number of chars in the all strings of the list less than the other list.
+
+    if the two lists have the same number of chars, return the first list.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def is_simple_power(x, n):
+    """"""Your task is to write a function that returns true if a number x is a simple
+    power of n and false in other cases.
+    x is a simple power of n if n**int=x
+    """"""
+
+#"
+"def iscube(a):
+    """"""    Write a function that takes an integer a and returns True 
+    if this ingeger is a cube of some integer number.
+    Note: you may assume the input is always valid.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def is_happy(s):
+    """"""You are given a string s.
+    Your task is to check if the string is happy or not.
+    A string is happy if its length is at least 3 and every 3 consecutive letters are distinct
+    """"""
+
+#"
+"Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def solve(N):
+    """"""Given a positive integer N, return the total sum of its digits in binary.
+    """"""
+
+#"
+"def add(lst):
+    """"""Given a non-empty list of integers lst. add the even elements that are at odd indices..
+    """"""
+
+#"
+"def anti_shuffle(s):
+    """"""    Write a function that takes a string and returns an ordered version of it.
+    Ordered version of string, is a string where all words (separated by space)
+    are replaced by a new word where all the characters arranged in
+    ascending order based on ascii value.
+    Note: You should keep the order of words and blank spaces in the sentence.
+    """"""
+
+#"
+"def get_column(lst, x):
+    """"""    You are given a 2 dimensional data, as a nested lists,
+    which is similar to matrix, however, unlike matrices,
+    each column may contain a different number of columns.
+    Given lst, and integer x, find integers x in the list,
+    and return list of tuples, [(x1, y1), (x2, y2)...] such that
+    each tuple is a coordinate - (column, rows), starting with 0.
+    Sort coordinates initially by columns in ascending order.
+    Also, sort coordinates of the column by rows in descending order.
+    """"""
+
+#### Output:
+
+def get_diagonal(lst, x):
+    """"""    You are given a 2 dimensional data, as a nested lists,
+    which is similar to matrix, however, unlike matrices,
+    each diagonal may contain a different number of columns.
+    Given lst, and integer x, find integers x in the list,
+    and return list of tuples, [(x1, y1), (x2, y2)...] such that
+    each tuple is a"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def decrypt(s):
+    """"""Create a function decrypt that takes a string as an argument and
+    returns a string decrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters 
+    shift up by two multiplied to two places.
+    """"""
+
+#"
+"def next_smallest(lst):
+    """"""    You are given a list of integers.
+    Write a function next_smallest() that returns the 2nd smallest element of the list.
+    Return None if there is no such element.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def any_int(x, y, z):
+    """"""    Create a function that takes 3 numbers.
+    Returns true if one of the numbers is equal to the sum of the other two, and all numbers are integers.
+    Returns false in any other cases.
+    """"""
+
+#"
+"def decode(message):
+    """"""    Write a function that takes a message, and decodes it in such a way that 
+    it swaps case of all letters, replaces all vowels in the message with the 
+    letter that appears 2 places ahead of that vowel in the english alphabet. 
+    Assume only letters.
+    """"""
+
+#"
+"def skjkasdkd(lst):
+    """"""You are given a list of integers.
+    You need to find the largest prime value and return the sum of its digits.
+    """"""
+
+#"
+"def check_dict_case2(dict):
+    """"""    Given a dictionary, return True if all keys are strings in lower 
+    case or all keys are strings in upper case, else return False.
+    The function should return False is the given dictionary is empty.
+    """"""
+
+#"
+"def count_up_to(n):
+    """"""Implement a function that takes an non-negative integer and returns an array of the first n
+    integers that are prime numbers and less than n.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def count_lower(s):
+    """"""    Given a string s, count the number of lowercase vowels in even indices.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def words_string(s):
+    """"""    You will be given a string of words separated by commas or spaces. Your task is
+    to split the string into words and return an array of the words.
+    """"""
+
+#"
+"def choose_num(x, y):
+    """"""This function takes two positive numbers x and y and returns the
+    biggest even integer number that is in the range [x, y] inclusive. If 
+    there's no such number, then the function should return -1.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return -1."
+"def unique_digits(x):
+    """"""Given a list of positive integers x. return a sorted list of all 
+    elements that hasn't any even digit.
+
+    Note: Returned list should be sorted in increasing order.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def histogram(test):
+    """"""Given a string representing a space separated lowercase letters, return a dictionary
+    of the letter with the most repetition and containing the corresponding count.
+    If several letters have the same occurrence, return all of them.
+    """"""
+
+#"
+"def is_palindrome(s):
+    """"""Task
+    Given a string s, check if it is a palindrome.
+    A string is a palindrome if it reads the same backward as forward.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def min_sub_array_sum(nums):
+    """"""    Given an array of integers nums, find the minimum sum of any non-empty sub-array
+    of nums.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return empty string if you didn't find any vowel met the above condition."
+"def is_good(lst):
+    """"""    You are given a list of strings, each string consists of open parentheses
+    '(' or close parentheses ')' only.
+    Your job is to check if it is possible to concatenate the two strings in
+    some order, that the resulting string will be good.
+    A string S is considered to be good if and only if all parentheses in S
+    are balanced. For example: the string '(())()' is good, while the string
+    '())' is not.
+    Return 'Yes' if there's a way to make a good string, and return 'No' otherwise.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def solution(lst):
+    """"""Given a non-empty list of integers, return the sum of all of the odd elements that are in even positions.
+    """"""
+
+#"
+"def add_elements(arr, k):
+    """"""    Given a non-empty array of integers arr and an integer k, return
+    the sum of the elements with at most two digits from the first k elements of arr.
+    
+    Constraints:
+        1. 1 <= len(arr) <= 100
+        2. 1 <= k <= len(arr)
+    """"""
+
+#"
+"def collatz(n):
+    """"""    Given a positive integer n, return a sorted list that has the odd numbers in collatz sequence.
+
+    The Collatz conjecture is a conjecture in mathematics that concerns a sequence defined
+    as follows: start with any positive integer n. Then each term is obtained from the 
+    previous term as follows: if the previous term is even, the next term is one half of 
+    the previous term. If the previous term is odd, the next term is 3 times the previous
+    term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1.
+
+    Note: 
+        1. Collatz(1) is [1].
+        2. returned list sorted in increasing order.
+				""""""
+
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return None.
+Step 3. Return None."
+"#### Output:
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def digits(n):
+    """"""Given a positive integer n, return the product of the odd digits.
+    Return 0 if all digits are even.
+    """"""
+
+#"
+"def is_nested(string):
+    """"""    Create a function that takes a string as input which contains only square brackets.
+    The function should return True if and only if there is a valid subsequence of brackets 
+    where at least one bracket in the subsequence is nested.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def can_arrange(arr):
+    """"""Create a function which returns the largest index of an element which
+    is not greater than or equal to the element immediately preceding it. If
+    no such element exists then return -1. The given array will not contain
+    duplicate values.
+    """"""
+
+#"
+"def largest_smallest_integers(lst):
+    """"""    Create a function that returns a tuple (a, b), where 'a' is
+    the largest of negative integers, and 'b' is the smallest
+    of positive integers in a list.
+    If there is no negative or positive integers, return them as None.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return None.
+Step 3. Return None."
+"def is_equal_to_sum_even(n):
+    """"""Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers
+    Example
+    """"""
+
+#"
+"def special_factorial(n):
+    """"""The Brazilian factorial is defined as:
+    brazilian_factorial(n) = n! * (n-1)! * (n-2)! *... * 1!
+    where n > 0
+
+    The function will receive an integer as input and should return the special
+    factorial of this integer.
+    """"""
+
+#"
+#   text =' _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"(Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune)"
+"def sort_list(lst):
+    """"""Write a function that accepts a list of strings as a parameter,
+    deletes the strings that have odd lengths from it,
+    and returns the resulted list with a sorted order,
+    The list is always a list of strings and never an array of numbers,
+    and it may contain duplicates.
+    The order of the list should be ascending by length of each word, and you
+    should return the list sorted by that rule.
+    If two words have the same length, sort the list alphabetically.
+    The function should return a list of strings in sorted order.
+    You may assume that all words will have the same length.
+    """"""
+
+#"
+"def x_or_y(n, x, y):
+    """"""A simple program which should return the value of x if n is 
+    a prime number and should return the value of y otherwise.
+    """"""
+
+#"
+"def double_the_difference(lst):
+    """"""    Given a list of numbers, return the sum of squares of the numbers
+    in the list that are odd. Ignore numbers that are negative or not integers.
+    
+    If the input list is empty, return 0.
+    """"""
+
+#"
+"def compare(game,guess):
+    """"""I think we all remember that feeling when the result of some long-awaited
+    event is finally known. The feelings and thoughts you have at that moment are
+    definitely worth noting down and comparing.
+    Your task is to determine if a person correctly guessed the results of a number of matches.
+    You are given two arrays of scores and guesses of equal length, where each index shows a match. 
+    Return an array of the same length denoting how far off each guess was. If they have guessed correctly,
+    the value is 0, and if not, the value is the absolute difference between the guess and the score.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def cycpattern_check(a, b):
+    """"""You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word
+    """"""
+
+#"
+"def even_odd_count(num):
+    """"""Given an integer. return a tuple that has the number of even and odd digits respectively.
+    """"""
+
+#"
+"def int_to_roman(number):
+    """"""    Given a positive integer, obtain its roman numeral equivalent as a string,
+    and return it in lowercase.
+    Restrictions: 1 <= num <= 1000
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def do_algebra(operator, operand):
+    """"""    Given two lists operator, and operand. The first list has basic algebra operations, and 
+    the second list is a list of integers. Use the two given lists to build the algebric 
+    expression and return the evaluation of this expression.
+
+    The basic algebra operations:
+    Addition ( + ) 
+    Subtraction ( - ) 
+    Multiplication ( * ) 
+    Floor division ( // ) 
+    Exponentiation ( ** ) 
+
+    Note:
+        The length of operator list is equal to the length of operand list minus one.
+        Operand is a list of of non-negative integers.
+        Operator list has at least one operator, and operand list has at least two operands.
+
+    """"""
+
+#"
+"def solve(s):
+    """"""You are given a string s.
+    if s[i] is a letter, reverse its case from lower to upper or vise versa, 
+    otherwise keep it as it is.
+    If the string contains no letters, reverse the string.
+    The function should return the resulted string.
+    """"""
+
+#"
+"def md5(text):
+    """"""    Given a string 'text', return its md5 hash equivalent string.
+    If 'text' is an empty string, return None.
+    """""""
+"# Output:
+    #   [1, 3, 5, 7, 9]
+    #   [2, 4, 6, 8, 10]
+    #   [3, 5, 7, 9]
+    #   [4, 6, 8, 10]
+    #   [5, 7, 9]
+    #   [6, 8, 10]
+    #   [7, 9]
+    #   [8, 10]
+    #   [9]
+    #   [10]
+    #   [11]
+    #   [12]
+    #   [13]
+    #   [14]
+    #   [15]
+    #   [16]
+    #   [17]
+    #   [18]
+    #   [19]
+    #   [20]
+    #   [21]
+    #   [22]
+    #   [23]
+    #   [24]
+    #   [25]
+    #   [26]
+    #   [27]
+    #   [28]
+    #   [29]
+    #   [30]"

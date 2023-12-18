@@ -1,0 +1,1405 @@
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through arr.
+    -add value to sum.
+    -If sum < K, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize min value to the first element of the array.
+Step 2. Iterate through the array.
+    -If current value is smaller than min value, update min value to current value.
+    -If current value is greater than min value, return False.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize n as 0.
+Step 2. Iterate through the range from l to r.
+    -If the bit at the current index is 1, then set the bit at the current index to 0.
+    -If the bit at the current index is 0, then set the bit at the current index to 1.
+Step 3. If the bit at the current index is 1, then return ""Yes"".
+Step 4. If the bit at the current index is 0, then return ""No""."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through array.
+    -If value is divisible by K, increment count.
+    -If value is not divisible by K, decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize two variables.
+    -n is the length of the list.
+    -a is the sum of the elements in the list.
+Step 2. Iterate through the list.
+    -If the sum of the elements in the list is less than n, return False.
+    -If the sum of the elements in the list is equal to n, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize a variable parity as 0.
+Step 2. Iterate through the input.
+    -If the input is odd, add 1 to the variable parity.
+    -If the input is even, subtract 1 from the variable parity.
+Step 3. Return the variable parity."
+"How to solve:
+Step 1. Initialize a list of all the positive integers.
+Step 2. Iterate through the input list.
+    -If the element is positive, add it to the list.
+    -If the element is negative, subtract one from it.
+Step 3. Return the list."
+"How to solve:
+Step 1. Initialize the length of the subsequence as 1.
+Step 2. Iterate through the array.
+    -If the current element is greater than the previous element, then the length of the subsequence is increased by 1.
+    -If the current element is less than the previous element, then the length of the subsequence is decreased by 1.
+Step 3. Return the length of the subsequence."
+"How to solve:
+Step 1. Initialize count as 1.
+Step 2. Iterate through the list.
+    -If the number is prime, increment count.
+    -If the number is not prime, decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through the array.
+    -Find the difference between the kth largest element and the first element of the array.
+    -Add the difference to sum.
+    -Find the difference between the kth largest element and each element from index 1 to k.
+    -Add the difference to sum.
+Step 3. Return the minimum value among these differences."
+"How to solve:
+Step 1. Initialize total time as 0.
+Step 2. Iterate through A.
+    -If A[i] == B[i], increment total time by 1.
+    -If A[i]!= B[i], move B[i] to the front of the list and A[i] to the end of the list.
+    -Increment total time by 2.
+Step 3. Return total time."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through array.
+    -If array[i] is even, add 1 to count.
+    -If array[i] is odd, add 0 to count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If character is in string, increment count.
+    -If character is not in string, decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize the number as 2.
+Step 2. Divide the number by the current number.
+Step 3. Subtract the result from the number.
+Step 4. Repeat this process until the current number is greater than the number.
+Step 5. If the number reaches 1 at any point, return True.
+Step 6. If the number is divisible by any of the current numbers, return False."
+"How to solve:
+Step 1. Initialize XOR as 0.
+Step 2. Iterate through input integer.
+    -If input integer is odd, add 1 to XOR.
+    -If input integer is even, add 0 to XOR.
+Step 3. Return XOR."
+"How to solve:
+Step 1. Initialize a random number a between 2 and n-1.
+Step 2. Calculate the value of a raised to the power of (n-1)/2 modulo n.
+Step 3. Check if the result is equal to 1 or n-1.
+Step 4. If it is, the function generates a new random number a and repeats the process t times.
+Step 5. If the result is not equal to 1 or n-1, the function returns -1.
+Step 6. If all t iterations pass the test, the function returns 1."
+"How to solve:
+Step 1. Initialize two strings.
+Step 2. Iterate through s1 and s2.
+    -If s1[i] is '0' and s2[i] is '1', or s1[i] is '1' and s2[i] is '0', or s1[i] is '0' and s2[i] is 'Z', or s1[i] is 'Z' and s2[i] is '0', then return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize a, b, c, d, x as 0.
+Step 2. Iterate through operations.
+    -add value to a, b, c, d, x.
+    -If a, b, c, d, x < 0, return False.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If character at index is '0', add 1 to count.
+    -If character at index is '1', subtract 1 from count.
+Step 3. Return minimum of count and difference between length and count."
+"How to solve:
+Step 1. Initialize power number as 1.
+Step 2. Iterate through numbers.
+    -If number is even, multiply by 2.
+    -If number is odd, multiply by 3.
+    -If number is power number, add 1.
+Step 3. Return power number."
+"How to solve:
+Step 1. Initialize product as 1.
+Step 2. Iterate through operations.
+    -add value to product.
+    -If product < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize count0, count1, count2, and count3 as 0.
+Step 2. Iterate through the list.
+    -If the remainder of the division by 4 is 0, add 1 to count0.
+    -If the remainder of the division by 4 is 1, add 2 to count1.
+    -If the remainder of the division by 4 is 2, add 3 to count2.
+    -If the remainder of the division by 4 is 3, add 4 to count3.
+Step 3. If count0 is even, return 1.
+Step 4. If count1 is even, return 2.
+Step 5. If count2 is even, return 3.
+Step 6. If count3 is even, return 4.
+Step 7. If count0 is odd, return 1.
+Step 8. If count1 is odd, return 2.
+Step 9. If count2 is odd, return 3.
+Step 10. If count3 is odd, return 4."
+"How to solve:
+Step 1. Initialize the length of the longest increasing subarray as 1.
+Step 2. Iterate through the array.
+    -If the current element is greater than the previous element, update the length of the longest increasing subarray.
+    -If the current element is less than the previous element, update the length of the longest increasing subarray.
+    -If the current element is equal to the previous element, update the length of the longest increasing subarray.
+Step 3. Return the length of the longest increasing subarray."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Initialize sum as 0.
+Step 3. Initialize i as 0.
+Step 4. Initialize arr as the input array.
+Step 5. Initialize n as the length of the input array.
+Step 6. While i < n,
+    -If the sum is equal to 0, increment count.
+    -If the sum is greater than 0, subtract the current element from the sum.
+    -If the sum is less than 0, add the current element to the sum.
+    -If the sum is equal to 0, increment count.
+    -If the sum is greater than 0, subtract the current element from the sum.
+    -If the sum is less than 0, add the current element to the sum.
+    -If the sum is equal to 0, increment count.
+    -If the sum is greater than 0, subtract the current element from the sum.
+    -If the sum is less than 0, add the current element to the sum.
+    -If the sum is equal to 0, increment count.
+    -If the sum is greater than 0,"
+"How to solve:
+Step 1. Initialize the number to be centered as 1.
+Step 2. Iterate through the number.
+    -If the number is divisible by 16, add 1 to the number.
+    -If the number is divisible by 10, add 10 to the number.
+    -If the number is divisible by 1, add 1 to the number.
+Step 3. Return the number."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Initialize n as 0.
+Step 3. While n is greater than 0,
+    -add 1 to sum.
+    -Subtract 1 from n.
+Step 4. Return sum."
+"How to solve:
+Step 1. Initialize maxSum as 0.
+Step 2. Iterate through n.
+    -If n is divisible by i, add i to maxSum.
+    -If n is not divisible by i, subtract i from maxSum.
+Step 3. Return maxSum."
+"How to solve:
+Step 1. Initialize x and y as 0.
+Step 2. Iterate through operations.
+    -If x < y, return True.
+    -If x > y, return False.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize n as 0.
+Step 2. Iterate through n.
+    -Multiply n by 9.
+    -Subtract 9 from n.
+    -Add 1 to n.
+Step 3. Return n."
+"How to solve:
+Step 1. Initialize a and b as 0.
+Step 2. Iterate through operations.
+    -If a > b, subtract 1 from a.
+    -If a < b, add 1 to b.
+Step 3. Return a / b."
+"How to solve:
+Step 1. Initialize sum of squares as 0.
+Step 2. Initialize sum of squares as 0.
+Step 3. Initialize sum of squares as 0.
+Step 4. Initialize sum of squares as 0.
+Step 5. Initialize sum of squares as 0.
+Step 6. Initialize sum of squares as 0.
+Step 7. Initialize sum of squares as 0.
+Step 8. Initialize sum of squares as 0.
+Step 9. Initialize sum of squares as 0.
+Step 10. Initialize sum of squares as 0.
+Step 11. Initialize sum of squares as 0.
+Step 12. Initialize sum of squares as 0.
+Step 13. Initialize sum of squares as 0.
+Step 14. Initialize sum of squares as 0.
+Step 15. Initialize sum of squares as 0.
+Step 16. Initialize sum of squares as 0.
+Step 17. Initialize sum of squares as 0.
+Step 18. Initialize sum of squares as 0.
+Step 19. Initialize sum"
+"How to solve:
+Step 1. Initialize the array to the first element.
+Step 2. Iterate through the array.
+    -If the current element is smaller than the kth smallest element, update the kth smallest element.
+    -If the current element is larger than the kth smallest element, move to the next element.
+Step 3. Return the kth smallest element."
+"How to solve:
+Step 1. Initialize n as 0.
+Step 2. Iterate through n.
+    -If n is even, add 1.
+    -If n is odd, subtract 1.
+Step 3. Return n."
+"How to solve:
+Step 1. Initialize n as 1.
+Step 2. Iterate through n.
+    -If n is even, add 1 to n.
+    -If n is odd, subtract 1 from n.
+Step 3. Return n."
+"How to solve:
+Step 1. Initialize product count as 0.
+Step 2. Iterate through the array.
+    -If product count < target, increment product count.
+    -If product count == target, return 1.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through numbers.
+    -If number is divisible by d, increment count.
+    -If number is not divisible by d, decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize the array with all positive integers.
+Step 2. Iterate through the array.
+    -If the value is not present in the array, add it to the array.
+    -If the value is present in the array, remove it from the array.
+Step 3. Return the smallest positive integer present in the array."
+"How to solve:
+Step 1. Initialize count as 1.
+Step 2. Iterate through n.
+    -If count is odd, then count = count * 2.
+    -If count is even, then count = count + 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize the area as 1.
+Step 2. Iterate through the list of operations.
+    -If the operation is a deposit, add the value to the area.
+    -If the operation is a withdrawal, subtract the value from the area.
+Step 3. Return the total area."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through numbers from 1 to N.
+    -add value to sum.
+Step 3. Return sum."
+"How to solve:
+Step 1. Initialize maxCount as -1.
+Step 2. Iterate through array.
+    -If current value is 1, increment maxCount.
+    -If current value is 0, decrement maxCount.
+    -If current value is 1, increment maxCount.
+    -If current value is 0, decrement maxCount.
+Step 3. Return maxCount."
+"How to solve:
+Step 1. Initialize length as 0.
+Step 2. Iterate through array.
+    -If array[i] == 0, increment length.
+    -If array[i] == 1, decrement length.
+Step 3. Return length."
+"How to solve:
+Step 1. Initialize min and max values as 0 and 0 respectively.
+Step 2. Iterate through the array.
+    -If current element is smaller than min, update min to current element.
+    -If current element is larger than max, update max to current element.
+    -If current element is equal to min or max, return it.
+Step 3. Return max."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through array.
+    -If array[i] < k, increment count.
+    -If array[i] == k, increment count.
+    -If array[i] > k, decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through arr.
+    -add value to sum.
+    -If sum < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize minimum value as 0.
+Step 2. Iterate through array.
+    -If current value is less than minimum value, set minimum value to current value.
+    -If current value is greater than minimum value, multiply minimum value by current value.
+    -If current value is equal to minimum value, multiply minimum value by current value and add it to the product.
+Step 3. Return product."
+"How to solve:
+Step 1. Initialize maxDistance as 0.
+Step 2. Iterate through array.
+    -If array[i] > maxDistance, set maxDistance to array[i].
+    -If array[i] < maxDistance, set maxDistance to array[i].
+    -If array[i] = maxDistance, return maxDistance.
+Step 3. Return maxDistance."
+"How to solve:
+Step 1. Initialize a, b, c, x1, y1, x2, y2.
+Step 2. Check if a, b, c, x1, y1, x2, y2 are on the same side of a line.
+Step 3. Return True if they are on the same side of a line and False otherwise."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through all the numbers from 0 to the input.
+    -If the number is divisible by 2, add 1 to count.
+    -If the number is divisible by 3, add 2 to count.
+    -If the number is divisible by 5, add 3 to count.
+    -If the number is divisible by 7, add 4 to count.
+    -If the number is divisible by 11, add 5 to count.
+    -If the number is divisible by 13, add 6 to count.
+    -If the number is divisible by 17, add 7 to count.
+    -If the number is divisible by 19, add 8 to count.
+    -If the number is divisible by 23, add 9 to count.
+    -If the number is divisible by 29, add 10 to count.
+    -If the number is divisible by 31, add 11 to count.
+    -If the number is divisible by 37, add 1"
+"How to solve:
+Step 1. Initialize L and R as 0.
+Step 2. Iterate through L and R.
+    -If L is greater than R, swap L and R.
+    -If L is greater than 0, AND L with R.
+    -If R is greater than 0, AND R with L.
+    -If L is 0, AND R with L.
+    -If R is 0, AND L with R.
+Step 3. Return the maximum value of the AND operation."
+"How to solve:
+Step 1. Initialize smallest number as -1.
+Step 2. Iterate through array.
+    -If number is a factor of any number in array, update smallest number to that number.
+    -If number is not a factor of any number in array, update smallest number to -1.
+Step 3. Return smallest number."
+"How to solve:
+Step 1. Initialize sum as 1.
+Step 2. Iterate through n.
+    -add 1/3^n to sum.
+Step 3. Return sum."
+"How to solve:
+Step 1. Initialize the XOR value as 0.
+Step 2. Iterate through the array.
+    -If the current element is odd, add it to the XOR value.
+    -If the current element is even, subtract it from the XOR value.
+Step 3. Return the XOR value."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through N.
+    -If N % 2 == 0, add 1 to count.
+    -If N % 2 == 1, subtract 1 from count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through array.
+    -add value to sum.
+    -If sum < k, return False.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize n as 0.
+Step 2. Iterate through n.
+    -If n is odd, return True.
+    -If n is even, return False.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize maxPartition as 0.
+Step 2. Iterate through s.
+    -If s[i] == s[i+1], then increment maxPartition.
+Step 3. Return maxPartition."
+"How to solve:
+Step 1. Initialize N and K as 0.
+Step 2. If N is divisible by K, return N.
+Step 3. If N is not divisible by K, return N - (N/K) * K."
+"How to solve:
+Step 1. Initialize result as 0.
+Step 2. Initialize var1 as first element of the array.
+Step 3. Initialize var2 as second element of the array.
+Step 4. Update result by adding var1 and var2.
+Step 5. Update result by adding the product of result and var1 divided by 100.
+Step 6. Update result by adding the product of result and var2 divided by 100.
+Step 7. Return the final value of result."
+"How to solve:
+Step 1. Initialize index to 0.
+Step 2. Initialize value to the first element of the array.
+Step 3. Iterate through the array.
+    -If the value at index is in the range, return the value at index.
+    -If the value at index is not in the range, swap the value at index with the value at index + 1.
+    -Increment index by 1.
+Step 4. Return the value at index."
+"How to solve:
+Step 1. Initialize a variable to 0.
+Step 2. Iterate through the input.
+    -If the current value is odd, add 1 to the variable.
+    -If the current value is even, add 2 to the variable.
+    -If the current value is the sum of two squares, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through a.
+    -If a[i] == b[i], increment count.
+    -If a[i]!= b[i], decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize modified string as empty string.
+Step 2. Iterate through string.
+    -If character is greater than the next character, subtract 1 from that character and set all subsequent characters to 9.
+    -If character is less than the next character, add 1 to that character and set all subsequent characters to 0.
+Step 3. Return modified string."
+"How to solve:
+Step 1. Initialize min value as 0.
+Step 2. Iterate through array.
+    -If current value is less than min value, update min value.
+    -If current value is greater than min value, return min value.
+    -If current value is equal to min value, return current value.
+Step 3. Return min value."
+"How to solve:
+Step 1. Initialize the largest substring as """".
+Step 2. Iterate through the string.
+    -If the character is not '1', add it to the largest substring.
+    -If the character is '1', remove the last character from the largest substring.
+Step 3. Return the largest substring."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through array.
+    -If count < k, increment count by 1.
+    -If count == k, remove element at index i.
+    -If count > k, decrement count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize the size of the array as 0.
+Step 2. Iterate through the array.
+    -If the size is odd, add the element to the array.
+    -If the size is even, calculate the median by taking the average of the two middle elements.
+Step 3. Return the median."
+"How to solve:
+Step 1. Initialize minStep as 0.
+Step 2. Iterate through array.
+    -If element is negative, add absolute difference between element and -1 to minStep.
+    -If element is positive, add absolute difference between element and 1 to minStep.
+    -If element is zero, add 2 to minStep.
+    -If element is negative and zero, add 1 to minStep.
+    -If element is positive and zero, add 1 to minStep.
+    -If element is negative and positive, add 2 to minStep.
+    -If element is positive and positive, add 2 to minStep.
+    -If element is zero and positive, add 1 to minStep.
+    -If element is zero and negative, add 1 to minStep.
+    -If element is zero and zero, add 2 to minStep.
+    -If element is negative and zero, add 1 to minStep.
+    -If element is positive and zero, add 1 to minStep.
+    -If element is negative and positive, add 2 to minStep.
+    -If element is positive and positive, add 2 to minStep.
+    -"
+"How to solve:
+Step 1. Initialize result as 0.
+Step 2. Initialize n as 1.
+Step 3. Initialize v as [1].
+Step 4. Initialize while loop.
+Step 5. While loop.
+    -If n is equal to 1, return 0.
+    -Subtract 1 from n.
+    -Add the remainder of n divided by 5 to the list v.
+    -Update n to be the floor division of n by 5.
+Step 6. Initialize result as 0.
+Step 7. Initialize n as 2.
+Step 8. Initialize v as [2].
+Step 9. Initialize while loop.
+Step 10. While loop.
+    -If n is equal to 2, return 2.
+    -Subtract 2 from n.
+    -Add the remainder of n divided by 5 to the list v.
+    -Update n to be the floor division of n by 5.
+Step 11. Initialize result as 0.
+Step 12. Initialize n as 3.
+Step 13. Initialize v as [3].
+Step 14. Initialize while"
+"How to solve:
+Step 1. Initialize n as 0.
+Step 2. Iterate through n.
+    -If n is odd, add 1 to n.
+    -If n is even, subtract 1 from n.
+Step 3. Return True if n is even and False otherwise."
+"How to solve:
+Step 1. Initialize closest multiple as 1.
+Step 2. Iterate through n and x.
+    -If x is greater than n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of n, return x.
+    -If x is a multiple of"
+"How to solve:
+Step 1. Initialize the sum as 0.
+Step 2. Iterate through the list of numbers.
+    -Add 2 to the sum.
+    -If the sum is greater than n, return False.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize the sum as 0.
+Step 2. Iterate through the series.
+    -add value to sum.
+    -If sum < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize max_value as 0.
+Step 2. Iterate through array.
+    -If value is greater than max_value, set max_value to value.
+    -If value is same as max_value, increment max_value by 1.
+Step 3. Return max_value."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the list.
+    -If the value is a power of 2 greater than the next value, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize n as 0.
+Step 2. Iterate through n.
+    -if n is odd, multiply it by 2.
+    -if n is even, divide it by 2.
+Step 3. Return n."
+"How to solve:
+Step 1. Initialize minChanges as 0.
+Step 2. Iterate through A.
+    -If A[i] = 1, add 1 to minChanges.
+    -If A[i] = 0, subtract 1 from minChanges.
+Step 3. Return minChanges."
+"How to solve:
+Step 1. Initialize degree value as 0.
+Step 2. Iterate through radian value.
+    -add 360 to degree value.
+    -If degree value > 360, return degree value - 360.
+Step 3. Return degree value."
+"How to solve:
+Step 1. Initialize n as 0.
+Step 2. Iterate through operations.
+    -If n is odd, divide n by 2.
+    -If n is even, multiply n by 2.
+Step 3. Return n."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through the list of numbers.
+    -add value to sum.
+    -If sum < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize power as 1.
+Step 2. Iterate through input number.
+    -If power is odd, return power.
+    -If power is even, multiply power by 2.
+Step 3. Return power."
+"How to solve:
+Step 1. Initialize the number of squares as 1.
+Step 2. Iterate through the moves.
+    -If the move is a right move, add 2 to the number of squares.
+    -If the move is a down move, add 2 to the number of squares.
+    -If the move is a left move, add 2 to the number of squares.
+    -If the move is a up move, add 2 to the number of squares.
+Step 3. Return the total number of squares."
+"How to solve:
+Step 1. Initialize the first number as 0.
+Step 2. Initialize the second number as 1.
+Step 3. Iterate through the list.
+    -Add the current number to the sum of the previous number.
+    -If the sum is greater than the input number, return the current number.
+    -If the sum is less than the input number, return the next number in the sequence.
+Step 4. Return the next number in the sequence."
+"How to solve:
+Step 1. Initialize a list of all the characters in the string.
+Step 2. Iterate through the list.
+    -If the character is not in the correct position, swap it with the character at its last occurrence.
+Step 3. Return the modified string."
+"How to solve:
+Step 1. Initialize array.
+Step 2. Iterate through array.
+    -If index is odd, add value to array.
+    -If index is even, subtract value from array.
+Step 3. Return sum of array."
+"How to solve:
+Step 1. Initialize HCF as 1.
+Step 2. Iterate through x and y.
+    -If x is divisible by y, return y.
+    -If y is divisible by x, return x.
+    -If x and y are divisible by 2, return 2.
+    -If x and y are divisible by 3, return 3.
+    -If x and y are divisible by 5, return 5.
+    -If x and y are divisible by 7, return 7.
+    -If x and y are divisible by 11, return 11.
+    -If x and y are divisible by 13, return 13.
+    -If x and y are divisible by 17, return 17.
+    -If x and y are divisible by 19, return 19.
+    -If x and y are divisible by 23, return 23.
+    -If x and y are divisible by 29, return 29.
+    -If x and y are divisible by 31, return 31."
+"How to solve:
+Step 1. Initialize A, B, and N as 0 and 1 respectively.
+Step 2. Iterate through A, B, and N.
+    -Add A to B.
+    -Add B to A.
+    -Add N to B.
+    -Add B to N.
+    -Add N to A.
+    -If A < B, return A.
+    -If B < A, return B.
+    -If A == B, return N.
+Step 3. Return A."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through str.
+    -If substr is found in str, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize variables.
+Step 2. Initialize loan tenure.
+Step 3. Initialize monthly interest rate.
+Step 4. Initialize principal amount.
+Step 5. Initialize EMI.
+Step 6. Calculate EMI.
+Step 7. Return EMI."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through A, B, C.
+    -If A * B > C * C, return count.
+    -If A * B < C * C, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through l and r.
+    -If current digit is 2, increment count.
+    -If current digit is 3, increment count.
+    -If current digit is 9, return count.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize the length of the longest arithmetic subsequence as 1.
+Step 2. Iterate through the array.
+    -If the current element is greater than the previous element, update the length of the longest arithmetic subsequence.
+    -If the current element is smaller than the previous element, update the length of the longest arithmetic subsequence.
+Step 3. Return the length of the longest arithmetic subsequence."
+"How to solve:
+Step 1. Initialize maxLen as -1.
+Step 2. Iterate through str.
+    -If str[i] is a digit, add 1 to maxLen.
+    -If str[i] is a letter, add 1 to maxLen.
+    -If str[i] is a space, add 1 to maxLen.
+    -If str[i] is a non-alphanumeric character, return -1.
+Step 3. Return maxLen."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the input.
+    -If the input is divisible by 2, increment count.
+    -If the input is not divisible by 2, decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize string as 'a'.
+Step 2. Iterate through string.
+    -Replace 'a' with 'z'.
+    -Subtract 26 from k.
+    -If k is greater than or equal to 0, check if k is greater than or equal to 26.
+    -If it is, replace the character at the current index with 'z' and subtract 26 from k.
+    -Else, calculate the ASCII value of the character to be replaced by adding k to 97 and subtracting 1.
+    -Replace the character at the current index with the corresponding lowercase letter and subtract the difference between the ASCII values of the replaced character and 'a' from k.
+    -Add the current index to k.
+    -Repeat the above steps for the previous index.
+Step 3. Return string."
+"How to solve:
+Step 1. Initialize distance as 0.
+Step 2. Iterate through operations.
+    -add value to distance.
+    -If distance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize sum of elements as 0.
+Step 2. Iterate through elements.
+    -If sum of elements < 0, return 0.
+    -Add value to sum of elements.
+    -If sum of elements > 0, return 1.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize a dictionary.
+Step 2. Iterate through sentence.
+    -If word is present in dictionary, return True.
+    -If word is not present in dictionary, return False.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the number.
+    -If the number is divisible by 10, add 1 to count.
+    -If the number is divisible by 100, add 2 to count.
+    -If the number is divisible by 1000, add 3 to count.
+    -If the number is divisible by 10000, add 4 to count.
+    -If the number is divisible by 100000, add 5 to count.
+    -If the number is divisible by 1000000, add 6 to count.
+    -If the number is divisible by 10000000, add 7 to count.
+    -If the number is divisible by 100000000, add 8 to count.
+    -If the number is divisible by 1000000000, add 9 to count.
+    -If the number is divisible by 10000000000, add"
+"How to solve:
+Step 1. Initialize a, b, c, k as 0.
+Step 2. Iterate through operations.
+    -If a + b + c + k = 0, return True.
+    -If a + b + c + k < 0, return False.
+    -If a + b + c + k > 0, return False.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize x and y as 0.
+Step 2. Iterate through operations.
+    -If x is greater than y, return True.
+    -If x is less than y, return False.
+    -If x is equal to y, return False.
+    -Shift x to the left by 32 bits.
+    -Shift y to the right by 1 bit.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If character is not same, increment count.
+    -If character is same, do nothing.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If character is '0', increment count by 1.
+    -If character is '1', increment count by 2.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize min removal as 0.
+Step 2. Iterate through the array.
+    -Find the minimum difference between adjacent elements.
+    -If difference is greater than min removal, update min removal.
+Step 3. Return min removal."
+"How to solve:
+Step 1. Initialize max_set_bits as 0.
+Step 2. Iterate through left and right.
+    -If left is 0, return 1.
+    -If right is 0, return 1.
+    -If left is 1, return 2.
+    -If right is 1, return 2.
+    -If left is 2, return 3.
+    -If right is 2, return 3.
+    -If left is 3, return 4.
+    -If right is 3, return 4.
+    -If left is 4, return 5.
+    -If right is 4, return 5.
+    -If left is 5, return 6.
+    -If right is 5, return 6.
+    -If left is 6, return 7.
+    -If right is 6, return 7.
+    -If left is 7, return 8.
+    -If right is 7, return 8.
+    -If left is 8, return 9.
+    -If right is 8, return 9.
+    -If left is 9, return"
+"How to solve:
+Step 1. Initialize n as 1.
+Step 2. Iterate through operations.
+    -If n is a power of 2, return n.
+    -If n is not a power of 2, return 2*n.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Initialize n as 0.
+Step 3. Iterate through n.
+    -If n is divisible by 2, add 2 to sum.
+    -If n is divisible by 3, add 3 to sum.
+    -If n is divisible by 5, add 5 to sum.
+    -If n is divisible by 7, add 7 to sum.
+    -If n is divisible by 11, add 11 to sum.
+    -If n is divisible by 13, add 13 to sum.
+    -If n is divisible by 17, add 17 to sum.
+    -If n is divisible by 19, add 19 to sum.
+    -If n is divisible by 23, add 23 to sum.
+    -If n is divisible by 29, add 29 to sum.
+    -If n is divisible by 31, add 31 to sum.
+    -If n is divisible by 37, add 37 to sum."
+"How to solve:
+Step 1. Initialize the number of odd days as 0.
+Step 2. Iterate through the year.
+    -If the year is divisible by 400, add 1 to the number of odd days.
+    -If the year is divisible by 100, add 1 to the number of odd days.
+    -If the year is divisible by 4, add 1 to the number of odd days.
+    -If the year is divisible by 1, add 1 to the number of odd days.
+Step 3. Return the number of odd days."
+"How to solve:
+Step 1. Initialize the value to 1.
+Step 2. Iterate through the input number.
+    -If the value is odd, multiply it by 3.
+    -If the value is even, multiply it by 2.
+    -Add the result to the value.
+Step 3. Return the value."
+"How to solve:
+Step 1. Initialize frequency as 0.
+Step 2. Iterate through n.
+    -If n is divisible by d, increment frequency.
+    -If n is not divisible by d, decrement frequency.
+Step 3. Return frequency."
+"How to solve:
+Step 1. Initialize a variable to 0.
+Step 2. Iterate through the number.
+    -If the number contains a repeated digit, return False.
+    -If the number is a multiple of 10, return True.
+    -If the number is a multiple of 100, return True.
+    -If the number is a multiple of 1000, return True.
+    -If the number is a multiple of 10000, return True.
+    -If the number is a multiple of 100000, return True.
+    -If the number is a multiple of 1000000, return True.
+    -If the number is a multiple of 10000000, return True.
+    -If the number is a multiple of 100000000, return True.
+    -If the number is a multiple of 1000000000, return True.
+    -If the number is a multiple of 10000000000, return True.
+    -If the number is a multiple of 1"
+"How to solve:
+Step 1. Initialize a list to all 0's.
+Step 2. Iterate through the list.
+    -If the value is divisible by 5, add 5 to the list.
+    -If the value is divisible by 3, add 3 to the list.
+    -If the value is not divisible by 5 or 3, add the value to the list.
+Step 3. If the list is empty, return True.
+Step 4. If the list is not empty, return False."
+"How to solve:
+Step 1. Initialize n as 0.
+Step 2. Iterate through the array.
+    -If n is odd, add 10 to the value at index n.
+    -If n is even, subtract 10 from the value at index n.
+Step 3. Return the value at index n."
+"How to solve:
+Step 1. Initialize array with 0s.
+Step 2. Iterate through array.
+    -If index is odd, multiply by 10.
+    -If index is even, subtract 1 from index.
+    -Add 3 to index.
+    -Add 5 to index.
+Step 3. Return index."
+"How to solve:
+Step 1. Initialize n as 0.
+Step 2. Initialize i as 0.
+Step 3. Initialize j as 0.
+Step 4. Initialize k as 0.
+Step 5. Initialize l as 0.
+Step 6. Initialize m as 0.
+Step 7. Initialize n as 0.
+Step 8. Initialize i as 0.
+Step 9. Initialize j as 0.
+Step 10. Initialize k as 0.
+Step 11. Initialize l as 0.
+Step 12. Initialize m as 0.
+Step 13. Initialize n as 0.
+Step 14. Initialize i as 0.
+Step 15. Initialize j as 0.
+Step 16. Initialize k as 0.
+Step 17. Initialize l as 0.
+Step 18. Initialize m as 0.
+Step 19. Initialize n as 0.
+Step 20. Initialize i as 0.
+Step 21. Initialize j as 0.
+Step 22. Initialize k"
+"How to solve:
+Step 1. Initialize a and n as 0.
+Step 2. Iterate through the array.
+    -If a[i] % 11 == 0, return True.
+    -If a[i] % 11!= 0, return False.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize area as 0.
+Step 2. Iterate through l, b, h.
+    -If l > b and h > b, return -1.
+    -If l > b and h <= b, return (l*b)/2.
+    -If l <= b and h > b, return (l*b)/2.
+    -If l <= b and h <= b, return (l*b)/2.
+Step 3. Return area."
+"How to solve:
+Step 1. Initialize first and last letter as empty string.
+Step 2. Iterate through string.
+    -If character is alphabetic, append it to first and last letter.
+Step 3. Return first and last letter."
+"How to solve:
+Step 1. Initialize bucket number as 0.
+Step 2. Iterate through operations.
+    -add value to bucket number.
+    -If bucket number < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize two variables.
+Step 2. Iterate through array.
+    -If current element is not equal to previous element, return False.
+    -If current element is equal to previous element, return True.
+    -If current element is not equal to previous element, return True.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If string[i] == string[i+1], increment count.
+    -If string[i]!= string[i+1], increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize two variables.
+Step 2. Iterate through the list.
+    -If the value is lower, return lower.
+    -If the value is higher, return higher.
+    -If the value is equal, return 2.
+Step 3. Return 2."
+"How to solve:
+Step 1. Initialize maximum number as 0.
+Step 2. Iterate through string.
+    -If character is a digit, add it to maximum number.
+    -If character is not a digit, compare current number with previous maximum number and update maximum if necessary.
+Step 3. Return maximum number."
+"How to solve:
+Step 1. Initialize the length of the string to 0.
+Step 2. Iterate through the string.
+    -If the current character is an integer, increment the length by 1.
+    -If the current character is not an integer, increment the length by 0.
+    -If the length of the string is greater than the length of the longest substring, update the length of the longest substring.
+Step 3. Return the length of the longest substring."
+"How to solve:
+Step 1. Initialize remaining area as 1.
+Step 2. Iterate through operations.
+    -Subtract smaller value between N and M from the larger value.
+    -If smaller value is greater than 0, return product of N and M.
+    -If smaller value is 0, return 0.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize a boolean variable to False.
+Step 2. Iterate through the string.
+    -If the character is the same as the previous character, return False.
+    -If the character is different from the previous character, return True.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize max_power as 0.
+Step 2. Iterate through n.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is a power of 2, return it.
+    -If n is"
+"How to solve:
+Step 1. Initialize two variables A and B.
+Step 2. If A and B are equal, return True.
+Step 3. If A and B are not equal, return False."
+"How to solve:
+Step 1. Initialize two variables.
+Step 2. Initialize a variable to the difference between x and y.
+Step 3. Initialize a variable to the difference between x and y.
+Step 4. Initialize a variable to the difference between x and y.
+Step 5. Initialize a variable to the difference between x and y.
+Step 6. Initialize a variable to the difference between x and y.
+Step 7. Initialize a variable to the difference between x and y.
+Step 8. Initialize a variable to the difference between x and y.
+Step 9. Initialize a variable to the difference between x and y.
+Step 10. Initialize a variable to the difference between x and y.
+Step 11. Initialize a variable to the difference between x and y.
+Step 12. Initialize a variable to the difference between x and y.
+Step 13. Initialize a variable to the difference between x and y.
+Step 14. Initialize a variable to the difference between x and y.
+Step 15. Initialize a variable to the difference between x and y.
+Step 16. Initialize a variable to the difference"
+"How to solve:
+Step 1. Initialize the first three values as 1, 1, and 1.
+Step 2. Iterate through the remaining values.
+    -Add the previous two values to the current value.
+    -If the current value is greater than n, return the current value.
+Step 3. Return the last value."
+"How to solve:
+Step 1. Initialize minSteps as 0.
+Step 2. Iterate through arr.
+    -If arr[i] < arr[i-1], add 1 to minSteps.
+    -If arr[i] > arr[i-1], subtract 1 from minSteps.
+Step 3. Return minSteps."
+"How to solve:
+Step 1. Initialize n as 0.
+Step 2. Iterate through operations.
+    -If n is 0, return 1.
+    -If n is 1, return 0.
+    -If n is 2, return 1.
+    -If n is 3, return 0.
+Step 3. Return 1."
+"How to solve:
+Step 1. Initialize `m` and `sum` as 0 and 0 respectively.
+Step 2. Iterate through `operations`.
+    -If `operations[i]` is a multiple of `a`, add `operations[i]` to `m`.
+    -If `operations[i]` is not a multiple of `a`, add `operations[i]` to `sum`.
+Step 3. Multiply `a` by `sum` and return `ans`."
+"How to solve:
+Step 1. Initialize result as 1.
+Step 2. Iterate through N.
+    -If N is less than or equal to 2, return result.
+    -If N is less than or equal to 4, return result + 3.
+    -If (N - 4) is divisible by 4, return result + 1.
+    -If (N - 4) modulo 4 is less than or equal to 2, return result + 2.
+    -Otherwise, return result - 1.
+Step 3. Return result."
+"How to solve:
+Step 1. Initialize a variable to 0.
+Step 2. Iterate through the array.
+    -If the current element is odd, return False.
+    -If the current element is even, add 1 to the variable.
+Step 3. If the variable is odd, return False.
+Step 4. If the variable is even, return True."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the list.
+    -If the number is in the range, add 1 to the count.
+    -If the number is not in the range, return 0.
+Step 3. Return the count."
+"How to solve:
+Step 1. Initialize min as 0.
+Step 2. Iterate through array.
+    -If element is not present in array, return it.
+    -If element is present in array, return min.
+    -If element is present in array, update min.
+Step 3. Return min."
+"How to solve:
+Step 1. Initialize smallest number as 0.
+Step 2. Iterate through string.
+    -If current digit is greater than the smallest number, set the smallest number to current digit.
+    -If current digit is smaller than the smallest number, return the smallest number.
+Step 3. Return the smallest number."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the array.
+    -If the current element is greater than the previous element, the difference is added to the count and the current element is replaced with the previous element.
+    -If the current element is less than or equal to the previous element, the previous element is updated to the current element.
+Step 3. Return the count."
+"How to solve:
+Step 1. Initialize the sum of all ASCII codes as 0.
+Step 2. Iterate through the string.
+    -Add the ASCII code of each character to the sum.
+    -Return the average of the sum."
+"How to solve:
+Step 1. Initialize banknotes as 0.
+Step 2. Iterate through operations.
+    -add value to banknotes.
+    -If banknotes < 0, return -1.
+Step 3. Return minimum banknotes."
+"How to solve:
+Step 1. Initialize LCM as 1.
+Step 2. Iterate through operations.
+    -If x and y are even, multiply LCM by 2.
+    -If x and y are odd, divide LCM by 2.
+    -If x and y are even, divide LCM by 2.
+    -If x and y are odd, multiply LCM by 2.
+Step 3. Return LCM."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through binary representation of n.
+    -If binary representation of n is 0, return 1.
+    -If binary representation of n is 1, return 0.
+    -If binary representation of n is 01, return 1.
+    -If binary representation of n is 001, return 2.
+    -If binary representation of n is 0001, return 3.
+    -If binary representation of n is 00001, return 4.
+    -If binary representation of n is 000001, return 5.
+    -If binary representation of n is 0000001, return 6.
+    -If binary representation of n is 00000001, return 7.
+    -If binary representation of n is 000000001, return 8.
+    -If binary representation of n is 0000000001, return 9.
+    -If binary representation of n is 000000000"
+"How to solve:
+Step 1. Initialize the sum of the elements to the left of the element to be found as 0.
+Step 2. Initialize the sum of the elements to the right of the element to be found as 0.
+Step 3. Iterate through the array.
+    -If the sum of the XOR of the elements to the left of the element to be found is greater than the sum of the XOR of the elements to the right of the element to be found, return the index of the element to be found.
+    -If the sum of the XOR of the elements to the left of the element to be found is less than the sum of the XOR of the elements to the right of the element to be found, update the sum of the XOR of the elements to the left of the element to be found and update the sum of the XOR of the elements to the right of the element to be found.
+Step 4. Return -1."
+"How to solve:
+Step 1. Initialize the length of the longest subsequence as 1.
+Step 2. Iterate through the array.
+    -If the current element is smaller than the previous element, update the length of the longest subsequence.
+    -If the current element is greater than the previous element, update the length of the longest subsequence.
+    -If the current element is same as the previous element, update the length of the longest subsequence.
+Step 3. Return the length of the longest subsequence."
+"How to solve:
+Step 1. Initialize array as empty.
+Step 2. Iterate through array.
+    -If element is greater than k, add k to it.
+    -If element is less than k, subtract k from it.
+    -If element is equal to k, return it.
+Step 3. Return -1."
+"How to solve:
+Step 1. Initialize the length of the smallest repeating sequence as -1.
+Step 2. Iterate through the number.
+    -If the number is divisible by K, then increment the length of the smallest repeating sequence by 1.
+    -If the number is not divisible by K, then decrement the length of the smallest repeating sequence by 1.
+Step 3. Return the length of the smallest repeating sequence."
+"How to solve:
+Step 1. Initialize a variable to the length of the array.
+Step 2. Initialize a variable to 0.
+Step 3. Initialize a variable to 0.
+Step 4. Iterate through the array.
+    -If the element is greater than 0, add 1 to the variable.
+    -If the element is less than 0, subtract 1 from the variable.
+Step 5. If the variable is greater than 0, return the minimum number of operations required to change all elements of the array to the same number.
+Step 6. If the variable is less than 0, return the minimum number of operations required to change all elements of the array to the same number."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through numbers.
+    -add value to sum.
+    -If sum < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize s as 0.
+Step 2. Iterate through s.
+    -add value to s.
+    -If s < 0, return -1.
+Step 3. Return s."
+"How to solve:
+Step 1. Initialize p and q as 0.
+Step 2. Iterate through operations.
+    -add value to p and q.
+    -If p and q are divided by 100, return the probability.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize the XOR value as 0.
+Step 2. Iterate through the string.
+    -If the character is a letter, add the ASCII value of the character to the XOR value.
+    -If the character is a digit, add the ASCII value of the character to the XOR value.
+    -If the character is a space, add the ASCII value of the character to the XOR value.
+    -If the character is a newline, add the ASCII value of the character to the XOR value.
+    -If the character is a tab, add the ASCII value of the character to the XOR value.
+    -If the character is a carriage return, add the ASCII value of the character to the XOR value.
+    -If the character is a backslash, add the ASCII value of the character to the XOR value.
+    -If the character is a comma, add the ASCII value of the character to the XOR value.
+    -If the character is a period, add the ASCII value of the character to the XOR value.
+    -If the character is a semicolon, add the ASCII value of the character to the XOR value.
+    -If the character is a colon, add the ASCII value of"
+"How to solve:
+Step 1. Initialize a variable to 0.
+Step 2. Iterate through the binary representation of the input.
+    -If the current character is 1, add 1 to the variable.
+    -If the current character is 0, subtract 1 from the variable.
+    -If the variable is 0, return False.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize a boolean variable to False.
+Step 2. Iterate through the string.
+    -If the character is a vowel, set the boolean to True.
+    -If the character is not a vowel, set the boolean to False.
+Step 3. Return the boolean."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the numbers.
+    -If the number is greater than or equal to k, increment count.
+    -If the number is less than k, decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize minDiff as 1.
+Step 2. Iterate through numbers.
+    -If number is a power of 2, return 0.
+    -If number is a power of 2, return 1.
+    -If number is a power of 2, return 2.
+    -If number is a power of 2, return 3.
+    -If number is a power of 2, return 4.
+    -If number is a power of 2, return 5.
+    -If number is a power of 2, return 6.
+    -If number is a power of 2, return 7.
+    -If number is a power of 2, return 8.
+    -If number is a power of 2, return 9.
+    -If number is a power of 2, return 10.
+    -If number is a power of 2, return 11.
+    -If number is a power of 2, return 12.
+    -If number is a power of 2, return 13.
+    -If number is a power of 2, return 14."
+"How to solve:
+Step 1. Initialize the area as 1.
+Step 2. Iterate through the radius.
+    -If the radius is negative, return -1.
+    -If the radius is 0, return 0.
+    -If the radius is odd, multiply the area by 3.
+    -If the radius is even, multiply the area by 4.
+Step 3. Return the area."
+"How to solve:
+Step 1. Initialize a string.
+Step 2. Iterate through string.
+    -Add character to string.
+    -If character is alphabetic, return string.
+Step 3. Return string."
+"How to solve:
+Step 1. Initialize the index of the missing number as 0.
+Step 2. Initialize the index of the first element in the array as 1.
+Step 3. Iterate through the array.
+    -If the element at index i is greater than the element at index i+1, then the missing number is at index i.
+    -If the element at index i is less than the element at index i+1, then the missing number is at index i+1.
+Step 4. Return the missing number."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through str.
+    -If str[i] == '0', increment count.
+    -If str[i] == '1', decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize the firstEven as 0.
+Step 2. Iterate through the array.
+    -If the current element is even, add 1 to the firstEven.
+    -If the current element is odd, subtract 1 from the firstEven.
+Step 3. Return the first element in the array that appears an odd number of times."
+"How to solve:
+Step 1. Initialize xorArr as 0.
+Step 2. Initialize ans as 0.
+Step 3. Iterate through arr.
+    -add value to xorArr.
+    -If xorArr > ans, update ans.
+Step 4. Return ans."
+"How to solve:
+Step 1. Initialize x and y coordinates as 0.
+Step 2. Iterate through operations.
+    -If x < 0, return False.
+    -If y < 0, return False.
+    -If x + dx > 1000, return False.
+    -If y + dy > 1000, return False.
+    -If x + dx < 0, return False.
+    -If y + dy < 0, return False.
+    -If x + dx == 0 and y + dy == 0, return True.
+    -If x + dx == 0, return False.
+    -If y + dy == 0, return False.
+    -If x + dx == 0 and y + dy == 0, return True.
+    -If x + dx == 0, return False.
+    -If y + dy == 0, return False.
+    -If x + dx == 0 and y + dy == 0, return True.
+    -If x + dx == 0, return False.
+    -If y + dy == 0, return False.
+    -If x + dx == 0 and"
+"How to solve:
+Step 1. Initialize count as 1.
+Step 2. Iterate through n.
+    -If n is odd, return 0.
+    -If n is even, return 1.
+    -If n is divisible by 2, return 2.
+    -If n is divisible by 3, return 3.
+    -If n is divisible by 4, return 4.
+    -If n is divisible by 5, return 5.
+    -If n is divisible by 6, return 6.
+    -If n is divisible by 7, return 7.
+    -If n is divisible by 8, return 8.
+    -If n is divisible by 9, return 9.
+    -If n is divisible by 10, return 10.
+    -If n is divisible by 11, return 11.
+    -If n is divisible by 12, return 12.
+    -If n is divisible by 13, return 13.
+    -If n is divisible by 14, return 14.
+    -If n"
+"How to solve:
+Step 1. Initialize count dictionary as {}.
+Step 2. Iterate through array.
+    -If element is in dictionary, increment the count of that element by 1.
+    -If element is not in dictionary, add it to dictionary.
+Step 3. Return the count of all elements in dictionary."
+"How to solve:
+Step 1. Initialize height as 0.
+Step 2. Iterate through height.
+    -If height is odd, add 1 to height.
+    -If height is even, divide height by 2 and add 1.
+Step 3. Return height."
+"How to solve:
+Step 1. Initialize source as 0.
+Step 2. Initialize step as 0.
+Step 3. Initialize dest as 0.
+Step 4. While step is not equal to 0.
+    -If source is greater than or equal to dest, return 0.
+    -If source is less than dest, return 1.
+    -If source is equal to dest, return 2.
+    -Subtract 1 from source.
+    -Add 1 to step.
+Step 5. Return 0."
+"How to solve:
+Step 1. Initialize count as 1.
+Step 2. Iterate through n.
+    -If count is odd, return count.
+    -If count is even, return count * 10 + 1.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize max_length as 0.
+Step 2. Iterate through arr.
+    -If arr[i] * max_length < 0, return max_length.
+    -If arr[i] * max_length > 0, return arr[i] * max_length.
+    -If arr[i] * max_length = 0, return max_length + 1.
+    -max_length = max(max_length, arr[i] * max_length)
+Step 3. Return max_length."
+"How to solve:
+Step 1. Initialize normal value as 1.
+Step 2. Iterate through operations.
+    -add value to normal value.
+    -If normal value < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through array.
+    -If current element is greater than target, increment count.
+    -If current element is less than target, decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through arr.
+    -If arr[i] - arr[j] <= L, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through l and r.
+    -If l and r are divisible by 2, add 2 to count.
+    -If l and r are divisible by 3, add 3 to count.
+    -If l and r are not divisible by 2 and 3, add 1 to count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize n and m as 0.
+Step 2. Iterate through n and m.
+    -If n is odd, add 1 to n.
+    -If n is even, subtract 1 from n.
+    -If m is odd, add 1 to m.
+    -If m is even, subtract 1 from m.
+Step 3. Return n."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through L to R (inclusive).
+    -If number is divisible by 9, increment count.
+    -If number is divisible by 9 and remainder is K, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize product as 1.
+Step 2. Iterate through digits of n.
+    -Multiply product by 10.
+    -Add digit to product.
+    -If product is greater than n, return product.
+Step 3. Return product."
+"How to solve:
+Step 1. Initialize the first and last element as -1.
+Step 2. Iterate through the list.
+    -If the element is greater than the first element, update the first element to the element.
+    -If the element is less than the last element, update the last element to the element.
+Step 3. If the first element is greater than the last element, return -1.
+Step 4. If the first element is less than the last element, return the first element."
+"How to solve:
+Step 1. Initialize a, b, c as 0.
+Step 2. Iterate through a, b, c.
+    -If a < b, swap a and b.
+    -If a < c, swap a and c.
+    -If a == b, swap a and b.
+    -If a == c, swap a and c.
+    -If a > b, swap a and b.
+    -If a > c, swap a and c.
+    -If a >= b, swap a and b.
+    -If a >= c, swap a and c.
+    -If a <= b, swap a and b.
+    -If a <= c, swap a and c.
+    -If a > b, swap a and b.
+    -If a > c, swap a and c.
+    -If a >= b, swap a and b.
+    -If a >= c, swap a and c.
+    -If a <= b, swap a and b.
+    -If a <= c, swap a and c.
+    -If a > b, swap a and b.
+    -If a > c, swap a and c.
+    -If a >= b,"

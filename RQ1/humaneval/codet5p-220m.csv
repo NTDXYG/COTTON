@@ -1,0 +1,3702 @@
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+### Output:
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute Deviation: 0.00
+
+### Output:
+Mean Absolute"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"def below_zero(operations: List[int]) -> bool:
+    """""" Given a list of deposit and withdrawal operations on a bank account that starts with zero balance,
+    return True if at any point the balance of account falls below zero, and
+    at that point function should return False. Otherwise it should return True.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False
+
+
+def parse_nested_parens_2(paren_string: str) -> List[int]:
+    """""" Input to this function is a string represented multiple groups for nested parentheses separated by spaces.
+    For each of the group, output the deepest level of nesting of parentheses.
+    E.g. (()()) has maximum two levels of nesting while ((())) has three.
+    """"""
+
+#### Output:
+
+def below_zero(operations: List[int]) -> bool:
+    """""" Given a list of deposit and withdrawal operations on a bank account that starts with zero balance,
+    return True if at any point the balance of"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"### Output:
+
+### Example:"
+### Output:
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+""
+### Output:
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False
+
+### Output:
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False
+
+### Output:
+
+def below_zero(operations:"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+### Output:
+""
+"def below_zero(operations: List[int]) -> bool:
+    """""" Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False
+
+
+def strlen(string: str) -> int:
+    """""" Return length of given string
+    """"""
+
+#### Output:
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True"
+### Output:
+"def below_zero(operations: List[int]) -> bool:
+    """""" Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False
+
+### Output:
+
+def below_zero(operations: List[int]) -> bool:
+    """""" Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False
+
+### Output:
+
+def below_zero(operations: List[int]) -> bool"
+""
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False
+
+
+def flip_case(string: str) -> str:
+    """""" For a given string, flip lowercase characters to uppercase and uppercase to lowercase.
+    """"""
+
+#### Output:
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:"
+"How to solve:
+Step 1. Initialize account balance as 0
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+### Output:
+"### Output:
+
+### Example:"
+### Output:
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+""
+### Output:
+"def below_zero(operations: List[int]) -> bool:
+    """"""
+    Takes a list of deposit and withdrawal operations on a bank account that starts with zero balance.
+    Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def decode_cyclic(s: str):
+    """"""
+    takes as input string encoded with encode_cyclic function. Returns decoded string.
+    """"""
+
+#### Output:
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    Takes a list of deposit and withdrawal operations on a bank account that starts with zero balance.
+    Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op"
+### Output:
+### Output:
+### Output:
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+### Output:
+"def below_zero(operations: List[int]) -> bool:
+    """"""
+    :type operations: List[int]
+    :rtype: bool
+    """"""
+    balance = 0
+    for operation in operations:
+        balance += operation
+        if balance < 0:
+            return True
+    return False
+
+
+def change_base_2(x: int, base: int):
+    """"""Change numerical base of input number x to base.
+    return string representation after the conversion.
+    base numbers are less than 10.
+    """"""
+
+#### Output:
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    :type operations: List[int]
+    :rtype: bool
+    """"""
+    balance = 0
+    for operation in operations:
+        balance += operation
+        if balance < 0:
+            return True
+    return False
+
+
+def change_base_3(x: int, base: int):
+    """"""Change numerical base of input number x to base.
+    return string representation after the conversion.
+    base numbers are less than 10.
+    """"""
+
+#### Output"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+""
+""
+"True
+False"
+"def below_zero(operations: List[int]) -> bool:
+    """"""Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""Given a list of deposit and withdrawal operations"
+"def below_zero(operations: List[int]) -> bool:
+    """"""
+    Takes a list of deposit and withdrawal operations on a bank account that starts with zero balance.
+    Returns True if at any point the balance of account falls below zero, else False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def below_zero_2(operations: List[int]) -> bool:
+    """"""
+    Takes a list of deposit and withdrawal operations on a bank account that starts with zero balance.
+    Returns True if at any point the balance of account falls below zero, else False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def below_zero_3(operations: List[int]) -> bool:
+    """"""
+    Takes a list of deposit and withdrawal operations on a bank account that starts with zero balance.
+    Returns True if at any point the balance of account falls below"
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False
+
+
+def remove_vowels(text):
+    """"""    remove_vowels is a function that takes string and returns string without vowels.
+    """"""
+
+#### Output:
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance"
+### Output:
+"True
+
+### Output:
+False"
+### Output:
+""
+### Output:
+True
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False"
+""
+""
+### Output:
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def derivative(xs: list):
+    """""" xs represent coefficients of a polynomial.
+    xs[0] + xs[1] * x + xs[2] * x^2 +....
+     Return derivative of this polynomial in the same form.
+    """"""
+
+#### Output:
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should"
+""
+### Output:
+### Output:
+""
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False
+
+### Output:
+
+def fruit_distribution(s,n):
+    """"""    In this task, you will be given a string that represents a number of apples and oranges 
+    that are distributed in a basket of fruit this basket contains 
+    apples, oranges, and mango fruits. Given the string that represents the total number of 
+    the oranges and apples and an integer that represent the total number of the fruits 
+    in the basket return the number of the mango fruits in the basket.
+    """"""
+
+#### Output:
+
+def below_zero(operations: List"
+### Output:
+### Output:
+### Output:
+"def below_zero(operations: List[int]) -> bool:
+    """"""
+    Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False"
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False"
+### Output:
+"def below_zero(operations: List[int]) -> bool:
+    """""" Your code goes here.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False"
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def is_multiply_prime(a):
+    """"""Write a function that returns true if the given number is the multiplication of 3 prime numbers
+    and false otherwise.
+    Knowing that (a) is less then 100.
+    """"""
+
+#### Output:
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False."
+### Output:
+"True
+
+### Output:
+False"
+### Output:
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+### Output:
+True
+### Output:
+""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+""
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    account_balance = 0
+    for op in operations:
+        account_balance += op
+    if account_balance < 0:
+        return True
+    return False
+
+
+def get_row(lst, x):
+    """"""    You are given a 2 dimensional data, as a nested lists,
+    which is similar to matrix, however, unlike matrices,
+    each row may contain a different number of columns.
+    Given lst, and integer x, find integers x in the list,
+    and return list of tuples, [(x1, y1), (x2, y2)...] such that
+    each tuple is a coordinate - (row, columns), starting with 0.
+    Sort coordinates initially by rows in ascending order.
+    Also, sort coordinates of the row by"
+""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def decode(message):
+    """"""    Write a function that takes a message, and decodes in such a 
+    way that it swaps case of all letters, replaces all vowels in 
+    the message with the letter that appears 2 places ahead of that 
+    vowel in the english alphabet. 
+    Assume only letters.
+    """"""
+
+#### Output:
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    Write a function that takes a list of deposit and withdrawal operations on a bank account that starts with zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+#### Output:
+
+def below_zero_2(operations: List[int]) -> bool:
+    """"""
+    Write a function that takes a list of deposit and withdrawal operations on a bank account that starts with zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+#### Output:"
+""
+### Output:
+### Output:
+""
+### Output:
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def below_zero(operations: List[int]) -> bool:
+    """""" This function takes a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+### Output:
+
+def choose_num(x, y):
+    """"""This function takes two positive numbers x and y and returns the
+    biggest even integer number that is in the range [x, y] inclusive. If 
+    there's no such number, then the function should return -1.
+    """"""
+
+#### Output:
+
+def below_zero(operations: List[int]) -> bool:
+    """""" This function takes a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point"
+""
+### Output:
+"def below_zero(operations):
+    """"""
+    Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False
+
+
+def by_length(arr):
+    """"""    Given an array of integers, sort the integers that are between 1 and 9 inclusive,
+    reverse the resulting array, and then replace each digit by its corresponding name from
+    ""One"", ""Two"", ""Three"", ""Four"", ""Five"", ""Six"", ""Seven"", ""Eight"", ""Nine"".
+    """"""
+
+#### Output:
+
+def below_zero(operations):
+    """"""
+    Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero,"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def exchange(lst1, lst2):
+    """"""In this problem, you will implement a function that takes two lists of numbers,
+    and determines whether it is possible to perform an exchange of elements
+    between them to make lst1 a list of only even numbers.
+    There is no limit on the number of exchanged elements between lst1 and lst2.
+    If it is possible to exchange elements between the lst1 and lst2 to make
+    all the elements of lst1 to be even, return ""YES"".
+    Otherwise, return ""NO"".
+    It is assumed that the input lists will be non-empty.
+    """""""
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"def reverse_delete_2(s,c):
+    """"""Task
+    We are given two strings s and c, you have to delete all the characters in s that are equal to any character in c
+    then check if the result string is palindrome.
+    A string is called palindrome if it reads the same backward as forward.
+    You should return a tuple containing the result string and True/False for the check.
+    """"""
+
+#### Output:
+
+def reverse_delete_3(s,c):
+    """"""Task
+    We are given two strings s and c, you have to delete all the characters in s that are equal to any character in c
+    then check if the result string is palindrome.
+    A string is called palindrome if it reads the same backward as forward.
+    You should return a tuple containing the result string and True/False for the check.
+    """"""
+
+#### Output:
+
+def reverse_delete_4(s,c):
+    """"""Task
+    We are given two strings s and c, you have to delete all the characters in s that are equal to any character in c
+    then check"
+"def below_zero(operations: List[int]) -> bool:
+    """"""Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    account_balance = 0
+    for op in operations:
+        account_balance += op
+    if account_balance < 0:
+        return True
+    else:
+        return False
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    account_balance = 0
+    for op in operations:
+        account_balance += op
+    if account_balance < 0:
+        return True
+    else:
+        return False
+
+
+def below_zero(operations: List["
+### Output:
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+### Output:
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    return False
+
+### Output:
+
+def select_words(s, n):
+    """"""Given a string s and a natural number n, you have been tasked to implement 
+    a function that returns a list of all words from string s that contain exactly 
+    n consonants, in order these words appear in the string s.
+    If the string s is empty then the function should return an empty list.
+    Note: you may assume the input string contains only letters and spaces.
+    """"""
+
+#### Output:
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"Yes
+No"
+"def below_zero(operations: List[int]) -> bool:
+    """"""
+    Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def maximum(arr, k):
+    """"""
+    Given an array arr of integers and a positive integer k, return a sorted list 
+    of length k with the maximum k numbers in arr.
+    
+    Note:
+        1. The length of the array will be in the range of [1, 1000].
+        2. The elements in the array will be in the range of [-1000, 1000].
+        3. 0 <= k <= len(arr)
+    """"""
+
+    return sorted(arr, key=lambda x: x - balance)
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""""
+""
+""
+""
+### Output:
+### Output:
+### Output:
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def below_zero(operations: List[int]) -> bool:
+    """"""
+    You are given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    return False
+
+
+def prod_signs(arr):
+    """"""
+    You are given an array arr of integers and you need to return
+    sum of magnitudes of integers multiplied by product of all signs
+    of each number in the array, represented by 1, -1 or 0.
+    Note: return None for empty arr.
+    """"""
+
+#### Output:
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    You are given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account"
+"### Output:
+
+### Example 1:"
+""
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+### Output:
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+True
+"def can_arrange_2(arr):
+    """"""Create a function which returns the largest index of an element which
+    is not greater than or equal to the element immediately preceding it. If
+    no such element exists then return -1. The given array will not contain
+    duplicate values.
+    """"""
+
+#### Output:
+
+def can_arrange_3(arr):
+    """"""Create a function which returns the largest index of an element which
+    is not greater than or equal to the element immediately preceding it. If
+    no such element exists then return -1. The given array will not contain
+    duplicate values.
+    """"""
+
+#### Output:
+
+def can_arrange_4(arr):
+    """"""Create a function which returns the largest index of an element which
+    is not greater than or equal to the element immediately preceding it. If
+    no such element exists then return -1. The given array will not contain
+    duplicate values.
+    """"""
+
+#### Output:
+
+def can_arrange_5(arr):
+    """"""Create a function which returns the largest index of an element which
+    is not greater than or equal to"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+### Output:
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+### Output:
+"def below_zero(operations: List[int]) -> bool:
+    """""" Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    if balance < 0:
+        return True
+    else:
+        return False"
+"Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes
+No
+
+### Output:
+Yes"
+### Output:
+"### Output:
+
+### Example:"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+""
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"def bf(planet1, planet2):
+    """"""    There are eight planets in our solar system: the closerst to the Sun 
+    is Mercury, the next one is Venus, then Earth, Mars, Jupiter, Saturn, 
+    Uranus, Neptune.
+    Write a function that takes two planet names as strings planet1 and planet2. 
+    The function should return a tuple containing all planets whose orbits are 
+    located between the orbit of planet1 and the orbit of planet2, sorted by 
+    the proximity to the sun. 
+    The function should return an empty tuple if planet1 or planet2
+    are not correct planet names.
+    """"""
+
+#### Output:
+
+def bf(planet1, planet2):
+    """"""    There are eight planets in our solar system: the closerst to the Sun 
+    is Mercury, the next one is Venus, then Earth, Mars, Jupiter, Saturn, 
+    Uranus, Neptune.
+    Write a function that takes two planet names"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+### Output:
+
+def double_the_difference(lst):
+    """"""    Given a list of numbers, return the sum of squares of the numbers
+    in the list that are odd. Ignore numbers that are negative or not integers.
+    
+    If the input list is empty, return 0.
+    """"""
+
+#### Output:
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point"
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+### Output:
+
+def compare(game,guess):
+    """"""I think we all remember that feeling when the result of some long-awaited
+    event is finally known. The feelings and thoughts you have at that moment are
+    definitely worth noting down and comparing.
+    Your task is to determine if a person correctly guessed the results of a number of matches.
+    You are given two arrays of scores and guesses of equal length, where each index shows a match. 
+    Return an array of the same length denoting how far off each guess was. If they have guessed correctly,
+    the"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def cycpattern_check(a, b):
+    """"""You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word
+    """"""
+
+#### Output:
+
+def cycpattern_check(a, b):
+    """"""You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word
+    """"""
+
+#### Output:
+
+def cycpattern_check(a, b):
+    """"""You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word
+    """"""
+
+#### Output:
+
+def cycpattern_check(a, b):
+    """"""You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word
+    """"""
+
+#### Output:
+
+def cycpattern_check(a, b):
+    """"""You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word
+    """"""
+
+#### Output:"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+### Output:
+### Output:
+"### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:
+
+### Output:"
+"def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    account_balance = 0
+    for operation in operations:
+        account_balance += operation
+    if account_balance < 0:
+        return True
+    else:
+        return False
+
+
+def eat(number, need, remaining):
+    """"""    You're a hungry rabbit, and you already have eaten a certain number of carrots,
+    but now you need to eat more carrots to complete the day's meals.
+    you should return an array of [ total number of eaten carrots after your meals,
+                                    the number of carrots left after your meals ]
+    if there are not enough remaining carrots, you will eat all remaining carrots, but will still be hungry.
+    """""""
+""
+### Output:
+"def below_zero(operations: List[int]) -> bool:
+    """""" Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False"
+""

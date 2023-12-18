@@ -1,0 +1,178 @@
+{"task_id": "Open/0", "completion": "    # Write your code here\n    count = 0\n    sum = 0\n    for i in range(len(arr)):\n        sum += arr[i]\n    for i in range(len(arr)):\n        if (arr[i] + K) > sum:\n            count += 1\n    return count\n"}
+{"task_id": "Open/1", "completion": "\n"}
+{"task_id": "Open/2", "completion": "    binary = bin(n)\n    binary = binary[2:]\n    for i in range(l, r + 1):\n        if binary[i] == '0':\n            return \"No\"\n    return \"Yes\"\n"}
+{"task_id": "Open/3", "completion": "\n"}
+{"task_id": "Open/4", "completion": "\n"}
+{"task_id": "Open/5", "completion": "    \n"}
+{"task_id": "Open/6", "completion": "\n"}
+{"task_id": "Open/7", "completion": "\n"}
+{"task_id": "Open/8", "completion": "    # Step 1.\n    # Step 2.\n    # Step 3.\n    # Step 4.\n    return len(set(Distinct_Prime_factors(a)))\n"}
+{"task_id": "Open/9", "completion": "    arr.sort()\n    return arr[n-k] + sum(arr[:n-k]) - sum(arr[1:n-k])\n\narr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nn = len(arr)\nk = 3"}
+{"task_id": "Open/10", "completion": "    total_time = 0\n    for i in range(len(A)):\n        if A[i] == B[i]:\n            total_time += 1\n        else:\n            A[i], B[i] = B[i], A[i]\n            total_time += 2\n    return total_time\n"}
+{"task_id": "Open/11", "completion": "    count = 0\n    for i in range(size) :\n        if array[i]!= 0 and array[i]!= 2 :\n            count += 1\n    return count\n"}
+{"task_id": "Open/12", "completion": "\n"}
+{"task_id": "Open/13", "completion": "\n"}
+{"task_id": "Open/14", "completion": "    # Write your code here\n    remainder = n % 4\n    if remainder == 0:\n        return n\n    elif remainder == 1:\n        return 1\n    elif remainder == 2:\n        return n + 1\n    elif remainder == 3:\n        return 0\n    else:\n        return \"\"\n"}
+{"task_id": "Open/15", "completion": "    a = random.randint(2,n-1)\n    for i in range(t) :\n        a = (a**((n-1)//2)) % n\n        if a == 1 or a == n-1 :\n            return 1\n    return -1\n"}
+{"task_id": "Open/16", "completion": "    for i in range( len( s1 ) ) :\n        if s1[i] == '0' and s2[i] == '1' or s1[i] == '1' and s2[i] == '0' or s1[i] == '0' and s2[i] == 'Z' or s1[i] == 'Z' and s2[i] == '0' :\n            return True\n    return False\n"}
+{"task_id": "Open/17", "completion": "\n"}
+{"task_id": "Open/18", "completion": "    count = 0\n    for i in range(0, length, 2):\n        if s[i] == '0' and s[i+1] == '1':\n            count += 1\n    for i in range(1, length, 2):\n        if s[i] == '1' and s[i-1] == '0':\n            count += 1\n    return min(count, length - count)\n"}
+{"task_id": "Open/19", "completion": "    \n    count = 0\n    for i in range(1, n+1):\n        if math.pow(i, 2) <= n:\n            count += 1\n    return count\n"}
+{"task_id": "Open/20", "completion": "\n"}
+{"task_id": "Open/21", "completion": "\n"}
+{"task_id": "Open/22", "completion": "    max_len = 1\n    for i in range( 1, n ) :\n        if arr[i] > arr[i-1] :\n            max_len += 1\n        else :\n            max_len = 1\n    return max_len\n"}
+{"task_id": "Open/23", "completion": "    if i == len(arr) :\n        return count\n    if sum == 0 :\n        count += 1\n    return subsetSum(arr, n, i+1, sum-arr[i], count) + subsetSum(arr, n, i+1, sum, count)\n\narr = [1, 2, 3, 4, 5]\nn = len(arr)"}
+{"task_id": "Open/24", "completion": "    # Step 1\n    counter = 0\n    \n    # Step 2\n    for i in range ( 1, n+1 ) :\n        # Step 3\n        if counter == n :\n            return i\n        \n        # Step 4\n        counter += i\n    \n    # Step 5\n    return -1\n"}
+{"task_id": "Open/25", "completion": "    sumOfSquares = 0\n    sumOfNumbers = 0\n    for i in range( n ) :\n        sumOfNumbers += i\n        sumOfSquares += i**2\n    sumOfSquares += 1\n    return sumOfSquares, sumOfNumbers, sumOfSquares + sumOfNumbers + 1\n"}
+{"task_id": "Open/26", "completion": "    factors = []\n    for i in range(1, n+1):\n        if n % i == 0:\n            factors.append(i)\n    max_sum = 0\n    for i in factors:\n        max_sum += i\n    return max_sum\n"}
+{"task_id": "Open/27", "completion": "    if x >= y :\n        return True\n    else :\n        return False\n"}
+{"task_id": "Open/28", "completion": "    return 9 * n * n - 9 * n + 1\n"}
+{"task_id": "Open/29", "completion": "\n"}
+{"task_id": "Open/30", "completion": "\n"}
+{"task_id": "Open/31", "completion": "    arr.sort()\n    return arr[k-1]\n"}
+{"task_id": "Open/32", "completion": "\n"}
+{"task_id": "Open/33", "completion": "    # Step 1\n    firstTerm = 1\n    # Step 2\n    for i in range( 1, n + 1 ) :\n        # Step 3\n        nextTerm = firstTerm * 2 + i - 1\n        firstTerm = nextTerm\n    # Step 4\n    return firstTerm\n"}
+{"task_id": "Open/34", "completion": "\n"}
+{"task_id": "Open/35", "completion": "    count = 0\n    for i in range(1, n+1) :\n        if i % 10 == d :\n            count += 1\n    return count\n"}
+{"task_id": "Open/36", "completion": "    # Step 1\n    missing = set()\n    # Step 2\n    for i in range(n) :\n        if arr[i] > 0 and arr[i] <= n :\n            missing.add(arr[i])\n    # Step 3\n    for i in range(1, n+1) :\n        if i not in missing :\n            return i\n    # Step 4\n    return n+1\n"}
+{"task_id": "Open/37", "completion": "\n"}
+{"task_id": "Open/38", "completion": "    areaSum = 0\n    size = 1\n    while size <= l and size <= b:\n        areaSum += size**2\n        size += 1\n    return areaSum\n"}
+{"task_id": "Open/39", "completion": "    sum = 0\n    for i in range(1, N+1):\n        sum += i\n    return sum\n"}
+{"task_id": "Open/40", "completion": "    maxCount = 0\n    for i in range(len(arr)):\n        if arr[i] == 0:\n            maxCount += 1\n        else:\n            maxCount = 0\n    return maxCount\n\narr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"}
+{"task_id": "Open/41", "completion": "    max_length = 0\n    for i in range( n ) :\n        if arr[i] == 0 :\n            max_length = max( max_length, i + 1 )\n    return max_length\n"}
+{"task_id": "Open/42", "completion": "    max_value = -inf\n    for i in range(n) :\n        if a[i] < max_value :\n            max_value = a[i]\n        elif a[i] > max_value :\n            max_value = a[i]\n    return max_value\n"}
+{"task_id": "Open/43", "completion": "\n"}
+{"task_id": "Open/44", "completion": "    # Step 1. Sort the array.\n    arr.sort()\n    \n    # Step 2. Iterate through the array.\n    sum = 0\n    for i in range(len(arr)):\n        # Calculate the absolute difference between the current element and its index.\n        diff = abs(arr[i] - i)\n        # Add the difference to the sum.\n        sum += diff\n    \n    # Step 3. Return the sum.\n    return sum\n"}
+{"task_id": "Open/45", "completion": "    min_element = 0\n    for i in range(n) :\n        if arr[i] < min_element :\n            min_element = arr[i]\n    return min_element * (n - 1)\n"}
+{"task_id": "Open/46", "completion": "\n"}
+{"task_id": "Open/47", "completion": "    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0:\n        return False\n    if a == 0 and b == 0 and c == 0"}
+{"task_id": "Open/48", "completion": "\n"}
+{"task_id": "Open/49", "completion": "    max = 0\n    for i in range(L,R+1):\n        max = max & i\n    return max\n"}
+{"task_id": "Open/50", "completion": "    smallest = 0\n    for i in range(n) :\n        if smallest % a[i] == 0 :\n            smallest = a[i]\n    return smallest\n"}
+{"task_id": "Open/51", "completion": "    return 0\n"}
+{"task_id": "Open/52", "completion": "\n"}
+{"task_id": "Open/53", "completion": "\n"}
+{"task_id": "Open/54", "completion": "\n"}
+{"task_id": "Open/55", "completion": "    return n & 1 == 1\n"}
+{"task_id": "Open/56", "completion": "\n"}
+{"task_id": "Open/57", "completion": "    if N % K == 0 :\n        return N\n    else :\n        return N - ( N % K )\n"}
+{"task_id": "Open/58", "completion": "\n"}
+{"task_id": "Open/59", "completion": "    # Step 1. Initialize the array.\n    arr = [0] * len(arr)\n    # Step 2. Iterate through the reversals.\n    for i in range(reversals) :\n        # Step 2.1. Reverse the array within the given range.\n        arr[ranges[i][0] : ranges[i][1] + 1] = arr[ranges[i][0] : ranges[i][1] + 1][::-1]\n    # Step 3. Return the value at the given index.\n    return arr[index]\n"}
+{"task_id": "Open/60", "completion": "    for i in range(1, n+1) :\n        if i**2 == n :\n            return True\n        elif i**2 > n :\n            return False\n    return False\n"}
+{"task_id": "Open/61", "completion": "\n"}
+{"task_id": "Open/62", "completion": "    # Step 1. Iterate through the string from the second-to-last character to the first character.\n    for i in range(len-2,-1,-1):\n        # Step 2. If a character is greater than the next character, subtract 1 from that character and set all subsequent characters to 9.\n        if str[i] > str[i+1]:\n            str[i] = str[i] - 1\n            for j in range(i+1,len):\n                str[j] = 9\n    # Step 3. Return the modified string.\n    return str\n"}
+{"task_id": "Open/63", "completion": "    minimum = 1\n    for i in range(n) :\n        if arr[i] < minimum :\n            minimum = arr[i]\n    return math.log(minimum) * n\n"}
+{"task_id": "Open/64", "completion": "\n"}
+{"task_id": "Open/65", "completion": "    a.sort()\n    count = 1\n    for i in range(1, len(a)):\n        if a[i] == a[i-1]:\n            count += 1\n        else:\n            if count > k:\n                a.pop(i-1)\n                count -= 1\n    return len(a)\n"}
+{"task_id": "Open/66", "completion": "    # Step 1. Add k elements to the array.\n    arr.extend( [0]*k )\n    # Step 2. Sort the array in ascending order.\n    arr.sort()\n    # Step 3. If the size is even, calculate the median by taking the average of the two middle elements.\n    if len(arr)%2 == 0 :\n        return (arr[len(arr)//2-1] + arr[len(arr)//2])//2\n    # Step 4. If the size is odd, simply return the middle element as the median.\n    else :\n        return arr[len(arr)//2]\n"}
+{"task_id": "Open/67", "completion": "\n"}
+{"task_id": "Open/68", "completion": "    if n == 1 :\n        return 0\n    v = []\n    n -= 1\n    while n :\n        v.append( n % 5 )\n        n = n // 5\n    result = 0\n    for i in range( len( v ) - 1, -1, -1 ) :\n        result = result * 10 + v[ i ]\n    return 2 * result\n"}
+{"task_id": "Open/69", "completion": "    # Step 1. Initialize a variable to store the previous bit.\n    prevBit = 0\n    # Step 2. Iterate through the binary representation of the number.\n    for bit in bin(n)[2:]:\n        # Step 3. Return True.\n        if bit == '1' and prevBit == '0':\n            return True\n        # Step 4. If the current bit is 0 and the previous bit is 1, return False.\n        if bit == '0' and prevBit == '1':\n            return False\n        # Step 5. If the current bit is 0 and the previous bit is 0, do nothing.\n        prevBit = bit\n    # Step 6. Return True.\n    return True\n"}
+{"task_id": "Open/70", "completion": "    if n > x :\n        return n\n    elif n < x :\n        return x\n    else :\n        return n\n"}
+{"task_id": "Open/71", "completion": "    # TODO: Write your code here\n    sum = 0\n    for i in range(n):\n        sum += 2\n    return sum\n"}
+{"task_id": "Open/72", "completion": "\n"}
+{"task_id": "Open/73", "completion": "    maxm = -1\n    count = 0\n    for i in range(n) :\n        if arr[i] == arr[i] :\n            if count < arr[i] :\n                maxm = arr[i]\n                count = arr[i]\n    return maxm\n\narr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"}
+{"task_id": "Open/74", "completion": "\n"}
+{"task_id": "Open/75", "completion": "    return bin(n)[2:]\n"}
+{"task_id": "Open/76", "completion": "\n"}
+{"task_id": "Open/77", "completion": "    # TODO: Write your code here\n    return 0\n"}
+{"task_id": "Open/78", "completion": "    return math.floor(n/2)\n"}
+{"task_id": "Open/79", "completion": "    sum = 0\n    for i in range(n) :\n        sum += a + (i-1)*d\n    return sum\n"}
+{"task_id": "Open/80", "completion": "\n"}
+{"task_id": "Open/81", "completion": ""}
+{"task_id": "Open/82", "completion": "\n"}
+{"task_id": "Open/83", "completion": "\n"}
+{"task_id": "Open/84", "completion": "    # Write your code here.\n    return sum(range(l, r+1, 2) + range(l, r+1, 2))\n"}
+{"task_id": "Open/85", "completion": "\n"}
+{"task_id": "Open/86", "completion": "\n"}
+{"task_id": "Open/87", "completion": "\n"}
+{"task_id": "Open/88", "completion": "    # Step 1. Convert the annual interest rate to a monthly interest rate by dividing it by 12 and 100.\n    r = r / 1200\n    # Step 2. Convert the loan tenure from years to months by multiplying it by 12.\n    t = t * 12\n    # Step 3. Calculate the EMI using the formula: EMI = (p * r * (1 + r)^t) / ((1 + r)^t - 1).\n    emi = (p * r * (1 + r)**t) / ((1 + r)**t - 1)\n    # Step 4. Return the calculated EMI.\n    return emi\n"}
+{"task_id": "Open/89", "completion": "    count = 0\n    for i in range(len(A)):\n        for j in range(len(B)):\n            if A[i] * C[j] > B[k] * B[k]:\n                count += 1\n    return count\n"}
+{"task_id": "Open/90", "completion": "    count = 0\n    for i in range(l, r+1):\n        if i % 10 == 2 or i % 10 == 3 or i % 10 == 9:\n            count += 1\n    return count\n"}
+{"task_id": "Open/91", "completion": "\n"}
+{"task_id": "Open/92", "completion": "    max_len = -1\n    for i in range( len( str ) ) :\n        if len( str[ i : i + 2 ] ) == 2 and str[ i : i + 2 ].isalnum() :\n            max_len = max( max_len, len( str[ i : i + 2 ] ) )\n    return max_len\n"}
+{"task_id": "Open/93", "completion": "\n"}
+{"task_id": "Open/94", "completion": "\n"}
+{"task_id": "Open/95", "completion": "\n"}
+{"task_id": "Open/96", "completion": "\n\narr = [1, 2, 3, 4, 5]\nn = len(arr)"}
+{"task_id": "Open/97", "completion": "    words = sentence.split()\n    for word in words :\n        if word == word :\n            return True\n    return False\n"}
+{"task_id": "Open/98", "completion": "    return len(str(n))\n"}
+{"task_id": "Open/99", "completion": "\n"}
+{"task_id": "Open/100", "completion": "    return x == y or isRotation(x<<1, y)\n"}
+{"task_id": "Open/101", "completion": "    count = 0\n    for i in range( len(s) ) :\n        if s[i] == s[i-1] :\n            count += 1\n        else :\n            count = 0\n    return count\n"}
+{"task_id": "Open/102", "completion": "\n"}
+{"task_id": "Open/103", "completion": "    arr.sort()\n    diff = abs(arr[1] - arr[0])\n    for i in range(1, n) :\n        diff = min(diff, abs(arr[i] - arr[i-1]))\n    return diff\n\narr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"}
+{"task_id": "Open/104", "completion": "    # TODO: Write your code here\n    return 0\n"}
+{"task_id": "Open/105", "completion": "    if n == 0 :\n        return 1\n    elif n == 1 :\n        return 1\n    elif n == 2 :\n        return 2\n    elif n == 3 :\n        return 4\n    elif n == 4 :\n        return 4\n    elif n == 5 :\n        return 8\n    elif n == 6 :\n        return 8\n    elif n == 7 :\n        return 8\n    elif n == 8 :\n        return 8\n    elif n == 9 :\n        return 16\n    elif n == 10 :\n        return 16\n    elif n == 11 :\n        return 16\n    elif n == 12 :\n        return 16\n    elif n == 13 :\n        return 16\n    elif n == 14 :\n        return 16\n    elif n == 15 :\n        return 16\n    elif n == 16 :\n        return 16\n    elif n == 17 :\n        return 16\n    elif n == 18 :\n        return 16\n    elif n == 19 :\n        return 16\n    elif n == 20 :\n        return 16\n    elif"}
+{"task_id": "Open/106", "completion": "    # Step 1\n    sum = 0\n    # Step 2\n    for i in range(1, n+1) :\n        if n % i == 0 :\n            sum += i\n    # Step 3\n    if sum == n :\n        return True\n    else :\n        return False\n"}
+{"task_id": "Open/107", "completion": "    # Step 1. Calculate the number of centuries and leap centuries in the year.\n    centuries = N // 100\n    leap_centuries = N // 400\n    \n    # Step 2. Calculate the number of leap years in the year.\n    leap_years = N // 4 - N // 100 + N // 400\n    \n    # Step 3. Calculate the number of non-leap years in the year.\n    non_leap_years = N - leap_years - leap_centuries * 4\n    \n    # Step 4. Calculate the total number of days in the year.\n    total_days = non_leap_years * 365 + leap_years * 366 + leap_centuries * 100\n    \n    # Step 5. Calculate the number of odd days in the year.\n    odd_days = total_days % 7\n    \n    return odd_days\n"}
+{"task_id": "Open/108", "completion": "\n"}
+{"task_id": "Open/109", "completion": "\n"}
+{"task_id": "Open/110", "completion": "    pass\n"}
+{"task_id": "Open/111", "completion": "    pass\n"}
+{"task_id": "Open/112", "completion": "\n"}
+{"task_id": "Open/113", "completion": "    # Initialize array with 0s.\n    arr = [0] * (n+1)\n    # Set first two elements to 3 and 5.\n    arr[0] = 3\n    arr[1] = 5\n    # Iterate through array.\n    for i in range(2, n+1):\n        if i % 2 == 0:\n            arr[i] = arr[(i//2)-1] * 10 + 5\n        else:\n            arr[i] = arr[i//2] * 10 + 3\n    # Return element at index n.\n    return arr[n]\n"}
+{"task_id": "Open/114", "completion": "\n"}
+{"task_id": "Open/115", "completion": "\n"}
+{"task_id": "Open/116", "completion": "\n"}
+{"task_id": "Open/117", "completion": "    return string.replace(\" \",\"\").replace(\"'\",\"\").replace(\"(\",\"\").replace(\")\",\"\").replace(\",\",\"\").replace(\".\",\"\").replace(\"!\",\"\")\n"}
+{"task_id": "Open/118", "completion": "    return math.ceil( math.sqrt( 8 * p + 1 ) / 2 ) - 1\n"}
+{"task_id": "Open/119", "completion": "\n"}
+{"task_id": "Open/120", "completion": "\n"}
+{"task_id": "Open/121", "completion": "    # Step 1\n    dict = {}\n    \n    # Step 2\n    for i in range(lower, higher + 1):\n        if i in dict:\n            dict[i] += 1\n        else:\n            dict[i] = 1\n    \n    # Step 3\n    return max(dict, key=dict.get)\n"}
+{"task_id": "Open/122", "completion": "    max = 0\n    for i in range(len(ss)) :\n        if ss[i].isdigit() :\n            max = max * 10 + int(ss[i])\n        else :\n            max = max if max > int(ss[i]) else int(ss[i])\n    return max\n"}
+{"task_id": "Open/123", "completion": "\n"}
+{"task_id": "Open/124", "completion": "\n"}
+{"task_id": "Open/125", "completion": "    if len(string) < length:\n        return False\n    for i in range(len(string)-1):\n        if string[i] == string[i+1]:\n            return False\n    return True\n"}
+{"task_id": "Open/126", "completion": "\n"}
+{"task_id": "Open/127", "completion": "    return len(str(A)) == len(str(B))\n"}
+{"task_id": "Open/128", "completion": "    return x!= y\n"}
+{"task_id": "Open/129", "completion": "\n"}
+{"task_id": "Open/130", "completion": "    # Step 1\n    steps = [0] * n\n    # Step 2\n    prev = -1\n    # Step 3\n    for i in range(n) :\n        # Step 4\n        steps[i] = abs(arr[i] - prev) + steps[i]\n        # Step 5\n        prev = arr[i]\n    # Step 6\n    return steps\n\narr = [1, 3, 5, 7, 9]\nn = len(arr)"}
+{"task_id": "Open/131", "completion": "    return 0 if n % 4 in [0, 3] else 1 if n % 4 in [1, 2] else 0\n"}
+{"task_id": "Open/132", "completion": "\n"}
+{"task_id": "Open/133", "completion": ""}
+{"task_id": "Open/134", "completion": "    if ( arr[0] % 2 == 1 and arr[n-1] % 2 == 1 and n % 2 == 1 ) :\n        return True\n    else :\n        return False\n"}
+{"task_id": "Open/135", "completion": "\n"}
+{"task_id": "Open/136", "completion": "    minimum = 1\n    for i in range(n) :\n        if arr[i] < minimum :\n            minimum = arr[i]\n    return minimum\n\narr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"}
+{"task_id": "Open/137", "completion": "    return ''.join(sorted(s))\n"}
+{"task_id": "Open/138", "completion": "\n"}
+{"task_id": "Open/139", "completion": "\n"}
+{"task_id": "Open/140", "completion": "\n"}
+{"task_id": "Open/141", "completion": "    \n    return math.gcd(x, y) * (x // math.gcd(x, y)) * (y // math.gcd(x, y))\n"}
+{"task_id": "Open/142", "completion": "    pass\n"}
+{"task_id": "Open/143", "completion": "\n"}
+{"task_id": "Open/144", "completion": "\narr = [10, 22, 9, 33, 21, 50, 41, 60, 80]\nn = len(arr)\n"}
+{"task_id": "Open/145", "completion": "\n"}
+{"task_id": "Open/146", "completion": "\n"}
+{"task_id": "Open/147", "completion": "    # Write your code here\n    return 0\n"}
+{"task_id": "Open/148", "completion": "    sum = 3\n    for i in range(1, n+1):\n        if i % 2 == 0:\n            sum += 3\n        else:\n            sum += 5\n    return sum\n"}
+{"task_id": "Open/149", "completion": "\n"}
+{"task_id": "Open/150", "completion": "    return (p**2 + q**2) / (p + q)\n"}
+{"task_id": "Open/151", "completion": "\n"}
+{"task_id": "Open/152", "completion": "\n"}
+{"task_id": "Open/153", "completion": "    return True\n"}
+{"task_id": "Open/154", "completion": "    # Write your code here.\n    count = 0\n    for i in range(low, high+1):\n        if i%10 >= k:\n            count += 1\n    return count\n"}
+{"task_id": "Open/155", "completion": "    # Step 1. Get the nearest power of 2.\n    nearestPowerOf2 = 2 ** math.ceil(math.log(n, 2))\n    # Step 2. Get the absolute difference between the input number and the nearest power of 2.\n    diff = abs(n - nearestPowerOf2)\n    # Step 3. Return the minimum absolute difference.\n    return diff\n"}
+{"task_id": "Open/156", "completion": "    if r < 0 :\n        return -1\n    else :\n        return 0.5 * r * r * math.sin( math.pi / 3 )\n"}
+{"task_id": "Open/157", "completion": "    return ''.join(sorted(s))\n"}
+{"task_id": "Open/158", "completion": "    low = 0\n    high = size - 1\n    while low <= high :\n        mid = (low + high) // 2\n        if ar[mid] == mid :\n            low = mid + 1\n        else :\n            high = mid - 1\n    return low\n"}
+{"task_id": "Open/159", "completion": "    count = 0\n    for i in range(len(str)):\n        if str[i:i+3] == \"010\":\n            count += 1\n    return count\n"}
+{"task_id": "Open/160", "completion": "    # Write your code here.\n    count = {}\n    for i in range(len(arr)):\n        if arr[i] in count:\n            count[arr[i]] += 1\n        else:\n            count[arr[i]] = 1\n    for i in count:\n        if count[i] % 2!= 0:\n            return i\n    return None\n"}
+{"task_id": "Open/161", "completion": "    xorArr = 0\n    ans = 0\n    for i in range(n) :\n        xorArr = xorArr ^ arr[i]\n    for i in range(n) :\n        ans = max(ans, xorArr ^ arr[i])\n    return ans\n\narr = [1, 3, 4, 8, 10]\nn = len(arr)"}
+{"task_id": "Open/162", "completion": "    if ( dx - sx == 1 and dy - sy == 1 ) :\n        return True\n    else :\n        return False\n"}
+{"task_id": "Open/163", "completion": "\n"}
+{"task_id": "Open/164", "completion": "    count = 1\n    d = {}\n    for i in range(n) :\n        d[arr[i]] = d.get(arr[i], 0) + 1\n    for i in range(n) :\n        count *= d[arr[i]]\n    return count\n"}
+{"task_id": "Open/165", "completion": ""}
+{"task_id": "Open/166", "completion": "\n"}
+{"task_id": "Open/167", "completion": "    pass\n"}
+{"task_id": "Open/168", "completion": "\n"}
+{"task_id": "Open/169", "completion": "    # Step 1. Initialize normal value as 0.\n    normal = 0\n    # Step 2. Initialize m and n as 0.\n    m = 0\n    n = 0\n    # Step 3. Initialize m and n as 0.\n    m = 0\n    n = 0\n    # Step 4. Iterate through operations.\n    for i in range(1, 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"}
+{"task_id": "Open/170", "completion": "    \n    count = 0\n    for i in range(n) :\n        if arr[i] > k :\n            count += i - arr[i]\n        if arr[i] < k :\n            count += 1\n    return count\n\narr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nn = len(arr)\nk = 10"}
+{"task_id": "Open/171", "completion": "    arr.sort()\n    i = 0\n    j = len(arr) - 1\n    k = len(arr) - 1\n    count = 0\n    while i < j < k:\n        if arr[k] - arr[i] <= L:\n            count += 1\n            j -= 1\n        else:\n            k -= 1\n    return count\n"}
+{"task_id": "Open/172", "completion": "\n"}
+{"task_id": "Open/173", "completion": "    return n ^ (1 << m)\n"}
+{"task_id": "Open/174", "completion": "    total = R - L + 1\n    divisible = total // 9\n    remainder = total % 9\n    count = 0\n    for i in range(R, R - remainder + 1, -1):\n        if i % 9 == K:\n            count += 1\n    return count\n"}
+{"task_id": "Open/175", "completion": "    n = str(n)\n    k = str(k)\n    product = n * k\n    product = product[:k]\n    log = math.log10(int(product))\n    log = int(log)\n    return product[:k], log\n"}
+{"task_id": "Open/176", "completion": "    for i in range(len(A)):\n        if A[i] > A[i-1] and A[i] < A[i+1]:\n            return A[i]\n    return -1\n"}
+{"task_id": "Open/177", "completion": "    a.sort()\n    return a[1] - a[0] + a[2] - a[1]\n"}
