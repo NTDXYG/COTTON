@@ -4,7 +4,7 @@ These limitations motivate us to investigate the following two main questions.
 
 **(1) Can ℓLMs independently generate high-quality CoTs to guide code generation?**
 
-**(2) can ℓLMs benefit from generated CoTs? **
+**(2) can ℓLMs benefit from generated CoTs?**
 
 Here, “independently” means no model training or model parameter updating.
 
