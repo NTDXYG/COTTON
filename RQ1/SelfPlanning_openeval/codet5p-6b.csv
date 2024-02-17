@@ -1,0 +1,1019 @@
+":
+def validPosition ( arr, N, K ) :
+    """"""Write a function that takes in an array, the length of the array, and a number K.
+    The function calculates the sum of all the elements in the array.
+    Then, it checks each element in the array and counts how many elements, when increased by K, would be greater than the sum of all the other elements in the array.
+    Finally, the function returns the count.
+    """""""
+":
+1. Create a frequency array.
+2. Loop the array.
+3. Find the minimum value in the array.
+4. Return the frequency of the minimum value."
+":
+1. Create a function that takes three integers n, l, and r and returns ""Yes"" if all the bits in the binary representation of n within the range from l to r (inclusive) are set to 1.
+2. Otherwise, it returns ""No""."
+":
+def countKdivPairs ( A, n, K ) :
+    """"""Write a function that takes an array A, its length n, and an integer K as input.
+    The function counts the number of pairs in the array whose sum is divisible by K.
+    It returns the count of such pairs.
+    """""""
+:
+":
+1. Return 1 if the number has odd parity (an odd number of 1 bits in its binary representation) or 0 if it has even parity (an even number of 1 bits in its binary representation)."
+":
+def missing_elements ( vec ) :
+    """"""Write a function that takes a list of integers and returns a list of missing elements.
+    The function first iterates through the input list and modifies the elements by changing the sign of the element at the index equal to the absolute value of the current element minus one.
+    Then, it iterates through the modified list and appends the indices of the positive elements plus one to the output list.
+    Finally, it returns the output list.
+    """""""
+":
+def findSubsequence ( arr, n ) :
+    """"""Write a function that takes an array of integers and its length as input and returns the length of the longest subsequence in the array such that each element in the subsequence has at least one digit in common with every other element in the subsequence.
+    """""""
+":
+def Distinct_Prime_factors ( a ) :
+    """"""Write a function that takes a list of integers and returns the number of distinct prime factors for each integer in the list.
+    """""""
+":
+Let's think step by step.
+1. Create a function findSum that takes an array, the length of the array, and an integer k as input.
+2. Create a variable sum_of_differences.
+3. Create a variable sum_of_differences_of_kth_largest_element.
+4. Loop the input, find the latter bias letter in alphabet.
+5. Return result."
+":
+The function should return the total time."
+":
+def calculate ( array, size ) :
+    """"""Write a function that takes an array and its size as input and returns the count of even numbers in the array, excluding 0 and 2.
+    """""""
+":
+1. Create a function find_sub that takes a string and an integer as input and returns the number of substrings in the string that contain at most k distinct characters.
+2. Create a list of all substrings in the string.
+3. Loop the list of substrings.
+4. If the length of the substring is less than or equal to k, add 1 to the counter.
+5. Return the counter."
+":
+def encrypt(s):
+    """"""
+    Create a function encrypt that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+    """"""
+
+#"
+:
+":
+1. Generate a random number a between 2 and n-1, and calculate the value of a raised to the power of (n-1)/2 modulo n.
+2. Check if the result is equal to 1 or n-1.
+3. If it is, generate a new random number a and repeat the process t times.
+4. If the result is not equal to 1 or n-1, the function returns -1.
+5. If all t iterations pass the test, the function returns 1.
+"""""""
+":
+Let's think step by step.
+1. Create a function that takes two strings, s1 and s2, and an integer n.
+2. Create a variable that is a boolean value.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+:
+":
+Let's think step by step.
+1. Create a function that takes two numbers, x and y, and returns their product.
+2. Create a function that takes two numbers, x and y, and returns their product.
+3. Create a function that takes two numbers, x and y, and returns their product.
+4. Create a function that takes two numbers, x and y, and returns their product.
+5. Create a function that takes two numbers, x and y, and returns their product.
+6. Create a function that takes two numbers, x and y, and returns their product.
+7. Create a function that takes two numbers, x and y, and returns their product.
+8. Create a function that takes two numbers, x and y, and returns their product.
+9. Create a function that takes two numbers, x and y, and returns their product.
+10. Create a function that takes two numbers, x and y, and returns their product.
+11. Create a function that takes two numbers, x and y, and returns their product.
+12. Create a function that takes two numbers, x and y, and returns their product.
+13. Create a function that takes"
+":
+1. Create a list of integers.
+2. Create a variable count0, count1, count2, and count3.
+3. Create a variable count4, count5, count6, and count7.
+4. Create a variable count8, count9, count10, and count11.
+5. Create a variable count12, count13, count14, and count15.
+6. Create a variable count16, count17, count18, and count19.
+7. Create a variable count20, count21, count22, and count23.
+8. Create a variable count24, count25, count26, and count27.
+9. Create a variable count28, count29, count30, and count31.
+10. Create a variable count32, count33, count34, and count35.
+11. Create a variable count36, count37, count38, and count39.
+12. Create a variable count40, count41, count42, and count43.
+13. Create a variable count44, count45, count46, and count47.
+14. Create a variable count48, count49, count50, and count51."
+":
+def lenOfLongIncSubArr ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the length of the longest increasing subarray in the given array.
+    """""""
+":
+def subsetSum ( arr, n, i, sum, count ) :
+    """"""Write a function that takes an array of integers, the length of the array, the current index, a target sum, and a count.
+    The function recursively calculates the number of subsets of the array that sum up to the target sum.
+    The base case is when the current index is equal to the length of the array.
+    If the sum is equal to 0, the count is incremented.
+    The function then calls itself twice, once subtracting the current element from the sum and once without subtracting.
+    Finally, the function returns the count.
+    """"""
+
+### Example:
+def subsetSum ( arr, n, i, sum, count ) :
+    """"""
+    Create a function that takes an array of integers, the length of the array, the current index, a target sum, and a count.
+    The function recursively calculates the number of subsets of the array that sum up to the target sum.
+    The base case is when the current index is equal to the length of the array.
+    If the sum is equal to 0, the count is incremented."
+":
+1. Create a function that takes an integer n and returns the center hexadecagonal number for that value.
+2. Create a function that takes an integer n and returns the center hexadecagonal number for that value.
+3. Create a function that takes an integer n and returns the center hexadecagonal number for that value."
+":
+def seriesFunc ( n ) :
+    """"""Write a function that takes an integer n and returns the sum of the squares of the first n natural numbers, the sum of the first n natural numbers, and adds 1 to the total sum.
+    """""""
+":
+def maxSumLCM ( n ) :
+    """"""Write a function that takes an integer n and returns the maximum sum of all the factors of n.
+    """""""
+":
+def findGreater ( x, y ) :
+    """"""Write a function that takes two numbers, x and y, and returns True if x is less than or equal to y, and False otherwise.
+    """""""
+:
+":
+Let's think step by step.
+1. Create a function that takes two numbers, a and b, and returns the percentage increase or decrease from a to b.
+2. Create a function that takes two numbers, a and b, and returns the percentage increase or decrease from a to b.
+3. Create a function that takes two numbers, a and b, and returns the percentage increase or decrease from a to b.
+4. Create a function that takes two numbers, a and b, and returns the percentage increase or decrease from a to b.
+5. Create a function that takes two numbers, a and b, and returns the percentage increase or decrease from a to b.
+6. Create a function that takes two numbers, a and b, and returns the percentage increase or decrease from a to b.
+7. Create a function that takes two numbers, a and b, and returns the percentage increase or decrease from a to b.
+8. Create a function that takes two numbers, a and b, and returns the percentage increase or decrease from a to b.
+9. Create a function that takes two numbers, a and b, and returns the percentage increase or decrease from a to b.
+10. Create a"
+":
+def AvgofSquareN ( n ) :
+    """"""Write a function that takes an integer n and returns the average of the squares of the first n natural numbers.
+    """""""
+:
+":
+def getChicks ( n ) :
+    """"""Write a function that takes an integer n as input and returns the number of chicks.
+    The number of chicks is calculated by raising 3 to the power of (n-1).
+    """""""
+":
+1. Create a function that takes an integer n and returns the nth term of a sequence.
+2. The sequence starts with 1 and each subsequent term is calculated by multiplying the previous term by 2 and adding the difference between the current index and 1.
+3. Return result."
+":
+Let's think step by step.
+1. Create a list of integers.
+2. Create a target integer.
+3. Create a function that takes in a list of integers and a target integer, and returns the number of subarrays in the list whose product is less than the target integer."
+":
+
+### Example:
+def getOccurence ( n, d ) :
+    """"""Write a function that takes two integers, n and d, and returns the number of times the digit d occurs in the numbers from 1 to n (inclusive).
+    """"""
+
+#### Output:
+
+### Example:
+def getOccurence ( n, d ) :
+    """"""Write a function that takes two integers, n and d, and returns the number of times the digit d occurs in the numbers from 1 to n (inclusive).
+    """"""
+
+#### Output:
+
+### Example:
+def getOccurence ( n, d ) :
+    """"""Write a function that takes two integers, n and d, and returns the number of times the digit d occurs in the numbers from 1 to n (inclusive).
+    """"""
+
+#### Output:
+
+### Example:
+def getOccurence ( n, d ) :
+    """"""Write a function that takes two integers, n and d, and returns the number of times the digit d occurs in the numbers from 1 to n (inclusive).
+    """"""
+
+#### Output:
+
+### Example:
+def getOccurence ("
+":
+1. Create a list of integers from 1 to n.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. 1
+2. 2
+3. 3
+4. 5
+5. 8
+6. 13
+7. 21
+8. 34
+9. 55
+10. 89
+11. 144
+12. 233
+13. 377
+14. 610
+15. 987
+16. 1597
+17. 2584
+18. 4181
+19. 6765
+20. 10946
+21. 17711
+22. 28657
+23. 46368
+24. 75025
+25. 121393
+26. 196418
+27. 317811
+28. 514229
+29. 832040
+30. 1346269
+31. 2178309
+32. 3524578
+33. 5702887
+34. 9227465
+35. 14930352
+36. 24157817
+37. 39088169
+38. 63245986
+39. 102334155
+40. 165580141
+41. 267914296
+42. 433494437
+43. 701408733
+44. 1134903170
+45. 1836311903
+46. 2971215073
+47. 4807526976"
+":
+Let's think step by step.
+1. Create a square of size 1 and gradually increases the size until it reaches the maximum size that can fit inside the rectangle.
+2. Return the total area of all the squares."
+":
+def count ( N ) :
+    """"""Write a function that takes an integer N and returns the sum of all numbers from 1 to N.
+    """""""
+":
+1. Create a function that takes an array and its length as input and returns the maximum number of consecutive zeros between two ones in the array.
+2. If there are no ones in the array, the function should return -1."
+":
+def longestSubArray ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the length of the longest subarray that contains at least one zero.
+    If the array does not contain any zeros, the function should return 0.
+    """""""
+":
+Let's think step by step.
+1. Create a function that takes an array 'a', its length 'n', and an integer 'k' as input and returns the maximum value of the minimum elements in each segment of size 'k' in the array.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes an array, its length, and a number k as input and returns the count of subarrays whose product is less than or equal to k.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+:
+":
+def getMinCost ( arr, n ) :
+    """"""Write a function that takes an array of integers and the length of the array as input.
+    The function should find the minimum element in the array and return the product of the minimum element and (n - 1), where n is the length of the array.
+    """""""
+":
+Let's think step by step.
+1. Create a function that takes an array of integers and returns the maximum difference between any two elements in the array, where the difference is calculated by adding or subtracting the index of the element from the element itself.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes in six parameters: a, b, c, x1, y1, x2, y2.
+2. Check if two points (x1, y1) and (x2, y2) are on the same side of a line defined by the equation ax + by = c.
+3. Return result."
+":
+def countSolutions ( a ) :
+    """"""Write a function that takes an integer as input and counts the number of solutions to the equation a = i + (a XOR i), where i ranges from 0 to a (inclusive).
+    The function should return the count of solutions.
+    """""""
+":
+def maxAND ( L, R ) :
+    """"""Write a function that takes two integers, L and R, and returns the maximum value of the bitwise AND operation between L and R.
+    """""""
+":
+1. Find the smallest number in the array that is a factor of all other numbers in the array.
+2. Return -1 if there is no such number."
+":
+1. Create a function sum that takes an integer n and returns the sum of the series 1/3^n for n terms.
+2. Return result."
+":
+Let's think step by step.
+1. Create a 2D array.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def xorEqualsOrCount ( N ) :
+    """"""Write a function that takes an integer N and returns the count of numbers from 0 to N (inclusive) where the bitwise XOR of the number with its own bitwise OR is equal to the number itself.
+    """""""
+":
+Let's think step by step.
+1. Create a function that takes an array of integers, the length of the array, and an integer k.
+2. Create a variable sum that takes the sum of the array elements.
+3. Create a variable length that takes the length of the array.
+4. Create a variable k_sum that takes the sum of the array elements plus the length of the array minus 1.
+5. Return result."
+":
+def onlyFirstAndLastAreSet ( n ) :
+    """"""Write a function that takes an integer as input and returns True if only the first and last bits of the binary representation of the integer are set to 1, or False otherwise.
+    """""""
+":
+def maxPartition ( s ) :
+    """"""Write a function that takes a string as input and returns the maximum number of partitions that can be made such that each partition consists of consecutive identical characters.
+    """""""
+":
+def findNum ( N, K ) :
+    """"""Write a function that takes two integers, N and K, and returns N if N is divisible by K, otherwise it returns N minus the remainder of N divided by K.
+    """""""
+":
+def successiveChange ( arr, N ) :
+    """"""Write a function that takes an array and an integer N as input and returns the result of a successive change calculation.
+    The function initializes a variable ""result"" to 0.
+    It then assigns the first element of the array to a variable ""var1"" and the second element to a variable ""var2"".
+    The ""result"" variable is updated by adding ""var1"" and ""var2"" and adding the product of ""var1"" and ""var2"" divided by 100.
+    
+
+The function then enters a loop that iterates from 2 to N.
+    In each iteration, the ""result"" variable is updated by adding the current element of the array and adding the product of ""result"" and the current element divided by 100.
+    
+
+Finally, the function returns the final value of the ""result"" variable.
+    """"""
+
+### Example:
+def successiveChange ( arr, N ) :
+    """"""Write a function that takes an array and an integer N as input and returns the result of a successive change calculation.
+    The function initializes a variable ""result"" to 0.
+    It then assigns the first"
+":
+def answer ( arr, ranges, reversals, index ) :
+    """"""Write a function that takes in four parameters: an array, a list of ranges, the number of reversals, and an index.
+    The function returns the value at the given index after performing the specified number of reversals on the array.
+    Each reversal involves swapping the elements within a given range.
+    """""""
+":
+1. Create a function that takes an integer as input and returns True if the integer can be expressed as the sum of two squares, and False otherwise.
+2. Create a function that takes an integer as input and returns True if the integer can be expressed as the sum of two squares, and False otherwise."
+":
+1. Create a function that takes two strings, `a` and `b`, and returns the number of times `a` can be repeated to form `b`.
+2. If `a` cannot be repeated to form `b`, the function should return -1."
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+:
+":
+Let's think step by step.
+1. Create a function that takes a string as input and returns the largest substring of the input string that does not end with the character '1'.
+2. If the input string is empty or consists only of '1' characters, the function should return ""-1"".
+3. Return result."
+":
+def MinRemove ( a, n, k ) :
+    """"""Write a function that takes an array 'a', its length 'n', and an integer 'k' as input.
+    The function removes the minimum number of elements from the array such that the count of each element is at most 'k'.
+    The function returns the length of the modified array.
+    """""""
+":
+Let's think step by step.
+1. Create a function that takes an array, its size, and an integer k as input and returns the maximum median of the array after adding k elements to it.
+2. Create a function that takes an array, its size, and an integer k as input and returns the median of the array after adding k elements to it.
+3. Create a function that takes an array, its size, and an integer k as input and returns the median of the array after adding k elements to it.
+4. Create a function that takes an array, its size, and an integer k as input and returns the median of the array after adding k elements to it."
+":
+The function returns the total step count.
+""""""
+def encrypt(s):
+    """"""
+    Create a function encrypt that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+    """"""
+    alphabet = ""abcdefghijklmnopqrstuvwxyz""
+    bias = 2
+    step = 0
+    for i in s:
+        if i in alphabet:
+            step += abs(alphabet.find(i) - bias)
+            bias = alphabet.find(i)
+    return step
+
+print encrypt(""abcdefghijklmnopqrstuvwxyz"")
+print encrypt(""abcdefghijklmnopqrstuvwxyz"")
+print encrypt(""abcdefghijklmnopqrstuvwxyz"")
+print encrypt(""abcdefghijklmnopqrstuvwxyz"")
+print encrypt(""abcdefghijklmnopqrstuvwxyz"")
+print encrypt(""abcdefghijklmnopq"
+":
+Let's think step by step.
+1. Create a function findNthEvenDigitNumber that takes an integer n and returns the nth even digit number.
+2. Check if n is equal to 1, in which case it returns 0.
+3. Otherwise, it creates an empty list v and subtracts 1 from n.
+4. It then enters a while loop where it appends the remainder of n divided by 5 to the list v and updates n to be the floor division of n by 5.
+5. After the loop, the function initializes a variable result to 0.
+6. It then iterates over the elements in the list v in reverse order and updates the result by multiplying it by 10 and adding the current element.
+7. Finally, the function returns 2 times the result."
+":
+def areSetBitsIncreasing ( n ) :
+    """"""Write a function that takes an integer as input and returns True if the number has a sequence of increasing set bits (bits that are set to 1) and False otherwise.
+    """""""
+":
+def closestMultiple ( n, x ) :
+    """"""Write a function that takes two integers, n and x, and returns the closest multiple of x to n.
+    If x is greater than n, it returns x.
+    """""""
+":
+Let's think step by step.
+1. Create a function that takes an integer n and returns the sum of a series.
+2. Create a variable that starts with 0 and add 2 to each subsequent number in the series.
+3. Create a variable that starts with 0 and add 2 to each subsequent number in the series.
+4. Create a variable that starts with 0 and add 2 to each subsequent number in the series.
+5. Create a variable that starts with 0 and add 2 to each subsequent number in the series.
+6. Create a variable that starts with 0 and add 2 to each subsequent number in the series.
+7. Create a variable that starts with 0 and add 2 to each subsequent number in the series.
+8. Create a variable that starts with 0 and add 2 to each subsequent number in the series.
+9. Create a variable that starts with 0 and add 2 to each subsequent number in the series.
+10. Create a variable that starts with 0 and add 2 to each subsequent number in the series.
+11. Create a variable that starts with 0 and add 2 to each subsequent number in the series.
+12. Create a variable that starts with 0 and add 2 to each subsequent number in the"
+":
+Let's think step by step.
+1. Create a function sumOfTheSeries that takes an integer n and returns the sum of a series.
+2. Create a variable sum and set it to 0.
+3. Create a for loop that starts at 1 and ends at n.
+4. Create a variable i and set it to 1.
+5. Create a variable result and set it to 0.
+6. Create a while loop that stops when i is equal to n.
+7. Create a variable j and set it to 1.
+8. Create a variable sum and set it to 0.
+9. Create a variable result and set it to 0.
+10. Create a for loop that starts at 1 and ends at n.
+11. Create a variable i and set it to 1.
+12. Create a variable result and set it to 0.
+13. Create a while loop that stops when i is equal to n.
+14. Create a variable j and set it to 1.
+15. Create a variable sum and set it to 0.
+16. Create a variable result and set it to 0.
+17. Create a for loop that starts at 1 and ends at n.
+18"
+":
+1. Create a function that takes an array and its length as input and returns the maximum value in the array that occurs the same number of times as its value.
+2. Create a variable that will hold the maximum value in the array that occurs the same number of times as its value.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+":
+def countPairs ( a, n ) :
+    """"""Write a function that takes a list of integers and the length of the list as input.
+    The function counts the number of pairs of integers in the list where one integer is the power of 2 greater than the other integer.
+    The function returns the count of such pairs.
+    """""""
+":
+1. Create a function toggle that takes an integer as input and returns the result of toggling all the bits in the binary representation of the integer.
+2. Create a function toggle that takes an integer as input and returns the result of toggling all the bits in the binary representation of the integer.
+3. Create a function toggle that takes an integer as input and returns the result of toggling all the bits in the binary representation of the integer."
+":
+Let's think step by step.
+1. Create a list A and an integer n as input.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function Convert that takes a radian value as input and converts it to degrees.
+2. Return the degree value."
+":
+import math
+
+def encrypt(s):
+    """"""
+    Create a function encrypt that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+    """"""
+
+#"
+":
+Let's think step by step.
+1. Create a function sumOfAP that takes three parameters: `a` (the first term of an arithmetic progression), `d` (the common difference), and `n` (the number of terms).
+2. Create a variable sum and set it to 0.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+:
+":
+Let's think step by step.
+1. Create a chessboard.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a list of numbers from 0 to n.
+2. Loop the list.
+3. Return the current index."
+":
+def findSmallest ( s ) :
+    """"""Write a function that takes a string as input and returns the string with the smallest lexicographically possible permutation.
+    The function first finds the last occurrence of each character in the string and stores it in a list.
+    Then, it sorts the string and compares each character with its corresponding character in the sorted string.
+    If a character is not in the correct position, the function swaps it with the character at its last occurrence.
+    Finally, the function returns the modified string.
+    """""""
+":
+def encrypt(s):
+    """"""
+    Create a function encrypt that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+    """""""
+:
+":
+Let's think step by step.
+1. Create a sequence, start with A and B.
+2. Loop the input, find the latter bias letter in sequence.
+3. Return result."
+":
+1. Create a function that takes two strings, `str` and `substr`.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function emi_calculator that takes three parameters: the principal amount (p), the annual interest rate (r), and the loan tenure in years (t).
+2. Convert the annual interest rate to a monthly interest rate by dividing it by 12 and 100.
+3. Convert the loan tenure from years to months by multiplying it by 12.
+4. Calculate the EMI using the formula: EMI = (p * r * (1 + r)^t) / ((1 + r)^t - 1).
+5. Return the calculated EMI."
+":
+Let's think step by step.
+1. Create a function countTriplets that takes three integers as input.
+2. Create a list of triplets.
+3. Return the number of triplets in the list."
+":
+1. Create a function countNums that takes two integers, l and r, and returns the count of numbers between l and r (inclusive) whose last digit is either 2, 3, or 9.
+2. Return result."
+":
+def longestAr ( n, arr ) :
+    """"""Write a function that takes an integer n and a list of integers arr.
+    The function should find the length of the longest arithmetic subsequence in arr.
+    An arithmetic subsequence is a sequence of numbers in which the difference between any two consecutive numbers is the same.
+    The function should return the length of the longest arithmetic subsequence.
+    """""""
+":
+def findMaxLenEven ( str ) :
+    """"""Write a function that takes a string as input and returns the longest even-length substring that consists of only alphanumeric characters.
+    If there is no such substring, the function should return ""-1"".
+    """""""
+":
+1. Create a function that takes an integer as input and returns the number of times the integer can be divided by 2 before it becomes less than or equal to 1.
+2. Create a function that takes an integer as input and returns the number of times the integer can be divided by 2 before it becomes less than or equal to 1.
+3. Create a function that takes an integer as input and returns the number of times the integer can be divided by 2 before it becomes less than or equal to 1.
+4. Create a function that takes an integer as input and returns the number of times the integer can be divided by 2 before it becomes less than or equal to 1.
+5. Create a function that takes an integer as input and returns the number of times the integer can be divided by 2 before it becomes less than or equal to 1.
+6. Create a function that takes an integer as input and returns the number of times the integer can be divided by 2 before it becomes less than or equal to 1.
+7. Create a function that takes an integer as input and returns the number of times the integer can be divided by 2 before it becomes less than or equal to 1.
+8. Create a function that takes an integer as"
+":
+def lexo_big ( n, k ) :
+    """"""Write a function that takes two integers, n and k, and returns a string.
+    The function creates a string of length n, consisting of all 'a' characters.
+    It then modifies the string by replacing some of the 'a' characters with other lowercase letters.
+    The number of replacements is determined by the value of k.
+    The function iterates through the string in reverse order and performs the following steps for each character:
+- Subtract the current index from k.
+   
+- If k is greater than or equal to 0, check if k is greater than or equal to 26.
+    If it is, replace the character at the current index with 'z' and subtract 26 from k.
+    Otherwise, calculate the ASCII value of the character to be replaced by adding k to 97 and subtracting 1.
+    Replace the character at the current index with the corresponding lowercase letter and subtract the difference between the ASCII values of the replaced character and 'a' from k.
+   
+- If k is less than 0, exit the loop.
+   
+- Add the current index to k."
+":
+Let's think step by step.
+1. Create a function that takes two parameters, n and fuel, and returns the maximum distance that can be covered given the number of stops (n) and the amount of fuel available.
+2. Create a variable that will hold the total distance covered.
+3. Create a variable that will hold the number of stops.
+4. Create a variable that will hold the fuel available.
+5. Create a loop that will run until there are no more stops.
+6. Calculate the distance covered by dividing the fuel by the number of stops and adding it to the total distance covered.
+7. Decrement the number of stops by 1 and repeat the process until there are no more stops.
+8. Return the total distance covered."
+":
+1. Create a function that takes an array and its length as input and returns 1 if there exists a split point in the array such that the sum of the elements before the split point is equal to one-third of the total sum of the array and the sum of the elements after the split point is equal to two-thirds of the total sum of the array.
+2. If such a split point does not exist, the function returns 0."
+":
+1. Create a function that takes a sentence and a word as input and returns True if the word is present in the sentence, and False otherwise.
+2. Create a function that takes a sentence and a word as input and returns True if the word is present in the sentence, and False otherwise.
+3. Create a function that takes a sentence and a word as input and returns True if the word is present in the sentence, and False otherwise."
+":
+def countDigit ( n ) :
+    """"""Write a function that takes an integer and returns the number of digits in that integer.
+    """""""
+":
+1. Create a function that takes four integers (a, b, c, k) and returns True if it is possible to make all three integers (a, b, c) equal by adding or subtracting a value k, or False otherwise.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def isRotation ( x, y ) :
+    """"""Write a function that takes two integers, x and y, and returns True if y is a rotation of x or False otherwise.
+    A rotation of x is defined as shifting the binary representation of x to the left by 32 bits and performing a bitwise OR operation with the original x.
+    The function checks if the resulting value is equal to y and returns True if it is, otherwise it continues shifting the value to the right by 1 bit until it is less than y.
+    If the value becomes less than y without being equal to it, the function returns False.
+    """""""
+":
+def countConsecutive ( s ) :
+    """"""Write a function that takes a string as input and counts the number of consecutive characters that are not the same.
+    The function should return the count.
+    """""""
+":
+def countChars ( string, n ) :
+    """"""Write a function that takes a string and an integer as input and returns the count of characters in the string.
+    The function counts the characters in the string by iterating through each character and incrementing the count by 1.
+    If the character is '0', the function increments the index by 1.
+    Otherwise, it increments the index by 2.
+    Finally, the function returns the count of characters.
+    """""""
+":
+def findMinRemoval ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the minimum number of elements that need to be removed from the array such that the absolute difference between adjacent elements is minimized.
+    """""""
+":
+def countMaxSetBits ( left, right ) :
+    """"""Write a function that takes two integers, `left` and `right`, and returns the maximum number that can be formed by setting the maximum number of consecutive bits in the binary representation of `left` to 1, without exceeding `right`.
+    """""""
+":
+def setBitNumber ( n ) :
+    """"""Write a function that takes an integer and returns the next power of 2 that is greater than or equal to the input number.
+    """""""
+":
+1. Create a function that takes an integer and returns True if the integer is a perfect number or False otherwise.
+2. Create a function that takes an integer and returns True if the integer is a perfect number or False otherwise.
+3. Create a function that takes an integer and returns True if the integer is a perfect number or False otherwise."
+":
+def oddDays ( N ) :
+    """"""Write a function that takes a year as input and returns the number of odd days in that year.
+    An odd day is a day that does not occur in a complete week.
+    The function calculates the number of odd days by dividing the year by 100 and 400 to determine the number of centuries and leap centuries respectively.
+    It then calculates the number of leap years by shifting the year by 2 bits.
+    The function subtracts the number of leap years from the total number of days in the year to get the number of non-leap years.
+    If there are any centuries or leap centuries, the function adjusts the number of non-leap years and leap years accordingly.
+    Finally, the function calculates the total number of days by adding the number of non-leap years and twice the number of leap years.
+    The number of odd days is obtained by taking the modulus of the total number of days divided by 7.
+    """"""
+
+### Example:
+def encrypt(s):
+    """"""
+    Create a function encrypt that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated"
+":
+1. Create a function pentdiagonal that takes a number as input and returns the pentagonal diagonal length.
+2. If the input number is negative, the function should return -1.
+3. Return result."
+":
+def frequencyDigits ( n, d ) :
+    """"""Write a function that takes two integers, n and d, and returns the frequency of the digit d in the number n.
+    """""""
+":
+def validate ( n ) :
+    """"""Write a function that takes an integer and checks if it is a valid number.
+    A valid number is one that does not contain any repeated digits.
+    The function should return True if the number is valid and False otherwise.
+    """""""
+":
+Let's think step by step.
+1. Create a list of integers.
+2. Create a function that takes a list of integers and an integer n as input.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+":
+def printNthElement ( n ) :
+    """"""Write a function that takes an integer n as input and returns the nth element of an array.
+    The array is initialized with 0s and has a length of n+1.
+    The first element of the array is set to 4 and the second element is set to 7.
+    For each index i from 3 to n+1, if i is odd, the value at index i is set to the value at index i//2 multiplied by 10 and added to 4.
+    If i is even, the value at index i is set to the value at index (i//2)-1 multiplied by 10 and added to 7.
+    Finally, the function returns the value at index n of the array.
+    """""""
+":
+Let's think step by step.
+1. Create a array of n+1 elements.
+2. Set the first element to 3 and the second element to 5.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+":
+def printNthElement ( n ) :
+    """"""Write a function that takes an integer n and returns the nth element of an array.
+    The array is initialized with 0s and has a length of n+1.
+    The first element is set to 1 and the second element is set to 2.
+    For each subsequent element, if the index is odd, the element is calculated by multiplying the element at index i//2 by 10 and adding 1.
+    If the index is even, the element is calculated by multiplying the element at index (i//2)-1 by 10 and adding 2.
+    The function returns the element at index n.
+    """""""
+":
+1. Create a function that takes an array of integers and its length as input and returns True if it is possible to form a number by concatenating the elements of the array such that the resulting number is divisible by 11.
+2. Return False."
+":
+1. Create a function that takes three parameters representing the length, breadth, and height of a square.
+2. If all the parameters are positive, return the area of the square.
+3. If any of the parameters are negative, return -1."
+":
+def FirstAndLast ( string ) :
+    """"""Write a function that takes a string as input and returns a new string where the first and last letter of each word in the input string are capitalized.
+    The function should ignore any non-alphabetic characters.
+    """""""
+":
+Let's think step by step.
+1. Create a function that takes an integer p and returns the bucket number where p belongs.
+2. Calculate the bucket number.
+3. Return result."
+":
+def areDistinct ( arr ) :
+    """"""Write a function that takes an array as input and returns True if all the elements in the array are distinct (i.
+   e.
+  , there are no duplicate elements), and False otherwise.
+    """""""
+":
+def countDistinctCode ( string ) :
+    """"""Write a function that takes a string as input and returns the count of distinct two-character codes in the string.
+    """""""
+":
+1. Create a function that takes two numbers, lower and higher, and returns the most common number between them.
+2. If lower and higher are equal, the function should return lower.
+3. Otherwise, the function should return 2."
+":
+1. Create a function that takes a string as input and returns the maximum number that can be extracted from the string.
+2. Create a function that takes a string as input and returns the maximum number that can be extracted from the string.
+3. Create a function that takes a string as input and returns the maximum number that can be extracted from the string.
+4. Create a function that takes a string as input and returns the maximum number that can be extracted from the string.
+5. Create a function that takes a string as input and returns the maximum number that can be extracted from the string.
+6. Create a function that takes a string as input and returns the maximum number that can be extracted from the string.
+7. Create a function that takes a string as input and returns the maximum number that can be extracted from the string.
+8. Create a function that takes a string as input and returns the maximum number that can be extracted from the string.
+9. Create a function that takes a string as input and returns the maximum number that can be extracted from the string.
+10. Create a function that takes a string as input and returns the maximum number that can be extracted from the string.
+11. Create a function"
+":
+Let's think step by step.
+1. Create a function that takes a string and its length as input and returns the longest substring of consecutive integers in the string.
+2. Create a function that takes a string and its length as input and returns the longest substring of consecutive integers in the string.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function subtract that takes three integers N, M, and K as input and returns the product of N and M.
+2. Create a function multiply that takes three integers N, M, and K as input and returns the product of N and M.
+3. Create a function remainingArea that takes three integers N, M, and K as input and returns the product of N and M.
+4. Return result."
+":
+True or False."
+":
+1. Create a list of powers of 2.
+2. Loop the list, find the power of 2 that is less than or equal to n.
+3. Return result."
+":
+1. Create a function that takes two integers, A and B, and returns True if both A and B have the same number of digits, and False otherwise.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def isPossible ( x, y ) :
+    """"""Write a function that takes two integers, x and y, and returns True if the difference between x and y is not equal to 1, or False otherwise.
+    """""""
+":
+def tribWord ( n ) :
+    """"""Write a function that takes an integer n and returns the nth Tribonacci word.
+    The Tribonacci word is a sequence of strings where each string is formed by concatenating the previous two strings in the sequence.
+    The first three strings in the sequence are ""1"", ""12"", and ""1213"".
+    The function should iterate from 3 to n and update the values of Sn_1, Sn_2, and Sn_3 accordingly.
+    Finally, it should return Sn_3, which represents the nth Tribonacci word.
+    """""""
+":
+def minSteps ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the minimum number of steps required to reach each element in the array.
+    The number of steps is calculated by taking the absolute difference between each element and the previous element in the array, and summing them up.
+    """""""
+":
+1. If the remainder is 0 or 3, return 0.
+2. If the remainder is 1 or 2, return 1."
+":
+Let's think step by step.
+1. Create a function that takes two parameters, `a` and `N`, and calculates the sum of all numbers that are multiples of `a` up to `N`.
+2. Create a variable `m` and store the number of multiples of `a` up to `N`.
+3. Create a variable `sum` and store the sum of all numbers from 1 to `m` using the formula `(m * (m + 1)) / 2`.
+4. Create a variable `ans` and multiply `a` by `sum` and return the result as `ans`."
+":
+def MDAS_Factorial ( N ) :
+    """"""Write a function that takes an integer N and returns a value based on the following conditions:
+- If N is less than or equal to 2, return N.
+   
+- If N is less than or equal to 4, return N + 3.
+   
+- If (N - 4) is divisible by 4, return N + 1.
+   
+- If (N - 4) modulo 4 is less than or equal to 2, return N + 2.
+   
+- Otherwise, return N - 1.
+    """""""
+":
+True
+False"
+":
+Let's think step by step.
+1. Create a function countSum that takes three parameters: N, L, and R.
+2. Create a variable countSumResult.
+3. Create a variable countSumResultResult.
+4. Create a variable countSumResultResultResult.
+5. Create a variable countSumResultResultResultResult.
+6. Create a variable countSumResultResultResultResultResult.
+7. Create a variable countSumResultResultResultResultResultResult.
+8. Return countSumResult."
+":
+1. Create a new array, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a list of the input string.
+2. Loop the list, find the latter bias letter in alphabet.
+3. Return result."
+":
+def totalBoxesRemoved ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the total number of boxes removed.
+    The function iterates through the array and compares each element with the previous element.
+    If the current element is greater than the previous element, the difference is added to the count and the current element is replaced with the previous element.
+    If the current element is less than or equal to the previous element, the previous element is updated to the current element.
+    Finally, the function returns the count.
+    """""""
+":
+def averageValue ( s ) :
+    """"""Write a function that takes a string as input and returns the average value of the ASCII codes of its characters.
+    """""""
+":
+Let's think step by step.
+1. Create a function bankNotes that takes four parameters: A, B, S, and N.
+2. Create a variable banknotes, set it to 0.
+3. Create a variable banknote_value, set it to A.
+4. Create a variable amount, set it to S.
+5. Create a variable banknote_count, set it to 0.
+6. Create a while loop that checks if banknote_value is less than or equal to amount.
+7. If it is, add 1 to banknote_count, set banknote_value to banknote_value * B, and set amount to amount - banknote_value.
+8. Return banknote_count."
+":
+Let's think step by step.
+1. Create a function lcm that takes two integers, x and y, and returns their least common multiple (LCM).
+2. Create a function lcm that takes two integers, x and y, and returns their least common multiple (LCM).
+3. Create a function lcm that takes two integers, x and y, and returns their least common multiple (LCM).
+4. Create a function lcm that takes two integers, x and y, and returns their least common multiple (LCM)."
+":
+1. Create a function that takes an integer as input and counts the number of trailing zeros in its binary representation.
+2. Return the count of trailing zeros."
+":
+1. Create a function that takes an array and its length as input and returns the index of the element in the array such that the sum of the XOR of all elements to the left of it and the XOR of all elements to the right of it is maximum.
+2. Return result."
+":
+def lds ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the length of the longest decreasing subsequence in the array.
+    """""""
+":
+Let's think step by step.
+1. Create a function that takes an array, its length, and a value k.
+2. Create a variable that will hold the minimum element of the array plus k.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+":
+1. Create a function that takes an integer K and returns the length of the smallest repeating sequence of the number 1 when divided by K.
+2. If there is no repeating sequence, return -1."
+:
+":
+1. Create a function that takes an integer n and returns the sum of the first n numbers in a specific sequence.
+2. Create a function that takes an integer n and returns the sum of the first n numbers in a specific sequence.
+3. Create a function that takes an integer n and returns the sum of the first n numbers in a specific sequence."
+":
+def sqroot ( s ) :
+    """"""Write a function that takes a number as input and returns its square root.
+    """""""
+":
+Let's think step by step.
+1. Create a function that takes two numbers, p and q, and returns the probability calculated using the formula (p^2 + q^2) / (p + q), where p and q are divided by 100 before the calculation.
+2. Return the result."
+:
+:
+":
+def areVowelsInOrder ( s ) :
+    """"""Write a function that takes a string as input and returns True if the vowels in the string are in alphabetical order, and False otherwise.
+    """""""
+":
+def countLastDigitK ( low, high, k ) :
+    """"""Write a function that takes three integers (low, high, k) and returns the count of numbers between low and high (inclusive) whose last digit is greater than or equal to k.
+    """""""
+":
+1. Return the minimum absolute difference between the input number and the nearest power of 2."
+":
+1. Create a function that takes a radius as input and returns the area of a Reuleaux triangle with that radius.
+2. If the input radius is negative, the function should return -1.
+3. Return the area of the Reuleaux triangle."
+":
+def newString ( s ) :
+    """"""Write a function that takes a string as input and returns a new string that contains all the characters from the input string sorted in alphabetical order.
+    """""""
+":
+1. Find the missing number in the array.
+2. Return the missing number."
+:
+:
+":
+def maxXOR ( arr, n ) :
+    """"""Write a function that takes an array of integers and the length of the array as input.
+    The function calculates the XOR of all the elements in the array and stores it in a variable called xorArr.
+    Then, it initializes a variable called ans to 0.
+    The function then iterates through the array and calculates the XOR of xorArr and the current element.
+    It compares this XOR value with the current value of ans and updates ans if the XOR value is greater.
+    Finally, the function returns the value of ans.
+    """""""
+:
+:
+":
+Let's think step by step.
+1. Create a dictionary to count the occurrences of each element in the array.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def AVLnodes ( height ) :
+    """"""Write a function that takes an integer height and returns the number of nodes in an AVL tree of that height.
+    """""""
+:
+":
+Let's think step by step.
+1. Create a list of strings.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Find the maximum length of a subarray such that the product of all its elements is non-negative.
+2. Return N."
+":
+Let's think step by step.
+1. Create a function normal that takes two numbers, m and n, and calculates the normal value using the formula: N = (|m| * |n|) / sqrt((|m| * |m|) + (|n| * |n|)).
+2. Return the calculated normal value."
+":
+Let's think step by step.
+1. Create a function countSubarray that takes an array, its length, and a target number as input and returns the count of subarrays whose sum is less than the target number.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function countTripletsLessThanL that takes three parameters: an integer n, an integer L, and a list of integers arr.
+2. Sort the list arr in ascending order.
+3. Count the number of triplets (i, j, k) where i < j < k and arr[k] - arr[i] is less than or equal to L.
+4. Return the total number of such triplets."
+":
+1. Create a function that takes two integers, l and r, and returns the count of numbers between l and r (inclusive) that can be expressed as the product of only 2 and 3.
+2. Create a list of numbers between l and r (inclusive) that can be expressed as the product of only 2 and 3.
+3. Create a dictionary that maps each number to the count of numbers that can be expressed as the product of only 2 and 3.
+4. Return the dictionary."
+":
+def toggleLastMBits ( n, m ) :
+    """"""Write a function that takes two integers, n and m, and returns the result of toggling the last m bits of n.
+    """""""
+":
+Let's think step by step.
+1. Create a list of numbers between L and R (inclusive) that are divisible by 9 or have a remainder of K when divided by 9.
+2. Create a list of numbers from R to R - rem (inclusive) that are divisible by 9.
+3. Iterate through the numbers from R to R - rem (inclusive) and checks if the remainder of each number divided by 9 is equal to K.
+4. If it is, it increments the count.
+5. Finally, it returns the count."
+":
+def firstkdigits ( n, k ) :
+    """"""Write a function that takes two integers, n and k, and returns the first k digits of the product of n and the logarithm of n to the base 10.
+    """"""
+
+#"
+":
+Let's think step by step.
+1. Create a list of integers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+:

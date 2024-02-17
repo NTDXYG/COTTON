@@ -1,0 +1,800 @@
+"Let's think step by step.
+1. Create a list of numbers.
+2. Loop the list, compare each number with the next one.
+3. Return result."
+"def separate_paren_groups(paren_string: str) -> List[str]:
+    """""" Input to this function is a string containing multiple groups of nested parentheses. Your goal is to
+    separate those group into separate strings and return the list of those.
+    Separate groups are balanced (each open brace is properly closed) and not nested within each other
+    Ignore any spaces in the input string.
+    """""""
+"Let's think step by step.
+1. Create a list of integers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a variable, set the balance to zero.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of numbers.
+2. Calculate the mean of the list.
+3. Loop the list, find the absolute difference between each element and the mean.
+4. Calculate the mean of the absolute difference list.
+5. Return result."
+"1. Create a new list.
+2. Loop the input list, if the index is even, append the element to the new list.
+3. If the index is odd, append the delimeter to the new list.
+4. Return the new list."
+"Let's think step by step.
+1. Create a stack.
+2. Loop the input.
+3. If the input is a left parenthesis, push it into stack.
+4. If the input is a right parenthesis, pop it out of stack.
+5. If the stack is empty, push 0 into stack.
+6. Return stack."
+"1. Create a dictionary.
+2. Loop the input list, find the substring in each string.
+3. Return result."
+"Let's think step by step.
+1. Create a sum and product.
+2. Loop the input, find the sum and product.
+3. Return result."
+"Let's think step by step.
+1. Create a list to store the result.
+2. Loop the input, find the maximum element in the list.
+3. Append the maximum element to the result list.
+4. Return result."
+"Let's think step by step.
+1. Create a empty string.
+2. Loop the input string, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of zeros and ones.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"1. Create a dictionary to store the length of each string.
+2. Loop the dictionary, find the longest one.
+3. Return the key."
+"Let's think step by step.
+1. Create a function, take two integers as arguments.
+2. Create a while loop.
+3. If a is greater than b, swap a and b.
+4. If a is equal to b, return a.
+5. Else, continue the loop."
+"1. Create a list.
+2. Loop the input string.
+3. Append the current letter to the list.
+4. Return the list."
+"Let's think step by step.
+1. Create a list.
+2. Loop the input, append the number to the list.
+3. Return result."
+"1. Create a dictionary.
+2. Loop the string, if the key is not in the dictionary, add it.
+3. Return the length of the dictionary."
+"Let's think step by step.
+1. Create a list, and loop the input.
+2. If the input is 'o', append 4 to the list.
+3. If the input is 'o|', append 2 to the list.
+4. If the input is '.|', append 1 to the list.
+5. Return the list."
+"1. Create a function that takes two strings as arguments and returns the number of times the second string can be found in the first string.
+2. Loop the first string, find the latter substring in the second string.
+3. Return result."
+"Let's think step by step.
+1. Create a list.
+2. Loop the input, append the number to the list.
+3. Sort the list.
+4. Return result."
+"Let's think step by step.
+1. Create a list of numbers.
+2. Create a list of tuples, each tuple contains two numbers.
+3. Sort the tuples by the first number.
+4. Return the first tuple."
+"Let's think step by step.
+1. Create a list of numbers.
+2. Create a list of zeroes.
+3. Create a list of ones.
+4. Loop the input list, find the min and max.
+5. Loop the input list, find the difference between min and max.
+6. Loop the input list, find the ratio between min and max.
+7. Loop the input list, find the new value.
+8. Return result."
+"Let's think step by step.
+1. Create a list to store the result.
+2. Loop the input, check if the value is integer.
+3. If true, append to the result.
+4. Return result."
+"1. Create a function strlen that takes a string as an argument and returns the length of the string.
+2. Return the length of the string."
+"Let's think step by step.
+1. Create a variable, set the number to be divided.
+2. Create a variable, set the largest number to be 1.
+3. Loop the number, if the number divided by the variable is not 0, set the variable to be the number divided by the variable.
+4. If the variable is not 0, set the largest number to be the variable.
+5. Return the largest number."
+"Let's think step by step.
+1. Create a list to store the factors.
+2. Create a list to store the prime numbers.
+3. Create a list to store the prime factorization.
+4. Loop the input, find the prime factorization of the input.
+5. Loop the prime factorization, find the prime number.
+6. Loop the prime factorization, find the number of times the prime number appears in the prime factorization.
+7. Loop the prime factorization, add the prime number to the factors list.
+8. Loop the prime factorization, add the number of times the prime number appears in the prime factorization to the factors list.
+9. Return the factors list."
+"Let's think step by step.
+1. Create a dictionary, key is the element, value is the number of times it occurs.
+2. Loop the input, if the key is in the dictionary, add the value to the result.
+3. Return result."
+"def reverse_string(string: str) -> str:
+    """""" For a given string, reverse the order of the characters in the string.
+    """"""
+
+#### Output:
+def is_palindrome(string: str) -> bool:
+    """""" For a given string, determine if it is a palindrome.
+    """"""
+
+#### Output:
+def is_palindrome(string: str) -> bool:
+    """""" For a given string, determine if it is a palindrome.
+    """"""
+
+#### Output:
+def is_palindrome(string: str) -> bool:
+    """""" For a given string, determine if it is a palindrome.
+    """"""
+
+#### Output:
+def is_palindrome(string: str) -> bool:
+    """""" For a given string, determine if it is a palindrome.
+    """"""
+
+#### Output:
+def is_palindrome(string: str) -> bool:
+    """""" For a given string, determine if it is a palindrome.
+    """"""
+
+#### Output:
+def is_palindrome(string: str) -> bool:
+    """""" For a given string, determine if it is a palindrome.
+    """"""
+
+#### Output:
+def is"
+"1. Create a empty string.
+2. Loop the input, append each string to the empty string.
+3. Return result."
+"1. Create a dictionary to store the prefix and the string.
+2. Loop the input, check if the string starts with the prefix.
+3. Return result."
+"1. Create a function get_positive that takes a list as an argument and returns a list of only the positive numbers in the list.
+2. Loop the list, if the value is positive, append to result.
+3. Return result."
+"Let's think step by step.
+1. Create a list of all the numbers from 2 to n.
+2. Loop the list, if the number is not in the list, return false.
+3. Return true."
+"Let's think step by step.
+1. Create a list of coefficients.
+2. Create a list of zeros.
+3. Loop the list of coefficients, find the zero point.
+4. Return result."
+"Let's think step by step.
+1. Create a new list.
+2. Loop the input list.
+3. If the index is divisible by three, append the value to the new list.
+4. Else, append the value to the new list.
+5. Return result."
+"1. Create a set.
+2. Loop the input list, add to set.
+3. Return set."
+"Let's think step by step.
+1. Create a list, loop the list, find the max element.
+2. Return result."
+"Let's think step by step.
+1. Create a list of numbers less than n.
+2. Create a list of numbers divisible by 11 or 13.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+"1. Create a new list.
+2. Loop the input list.
+3. If the index is odd, append the value to the new list.
+4. If the index is even, append the value at the index of the input list to the new list.
+5. Return the new list."
+"Let's think step by step.
+1. Split string to groups of length 3.
+2. Cycle elements in each group. Unless group has fewer elements than 3.
+3. Return result."
+"Let's think step by step.
+1. Create a list of Fibonacci numbers.
+2. Create a list of prime numbers.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+"Let's think step by step.
+1. Create a list of integers.
+2. Loop the list, find the sum of the first two elements.
+3. If the sum is zero, return True.
+4. If the sum is not zero, remove the first element and repeat.
+5. If the sum is not zero and the list is empty, return False."
+"Let's think step by step.
+1. Create a list of n cars.
+2. Create a list of n cars.
+3. Loop the cars, find the car that's moving right to left.
+4. Loop the cars, find the car that's moving left to right.
+5. Return result."
+"Let's think step by step.
+1. Create a new list.
+2. Loop the input, add 1 to each element.
+3. Return result."
+"1. Create a dictionary, key is the element, value is the count.
+2. Loop the input, if the element is in the dictionary, minus the count.
+3. If the count is 0, return True.
+4. Return False."
+"Let's think step by step.
+1. Create a dictionary, key is the base number, value is the corresponding letter.
+2. Loop the input, find the corresponding letter in the dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a function that takes two arguments, a and h.
+2. Create a variable area that is equal to a times h.
+3. Return area."
+"Let's think step by step.
+1. Create a list, and add 0, 0, 2, 0.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"1. Create a new list.
+2. Loop the input list, append the element to the new list.
+3. Sort the new list.
+4. Return the median."
+"1. Create a function is_palindrome that takes a string as an argument and returns a boolean indicating whether the string is a palindrome or not.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of 2^n.
+2. Loop the list, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a alphabet, bias five places.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"1. Create a list of vowels.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a new list.
+2. Loop the input list, if the number is below threshold, append to the new list.
+3. Return result."
+"Let's think step by step.
+1. Create a function add, take two arguments, x and y.
+2. Check the type of x and y.
+3. Check the type of x and y.
+4. Return result."
+"1. Create a list of characters.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list, and append 0 and 1.
+2. Loop the input, append the sum of the last two elements.
+3. Return result."
+"1. Create a stack.
+2. Loop the input, if the input is ""<"", push it into stack.
+3. If the input is "">"", pop the stack.
+4. If the input is not ""<"" or "">"", return False.
+5. If the stack is empty, return True."
+"Let's think step by step.
+1. Create a variable, set it to True.
+2. Loop the input, compare the current element with the previous one.
+3. If the current element is less than the previous one, set the variable to False.
+4. Return result."
+"1. Create a set, loop the input, add to set.
+2. Return set."
+"1. Create a list of prime numbers.
+2. Loop the input, find the prime number that is the divisor of the input.
+3. Return the largest prime number."
+"Let's think step by step.
+1. Create a variable, n, and assign it the input.
+2. Create a variable, sum, and assign it 0.
+3. Loop n times.
+4. Add 1 to sum.
+5. Return sum."
+"Let's think step by step.
+1. Create a stack.
+2. Loop the input.
+3. If the input is ""("", push it into the stack.
+4. If the input is "")"", pop it out of the stack.
+5. If the stack is empty, return True.
+6. If the stack is not empty, return False."
+"Let's think step by step.
+1. Create a list to store the derivative.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the result.
+2. Loop the input, find the result of the previous two.
+3. Return result."
+"1. Create a dictionary to store the vowels.
+2. Loop the input string, find the vowels in the dictionary.
+3. Return the length of the dictionary."
+"Let's think step by step.
+1. Create a list of digits.
+2. Loop the list, find the latter shift digit.
+3. Return result."
+"1. Create a list of upper characters.
+2. Loop the input, find the upper character.
+3. Return the sum."
+"Let's think step by step.
+1. Create a dictionary, key is the fruit, value is the number of fruits.
+2. Loop the input, find the fruit in dictionary.
+3. Return result."
+"1. Create a list, even_list, and loop the input.
+2. If the input is empty, return even_list.
+3. If the input is not empty, add the value to the even_list.
+4. If the value is even, add the value to the even_list.
+5. If the value is not even, continue.
+6. If the value is even, return even_list.
+7. If the value is not even, continue.
+8. If the value is even, return even_list.
+9. If the value is not even, continue.
+10. If the value is even, return even_list.
+11. If the value is not even, continue.
+12. If the value is even, return even_list.
+13. If the value is not even, continue.
+14. If the value is even, return even_list.
+15. If the value is not even, continue.
+16. If the value is even, return even_list.
+17. If the value is not even, continue.
+18. If the value is even, return even_"
+"Let's think step by step.
+1. Create a dictionary, key is the number, value is the frequency.
+2. Loop the input, find the number that has frequency greater than or equal to the number itself.
+3. Return result."
+"Let's think step by step.
+1. Create a list, append the first element.
+2. Loop the input, find the minimum value.
+3. Append the minimum value to the list.
+4. Append the maximum value to the list.
+5. Append the minimum value to the list.
+6. Append the maximum value to the list.
+7. Return result."
+"Let's think step by step.
+1. Check if the sum of any two sides is greater than the third side.
+2. If true, return the area of the triangle.
+3. If false, return -1."
+"Let's think step by step.
+1. Create a list, and loop the input.
+2. If the input is a palindromic list, and the sum of its elements is less than or equal the maximum possible weight w, return True.
+3. Return False."
+"1. Create a new array, and loop the input.
+2. If the input is odd, add the input to the new array.
+3. If the input is even, add the input to the new array, and minus the input.
+4. If the new array is palindromic, return the length of the new array.
+5. If the new array is not palindromic, return the length of the new array plus one."
+"1. Create a function that accepts two lists of strings and returns the list that has total number of chars in the all strings of the list less than the other list.
+2. If the two lists have the same number of chars, return the first list.
+3. Return result."
+"Let's think step by step.
+1. Create a list of prime numbers.
+2. Loop the input, find the multiplication of the input and the prime numbers.
+3. Return result."
+"Let's think step by step.
+1. Create a list of all the factors of n.
+2. Loop the list, check if x is in the list.
+3. Return result."
+"Let's think step by step.
+1. Create a list of numbers.
+2. Loop the input, find the number in list.
+3. Return result."
+"def hex_key(num):
+    """"""
+    Create a function hex_key that takes a string as an argument and returns a string of the hexadecimal digits that are primes.
+    """"""
+
+#"
+"Let's think step by step.
+1. Create a list of binary number.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the count of each letter.
+2. Loop the input string, find the count of each letter.
+3. If the count is odd, return False.
+4. If the count is even, return True."
+"Let's think step by step.
+1. Create a dictionary.
+2. Loop the input, find the key in dictionary.
+3. Return result."
+"1. Create a list of prime numbers.
+2. Loop the input string.
+3. If the string length is in the list, return True.
+4. Else return False."
+"1. Create a list of all the numbers of n-digit positive integers.
+2. Create a list of all the numbers of n-digit positive integers that start with 1.
+3. Create a list of all the numbers of n-digit positive integers that end with 1.
+4. Return the sum of the length of the three lists."
+"1. Create a function that takes a positive integer N as an argument and returns the total sum of its digits in binary.
+2. Loop the input, find the latter digit in binary.
+3. Return result."
+"Let's think step by step.
+1. Create a new list.
+2. Loop the input list.
+3. If the index is odd, add the element to the new list.
+4. Return the new list."
+"Let's think step by step.
+1. Create a list.
+2. Split the string by space.
+3. Loop the list, find the latter letter in alphabet.
+4. Return result."
+"Let's think step by step.
+1. Create a list to store result.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a new array.
+2. Loop the input array.
+3. If the sum of the first and last index is odd, append the first index to the new array.
+4. If the sum of the first and last index is even, append the last index to the new array.
+5. Return result."
+"def encrypt(s):
+    """"""Create a function encrypt that takes a string as an argument and
+    returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters 
+    shift down by two multiplied to two places.
+    """""""
+"1. Create a list.
+2. Sort the list.
+3. Return the 2nd smallest element."
+"Let's think step by step.
+1. Create a list of words.
+2. Loop the list, if the word starts with ""I"", add one to the count.
+3. Return the count."
+"Let's think step by step.
+1. Create a list of numbers.
+2. Loop the list, check if the number is equal to the sum of the other two.
+3. If the number is equal to the sum of the other two, return true.
+4. If the number is not equal to the sum of the other two, return false."
+"Let's think step by step.
+1. Create a dictionary.
+2. Loop the input, find the latter bias letter in dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a list of prime numbers.
+2. Loop the input, find the largest prime number.
+3. Return the sum of its digits."
+"1. Create a new dictionary.
+2. Loop the input dictionary.
+3. If the key is in lower case, add it to the new dictionary.
+4. If the key is in upper case, add it to the new dictionary.
+5. If the key is neither in lower case nor in upper case, return False.
+6. If the input dictionary is empty, return False.
+7. Return True."
+"1. Create a list.
+2. Loop the input, check if the input is prime number.
+3. If the input is prime number, append to the list.
+4. Return the list."
+"Let's think step by step.
+1. Create a function that takes two integers and returns the product of their unit digits.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"1. Create a list of vowels.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"1. Create a function that takes a value (string) representing a number and returns the closest integer to it.
+2. If the number is equidistant from two integers, round it away from zero.
+3. Note: Rounding away from zero means that if the given number is equidistant from two integers, the one you should return is the one that is the farthest from zero. For example closest_integer(""14.5"") should return 15 and closest_integer(""-14.5"") should return -15."
+"Let's think step by step.
+1. Create a list to store the result.
+2. Loop the input, find the next odd or even number.
+3. Append the result to the list.
+4. Return the list."
+"def words_string(s):
+    """"""    You will be given a string of words separated by commas or spaces. Your task is
+    to split the string into words and return an array of the words.
+    """""""
+"1. Create a list of even numbers in range [x, y] inclusive.
+2. Loop the list, find the biggest even number.
+3. Return result."
+"1. Create a list of integers from n to m.
+2. Create a function to calculate the average of the list.
+3. Create a function to round the average.
+4. Create a function to convert the rounded average to binary.
+5. Create a function to check if n is greater than m.
+6. Create a function to check if the rounded average is negative.
+7. Create a function to check if the rounded average is zero.
+8. Create a function to check if the rounded average is odd.
+9. Create a function to check if the rounded average is even.
+10. Create a function to check if the rounded average is divisible by 3.
+11. Create a function to check if the rounded average is divisible by 5.
+12. Create a function to check if the rounded average is divisible by 7.
+13. Create a function to check if the rounded average is divisible by 11.
+14. Create a function to check if the rounded average is divisible by 13.
+15. Create a function to check if the rounded average is divisible by 17.
+16. Create a"
+"1. Create a list of all elements that hasn't any even digit.
+2. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the mapping.
+2. Loop the input, find the digit in dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a list.
+2. Loop the list, find the factorial of the element.
+3. Return result."
+"Let's think step by step.
+1. Create a list to store even and odd palindromes.
+2. Loop the input, find the palindromes and store them in the list.
+3. Return result."
+"Let's think step by step.
+1. Create a list to store the result.
+2. Loop the input, find the sum of digits.
+3. If sum > 0, append to the result.
+4. Return result."
+"Let's think step by step.
+1. Create a new array, copy the input array to the new array.
+2. Loop the new array, find the min value and swap it with the first value.
+3. Return result."
+"Let's think step by step.
+1. Create a list to store the even numbers.
+2. Loop the input, find the even numbers and store them in the list.
+3. Loop the input, find the odd numbers and store them in the list.
+4. If the length of the list is equal to the length of the input, return ""YES"".
+5. Otherwise, return ""NO""."
+"Let's think step by step.
+1. Create a dictionary.
+2. Loop the input, find the letter in dictionary.
+3. If the letter is in dictionary, add one to the value.
+4. If the letter is not in dictionary, add the letter and one to the dictionary.
+5. Return result."
+"1. Create a dictionary to store the character and its index.
+2. Loop the input string, find the index of the character in the dictionary.
+3. If the index is not None, delete the character in the input string.
+4. Check if the result string is palindrome.
+5. Return result."
+"Let's think step by step.
+1. Create a empty list.
+2. Loop the input, find the number of odd digits in the string.
+3. Append the result to the list.
+4. Return the list."
+"Let's think step by step.
+1. Create a variable, min_sum, and assign it to the first element of nums.
+2. Loop the input, find the sum of the current element and the previous min_sum.
+3. If the sum is smaller than min_sum, assign it to min_sum.
+4. Return min_sum."
+"Let's think step by step.
+1. Create a function that takes two arguments, grid and capacity.
+2. Create a list that contains the number of buckets.
+3. Loop the grid, find the number of buckets that can be filled.
+4. Return the number of buckets."
+"1. Create a function that takes an array of integers as an argument and returns the array sorted in ascending order.
+2. Create a function that takes an array of integers as an argument and returns the array sorted in descending order.
+3. Create a function that takes an array of integers as an argument and returns the array sorted in ascending order based on the number of 1s in their binary representation.
+4. Create a function that takes an array of integers as an argument and returns the array sorted in descending order based on the number of 1s in their binary representation.
+5. Create a function that takes an array of integers as an argument and returns the array sorted in ascending order based on the decimal value of the number.
+6. Create a function that takes an array of integers as an argument and returns the array sorted in descending order based on the decimal value of the number."
+"Let's think step by step.
+1. Create a list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of vowels.
+2. Loop the input, find the latter vowel in vowels.
+3. Return result."
+"Let's think step by step.
+1. Create a stack.
+2. Loop the input, if the input is a open parentheses, push it into the stack.
+3. If the input is a close parentheses, pop the stack.
+4. If the stack is empty, return 'Yes'.
+5. If the stack is not empty, return 'No'."
+"Let's think step by step.
+1. Create a list, and append the first k elements in arr.
+2. Loop the input, find the max element in arr.
+3. Append the max element to the list.
+4. Return result."
+"1. Create a list to store the odd elements.
+2. Loop the input list, find the odd elements and store them in the list.
+3. Loop the list, find the even elements and sum them."
+"Let's think step by step.
+1. Create a result, set to 0.
+2. Loop the input, find the latter two digit number.
+3. Return result."
+"1. Create a list, loop the input, if the input is odd, append it to the list.
+2. Return the list."
+"1. Create a function valid_date that takes a string as an argument and returns True if the date is valid otherwise False.
+2. Create a list of months.
+3. Create a dictionary of months and days.
+4. Create a function that takes a string as an argument and returns True if the date is valid otherwise False.
+5. Create a function that takes a string as an argument and returns True if the date is valid otherwise False.
+6. Create a function that takes a string as an argument and returns True if the date is valid otherwise False.
+7. Create a function that takes a string as an argument and returns True if the date is valid otherwise False.
+8. Create a function that takes a string as an argument and returns True if the date is valid otherwise False.
+9. Create a function that takes a string as an argument and returns True if the date is valid otherwise False.
+10. Create a function that takes a string as an argument and returns True if the date is valid otherwise False.
+11. Create a function that takes a string as an argument and returns True if the date is valid otherwise False.
+12. Create a function that takes a string as an argument and"
+"1. Create a list.
+2. Loop the input.
+3. If the input is a number, append it to the list.
+4. If the input is a string, split it on whitespace.
+5. If the input is a list, append it to the list.
+6. Return the list."
+"1. Create a list.
+2. Loop the list.
+3. If the current number is smaller than the previous number, return False.
+4. Return True."
+"Let's think step by step.
+1. Create a list of prime numbers.
+2. Loop the input, find the intersection.
+3. If the intersection is a prime number, return ""YES"", otherwise, return ""NO""."
+"Let's think step by step.
+1. Create a sum variable.
+2. Create a product variable.
+3. Loop the input, find the sign of each number.
+4. Multiply the sign with the number.
+5. Add the result to the sum.
+6. Multiply the sign with the product.
+7. Add the result to the product.
+8. Return the sum and product."
+"Let's think step by step.
+1. Create a matrix, and fill it with the input.
+2. Create a queue, and put the first element in the queue.
+3. Loop the queue, get the first element, and check the value of the element.
+4. If the value is 0, return the result.
+5. If the value is not 0, put the value into the queue.
+6. If the value is not 0, loop the value, get the value of the element, and put the value into the queue.
+7. If the value is not 0, loop the value, get the value of the element, and put the value into the queue.
+8. If the value is not 0, loop the value, get the value of the element, and put the value into the queue.
+9. If the value is not 0, loop the value, get the value of the element, and put the value into the queue.
+10. If the value is not 0, loop the value, get the value of the element, and put the value into the queue.
+11. If the value is not 0, loop the value"
+"Let's think step by step.
+1. Create a list to store the result.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list to store odd digits.
+2. Loop the input, find the odd digits.
+3. Return result."
+"Let's think step by step.
+1. Create a stack.
+2. Loop the input string.
+3. If the input is a left bracket, push it into the stack.
+4. If the input is a right bracket, pop it out of the stack.
+5. If the stack is empty, return True.
+6. If the stack is not empty, return False."
+"1. Create a list.
+2. Loop the list, square each element.
+3. Return the sum of the squared elements."
+"1. Create a list of words.
+2. Loop the input, check if the last character is a letter.
+3. Return result."
+"Let's think step by step.
+1. Create a variable, index, set to 0.
+2. Loop the input, if the current element is greater than the element before, then return index.
+3. Else, add 1 to index.
+4. Return index."
+"1. Create a list.
+2. Loop the list, find the max and min.
+3. Return result."
+"1. Create a function that takes two numbers as arguments and returns the larger one.
+2. Create a function that takes two strings as arguments and returns the longer one.
+3. Create a function that takes two lists as arguments and returns the longer one.
+4. Create a function that takes two tuples as arguments and returns the longer one.
+5. Create a function that takes two sets as arguments and returns the longer one.
+6. Create a function that takes two dictionaries as arguments and returns the longer one.
+7. Create a function that takes two objects as arguments and returns the longer one.
+8. Create a function that takes two variables as arguments and returns the longer one."
+"Let's think step by step.
+1. Create a list of even numbers.
+2. Loop the input, find the sum of even numbers.
+3. Return result."
+"Let's think step by step.
+1. Create a factorial function.
+2. Create a loop to loop the input.
+3. Return result."
+"1. Create a function that takes a string as an argument and returns a string with all spaces replaced with underscores.
+2. Create a function that takes a string as an argument and returns a string with all consecutive spaces replaced with -"
+"1. Create a list of strings.
+2. Loop the input string.
+3. If the input string is in the list, return 'Yes'.
+4. Else return 'No'."
+"Let's think step by step.
+1. Create a list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"def is_palindrome(s):
+    """"""
+    Create a function is_palindrome that takes a string as an argument and returns True if the string is a palindrome, False otherwise.
+    """""""
+"Let's think step by step.
+1. Split the input into two parts, numerator and denominator.
+2. Convert the numerator and denominator to integer.
+3. Return True if the result is an integer, otherwise return False."
+"Let's think step by step.
+1. Create a function that takes a list of integers as an argument.
+2. Create a function that takes two integers as an argument.
+3. Create a function that takes a list of integers as an argument.
+4. Create a function that takes two integers as an argument.
+5. Create a function that takes a list of integers as an argument.
+6. Create a function that takes two integers as an argument.
+7. Create a function that takes a list of integers as an argument.
+8. Create a function that takes two integers as an argument.
+9. Create a function that takes a list of integers as an argument.
+10. Create a function that takes two integers as an argument.
+11. Create a function that takes a list of integers as an argument.
+12. Create a function that takes two integers as an argument.
+13. Create a function that takes a list of integers as an argument.
+14. Create a function that takes two integers as an argument.
+15. Create a function that takes a list of integers as an argument.
+16. Create a function that takes two integers as an argument."
+"1. Create a list of odd numbers greater than 10.
+2. Loop the input, find the first and last digit of each number.
+3. Return result."
+"Let's think step by step.
+1. Create a list, loop the input, find the sum of the list.
+2. Return the number of triples."
+"Let's think step by step.
+1. Create a dictionary, key is planet name, value is planet's orbital distance.
+2. Loop the input, find the planet's orbital distance in dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a list.
+2. Loop the input, find the length of each word.
+3. If the length is odd, append to the list.
+4. Sort the list.
+5. Return the list."
+"Let's think step by step.
+1. Create a list of prime numbers.
+2. Loop the input, find the value of x or y.
+3. Return result."
+"1. Create a empty list.
+2. Loop the input list.
+3. If the input is odd, append the square of the input to the empty list.
+4. Return the sum of the empty list."
+"Let's think step by step.
+1. Create a function compare.
+2. Create a loop to compare the scores and guesses.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the class name and the strongest extension.
+2. Loop the extensions, find the strongest extension, and store it in the dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"1. Create a function that takes an integer as an argument.
+2. Create a tuple that has two elements.
+3. Loop the integer, if the remainder is 0, add 1 to the even element.
+4. If the remainder is not 0, add 1 to the odd element.
+5. Return the tuple."
+"1. Create a dictionary.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"1. Create a function right_angle_triangle that takes three arguments, a, b, and c.
+2. Create a list of all possible combinations of a, b, and c.
+3. Loop the list, check if the sum of a, b, and c is equal to or greater than the square root of the sum of a squared and b squared.
+4. Return True if the sum of a, b, and c is equal to or greater than the square root of the sum of a squared and b squared, False otherwise."
+"1. Create a dictionary, key is word, value is the number of unique characters.
+2. Loop the input, count the number of unique characters.
+3. Return the word with maximum number of unique characters."
+"Let's think step by step.
+1. Create a variable to store the result.
+2. Create a variable to store the number of carrots left after your meals.
+3. Loop the number of carrots you need to eat, if the number of carrots left after your meals is less than the number of carrots you need to eat, add the number of carrots you need to eat to the number of carrots left after your meals.
+4. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the operator and its corresponding function.
+2. Loop the operator list, find the operator in dictionary.
+3. Return result."
+"Let's think step by step.
+1. Loop the input, find the latter letter in alphabet.
+2. Return result."
+"1. Create a function string_to_md5 that takes a string as an argument and returns its md5 hash equivalent string.
+2. If the input is an empty string, return None.
+3. Use hashlib.md5() to get the md5 hash.
+4. Return the result."
+"1. Create a list of even digits.
+2. Loop the input, find the latter even digit in list.
+3. Return result."

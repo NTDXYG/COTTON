@@ -1,0 +1,1870 @@
+"Input: arr: an array of integers
+Output: count: an integer
+1: for each element in arr:
+2:     count += 1
+3:     if element + K > sum(arr):
+4:         count += 1
+5: return count"
+"Input: arr: an array of integers
+Output: m: the frequency of the minimum value in arr
+1: for each element in arr:
+2:     if arr[i] is the maximum value in arr:
+3:         m = m + 1
+4: return m"
+"Input: n: an integer
+Input: l: an integer
+Input: r: an integer
+Output: ""Yes"" if all the bits in the binary representation of n within the range from l to r (inclusive) are set to 1. Otherwise, it returns ""No"".
+1: if n is a power of 2, then return ""Yes""
+2: if n is not a power of 2, then return ""No""
+3: if n is a power of 2, then return ""Yes""
+4: if n is not a power of 2, then return ""No""
+5: if n is a power of 2, then return ""Yes""
+6: if n is not a power of 2, then return ""No""
+7: if n is a power of 2, then return ""Yes""
+8: if n is not a power of 2, then return ""No""
+9: if n is a power of 2, then return ""Yes""
+10: if n is not a power of 2, then return ""No""
+11: if n is a power of 2, then return ""Yes""
+12: if n is not a power of 2, then return """
+"Input: A: a list of integers
+Output: count: an integer
+1: count = 0
+2: for i in range(n):
+3:     for j in range(i+1,n):
+4:         if A[i] + A[j] % K == 0:
+5:             count += 1
+6: return count"
+"Input: n: an integer
+Input: a: a list of integers
+Output: True or False
+1: if n is odd:
+2:     if n is even:
+3:         if a is empty:
+4:             return False
+5:         else:
+6:             return True
+7:     else:
+8:         return False
+9: else:
+10:     return False"
+"Input: x: an integer
+Output: 1 or 0: 1 if x has odd parity, 0 if x has even parity
+1: if x is odd
+2: if x is even
+3: if x is 0
+4: if x is 1
+5: if x is -1
+6: if x is -2
+7: if x is -3
+8: if x is -4
+9: if x is -5
+10: if x is -6
+11: if x is -7
+12: if x is -8
+13: if x is -9
+14: if x is -10
+15: if x is -11
+16: if x is -12
+17: if x is -13
+18: if x is -14
+19: if x is -15
+20: if x is -16
+21: if x is -17
+22: if x is -18
+23: if x is -19
+24: if x is -20
+25: if x is -21
+26: if x is -22
+27: if x is -23
+28: if x is -24
+29: if x is -25"
+"Input: vec: a list of integers
+Output: missing_elements: a list of missing elements
+1: for each i in range(len(vec)):
+2:     vec[i] = abs(vec[i]) - 1
+3:     missing_elements.append(i + 1)
+4: return missing_elements"
+"Input: arr: an array of integers
+Output: l: length of the longest subsequence
+1: for each i in range(n):
+2:     subsequence = []
+3:     for j in range(i, n):
+4:         if arr[i] % 10 == arr[j] % 10:
+5:             subsequence.append(arr[j])
+6:     l = max(l, len(subsequence))
+7: return l"
+"Input: a list of integers
+Output: a list of integers
+1: for each integer i in the list:
+2:     count = 0
+3:     for j in range(1, i+1):
+4:         if i % j == 0:
+5:             count += 1
+6:     return count
+7: return []"
+"Input: arr: an array of integers
+Output: sum: an integer
+1: for each i in range(1, k+1):
+2:     sum += abs(arr[i] - arr[0])
+3: return sum"
+"Input: A: list of integers
+Input: B: list of integers
+Output: total time: integer
+1: total time = 0
+2: for each element in A:
+3:     if element in B:
+4:         total time = total time + 1
+5:     else:
+6:         total time = total time + 2
+7:         A.remove(element)
+8:         B.remove(element)
+9: return total time"
+"Input: array: an array of integers
+Output: count: an integer
+1: for each element in array:
+2:     if element is even:
+3:         count += 1
+4: return count"
+"Input: s: a string
+Input: k: an integer
+Output: an integer
+1: for each substring in s:
+2:     if len(substring) <= k:
+3:         return len(substring)
+4: return 0"
+"Input: n: an integer
+Output: True or False
+1: if n is divisible by 2:
+2:     if n is divisible by 3:
+3:         if n is divisible by 5:
+4:             if n is divisible by 7:
+5:                 return True
+6:             else:
+7:                 return False
+8:         else:
+9:             return False
+10:     else:
+11:         return False
+12: else:
+13:         return True"
+"Input: n: an integer
+Output: xor: an integer
+1: if n is divisible by 4:
+2:     return n
+3: else:
+4:     return computeXOR(n+1)
+5: return """""
+"Input: n: an integer
+Input: t: an integer
+Output: -1 or 1
+1: if the result is equal to 1 or n-1, the function returns 1.
+2: if the result is not equal to 1 or n-1, the function returns -1.
+3: if all t iterations pass the test, the function returns 1.
+4: if the result is not equal to 1 or n-1, the function returns -1.
+5: if the result is equal to 1 or n-1, the function returns 1.
+6: if the result is not equal to 1 or n-1, the function returns -1.
+7: if all t iterations pass the test, the function returns 1.
+8: if the result is not equal to 1 or n-1, the function returns -1.
+9: if the result is equal to 1 or n-1, the function returns 1.
+10: if the result is not equal to 1 or n-1, the function returns -1.
+11: if all t iterations pass the test, the function returns 1.
+12: if the result is not equal to 1 or n-1, the"
+"Input: s1 = ""101010101"", s2 = ""101010101"", n = 2
+Output: True
+1: for i in range(len(s1)):
+2:     if s1[i] == '0' and s2[i] == '1':
+3:         return True
+4:     if s1[i] == '1' and s2[i] == '0':
+4:         return True
+5:     if s1[i] == '0' and s2[i] == 'Z':
+6:         return True
+7:     if s1[i] == 'Z' and s2[i] == '0':
+8:         return True
+9: return False"
+"Input: a, b, c, d, x
+Output: x * (a + b) * (c - d) / ((a * d) - (b * c))
+1: a = 1
+2: b = 2
+3: c = 3
+4: d = 4
+5: x = 5
+6: result = x * (a + b) * (c - d) / ((a * d) - (b * c))
+7: result = 5 * (1 + 2) * (3 - 4) / ((1 * 4) - (2 * 3))
+8: result = 5 * (1 + 2) * (3 - 4) / ((1 * 4) - (2 * 3))
+9: result = 5 * (1 + 2) * (3 - 4) / ((1 * 4) - (2 * 3))
+10: result = 5 * (1 + 2) * (3 - 4) / ((1 * 4) - (2 * 3))
+11: result = 5 * (1 + 2) * (3 - 4) / ((1 * 4) - (2 * 3))
+12: result = 5"
+"Input: s: a string
+Output: minReplacements: an integer
+1: minReplacements = 0
+2: for each i in range(len(s)):
+3:     if i % 2 == 0:
+4:         if s[i] == '1':
+5:             minReplacements += 1
+6:         else:
+7:             minReplacements += 2
+8:     else:
+9:         if s[i] == '0':
+10:             minReplacements += 1
+11:         else:
+12:             minReplacements += 2
+13: return minReplacements"
+"Input: n: an integer
+Output: the number of power numbers less than or equal to n
+1: if n is 0:
+2:     return 0
+3: else:
+4:     return 1 + powerNumbers(n - 1)"
+"Input: x: an integer
+Input: y: an integer
+Output: product: an integer
+1: if y is 0:
+2:     return x
+3: else:
+4:         return x + product(x, y - 1)
+5: return None"
+"Input: a: a list of integers
+Output: count0: an integer
+Output: count1: an integer
+Output: count2: an integer
+Output: count3: an integer
+1: for each integer in a:
+2:     if integer is divisible by 4:
+3:         count0 += 1
+4:     if integer is divisible by 4:
+5:         count1 += 1
+6:     if integer is divisible by 4:
+7:         count2 += 1
+8:     if integer is divisible by 4:
+9:         count3 += 1
+10:     if count0 == count1 and count1 == count2 and count2 == count3:
+11:         return 1
+12:     else:
+13:         return 2"
+"Input: arr: an array of integers
+Output: lis: the length of the longest increasing subarray in arr
+1: lis = 0
+2: for each i in range(0, n):
+3:     if arr[i] > arr[i-1]:
+4:         lis = max(lis, 1)
+5:     else:
+6:         lis = max(lis, 0)
+7: return lis"
+"Input: arr: an array of integers
+Output: count: an integer
+1: if i == n:
+2:     return 0
+3: else:
+4:     count = subsetSum(arr, n, i + 1, sum, count)
+5:     count = subsetSum(arr, n, i + 1, sum - arr[i], count)
+6: return count"
+"Input: n: an integer
+Output: center_hexadecagonal_num: an integer
+1: if n is odd:
+2:     return n
+3: else:
+4:     return n + 1
+5: return None"
+"Input: n: an integer
+Output: sum: an integer
+1: sum = 0
+2: for i in range(1,n+1):
+3:     sum = sum + i*i
+4: return sum"
+"Input: n: an integer
+Output: m: the maximum sum of all the factors of n
+1: if n is a prime number:
+2:     m = n
+3: else:
+4:         m = n
+5:         for each factor f in range(2, n):
+6:             if n % f == 0:
+7:                 m = max(m, n // f + f)
+8:         return m
+9: return None"
+"Input: x: an integer
+Input: y: an integer
+Output: True if x is less than or equal to y, and False otherwise.
+1: if x is greater than y:
+2:     return True
+3: else:
+4:     return False"
+"Input: n: an integer
+Output: center_octadecagon_num: an integer
+1: center_octadecagon_num = 9 * n * n - 9 * n + 1
+2: return center_octadecagon_num"
+"Input: a = 10, b = 20
+Output: 50.0
+Input: a = 10, b = 30
+Output: 20.0
+Input: a = 10, b = 50
+Output: 0.0
+Input: a = 10, b = -10
+Output: -10.0
+Input: a = -10, b = -20
+Output: -20.0
+Input: a = -10, b = -30
+Output: -30.0
+Input: a = -10, b = -50
+Output: -50.0
+Input: a = -10, b = -100
+Output: -100.0
+Input: a = -10, b = -1000
+Output: -1000.0
+Input: a = -10, b = -10000
+Output: -10000.0
+Input: a = -10, b = -100000
+Output: -100000.0
+Input: a = -10, b = -1000000
+Output: -1000000.0
+Input: a = -10, b = -10000000
+Output: -10000000.0
+Input: a = -10, b = -100000000"
+"Input: n: an integer
+Output: average: a float
+1: for each i in range(1, n + 1):
+2:     average += i ** 2
+3: return average / n"
+"Input: arr: a list of integers
+Output: kth_smallest: an integer
+1: for each element e in arr:
+2:     if e is the kth smallest element in arr:
+3:         return e
+4: return None"
+"Input: n: an integer
+Output: n: an integer
+1: n = 3
+2: n = 4
+3: n = 5
+4: n = 6
+5: n = 7
+6: n = 8
+7: n = 9
+8: n = 10
+9: n = 11
+10: n = 12
+11: n = 13
+12: n = 14
+13: n = 15
+14: n = 16
+15: n = 17
+16: n = 18
+17: n = 19
+18: n = 20
+19: n = 21
+20: n = 22
+21: n = 23
+22: n = 24
+23: n = 25
+24: n = 26
+25: n = 27
+26: n = 28
+27: n = 29
+28: n = 30
+29: n = 31
+30: n = 32
+31: n = 33
+32: n = 34
+33: n = 35
+34: n = 36
+35: n = 37
+36: n = 38
+37: n = 39
+38: n = 40
+39: n = 41
+40: n = 42
+41"
+"Input: n: an integer
+Output: the nth term of a sequence
+1: return n
+2: return n * 2
+3: return n * 2 - 1
+4: return n * 2 - 2
+5: return n * 2 - 3
+6: return n * 2 - 4
+7: return n * 2 - 5
+8: return n * 2 - 6
+9: return n * 2 - 7
+10: return n * 2 - 8
+11: return n * 2 - 9
+12: return n * 2 - 10
+13: return n * 2 - 11
+14: return n * 2 - 12
+15: return n * 2 - 13
+16: return n * 2 - 14
+17: return n * 2 - 15
+18: return n * 2 - 16
+19: return n * 2 - 17
+20: return n * 2 - 18
+21: return n * 2 - 19
+22: return n * 2 - 20
+23: return n * 2 - 21
+24: return n * 2 - 22
+25: return n * 2 - 23
+26: return n * 2 - 24
+27: return n * 2 - 25
+28"
+"Input: a = [10, 5, 2, 6], k = 100
+Output: 2
+
+#"
+"Input: n: an integer
+Input: d: a digit
+Output: count: an integer
+1: count = 0
+2: for i in range(1, n + 1):
+3:     if i % 10 == d:
+4:         count += 1
+5: return count"
+"Input: arr: an array of integers
+Output: missingPositive: the smallest positive integer that is missing from arr
+1: for each i in range(1, n + 1):
+2:     if i not in arr:
+3:         return i
+4: return None"
+"Input: n: an integer
+Output: ways(n): an integer
+1: if n == 0:
+2:     return 0
+3: else:
+4:     return ways(n - 1) + ways(n - 2)
+5: return ways(n - 1) + ways(n - 2)
+6: return ways(n - 1) + ways(n - 2) + ways(n - 3)
+7: return ways(n - 1) + ways(n - 2) + ways(n - 3) + ways(n - 4)
+8: return ways(n - 1) + ways(n - 2) + ways(n - 3) + ways(n - 4) + ways(n - 5)
+9: return ways(n - 1) + ways(n - 2) + ways(n - 3) + ways(n - 4) + ways(n - 5) + ways(n - 6)
+10: return ways(n - 1) + ways(n - 2) + ways(n - 3) + ways(n - 4) + ways(n - 5) + ways(n - 6) + ways("
+"Input: l: length of the rectangle
+       b: breadth of the rectangle
+Output: area_sum: total area of all the squares
+1: area_sum = l * b
+2: while l <= b:
+3:     area_sum += l * b
+4:     l += 1
+5: return area_sum"
+"Input: N: an integer
+Output: sum: an integer
+1: sum = 0
+2: for i in range(1, N + 1):
+3:     sum = sum + i
+4: return sum"
+"Input: arr: an array of integers
+Output: max_consecutive_zeros: an integer
+1: if arr is empty:
+2:     max_consecutive_zeros = -1
+3: else:
+4:     max_consecutive_zeros = 0
+5:     for i in range(len(arr)):
+6:         if arr[i] == 0:
+7:             max_consecutive_zeros += 1
+8:         else:
+9:             max_consecutive_zeros = max(max_consecutive_zeros, 0)
+10:     return max_consecutive_zeros"
+"Input: arr: an array
+Output: l: the length of the longest subarray that contains at least one zero
+1: if arr does not contain any zeros:
+2:     return 0
+3: else:
+4:     l = 0
+5:     for i in range(n):
+6:         if arr[i] == 0:
+7:             l = max(l, i + 1)
+8:     return l"
+"Input: a: an array of integers
+Output: an array of integers
+1: for each i in range(1, n):
+2:     if i % k == 0:
+3:         return a[i]
+4: return a"
+"Input: array: an array of integers
+Output: count: an integer
+1: count = 0
+2: for i in range(0, n):
+3:     for j in range(i, n):
+4:         if array[i] * array[j] <= k:
+5:             count += 1
+6: return count"
+"Input: arr: an array of integers
+Output: sum: an integer
+1: for each element in arr:
+2:     sum += abs(arr[i] - i)
+3: return sum"
+"Input: arr: an array of integers
+Output: minCost: the product of the minimum element and (n - 1)
+1: for each element in arr:
+2:     if arr[i] < arr[i + 1]:
+3:         minCost = minCost * arr[i]
+4: return minCost"
+"Input: array: an array of integers
+Output: max_diff: the maximum difference between any two elements in array
+1: for each element in array:
+2:     max_diff = max(max_diff, abs(array[i] - array[i-1]))
+3: return max_diff"
+"Input: a, b, c, x1, y1, x2, y2
+Output: True or False
+1: if (x1, y1) and (x2, y2) are on the same side of a line defined by the equation ax + by = c:
+2:     if a == 0:
+3:         return (x1 == x2)
+4:     else:
+5:         return ((y2 - y1) / (x2 - x1)) == ((c - a) / b)
+6: return False"
+"Input: a = 5
+Output: 2
+
+Input: a = 7
+Output: 2
+
+Input: a = 10
+Output: 4
+
+Input: a = 11
+Output: 3
+
+Input: a = 20
+Output: 4
+
+Input: a = 21
+Output: 3
+
+Input: a = 22
+Output: 2
+
+Input: a = 23
+Output: 1
+
+Input: a = 24
+Output: 0
+
+Input: a = 25
+Output: 0
+
+Input: a = 26
+Output: 0
+
+Input: a = 27
+Output: 0
+
+Input: a = 28
+Output: 0
+
+Input: a = 29
+Output: 0
+
+Input: a = 30
+Output: 0
+
+Input: a = 31
+Output: 0
+
+Input: a = 32
+Output: 0
+
+Input: a = 33
+Output: 0
+
+Input: a = 34
+Output: 0
+
+Input: a = 35
+Output: 0
+
+Input: a = 36
+Output: 0
+
+Input: a = 37
+Output: 0
+
+Input: a = 38
+Output: 0
+
+Input:"
+"Input: L: integer, R: integer
+Output: max: integer
+1: max = L & R
+2: if L < R:
+3:     max = R
+4: else:
+5:     max = L
+6: return max"
+"Input: a = [2, 6, 8, 14]
+Output: 2
+
+#"
+"Input: n: an integer
+Output: sum: a float
+1: for each integer i in range(n):
+2:     sum = sum + 1/3^i
+3: return sum"
+"Input: arr: a 2D array
+Output: a 2D array
+1: for i in range(n):
+2:     for j in range(n):
+3:         if (i+1)*(j+1)%2!= 0:
+4:             continue
+5:         else:
+6:             return arr[i][j]
+7: return None"
+"Input: N: an integer
+Output: count: an integer
+1: count = 0
+2: for each number i in range(0, N+1):
+3:     if i ^ i == i:
+4:         count += 1
+5: return count"
+"Input: a = [1,2,3,4,5,6], n = 6, k = 10
+Output: True
+
+#"
+"Input: n: an integer
+Output: True or False: if only the first and last bits of the binary representation of the integer are set to 1, or False otherwise.
+1: if n is a multiple of 8, then the binary representation of n is equal to the binary representation of n modulo 2.
+2: if n is a multiple of 8, then the binary representation of n is equal to the binary representation of n modulo 2.
+3: if n is a multiple of 8, then the binary representation of n is equal to the binary representation of n modulo 2.
+4: if n is a multiple of 8, then the binary representation of n is equal to the binary representation of n modulo 2.
+5: if n is a multiple of 8, then the binary representation of n is equal to the binary representation of n modulo 2.
+6: if n is a multiple of 8, then the binary representation of n is equal to the binary representation of n modulo 2.
+7: if n is a multiple of 8, then the binary representation of n is equal to the binary representation of n modulo 2.
+8: if n is a multiple of 8, then the binary representation of"
+"Input: str: a string
+Output: int: the maximum number of partitions
+1: maxPartition(s) = maxPartition(s[0:i]) + maxPartition(s[i+1:]) + 1
+2: if s[i] == s[i+1]:
+3:     maxPartition(s) = maxPartition(s[0:i]) + maxPartition(s[i+1:])
+4: else:
+5:     maxPartition(s) = maxPartition(s[0:i])
+6: return maxPartition(s)"
+"Input: N: an integer
+Input: K: an integer
+Output: N: an integer
+1: if N is divisible by K:
+2:     return N
+3: else:
+4:     return N - (N % K)"
+"Input: arr: an array of integers
+Output: result: the final value of the ""result"" variable
+1: for each element in arr:
+2:     result = result + arr[i]
+3:     result = result + arr[i] * arr[i]
+4:     return result
+5: return None"
+"Input: arr: a list of integers
+Output: the value at index
+1: for each reversal in reversals:
+2:     swap the elements within the range
+3:     swap the elements within the range
+4:     swap the elements within the range
+5:     swap the elements within the range
+6:     swap the elements within the range
+7:     swap the elements within the range
+8:     swap the elements within the range
+9:     swap the elements within the range
+10:     swap the elements within the range
+11:     swap the elements within the range
+12:     swap the elements within the range
+13:     swap the elements within the range
+14:     swap the elements within the range
+15:     swap the elements within the range
+16:     swap the elements within the range
+17:     swap the elements within the range
+18:     swap the elements within the range
+19:     swap the elements within the range
+20:     swap the elements within the range
+21:     swap the elements within the range
+22:     swap the elements within the"
+"Input: n: an integer
+Output: True or False: whether n can be expressed as the sum of two squares
+1: if n is a perfect square, return True
+2: if n is not a perfect square, return False
+3: if n is a perfect square, return True
+4: if n is not a perfect square, return False
+5: if n is a perfect square, return True
+6: if n is not a perfect square, return False
+7: if n is a perfect square, return True
+8: if n is not a perfect square, return False
+9: if n is a perfect square, return True
+10: if n is not a perfect square, return False
+11: if n is a perfect square, return True
+12: if n is not a perfect square, return False
+13: if n is a perfect square, return True
+14: if n is not a perfect square, return False
+15: if n is a perfect square, return True
+16: if n is not a perfect square, return False
+17: if n is a perfect square, return True
+18: if n is not a perfect square, return False
+19: if n is"
+"Input: a = ""ab"", b = ""abc""
+Output: 2
+
+Input: a = ""ab"", b = ""cab""
+Output: -1
+
+Input: a = ""ab"", b = ""ab""
+Output: 2
+
+Input: a = ""ab"", b = ""a""
+Output: 1
+
+Input: a = ""ab"", b = ""aa""
+Output: -1
+
+Input: a = ""ab"", b = ""ba""
+Output: -1
+
+Input: a = ""ab"", b = ""aa""
+Output: -1
+
+Input: a = ""ab"", b = ""baa""
+Output: -1
+
+Input: a = ""ab"", b = ""baaa""
+Output: -1
+
+Input: a = ""ab"", b = ""baaaa""
+Output: -1
+
+Input: a = ""ab"", b = ""baaaaa""
+Output: -1
+
+Input: a = ""ab"", b = ""baaaaaa""
+Output: -1
+
+Input: a = ""ab"", b = ""baaaaaaa""
+Output: -1
+
+Input:"
+"Input: str: a string
+Output: str: a modified string
+1: for each character ch in str:
+2:     if ch > str[len - 2]:
+3:         str[len - 1] = str[len - 1] - 1
+4:         for i in range(len - 2, -1, -1):
+5:             str[i] = 9
+6: return str"
+"Input: arr: an array of numbers
+Output: min_val: the minimum value of a number such that the sum of the logarithms of all the numbers in the array is less than the logarithm of the minimum value multiplied by the length of the array
+1: min_val = arr[0]
+2: for each i in range(1, n):
+3:     min_val = min(min_val, math.log(arr[i]))
+4: return min_val"
+"Input: str: a string
+Output: str: the largest substring of the input string that does not end with the character '1'
+1: if s is empty or consists only of '1' characters:
+2:     return ""-1""
+3: else:
+4:     return s[0:len(s)-1]"
+"Input: a: an array
+Output: n: the length of the modified array
+1: for each element in a:
+2:     if a[i] > k:
+3:         a[i] = -1
+4: return n"
+"Input: arr: an array of integers
+Output: arr: an array of integers
+1: size = 5
+2: arr = [1, 2, 3, 4, 5]
+3: arr = [1, 2, 3, 4, 5, 6]
+4: arr = [1, 2, 3, 4, 5, 6, 7]
+5: arr = [1, 2, 3, 4, 5, 6, 7, 8]
+6: arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+7: arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+8: arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+9: arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+10: arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+11: arr = [1, 2, 3, 4, 5,"
+"Input: a: an array of integers
+Output: step: an integer
+1: step = 0
+2: for each element in a:
+3:     if element < 0:
+4:         step += abs(element)
+5:     if element > 0:
+6:         step += abs(element)
+7: if the number of negative elements is even:
+8:     step += (a.count(0) // 2)
+9: if the number of negative elements is odd:
+10:     step += (a.count(0) // 2) + (a.count(0) % 2)
+11: return step"
+"Input: n: an integer
+Output: result: an integer
+1: if n == 1:
+2:     return 0
+3: else:
+4:     v = []
+5:     n = n - 1
+6:     while n > 0:
+7:         v.append(n % 5)
+8:         n = n // 5
+9:     result = 0
+10:     for i in range(len(v) - 1, -1, -1):
+11:         result = result * 10 + v[i]
+12:     return result"
+"Input: n: an integer
+Output: True or False
+1: if n is a non-negative integer:
+2:     if n is 0:
+3:         return False
+4:     if n is 1:
+5:         return True
+6:     if n is not 0 and n is not 1:
+7:         if n & (n - 1) == 0:
+8:             return True
+9:         else:
+10:             return False
+11: return None"
+"Input: n: an integer
+Input: x: an integer
+Output: x: the closest multiple of x to n
+1: if x is greater than n:
+2:     return x
+3: else:
+4:     return n"
+"Input: n: an integer
+Output: sum: an integer
+1: sum = 0
+2: for i in range(n+1):
+3:     sum += i
+4: return sum"
+"Input: n: an integer
+Output: sum: an integer
+1: sum = 1
+2: for i from 1 to n:
+3:     sum = sum + i
+4: return sum"
+"Input: arr: an array of integers
+Output: max_value: an integer
+1: max_value = -1
+2: for each i in range(n):
+3:     if arr[i] == max_value:
+4:         return max_value
+5:     else:
+6:         max_value = max(max_value, arr[i])
+7: return max_value"
+"Input: a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Output: 6
+1: for each integer in a:
+2:     if integer is a power of 2:
+3:         count += 1
+4: return count"
+"Input: n: an integer
+Output: n: the result of toggling all the bits in the binary representation of the integer
+1: for each bit in the binary representation of n:
+2:     if bit is 1:
+3:         bit = 0
+4:     else:
+5:         bit = 1
+6: return n
+7: return None"
+"Input: A: a list of integers
+Output: minChanges: an integer
+1: minChanges(A, n) = 0
+2: minChanges(A, n) = 1
+3: minChanges(A, n) = 2
+4: minChanges(A, n) = 3
+5: minChanges(A, n) = 4
+6: minChanges(A, n) = 5
+7: minChanges(A, n) = 6
+8: minChanges(A, n) = 7
+9: minChanges(A, n) = 8
+10: minChanges(A, n) = 9
+11: minChanges(A, n) = 10
+12: minChanges(A, n) = 11
+13: minChanges(A, n) = 12
+14: minChanges(A, n) = 13
+15: minChanges(A, n) = 14
+16: minChanges(A, n) = 15
+17: minChanges(A, n) = 16
+18: minChanges(A, n) = 17
+19: minChanges(A, n) = 18
+20: minChanges(A, n) ="
+"Input: radian: a radian value
+Output: degree: a degree value
+1: degree = radian * 180 / pi
+2: return degree"
+"Input: n: an integer
+Output: floor division of n by 2: an integer
+1: if n is even:
+2:     return n // 2
+3: else:
+4:     return n // 2 + 1
+5: return None"
+"Input: a: 3
+d: 2
+n: 5
+Output: 9"
+"Input: n: an integer
+Output: n: the largest power of 2 that divides n
+1: if n is odd, return 1
+2: else:
+3:     return 2 * makeOdd( n / 2 )
+4: return None"
+"Input: row, column, moves
+Output: squares
+1: squares = 0
+2: for i in range(row, row + moves):
+3:     for j in range(column, column + moves):
+4:         if i < 0 or j < 0 or i >= 8 or j >= 8:
+5:             continue
+6:         if i == row and j == column:
+7:             continue
+8:         if i == row + moves - 1 and j == column + moves - 1:
+9:             continue
+10:         if i == row + moves - 1 and j == column:
+11:             continue
+12:         if i == row and j == column + moves - 1:
+13:             continue
+14:         if i == row + moves - 1 and j == column + moves - 1:
+15:             continue
+16:         squares += 1
+17: return squares"
+"Input: n: an integer
+Output: n+1: an integer
+1: if n is 0:
+2:     return 1
+3: else:
+4:         return n+1
+5: return None"
+"Input: s: a string
+Output: s: the smallest lexicographically possible permutation of s
+1: for each character ch in s:
+2:     if ch is not in the correct position:
+3:         swap ch with the character at its last occurrence
+4: return s"
+"Input: n, l, r
+Output: sum
+1: n = 5
+2: l = 1
+3: r = 4
+4:
+5:     odds = [1, 3, 5, 7, 9]
+6:     evens = [2, 4, 6, 8, 10]
+7:     sum = 0
+8:     for i in range(l-1, r):
+9:         if i % 2 == 0:
+10:             sum += evens[i]
+11:         else:
+12:             sum += odds[i]
+13:     return sum"
+"Input: x: an integer
+Input: y: an integer
+Output: hcf: an integer
+1: if x and y are divisible by the minimum:
+2:     return x
+3: else:
+4:     for i in range(min(x, y), 1, -1):
+5:         if x % i == 0 and y % i == 0:
+6:             return i
+7:     return 1"
+"Input: A: 1, B: 10, N: 4
+Output: 9"
+"Input: str: a string
+Output: int: the number of times substr appears in str
+1: for each character ch in str:
+2:     if ch appears more than once in str:
+3:         return ch
+4: return 0"
+"Input: p: the principal amount
+Input: r: the annual interest rate
+Input: t: the loan tenure in years
+Output: EMI: the calculated EMI
+""""""
+
+def is_prime(n):
+    """"""
+    Write a function that determines whether a given integer is prime.
+    """"""
+
+#### Output:
+Input: n: an integer
+Output: True if n is prime, False otherwise
+1: if n is greater than 1:
+2:     for i in range(2, n):
+3:         if n % i == 0:
+4:             return False
+5:     return True"
+"Input: A, B, C
+Output: Number of triplets satisfying the condition i * k > j * j
+1: for each i in range(1, A + 1):
+2:     for each j in range(1, B + 1):
+3:         for each k in range(1, C + 1):
+4:             if i * k > j * j:
+5:                 print(i, j, k)
+6: return 0"
+"Input: l: an integer
+Input: r: an integer
+Output: count: an integer
+1: count = 0
+2: for i in range(l, r + 1):
+3:     if i % 10 == 2 or i % 10 == 3 or i % 10 == 9:
+4:         count += 1
+5: return count"
+"Input: n: an integer
+Input: arr: a list of integers
+Output: l: an integer
+1: l = 0
+2: for each i in range(0, n):
+3:     for j in range(i + 1, n):
+4:         if arr[i] - arr[j] == 0:
+5:             l = max(l, j - i + 1)
+6: return l"
+"Input: str: a string
+Output: ch: a longest even-length substring that consists of only alphanumeric characters
+1: for each character ch in str:
+2:     if ch is alphanumeric:
+3:         if ch is even:
+4:             return ch
+5: return -1"
+"Input: n: an integer
+Output: count: an integer
+1: if n is even:
+2:     count = 0
+3: else:
+4:     count = 1
+5: return count"
+"Input: n = 5, k = 2
+Output: aaaabbbccc
+
+#"
+"Input: n: an integer
+Input: fuel: a float
+Output: distance: a float
+1: distance = fuel / n
+2: while n > 0:
+3:     distance = distance + fuel / n
+4:     n = n - 1
+5: return distance"
+"Input: arr: an array of integers
+Output: 1 if split point exists, otherwise 0
+1: for each i in range(0, n):
+2:     if arr[i] > 0.5 * sum(arr):
+3:         return 1
+4: return 0"
+"Input: sentence: a string
+Input: word: a string
+Output: True or False
+1: for each character ch in sentence:
+2:     if ch in word:
+3:         return True
+4: return False"
+"Input: n: an integer
+Output: the number of digits in n
+1: if n is 0, return 0
+2: if n is negative, return 0
+3: if n is positive, return 1
+4: if n is a float, return 0
+5: if n is a string, return 0
+6: if n is an integer, return 1
+7: if n is an array, return 1
+8: if n is a dictionary, return 1
+9: if n is a set, return 1
+10: if n is a tuple, return 1
+11: if n is a list, return 1
+12: if n is a range, return 1
+13: if n is a range, return 1
+14: if n is a range, return 1
+15: if n is a range, return 1
+16: if n is a range, return 1
+17: if n is a range, return 1
+18: if n is a range, return 1
+19: if n is a range, return 1
+20: if n is a range, return 1
+21: if n is a range, return 1
+22: if n is a range, return 1"
+"Input: a, b, c, k
+Output: True or False
+1: if (a == b == c) :
+2:     return True
+3: else:
+4:     return False"
+"Input: x: an integer
+Input: y: an integer
+Output: True if y is a rotation of x, otherwise False
+1: if x and y are equal, return True
+2: if x is greater than y, return False
+3: if x is less than y, return False
+4: if x and y are equal, return True
+5: if x is greater than y, return False
+6: if x is less than y, return True
+7: if x and y are equal, return True
+8: if x is greater than y, return False
+9: if x is less than y, return False
+10: if x and y are equal, return True
+11: if x is greater than y, return False
+12: if x is less than y, return True
+13: if x and y are equal, return True
+14: if x is greater than y, return False
+15: if x is less than y, return True
+16: if x and y are equal, return True
+17: if x is greater than y, return False
+18: if x is less than y, return True
+19: if x and y are equal, return True"
+"Input: str: a string
+Output: count: an integer
+1: count = 0
+2: for each character ch in s:
+3:     if ch == s[count]:
+4:         count += 1
+5:     else:
+6:         count = 0
+7: return count"
+"Input: string: a string
+Output: count: an integer
+1: for each character in string:
+2:     if character is 0:
+3:         count += 1
+4:     else:
+5:         count += 2
+6: return count"
+"Input: arr: an array
+Output: m: minimum number of elements to be removed
+1: for each i in range(1,n):
+2:     if arr[i] - arr[i-1] > m:
+3:         m = arr[i] - arr[i-1]
+4: return m"
+"Input: left: 10, right: 15
+Output: 5
+1: left = 2
+2: right = 3
+3: left = 4
+4: right = 5
+5: left = 6
+6: right = 7
+7: left = 8
+8: right = 9
+9: left = 10
+10: right = 11
+11: left = 12
+12: right = 13
+13: left = 14
+14: right = 15
+15: left = 16
+16: right = 17
+17: left = 18
+18: right = 19
+19: left = 20
+20: right = 21
+21: left = 22
+22: right = 23
+23: left = 24
+24: right = 25
+25: left = 26
+26: right = 27
+27: left = 28
+28: right = 29
+29: left = 30
+30: right = 31
+31: left = 32
+32: right = 33
+33: left = 34
+34: right = 35
+35: left = 36
+36: right = 37
+37: left = 38
+38: right = 39
+39: left = 40
+40: right = 41
+41"
+"Input: n: an integer
+Output: n: the next power of 2 that is greater than or equal to the input number
+1: if n is a power of 2, return n
+2: if n is not a power of 2, return the next power of 2 that is greater than or equal to n
+3: if n is not a power of 2, return the next power of 2 that is greater than or equal to n
+4: if n is not a power of 2, return the next power of 2 that is greater than or equal to n
+5: if n is not a power of 2, return the next power of 2 that is greater than or equal to n
+6: if n is not a power of 2, return the next power of 2 that is greater than or equal to n
+7: if n is not a power of 2, return the next power of 2 that is greater than or equal to n
+8: if n is not a power of 2, return the next power of 2 that is greater than or equal to n
+9: if n is not a power of 2, return the next power of 2 that is greater than or equal to n
+10: if n is not a"
+"Input: n: an integer
+Output: True or False
+1: if n is a perfect number:
+2:     if n is divisible by 1:
+3:         return True
+4:     else:
+5:         for i in range(2, n):
+6:             if n % i == 0:
+7:                 return False
+8:         return True
+9: return False"
+"Input: year: a year
+Output: oddDays: the number of odd days in the year
+1: oddDays = (year % 100) * 400 + (year % 400) * 100 + (year % 2)
+2: oddDays = (year % 100) * 400 + (year % 400) * 100 + (year % 2)
+3: oddDays = (year % 100) * 400 + (year % 400) * 100 + (year % 2)
+4: oddDays = (year % 100) * 400 + (year % 400) * 100 + (year % 2)
+5: oddDays = (year % 100) * 400 + (year % 400) * 100 + (year % 2)
+6: oddDays = (year % 100) * 400 + (year % 400) * 100 + (year % 2)
+7: oddDays = (year % 100) * 400 + (year % 400) * 100 + (year % 2)
+8: oddDays = (year % 100) * 400 + (year % 400) * 100 + (year % 2)
+9: oddDays = (year % 100) * 400 + (year % 400)"
+"Input: a: a number
+Output: the length of the pentagonal diagonal
+1: if a is negative:
+2:     return -1
+3: else:
+4:     return 5 * a + 1"
+"Input: n: a positive integer
+Input: d: a digit
+Output: frequency: an integer
+1: if d is not in n:
+2:     return 0
+3: frequency = 0
+4: for each digit d in n:
+5:     if d == d:
+6:         frequency = frequency + 1
+7: return frequency"
+"Input: n: an integer
+Output: True or False
+1: if n is an integer:
+2:     if n is negative:
+3:         return False
+4:     if n is 0:
+5:         return False
+6:     if n is positive:
+7:         return True
+8: return False"
+"Input: a: a list of integers
+Input: n: an integer
+Output: True or False
+1: for each element e in a:
+2:     if e % 5!= 0 and e % 3!= 0:
+3:         return False
+4:     return True"
+"Input: n: an integer
+Output: nth element of the array
+1: for i in range(3, n+1):
+2:     if i % 2 == 0:
+3:         nth_element = nth_element + (nth_element * 10 + 7)
+4:     else:
+5:         nth_element = nth_element + (nth_element * 10 + 4)
+6: return nth_element"
+"Input: n: an integer
+Output: nth element of an array
+1: n = 5
+2: if n is odd:
+3:     return 3 + (n//2) * 10 + 3
+4: else:
+5:     return 5 + (n//2) * 10 + 5
+6: return 3 + (n//2) * 10 + 3
+7: return 5 + (n//2) * 10 + 5
+8: return 3 + (n//2) * 10 + 3
+9: return 5 + (n//2) * 10 + 5
+10: return 3 + (n//2) * 10 + 3
+11: return 5 + (n//2) * 10 + 5
+12: return 3 + (n//2) * 10 + 3
+13: return 5 + (n//2) * 10 + 5
+14: return 3 + (n//2) * 10 + 3
+15: return 5 + (n//2) * 10 + 5
+16: return 3 + (n//2) * 10 + 3
+17: return 5 + (n//2) * 10 + 5
+18: return 3 + (n//"
+"Input: n: an integer
+Output: nth element of an array
+1: n = 3
+2: n = 2
+3: n = 1
+4: n = 0
+5: n = 4
+6: n = 3
+7: n = 2
+8: n = 1
+9: n = 0
+10: n = 4
+11: n = 3
+12: n = 2
+13: n = 1
+14: n = 0
+15: n = 4
+16: n = 3
+17: n = 2
+18: n = 1
+19: n = 0
+20: n = 4
+21: n = 3
+22: n = 2
+23: n = 1
+24: n = 0
+25: n = 4
+26: n = 3
+27: n = 2
+28: n = 1
+29: n = 0
+30: n = 4
+31: n = 3
+32: n = 2
+33: n = 1
+34: n = 0
+35: n = 4
+36: n = 3
+37: n = 2
+38: n = 1
+39: n = 0
+40: n = 4"
+"Input: a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,"
+"Input: l: length of the square
+Input: b: breadth of the square
+Input: h: height of the square
+Output: area of the square
+1: if l, b, h are all positive:
+2:     return l * b * h
+3: else:
+4:     return -1"
+"Input: str: a string
+Output: str: a string
+1: for each word in str:
+2:     if word is not empty:
+3:         first_letter = word[0]
+4:         last_letter = word[-1]
+5:         new_word = first_letter.upper() + last_letter.upper()
+6:         new_word = new_word + word[1:-1]
+7:         return new_word
+8: return None"
+"Input: p: an integer
+Output: bucket: an integer
+1: bucket = int(math.ceil(math.sqrt(8 * p + 1) - 1) / 2)
+2: return bucket"
+"Input: arr: an array of integers
+Output: True: if all the elements in the array are distinct, and False otherwise.
+1: for each element e in arr:
+2:     if e in arr:
+3:         return False
+4: return True"
+"Input: string: a string
+Output: count: an integer
+1: count = 0
+2: for each character ch in string:
+3:     if ch is a two-character code:
+4:         count += 1
+5: return count"
+"Input: lower: 5, higher: 10
+Output: 5"
+"Input: ss: a string
+Output: maximum: an integer
+1: maximum = 0
+2: for each character ch in ss:
+3:     if ch.isdigit():
+4:         maximum = max(maximum, int(ch) * 10 + int(ch))
+5: return maximum"
+"Input: s: a string
+Output: longest: a string
+1: for each i in range(len(s)):
+2:     if s[i] in '0123456789':
+3:         longest = s[i:i+length]
+4:         return longest
+5: return None"
+"Input: N, M, K
+Output: remainingArea(N, M, K)
+
+#"
+"Input: string: a string
+Output: boolean: True if the string is valid, False otherwise
+1: if length is not a positive integer:
+2:     return False
+3: if length is 0:
+4:     return False
+5: if length is not a positive integer:
+6:     return False
+7: if length is 0:
+8:     return False
+9: if length is not a positive integer:
+10:     return False
+11: if length is 0:
+12:     return False
+13: if length is not a positive integer:
+14:     return False
+15: if length is 0:
+16:     return False
+17: if length is not a positive integer:
+18:     return False
+19: if length is 0:
+20:     return False
+21: if length is not a positive integer:
+22:     return False
+23: if length is 0:
+24:     return False
+25: if length is not a positive integer:
+26:     return False
+27: if length is 0:
+28:     return False
+29: if length is not a positive integer:
+30:     return False"
+"Input: n: an integer
+Output: value: an integer
+1: if n is 0:
+2:     return 0
+3: else:
+4:     return max( 2 ** ( n - 1 ), 2 )
+5: return None"
+"Input: A: 10, B: 10
+Output: True
+Input: A: 10, B: 11
+Output: False"
+"Input: x, y
+Output: True or False
+1: if x - y == 1:
+2:     return True
+3: else:
+4:     return False"
+"Input: n = 3
+Output: ""123""
+
+#"
+"Input: arr: an array of integers
+Output: minSteps: an array of integers
+1: minSteps = []
+2: for i in range(n):
+3:     minSteps.append(abs(arr[i] - arr[i - 1]))
+4: return minSteps"
+"Input: n: an integer
+Output: fnMod(n): an integer
+1: if n is divisible by 4:
+2:     return 0
+3: elif n is divisible by 3:
+4:     return 1
+5: else:
+6:     return None"
+"Input: a, N
+Output: ans
+1: m = (N * (N + 1)) / 2
+2: sum = (m * (m + 1)) / 2
+3: ans = a * sum
+4: return ans"
+"Input: N: an integer
+Output: N: an integer
+1: if N is less than or equal to 2:
+2:     return N
+3: if N is less than or equal to 4:
+4:     return N + 3
+5: if (N - 4) is divisible by 4:
+6:         return N + 1
+7: if (N - 4) modulo 4 is less than or equal to 2:
+8:         return N + 2
+9: else:
+10:     return N - 1"
+"Input: arr: an array
+Output: True or False
+1: if arr[0] % 2 == 1 and arr[-1] % 2 == 1 and arr[-1] % 2 == 1:
+2:     return True
+3: else:
+4:     return False"
+"Input: N, L, R
+Output: count
+1: if N is 1:
+2:     if L is greater than R:
+3:         return 0
+4:     else:
+5:         return R - L + 1
+6: else:
+7:     if L is greater than R:
+8:         return countSum(N - 1, L, R) + 1
+9:     else:
+10:         return countSum(N - 2, L, R)
+11: return countSum(N - 2, L, R)"
+"Input: arr: an array of integers
+Output: m: an integer
+1: for each i in range(0, n):
+2:     if arr[i] > 0:
+3:         return i
+4: return n + 1"
+"Input: s: a string
+Output: n: an integer
+1: if n is greater than the length of s:
+2:     return -1
+3: for each digit d in s:
+4:         if d is greater than 9:
+5:             return -1
+6:         if d is greater than n:
+7:             return -1
+8:         if d is greater than 9:
+9:             return -1
+10:         if d is greater than n:
+11:             return -1
+12:         if d is greater than 9:
+13:             return -1
+14:         if d is greater than n:
+15:             return -1
+16:         if d is greater than 9:
+17:             return -1
+18:         if d is greater than n:
+19:             return -1
+20:         if d is greater than 9:
+21:             return -1
+22:         if d is greater than n:
+23:             return -1
+24:         if d is greater than 9:
+25:             return -1
+26:         if d is greater than n:
+27:"
+"Input: arr: an array of integers
+Output: count: an integer
+1: count = 0
+2: for i in range(len(arr)):
+3:     if i == 0:
+4:         count += 1
+5:     elif arr[i] > arr[i-1]:
+6:         count += 1
+7:     else:
+8:         arr[i] = arr[i-1]
+9: return count"
+"Input: str: a string
+Output: float: average value of the ASCII codes of its characters
+1: for each character ch in str:
+2:     if ch is not a letter:
+3:         continue
+4:     else:
+5:         if ch is a letter:
+6:             if ch is upper case:
+7:                 ch = ord(ch) - ord('A')
+8:             else:
+9:                 ch = ord(ch) - ord('a')
+10:         else:
+11:             if ch is upper case:
+12:                 ch = ord(ch) - ord('0')
+13:             else:
+14:                 ch = ord(ch) - ord('0')
+15:         sum += ch
+16: return sum / len(str)"
+"Input: A, B, S, N
+Output: min_banknotes
+1: if S <= A:
+2:     return -1
+3: else:
+4:     return (S - A) // (B * N)
+5: return (S - A) // (B * N)
+6: return (S - A) // (B * N)
+7: return (S - A) // (B * N)
+8: return (S - A) // (B * N)
+9: return (S - A) // (B * N)
+10: return (S - A) // (B * N)
+11: return (S - A) // (B * N)
+12: return (S - A) // (B * N)
+13: return (S - A) // (B * N)
+14: return (S - A) // (B * N)
+15: return (S - A) // (B * N)
+16: return (S - A) // (B * N)
+17: return (S - A) // (B * N)
+18: return (S - A"
+"Input: x: an integer
+Input: y: an integer
+Output: lcm: an integer
+1: lcm = x * y / math.gcd(x, y)
+2: return lcm"
+"Input: n: an integer
+Output: count: an integer
+1: count = 0
+2: while n > 0:
+3:     if n & 1 == 0:
+4:         count += 1
+5:     n = n >> 1
+6: return count"
+"Input: arr: an array of integers
+Output: i: an integer
+1: for each i in range(0, n):
+2:     if i == 0:
+3:         if arr[i] == arr[i + 1]:
+4:             return i
+5:     if i == n - 1:
+6:         if arr[i] == arr[i - 1]:
+7:             return i
+8:     if arr[i] == arr[i + 1]:
+9:         if arr[i] == arr[i - 1]:
+10:             return i
+11:     if arr[i] == arr[i - 1]:
+12:         if arr[i] == arr[i + 1]:
+13:             return i
+14: return None"
+"Input: arr: an array of integers
+Output: lds: an integer
+1: lds = 0
+2: for each i in range(0, n):
+3:     lds = max(lds, 1 + lds(arr, i))
+4: return lds"
+"Input: arr: an array of integers
+Output: min_sum: an integer
+1: for each element in arr:
+2:     if arr[i] + k <= arr[i]:
+3:         arr[i] += k
+4:     if arr[i] - k >= arr[i]:
+5:         arr[i] -= k
+6:     if arr[i] == k:
+7:         return arr[i]
+8: return -1"
+"Input: K: an integer
+Output: L: an integer
+1: if K is a prime number:
+2:     if K is even:
+3:         L = 1
+4:     else:
+5:         L = 2
+6:     while K is not 1:
+7:         if K % K == 0:
+8:             L = L + 1
+9:             K = K / K
+10:         else:
+11:             L = -1
+12:             break
+13:     return L
+14: return -1"
+"Input: arr: an array of integers
+Output: operations: an integer
+1: for each i in range(n):
+2:     if arr[i]!= i:
+3:         operations += abs(i - arr[i])
+4: return operations"
+"Input: n: an integer
+Output: sum: an integer
+1: sum = 3
+2: sum = 3 + 5
+3: sum = 3 + 5 + 3
+4: sum = 3 + 5 + 3 + 2
+5: sum = 3 + 5 + 3 + 2 + 1
+6: sum = 3 + 5 + 3 + 2 + 1 + 1
+7: sum = 3 + 5 + 3 + 2 + 1 + 1 + 0
+8: sum = 3 + 5 + 3 + 2 + 1 + 1 + 0 + 0
+9: sum = 3 + 5 + 3 + 2 + 1 + 1 + 0 + 0 + 0
+10: sum = 3 + 5 + 3 + 2 + 1 + 1 + 0 + 0 + 0 + 0
+11: sum = 3 + 5 + 3 + 2 + 1 + 1 + 0 + 0 + 0 + 0 + 0
+12: sum = 3 + 5 + 3 + 2 + 1 + 1 + 0 + 0 + 0 + 0 + 0 + 0
+13: sum = 3 + 5 + 3 + 2 + 1 + 1 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0
+14: sum = 3"
+"Input: s: a number
+Output: sqrt: a number
+1: if s is not a number:
+2:     return None
+3: sqrt = None
+4: while sqrt is None:
+5:     try:
+6:         sqrt = float(s) ** 0.5
+7:     except:
+8:         return None
+9: return sqrt"
+"Input: p: a number
+Input: q: a number
+Output: probability: a number
+1: probability = (p * p + q * q) / (p + q)
+2: return probability"
+"Input: str1: a string
+Output: xor: an integer
+1: for each character ch in str1:
+2:     xor = ord(ch)
+3:     if xor < 32 or xor > 126:
+4:         xor = 0
+5:     return xor
+6: return 0"
+"Input: n: an integer
+Output: True or False
+1: if n is a power of 2:
+2:     if n is even:
+3:         return False
+4:     else:
+5:         return True
+6: else:
+7:     return False"
+"Input: s: a string
+Output: True or False
+1: for each character ch in s:
+2:     if ch in 'aeiou':
+3:         if ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u':
+4:             if ch == 'a' or ch == 'e' or ch == 'i':
+5:                 if ch == 'a' or ch == 'e':
+6:                     if ch == 'a' or ch == 'e':
+7:                         if ch == 'a' or ch == 'e':
+8:                             if ch == 'a' or ch == 'e':
+9:                                 if ch == 'a' or ch == 'e':
+10:                                     if ch == 'a' or ch == 'e':
+11:                                         if ch == 'a' or ch == 'e':
+12:                                             if ch == 'a' or ch == 'e':
+13:                                                 if ch == 'a' or ch == 'e':
+14:                                                    if ch =="
+"Input: low: an integer
+Input: high: an integer
+Input: k: an integer
+Output: count: an integer
+1: count = 0
+2: for i in range(low, high + 1):
+3:     if i % 10 >= k:
+4:         count += 1
+5: return count"
+"Input: n: an integer
+Output: minAbsDiff: the minimum absolute difference between the input number and the nearest power of 2
+1: if n is a power of 2, return 0
+2: else:
+3:     minAbsDiff = abs(n - 2 ** math.ceil(math.log2(n)) )
+4:     return minAbsDiff"
+"Input: r: a positive integer
+Output: area: a positive integer
+1: if r is negative:
+2:     return -1
+3: else:
+4:     area = (1/3) * r * r * r
+5: return area"
+"Input: str: a string
+Output: str: a new string that contains all the characters from the input string sorted in alphabetical order
+1: for each character ch in str:
+2:     if ch not in newString:
+3:         newString += ch
+4: return newString"
+"Input: ar: an array of integers
+Output: m: the missing number
+1: for each element e in ar:
+2:     if e > m:
+3:         m = e
+4: return m"
+"Input: str: a string
+Output: count: an integer
+1: count = 0
+2: for each character ch in str:
+3:     if ch == ""0"" and ch == ""1"" and ch == ""0"":
+4:         count += 1
+5: return count"
+"Input: arr: an array of integers
+Output: e: an integer
+1: for each element e in arr:
+2:     if e appears an odd number of times in arr:
+3:         return e
+4: return None"
+"Input: arr: an array of integers
+Output: ans: an integer
+1: for each element in arr:
+2:     xorArr = arr[i]
+3:     ans = 0
+4:     for each element in arr:
+5:         xorArr ^= arr[i]
+6:         ans = max(ans, xorArr)
+7: return ans"
+"Input: sx, sy, dx, dy
+Output: True or False
+1: if (sx, sy) is the source point and (dx, dy) is the destination point:
+2:     if (dx - sx) == 0 or (dy - sy) == 0:
+3:         return True
+4:     else:
+5:         return False"
+"Input: n: an integer
+Output: cnt: an integer
+1: if n is odd:
+2:     return 0
+3: else:
+4:     return cntWays(n-1) + cntWays(n-2)
+5: return cntWays(n-1) + cntWays(n-2) + cntWays(n-3)
+6: return cntWays(n-1) + cntWays(n-2) + cntWays(n-3) + cntWays(n-4)
+7: return cntWays(n-1) + cntWays(n-2) + cntWays(n-3) + cntWays(n-4) + cntWays(n-5)
+8: return cntWays(n-1) + cntWays(n-2) + cntWays(n-3) + cntWays(n-4) + cntWays(n-5) + cntWays(n-6)
+9: return cnt"
+"Input: arr: an array of integers
+Output: count: an integer
+1: count = 0
+2: for each element e in arr:
+3:     if e in d:
+4:         d[e] = d[e] + 1
+5:     else:
+6:         d[e] = 1
+7:     for each element e in d:
+8:         count = count + (d[e] * (d[e] - 1)) / 2
+9: return count"
+"Input: height: an integer
+Output: number of nodes: an integer
+1: if height is 0:
+2:     return 0
+3: else:
+4:         return 2 ** height - 1
+5: return number of nodes"
+"Input: source, step, dest
+Output: steps
+1: if source > dest:
+2:     return sys
+3: if source == dest:
+4:     return 0
+5: if source < dest:
+6:     return abs(source - dest)
+7: return sys"
+"Input: n: an integer
+Output: the nth term of the ""Count and Say"" sequence
+1: if n == 1:
+2:     return ""1""
+3: else:
+4:     return ""11""
+5:     for i in range(2, n):
+6:         return ""21""
+7:         for j in range(2, len(str)):
+8:             if str[j] == str[j - 1]:
+9:                 str = str[:j] + str[j + 1:]
+10:             else:
+11:                 return ""1211""
+12:     return ""11"""
+"Input: arr: an array of integers
+Output: maxLen: an integer
+1: for each element e in arr:
+2:     if e > 0:
+3:         maxLen = max(maxLen, 1)
+4: return maxLen"
+"Input: m, n
+Output: N
+1: m = 1
+2: n = 2
+3: N = 2
+4: return N"
+"Input: arr: an array of integers
+Output: cnt: an integer representing the count of subarrays whose sum is less than the target number
+1: for each i in range(n):
+2:     cnt = 0
+3:     for j in range(i, n):
+4:         if (arr[i] + arr[j]) < k:
+5:             cnt += 1
+6:     return cnt
+7: return 0"
+"Input: n: an integer
+Input: L: an integer
+Input: arr: a list of integers
+Output: an integer
+1: sort the list in ascending order
+2: count the number of triplets
+3: return the number of triplets"
+"Input: l: an integer
+Input: r: an integer
+Output: count: an integer
+1: count = 0
+2: for i in range(l, r+1):
+3:     if i % 2 == 0 and i % 3 == 0:
+4:         count += 1
+5: return count"
+"Input: n: a positive integer
+Output: n: a positive integer
+1: if n is not a positive integer:
+2:     return None
+3: if m is not a positive integer:
+4:     return None
+5: if n is not a multiple of 2^m:
+6:     return None
+7: if m is not a multiple of 8:
+8:     return None
+9:     return n & ~(1 << m)
+10: return n | (1 << m)"
+"Input: L: 1, R: 100, K: 9
+Output: 2
+1: for each number in range(R):
+2:     if number % 9 == K:
+3:         count += 1
+4: return count"
+"Input: n: an integer
+Input: k: an integer
+Output: k: an integer
+1: if k is greater than the length of the product of n and the logarithm of n to the base 10:
+2:     return 0
+3: else:
+4:     return k
+5: return k"
+"Input: A: a list of integers
+Output: i: the index of the first element greater than all the elements before it and less than all the elements after it
+1: for each i in range(len(A)):
+2:     if A[i] > max(A[:i]) and A[i] < min(A[i+1:]):
+3:         return i
+4: return -1"
+"Input: a, b, c: integers
+Output: min_increase: integer
+1: if a + b < c:
+2:     min_increase = c - a
+3: else:
+4:     min_increase = c - b
+5: return min_increase"

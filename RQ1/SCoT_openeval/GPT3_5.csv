@@ -1,0 +1,2064 @@
+"Input: arr: a list of integers
+       N: an integer, the length of the array
+       K: an integer
+
+Output: count: an integer, the count of elements that, when increased by K, would be greater than the sum of all the other elements in the array
+
+1: Initialize sum to 0
+2: for each element num in arr:
+3:     Add num to sum
+4: Initialize count to 0
+5: for each element num in arr:
+6:     Initialize temp_sum to sum - num
+7:     if num + K > temp_sum:
+8:         Increment count by 1
+9: Return count"
+"Input: arr: an array of integers, n: length of the array
+Output: freq: frequency of the minimum value in the array
+1: min_val = arr[0]
+2: freq = 0
+3: for i in range(n):
+4:     if arr[i] < min_val:
+5:         min_val = arr[i]
+6:         freq = 1
+7:     elif arr[i] == min_val:
+8:         freq += 1
+9: return freq"
+"Input: 
+- n: an integer
+- l: an integer representing the left boundary of the range
+- r: an integer representing the right boundary of the range
+
+Output:
+- result: a string (""Yes"" or ""No"")
+
+1: Convert n to its binary representation
+2: Initialize a variable ""result"" to ""Yes""
+3: Iterate through the binary representation of n from right to left
+4: For each bit in the range from l to r (inclusive):
+    - If the bit is not 1, set ""result"" to ""No"" and break the loop
+5: Return the value of ""result"""
+"Input: A: an array of integers
+       n: length of array A
+       K: an integer
+Output: count: count of pairs in array A whose sum is divisible by K
+
+1: Initialize count to 0
+2: for i from 0 to n-1:
+3:     for j from i+1 to n-1:
+4:         if (A[i] + A[j]) % K == 0:
+5:             increment count by 1
+6: return count"
+"Input: 
+- n: an integer
+- a: a list of integers
+
+Output:
+- True if it is possible to split the list into two parts such that the sum of each part is equal
+- False otherwise
+
+1. Calculate the total sum of the list a and store it in a variable total_sum.
+2. If the total sum is odd, return False because it is not possible to split the list into two parts with equal sums.
+3. Initialize a variable current_sum to 0.
+4. Iterate through each element num in the list a.
+5. Add num to current_sum.
+6. If current_sum is equal to half of the total_sum, return True because it is possible to split the list into two parts with equal sums.
+7. If current_sum is greater than half of the total_sum, return False because it is not possible to split the list into two parts with equal sums.
+8. If the loop completes without returning True or False, return False because it is not possible to split the list into two parts with equal sums."
+"Input: x: an integer
+Output: parity: 1 if x has odd parity, 0 if x has even parity
+
+1: Convert x to its binary representation
+2: Count the number of 1 bits in the binary representation
+3: If the count is odd, set parity to 1
+4: If the count is even, set parity to 0
+5: Return parity"
+"Input: vec: a list of integers
+Output: missing_elements: a list of missing elements
+
+1: Create an empty list called modified_list
+2: Iterate through each element num in vec:
+3:     Change the sign of the element at the index equal to the absolute value of num minus one
+4:     Append the modified element to modified_list
+5: Create an empty list called output_list
+6: Iterate through each index i and element num in modified_list:
+7:     If num is positive:
+8:         Append i+1 to output_list
+9: Return output_list"
+"Input: arr: an array of integers, n: length of the array
+Output: length: length of the longest subsequence
+
+1: Initialize a variable max_length to 0
+2: Iterate through each element i in the array from index 0 to n-1
+3:     Initialize a set digits to store the digits present in the current element i
+4:     Iterate through each element j in the array from index i+1 to n-1
+5:         Initialize a variable common_digits to 0
+6:         Convert the current element j to a string
+7:         Iterate through each digit in the string representation of j
+8:             If the digit is present in the set digits, increment common_digits by 1
+9:         If common_digits is greater than 0, update the set digits with the digits present in the current element j
+10:        If the length of the set digits is greater than max_length, update max_length with the length of the set digits
+11: Return max_length"
+"Input: a: a list of integers
+Output: factors: a list of integers representing the number of distinct prime factors for each integer in a
+1: Create an empty list called factors
+2: For each integer num in a:
+3:     Create an empty set called prime_factors
+4:     For each integer i from 2 to the square root of num:
+5:         While num is divisible by i:
+6:             Add i to prime_factors
+7:             Divide num by i
+8:     If num is greater than 1, add num to prime_factors
+9:     Add the length of prime_factors to factors
+10: Return factors"
+"Input: arr: a list of integers
+       n: an integer, the length of the array
+       k: an integer
+
+Output: min_diff: an integer, the minimum value among the differences
+
+1: Sort the array arr in descending order
+2: Calculate the difference between the kth largest element and the first element of the array
+3: Initialize min_diff as the calculated difference
+4: Iterate from index 1 to k:
+5:     Calculate the difference between the kth largest element and each element from index 1 to k
+6:     If the calculated difference is smaller than min_diff, update min_diff with the new value
+7: Return min_diff"
+"Input: A: a list of elements
+       B: a list of elements
+
+Output: total_time: an integer representing the total time it takes to complete the series of tasks
+
+1: Initialize total_time to 0
+2: Iterate through each element a in A:
+3:     If a is equal to the corresponding element b in B:
+4:         Increment total_time by 1
+5:     Else:
+6:         Move the element b to the front of B
+7:         Move the element a to the end of A
+8:         Increment total_time by 2
+9: Return total_time"
+"Input: array: a list of integers
+       size: an integer representing the size of the array
+Output: count: an integer representing the count of even numbers in the array, excluding 0 and 2
+
+1: Initialize count to 0
+2: Iterate through each element num in the array
+3:     If num is even and not equal to 0 or 2:
+4:         Increment count by 1
+5: Return count"
+"Input: 
+s: a string
+k: an integer
+
+Output:
+count: the number of substrings in s that contain at most k distinct characters
+
+1: Initialize count to 0
+2: Iterate through each substring in s:
+3:     Initialize a set to store distinct characters in the substring
+4:     Iterate through each character in the substring:
+5:         Add the character to the set
+6:         If the size of the set is greater than k, break the loop
+7:     If the size of the set is less than or equal to k, increment count by 1
+8: Return count"
+"Input: n: an integer
+Output: True if n survives the condition, False otherwise
+
+1: Set current_number = 2
+2: Repeat the following steps until current_number > n:
+3:     Set result = n / current_number
+4:     Set n = n - result
+5:     If n == 1, return True
+6:     If n is divisible by any number from 2 to current_number-1, return False
+7:     Increment current_number by 1
+8: Return False"
+"Input: n: an integer
+Output: XOR: the XOR value computed based on the remainder of n divided by 4
+
+1: Calculate the remainder of n divided by 4
+2: Use a switch statement to determine the XOR value based on the remainder:
+3:     If the remainder is 0:
+4:         Return n
+5:     If the remainder is 1:
+6:         Return 1
+7:     If the remainder is 2:
+8:         Return n + 1
+9:     If the remainder is 3:
+10:        Return 0
+11:    If the remainder does not match any of the cases:
+12:        Return an empty string"
+"Input: n: an integer, t: an integer
+Output: result: an integer
+
+1: for i in range(t):
+2:     a = random.randint(2, n-1)
+3:     power = pow(a, (n-1)//2, n)
+4:     if power != 1 and power != n-1:
+5:         return -1
+6: return 1"
+"Input: 
+- s1: a string
+- s2: a string
+- n: an integer
+
+Output:
+- result: a boolean value indicating if there is a defeat condition between s1 and s2
+
+1. Initialize a variable ""result"" to False
+2. Iterate through each index i from 0 to n-1:
+    3. If s1[i] is '0' and s2[i] is '1', or s1[i] is '1' and s2[i] is '0', or s1[i] is '0' and s2[i] is 'Z', or s1[i] is 'Z' and s2[i] is '0':
+        4. Set ""result"" to True
+        5. Break the loop
+6. Return ""result"""
+"Input: a, b, c, d, x: numeric values
+Output: result: the result of the equation
+
+1: Calculate the numerator of the equation: (x * (a + b) * (c - d))
+2: Calculate the denominator of the equation: ((a * d) - (b * c))
+3: Check if the denominator is zero:
+4:     If the denominator is zero, return None
+5:     If the denominator is not zero, calculate the result of the equation: numerator / denominator
+6: Return the result"
+"Input: 
+- s: a string
+- length: the length of the string
+
+Output:
+- min_replacements: the minimum number of replacements needed to make the string alternate between '0' and '1'
+
+1. Initialize two counters, even_count and odd_count, to 0.
+2. Iterate through the string s using a for loop with index i:
+    - If i is even and s[i] is not '0', increment even_count by 1.
+    - If i is odd and s[i] is not '1', increment odd_count by 1.
+3. Calculate the minimum of even_count and odd_count and assign it to min_replacements.
+4. Calculate the difference between length and min_replacements and assign it to diff.
+5. Return the minimum of min_replacements and diff as the result."
+"Input: n: an integer
+Output: count: the number of power numbers less than or equal to n
+1: Initialize count to 0
+2: for each number i from 1 to n:
+3:     for each number j from 2 to the square root of i:
+4:         if i is divisible by j and j raised to the power of j is equal to i:
+5:             increment count by 1
+6: return count"
+"Input: x: a number, y: a number
+Output: product: the product of x and y
+1: if y is equal to 0:
+2:     return 0
+3: else if y is equal to 1:
+4:     return x
+5: else:
+6:     return x + product(x, y-1)"
+"Input: 
+- a: a list of integers
+- n: the length of the list
+
+Output:
+- result: 1 if the count of integers divisible by 4 is even for all four possible remainders, 2 otherwise
+
+1. Initialize count0, count1, count2, and count3 to 0.
+2. Iterate through each integer num in the list a:
+    - If num is divisible by 4 and the remainder is 0, increment count0 by 1.
+    - If num is divisible by 4 and the remainder is 1, increment count1 by 1.
+    - If num is divisible by 4 and the remainder is 2, increment count2 by 1.
+    - If num is divisible by 4 and the remainder is 3, increment count3 by 1.
+3. If count0, count1, count2, and count3 are all even, set result to 1.
+4. Otherwise, set result to 2.
+5. Return result."
+"Input: arr: an array of integers
+       n: the length of the array
+Output: length: the length of the longest increasing subarray in the given array
+
+1: Initialize max_length to 0
+2: Initialize current_length to 1
+3: Iterate through the array from index 1 to n-1:
+4:     if arr[i] > arr[i-1]:
+5:         increment current_length by 1
+6:     else:
+7:         if current_length > max_length:
+8:             update max_length with current_length
+9:         reset current_length to 1
+10: if current_length > max_length:
+11:    update max_length with current_length
+12: return max_length"
+"Input: 
+- arr: an array of integers
+- n: the length of the array
+- i: the current index
+- sum: the target sum
+- count: a count of subsets that sum up to the target sum
+
+Output:
+- count: the number of subsets that sum up to the target sum
+
+1. Check if the current index is equal to the length of the array:
+   - If true, return the count.
+2. Check if the sum is equal to 0:
+   - If true, increment the count.
+3. Call the function recursively twice:
+   - Subtract the current element from the sum and pass the updated sum and count.
+   - Pass the sum and count without subtracting the current element.
+4. Return the count."
+"Input: n: an integer
+Output: center_num: the center hexadecagonal number for n
+1: if n is less than 1:
+2:     return None
+3: else:
+4:     center_num = (16 * n * n) - (16 * n) + 1
+5:     return center_num"
+"Input: n: an integer
+Output: sum_squares: the sum of the squares of the first n natural numbers
+        sum_numbers: the sum of the first n natural numbers
+        total_sum: the sum of the squares of the first n natural numbers plus the sum of the first n natural numbers plus 1
+
+1: Initialize sum_squares to 0
+2: Initialize sum_numbers to 0
+3: for each number i from 1 to n:
+4:     Add i^2 to sum_squares
+5:     Add i to sum_numbers
+6: Add 1 to sum_numbers
+7: Set total_sum to the sum of sum_squares, sum_numbers, and 1
+8: Return sum_squares, sum_numbers, and total_sum"
+"Input: n: an integer
+Output: maxSum: the maximum sum of all the factors of n
+1: Initialize maxSum to 0
+2: for each number i from 1 to n:
+3:     if n is divisible by i:
+4:         Add i to maxSum
+5: return maxSum"
+"Input: x: a number, y: a number
+Output: result: a boolean value indicating whether x is less than or equal to y
+1: if x is less than or equal to y:
+2:     set result to True
+3: else:
+4:     set result to False
+5: return result"
+"Input: n: an integer
+Output: center_num: the center octadecagon number
+
+1: Calculate the center octadecagon number using the formula 9 * n * n - 9 * n + 1
+2: Return the center_num"
+"Input: a: a number, b: a number
+Output: percentage: a number representing the percentage increase or decrease from a to b
+1: Calculate the difference between b and a
+2: Calculate the percentage increase or decrease by dividing the difference by a and multiplying by 100
+3: Return the percentage"
+"Input: n: an integer
+Output: avg: the average of the squares of the first n natural numbers
+
+1: Initialize sum to 0
+2: for each natural number i from 1 to n:
+3:     Calculate the square of i and add it to sum
+4: Calculate the average by dividing sum by n
+5: Return the average"
+"Input: arr: an array of integers
+       n: length of the array
+       k: an integer representing the kth smallest element to find
+Output: kth_smallest: the kth smallest element in the array
+
+1: Sort the array arr in ascending order
+2: Return the element at index k-1 in the sorted array arr"
+"Input: n: an integer
+Output: chicks: the number of chicks
+
+1: chicks = 3^(n-1)
+2: return chicks"
+"Input: n: an integer
+Output: term: the nth term of the sequence
+
+1: Initialize term as 1
+2: for i in range(2, n+1):
+3:     term = term * 2 + (i - 1)
+4: return term"
+"Input: 
+- a: a list of integers
+- k: a target integer
+
+Output:
+- count: the number of subarrays in the list whose product is less than k
+
+1. Initialize count to 0.
+2. Iterate through each element in the list a.
+3. For each element, calculate the product of all subarrays starting from that element.
+4. If the product is less than k, increment count by 1.
+5. Return the final count."
+"Input: n: an integer, d: an integer
+Output: count: the number of times the digit d occurs in the numbers from 1 to n (inclusive)
+
+1: Initialize count to 0
+2: For each number i from 1 to n (inclusive):
+3:     Convert i to a string
+4:     For each character ch in the string representation of i:
+5:         If ch is equal to the string representation of d:
+6:             Increment count by 1
+7: Return count"
+"Input: arr: an array of integers
+       n: length of the array
+Output: smallest positive integer missing from the array
+1: Create a set called ""positive_nums"" to store positive integers
+2: Iterate through each element num in arr:
+3:     if num is positive:
+4:         add num to positive_nums set
+5: Initialize a variable ""missing_num"" to 1
+6: While missing_num is in positive_nums:
+7:     increment missing_num by 1
+8: Return missing_num"
+"Input: n: an integer representing the number of steps in the staircase
+Output: count: an integer representing the number of ways to climb the staircase
+
+1: Initialize count to 0
+2: If n is 0 or 1, return 1
+3: If n is 2, return 2
+4: If n is greater than 2:
+5:     Initialize a list called ways with n+1 elements, all set to 0
+6:     Set ways[0] to 1 and ways[1] to 1
+7:     For i from 2 to n+1:
+8:         Set ways[i] to ways[i-1] + ways[i-2]
+9:     Set count to ways[n]
+10: Return count"
+"Input: l: length of the rectangle
+       b: breadth of the rectangle
+Output: total_area: the total area of all the squares
+
+1: Initialize total_area to 0
+2: Initialize size to 1
+3: while size <= min(l, b):
+4:     Calculate the area of the square with size
+5:     Add the area to total_area
+6:     Increment size by 1
+7: Return total_area"
+"Input: N: an integer
+Output: sum: the sum of all numbers from 1 to N
+1: Initialize sum to 0
+2: for each number i from 1 to N:
+3:     add i to sum
+4: return sum"
+"Input: arr: an array of integers
+       n: length of the array
+Output: max_zeros: maximum number of consecutive zeros between two ones in the array
+
+1: Initialize max_zeros to 0
+2: Initialize count_zeros to 0
+3: Initialize flag to False
+4: Iterate through each element num in arr:
+5:     if num is 1:
+6:         if flag is True:
+7:             if count_zeros is greater than max_zeros:
+8:                 set max_zeros to count_zeros
+9:             set count_zeros to 0
+10:        set flag to True
+11:    else:
+12:        if flag is True:
+13:            increment count_zeros by 1
+14: if flag is False:
+15:    return -1
+16: if count_zeros is greater than max_zeros:
+17:    set max_zeros to count_zeros
+18: return max_zeros"
+"Input: arr: an array
+       n: length of the array
+Output: length: length of the longest subarray that contains at least one zero
+
+1: Initialize a variable max_length to 0
+2: Initialize a variable current_length to 0
+3: Iterate through the array from index 0 to n-1:
+4:     If the current element is zero:
+5:         Increment current_length by 1
+6:         If current_length is greater than max_length:
+7:             Update max_length to current_length
+8:     Else:
+9:         Set current_length to 0
+10: Return max_length"
+"Input: 
+- a: an array of integers
+- n: the length of array a
+- k: an integer representing the segment size
+
+Output:
+- max_min: the maximum value of the minimum elements in each segment of size k in the array
+
+1. If k is equal to 1:
+    - Set max_min as the minimum element in the array a
+2. If k is equal to 2:
+    - Set max_min as the maximum value between the first and last element in the array a
+3. If k is greater than 2:
+    - Initialize max_min as the minimum element in the array a
+    - Iterate through the array a in segments of size k:
+        - Find the minimum element in the current segment
+        - If the minimum element is greater than max_min, update max_min
+4. Return max_min"
+"Input: 
+- array: a list of integers
+- n: an integer representing the length of the array
+- k: an integer representing the maximum product
+
+Output:
+- count: an integer representing the count of subarrays whose product is less than or equal to k
+
+1: Initialize count as 0
+2: Iterate through each element in the array using a for loop
+3: Inside the loop, initialize a variable product as 1
+4: Iterate through the subarray starting from the current element using another for loop
+5: Inside the nested loop, multiply the current element with the product
+6: If the product is less than or equal to k, increment the count by 1
+7: Continue the nested loop until the product becomes greater than k or the end of the array is reached
+8: Continue the outer loop until all elements in the array have been processed
+9: Return the count as the output"
+"Input: arr: an array of integers
+       n: an integer
+Output: sum: the sum of absolute differences
+
+1: Sort the array arr in ascending order
+2: Initialize sum as 0
+3: For each index i and element num in the sorted array arr:
+4:     Calculate the absolute difference between num and (i+1)
+5:     Add the absolute difference to sum
+6: Return sum"
+"Input: arr: an array of integers, n: the length of the array
+Output: min_cost: the product of the minimum element in arr and (n - 1)
+
+1: Initialize min_cost as None
+2: Initialize min_element as the first element in arr
+3: Iterate through each element num in arr starting from the second element:
+4:     If num is less than min_element:
+5:         Set min_element as num
+6: Set min_cost as min_element multiplied by (n - 1)
+7: Return min_cost"
+"Input: array: a list of integers
+Output: max_diff: the maximum difference between any two elements in the array
+
+1: Initialize max_diff to 0
+2: for i in range(length of array):
+3:     for j in range(i+1, length of array):
+4:         Calculate the difference between array[i] and array[j] by adding or subtracting the index of the element from the element itself
+5:         if the calculated difference is greater than max_diff:
+6:             Update max_diff with the calculated difference
+7: Return max_diff"
+"Input: 
+a: an integer - coefficient of x in the equation ax + by = c
+b: an integer - coefficient of y in the equation ax + by = c
+c: an integer - constant term in the equation ax + by = c
+x1: an integer - x-coordinate of the first point
+y1: an integer - y-coordinate of the first point
+x2: an integer - x-coordinate of the second point
+y2: an integer - y-coordinate of the second point
+
+Output:
+same_side: a boolean - True if the points are on the same side of the line, False otherwise
+
+1: Calculate the value of the equation ax + by for the first point (x1, y1)
+2: Calculate the value of the equation ax + by for the second point (x2, y2)
+3: If the values calculated in step 1 and step 2 have the same sign:
+4:     Set same_side to True
+5: Else:
+6:     Set same_side to False
+7: Return same_side"
+"Input: a: an integer
+Output: count: the count of solutions to the equation
+
+1: Initialize count to 0
+2: Iterate i from 0 to a (inclusive)
+3:     Calculate XOR of a and i
+4:     Calculate the sum of i and XOR
+5:     If the sum is equal to a, increment count by 1
+6: Return count"
+"Input: L: an integer, R: an integer
+Output: max_val: the maximum value of the bitwise AND operation between L and R
+1: Initialize max_val as 0
+2: for i in range(L, R+1):
+3:     for j in range(i+1, R+1):
+4:         bitwise_and = i & j
+5:         if bitwise_and > max_val:
+6:             max_val = bitwise_and
+7: return max_val"
+"Input: a: an array of integers
+       n: the length of the array
+Output: smallest: the smallest number in the array that is a factor of all other numbers
+1: Initialize smallest as -1
+2: for each number num in a:
+3:     Initialize isFactor as True
+4:     for each number x in a:
+5:         if x is not equal to num and num is not a factor of x:
+6:             set isFactor as False
+7:             break
+8:     if isFactor is True:
+9:         if smallest is -1 or num is smaller than smallest:
+10:            set smallest as num
+11: return smallest"
+"Input: n: an integer
+Output: sum: the sum of the series 1/3^n for n terms
+1: Initialize sum to 0
+2: for i from 0 to n-1:
+3:     Calculate term as 1/3^i
+4:     Add term to sum
+5: return sum"
+"Input: arr: a 2D array
+       n: an integer
+Output: xor: the XOR of all elements in the submatrices
+
+1: Initialize xor as 0
+2: for i from 0 to n-1:
+3:     for j from 0 to n-1:
+4:         if (arr[i][j] * arr[i+n][j+n]) % 2 == 1:
+5:             xor = xor ^ arr[i][j]
+6: return xor"
+"Input: N: an integer
+Output: count: the count of numbers from 0 to N where the bitwise XOR of the number with its own bitwise OR is equal to the number itself
+1: Initialize count to 0
+2: for each number i from 0 to N:
+3:     if i XOR (i OR i) is equal to i:
+4:         increment count by 1
+5: return count"
+"Input: 
+- a: an array of integers
+- n: the length of the array
+- k: an integer
+
+Output:
+- result: a boolean value indicating whether the sum of the array elements plus the length of the array minus 1 is equal to k
+
+1: Initialize a variable sum to 0
+2: Iterate through each element num in the array a:
+3:     Add num to sum
+4: Add n-1 to sum
+5: If sum is equal to k, return True
+6: Otherwise, return False"
+"Input: n: an integer
+Output: True if only the first and last bits of the binary representation of n are set to 1, False otherwise
+1: Convert n to binary representation
+2: Check if the first and last bits of the binary representation are set to 1
+3: If yes, return True
+4: If no, return False"
+"Input: s: a string
+Output: max_partitions: the maximum number of partitions that can be made
+
+1: Initialize max_partitions to 0
+2: Initialize current_partition to 1
+3: Iterate through each character ch in s starting from the second character:
+4:     If ch is equal to the previous character:
+5:         Increment current_partition by 1
+6:     Else:
+7:         Update max_partitions to the maximum value between max_partitions and current_partition
+8:         Reset current_partition to 1
+9: Update max_partitions to the maximum value between max_partitions and current_partition
+10: Return max_partitions"
+"Input: N: an integer, K: an integer
+Output: result: an integer
+
+1: if N is divisible by K:
+2:     return N
+3: else:
+4:     remainder = N % K
+5:     result = N - remainder
+6:     return result"
+"Input: arr: an array
+       N: an integer
+
+Output: result: the result of the successive change calculation
+
+1: Initialize result to 0
+2: Assign the first element of arr to var1
+3: Assign the second element of arr to var2
+4: Update result by adding var1 and var2, and adding the product of var1 and var2 divided by 100
+5: Enter a loop that iterates from 2 to N
+6:     In each iteration, update result by adding the current element of arr and adding the product of result and the current element divided by 100
+7: Return the final value of result"
+"Input: 
+- arr: an array
+- ranges: a list of ranges
+- reversals: the number of reversals
+- index: an index
+
+Output:
+- value: the value at the given index after performing the specified number of reversals on the array
+
+1. Create a variable ""value"" and set it to arr[index].
+2. Iterate through the ranges list for the specified number of reversals.
+3. For each range in ranges:
+   - Get the start and end indices of the range.
+   - Reverse the elements within the range in the array.
+4. Return the value at the given index in the modified array."
+"Input: n: an integer
+Output: True if n can be expressed as the sum of two squares, False otherwise
+1: for each number i from 0 to the square root of n:
+2:     calculate the square of i
+3:     calculate the difference between n and the square of i
+4:     if the difference is a perfect square:
+5:         return True
+6: return False"
+"Input: a: a string
+       b: a string
+Output: count: an integer representing the number of times a can be repeated to form b
+
+1: Initialize a variable count to 0
+2: If the length of b is not divisible by the length of a, return -1
+3: Calculate the number of times a can be repeated to form b by dividing the length of b by the length of a
+4: For each character ch in a:
+5:     If the character ch is not equal to the character at the corresponding position in b, return -1
+6: Return the count calculated in step 3"
+"Input: 
+- str: a string
+- len: the length of the string
+
+Output:
+- modified_str: a modified string
+
+1. Initialize an empty string called modified_str.
+2. Iterate through the characters in the string from the second-to-last character to the first character.
+3. For each character at index i:
+   - If the character at index i is greater than the character at index i+1:
+     - Subtract 1 from the character at index i.
+     - Set all subsequent characters to 9.
+   - Append the modified character to modified_str.
+4. Return modified_str."
+"Input: arr: an array of numbers
+       n: the length of the array
+Output: min_val: the minimum value of a number such that the sum of the logarithms of all the numbers in the array is less than the logarithm of the minimum value multiplied by the length of the array
+
+1: Initialize min_val to the maximum possible value
+2: Calculate the sum of the logarithms of all the numbers in the array
+3: Calculate the logarithm of the minimum value multiplied by the length of the array
+4: If the sum of the logarithms is less than the logarithm of the minimum value multiplied by the length of the array:
+5:     Update min_val to the minimum value
+6: Return min_val"
+"Input: s: a string
+Output: largest_substring: the largest substring of s that does not end with '1'
+
+1: if s is empty or consists only of '1' characters:
+2:     return ""-1""
+3: initialize largest_substring as an empty string
+4: initialize current_substring as an empty string
+5: for each character ch in s:
+6:     if ch is '1':
+7:         if current_substring is not empty:
+8:             if the length of current_substring is greater than the length of largest_substring:
+9:                 set largest_substring as current_substring
+10:            set current_substring as an empty string
+11:    else:
+12:        append ch to current_substring
+13:if current_substring is not empty and the length of current_substring is greater than the length of largest_substring:
+14:    set largest_substring as current_substring
+15:return largest_substring"
+"Input: 
+- a: an array of integers
+- n: the length of array a
+- k: an integer representing the maximum count of each element in the modified array
+
+Output:
+- length: an integer representing the length of the modified array
+
+1. Create a dictionary to store the count of each element in the array.
+2. Iterate through the array and update the count in the dictionary.
+3. Create a new array to store the modified elements.
+4. Iterate through the array and check if the count of the element in the dictionary is less than or equal to k.
+5. If the count is less than or equal to k, add the element to the new array.
+6. Return the length of the new array."
+"Input: arr: an array
+       n: size of the array
+       k: an integer
+
+Output: max_median: the maximum median of the array after adding k elements
+
+1: Calculate the new size of the array after adding k elements: new_size = n + k
+2: Sort the array in ascending order
+3: If new_size is even:
+4:     Calculate the median by taking the average of the two middle elements:
+5:     median = (arr[new_size//2] + arr[new_size//2 - 1]) / 2
+6: Else:
+7:     Set the median as the middle element of the array:
+8:     median = arr[new_size//2]
+9: Return the median as the maximum median of the array after adding k elements: max_median = median"
+"Input: 
+- a: an array of integers
+- n: the length of the array
+
+Output:
+- step_count: the minimum number of steps required to make all the elements of the array equal to either 1 or -1
+
+1: Initialize variables:
+   - positive_count = 0
+   - negative_count = 0
+   - zero_count = 0
+   - step_count = 0
+   
+2: Iterate through each element num in the array a:
+   - If num is greater than 0, increment positive_count by 1
+   - If num is less than 0, increment negative_count by 1
+   - If num is equal to 0, increment zero_count by 1
+   
+3: If negative_count is even:
+   - Add zero_count to step_count
+   
+4: If negative_count is odd:
+   - If zero_count is greater than 0:
+     - Add zero_count to step_count
+   - If zero_count is equal to 0:
+     - Add 2 to step_count
+     
+5: For each negative element num in the array a:
+   - Add the absolute difference between num and -1 to step_count
+   
+6: For each positive element num in the array a:
+   - Add the absolute difference between num and 1 to step_count
+   
+7: Return step_count as the result of the function."
+"Input: n: an integer
+Output: num: the nth even digit number
+
+1: if n is equal to 1:
+2:     return 0
+3: else:
+4:     create an empty list v
+5:     subtract 1 from n
+6:     while n is not equal to 0:
+7:         append the remainder of n divided by 5 to list v
+8:         update n to be the floor division of n by 5
+9:     initialize a variable result to 0
+10:    for each element in list v in reverse order:
+11:        update result by multiplying it by 10 and adding the current element
+12:    return 2 times the result"
+"Input: n: an integer
+Output: True if n has a sequence of increasing set bits, False otherwise
+1: Convert n to binary representation
+2: Initialize a variable prev_bit to 0
+3: Initialize a variable count to 0
+4: Iterate through each bit in the binary representation of n:
+5:     If the current bit is 1 and prev_bit is 0:
+6:         Increment count by 1
+7:     If the current bit is 0 and prev_bit is 1:
+8:         If count is greater than 1:
+9:             Return True
+10:        Reset count to 0
+11:    Set prev_bit to the current bit
+12: Return False"
+"Input: n: an integer, x: an integer
+Output: closest: the closest multiple of x to n
+
+1: if x is greater than n:
+2:     return x
+3: else:
+4:     calculate the remainder of n divided by x
+5:     if the remainder is less than or equal to half of x:
+6:         closest = n - remainder
+7:     else:
+8:         closest = n + (x - remainder)
+9:     return closest"
+"Input: n: an integer
+Output: sum: the sum of the series
+
+1: Initialize sum to 0
+2: for each number i from 0 to n:
+3:     Add i to sum
+4:     Add 2 to i
+5: return sum"
+"Input: n: an integer
+Output: sum: the sum of the series
+
+1: Initialize sum to 0
+2: for each number i from 1 to n:
+3:     Initialize term to 1
+4:     for each number j from 1 to i:
+5:         Add 2 to term
+6:     Add term to sum
+7: return sum"
+"Input: arr: an array of integers
+       n: the length of the array
+
+Output: max_val: the maximum value in the array that occurs the same number of times as its value
+
+1: Initialize a dictionary, count_dict, to store the count of each value in the array
+2: Initialize max_val to None
+3: Initialize max_count to 0
+4: Iterate through each element, num, in the array:
+    5: If num is not in count_dict, add it as a key with a value of 1
+    6: If num is already in count_dict, increment its value by 1
+    7: If the value of num in count_dict is greater than max_count, update max_count and max_val to num
+8: If max_val is not None and the count of max_val in count_dict is equal to max_val, return max_val
+9: If no such value exists, return None"
+"Input: a: a list of integers
+       n: the length of the list
+
+Output: count: the count of pairs where one integer is the power of 2 greater than the other integer
+
+1: Initialize count to 0
+2: for i in range(n):
+3:     for j in range(i+1, n):
+4:         if (a[i] < a[j] and a[j] % a[i] == 0 and a[j] / a[i] == 2) or (a[i] > a[j] and a[i] % a[j] == 0 and a[i] / a[j] == 2):
+5:             increment count by 1
+6: return count"
+"Input: n: an integer
+Output: result: the result of toggling all the bits in the binary representation of n
+1: Convert n to binary representation
+2: Initialize an empty string called result
+3: For each bit in the binary representation of n:
+4:     If the bit is 0, append 1 to result
+5:     If the bit is 1, append 0 to result
+6: Convert result back to an integer
+7: Return result"
+"Input: A: a list of integers
+       n: an integer
+Output: changes: an integer representing the total number of changes made in list A
+1: Initialize changes to 0
+2: Iterate through the list A from index 1 to n-1:
+3:     If A[i-1] = 1, A[i+1] = 1, and A[i] = 0:
+4:         Increment changes by 1
+5:         Set A[i+1] to 0
+6: Return changes"
+"Input: radian: a radian value
+Output: degree: a degree value
+
+1: degree = radian * (180 / pi)
+2: return degree"
+"Input: n: an integer
+Output: result: the floor division of n by 2
+1: result = math.floor(n/2)
+2: return result"
+"Input: a: an integer, the first term of the arithmetic progression
+       d: an integer, the common difference of the arithmetic progression
+       n: an integer, the number of terms in the arithmetic progression
+Output: sum: an integer, the sum of the arithmetic progression
+1: Initialize sum to 0
+2: for i in range(n):
+3:     term = a + (i * d)
+4:     sum = sum + term
+5: return sum"
+"Input: n: an integer
+Output: largest_power: the largest power of 2 that divides n, or 1 if n is odd
+1: if n is odd:
+2:     return 1
+3: else:
+4:     initialize largest_power as 1
+5:     while n is divisible by 2:
+6:         divide n by 2
+7:         multiply largest_power by 2
+8:     return largest_power"
+"Input: row: an integer representing the starting row position on the chessboard
+       column: an integer representing the starting column position on the chessboard
+       moves: an integer representing the number of steps that can be taken in any direction
+
+Output: count: an integer representing the total number of squares that can be reached, excluding the starting position
+
+1: Initialize count to 0
+2: For each step in the range from 1 to moves+1:
+3:     For each direction (up, down, left, right):
+4:         Calculate the new row and column positions based on the current step and direction
+5:         If the new row and column positions are within the bounds of the chessboard (between 0 and 7):
+6:             Increment count by 1
+7: Return count"
+"Input: n: an integer
+Output: next_num: the next number in the sequence
+
+1: Initialize a variable prev_num to 0
+2: Initialize a variable next_num to 0
+3: Iterate from 0 to n:
+4:     Add the current index to prev_num
+5:     Add prev_num to next_num
+6: Return next_num"
+"Input: s: a string
+Output: smallest_permutation: the string with the smallest lexicographically possible permutation
+
+1: Create an empty dictionary called ""last_occurrence""
+2: Create an empty list called ""sorted_str""
+3: For each character ch in s:
+4:     Set the value of ""last_occurrence[ch]"" to the index of ch in s
+5: Sort the characters in s and store the result in ""sorted_str""
+6: Create an empty string called ""smallest_permutation""
+7: For each character ch in s:
+8:     If ch is not equal to the corresponding character in ""sorted_str"":
+9:         Swap ch with the character at the last occurrence of ch
+10:    Append ch to ""smallest_permutation""
+11: Return ""smallest_permutation"""
+"Input: n: an integer representing the length of the array
+       l: an integer representing the starting index (1-based) for calculating the sum
+       r: an integer representing the ending index (1-based) for calculating the sum
+
+Output: sum: an integer representing the sum of the elements in the array from index l-1 to index r
+
+1: Create an empty array called ""arr""
+2: Create a variable called ""num"" and set it to 1
+3: Repeat the following steps ""n"" times:
+    4: Append ""num"" to the array ""arr""
+    5: Increment ""num"" by 2
+6: Repeat the following steps ""n"" times:
+    7: Append ""num"" to the array ""arr""
+    8: Increment ""num"" by 2
+9: Create a variable called ""sum"" and set it to 0
+10: Iterate over the elements in the array ""arr"" from index ""l-1"" to index ""r"":
+    11: Add the current element to the variable ""sum""
+12: Return the value of ""sum"""
+"Input: x: an integer, y: an integer
+Output: hcf: the highest common factor of x and y
+
+1: Find the minimum of x and y
+2: If both x and y are divisible by the minimum:
+3:     Return the minimum as the HCF
+4: Otherwise:
+5:     Iterate from the minimum divided by 2 to 1:
+6:         Check if both x and y are divisible by the current number
+7:         If a common factor is found:
+8:             Return that number as the HCF
+9: If no common factor is found:
+10:    Return 1 as the HCF"
+"Input: A: an integer, B: an integer, N: an integer
+Output: num: the Nth number in the sequence
+
+1: if N is 1, return A
+2: if N is 2, return B
+3: initialize a variable prev1 to A
+4: initialize a variable prev2 to B
+5: initialize a variable num to 0
+6: for i in range(3, N+1):
+7:     num = prev1 + prev2
+8:     prev1 = prev2
+9:     prev2 = num
+10: return num"
+"Input: 
+- str: a string
+- substr: a substring
+
+Output:
+- count: the number of times substr appears in str
+
+1: Initialize count to 0
+2: Iterate through each character in str:
+3:     If the current character is equal to the first character of substr:
+4:         Check if the substring starting from the current character matches substr
+5:         If it does, increment count by 1
+6: Return count"
+"Input: p: principal amount (float)
+       r: annual interest rate (float)
+       t: loan tenure in years (int)
+
+Output: emi: calculated equated monthly installment (float)
+
+1: Convert the annual interest rate to a monthly interest rate by dividing it by 12 and 100.
+2: Convert the loan tenure from years to months by multiplying it by 12.
+3: Calculate the EMI using the formula: EMI = (p * r * (1 + r)^t) / ((1 + r)^t - 1).
+4: Return the calculated EMI."
+"Input: A, B, C: integers
+Output: count: number of triplets (i, j, k) that satisfy the condition i * k > j * j
+
+1: Initialize count to 0
+2: Loop through all possible values of i from A to B (inclusive)
+3:     Loop through all possible values of j from A to B (inclusive)
+4:         Loop through all possible values of k from A to C (inclusive)
+5:             If i * k > j * j, increment count by 1
+6: Return count"
+"Input: l: an integer, r: an integer
+Output: count: the count of numbers between l and r (inclusive) whose last digit is either 2, 3, or 9
+1: Initialize count to 0
+2: for each number i from l to r (inclusive):
+3:     if the last digit of i is 2, 3, or 9:
+4:         increment count by 1
+5: return count"
+"Input: 
+- n: an integer
+- arr: a list of integers
+
+Output:
+- length: an integer representing the length of the longest arithmetic subsequence in arr
+
+1. Initialize a variable ""length"" to 0.
+2. Create an empty dictionary ""dp"" to store the length of the longest arithmetic subsequence ending at each index of arr.
+3. Iterate over each element ""num"" in arr:
+    - Initialize a dictionary ""diffs"" to store the difference between ""num"" and all previous elements in arr.
+    - Iterate over each index ""i"" from 0 to the current index:
+        - Calculate the difference ""diff"" between ""num"" and arr[i].
+        - If ""diff"" is already in ""diffs"", update the value of ""dp[i]"" to be the maximum of ""dp[i]"" and ""dp[diffs[diff]] + 1"".
+        - If ""diff"" is not in ""diffs"", set ""dp[i]"" to 2.
+        - Update ""length"" to be the maximum of ""length"" and ""dp[i]"".
+        - Add ""diff"" to ""diffs"" with the value of ""i"".
+4. Return ""length""."
+"Input: str: a string
+Output: longest_substring: the longest even-length substring that consists of only alphanumeric characters, or ""-1"" if there is no such substring
+
+1: Initialize longest_substring as an empty string
+2: Iterate through each character ch in str:
+3:     If ch is alphanumeric:
+4:         Initialize current_substring as ch
+5:         Iterate through each character next_ch starting from the next character after ch:
+6:             If next_ch is alphanumeric:
+7:                 Append next_ch to current_substring
+8:                 If the length of current_substring is even and longer than the length of longest_substring:
+9:                     Set longest_substring as current_substring
+10:            Else:
+11:                Break the inner loop
+12:    If the length of longest_substring is even and longer than 0:
+13:        Return longest_substring
+14:    Else:
+15:        Return ""-1"""
+"Input: n: an integer
+Output: count: the number of times n can be divided by 2 before it becomes less than or equal to 1
+1: Initialize count to 0
+2: while n is greater than 1:
+3:     divide n by 2
+4:     increment count by 1
+5: return count"
+"Input: n: an integer, k: an integer
+Output: modified_string: a string
+
+1: Create a string of length n, consisting of all 'a' characters.
+2: Iterate through the string in reverse order:
+3:     Subtract the current index from k.
+4:     If k is greater than or equal to 0:
+5:         Check if k is greater than or equal to 26.
+6:         If it is, replace the character at the current index with 'z' and subtract 26 from k.
+7:         Otherwise, calculate the ASCII value of the character to be replaced by adding k to 97 and subtracting 1.
+8:         Replace the character at the current index with the corresponding lowercase letter and subtract the difference between the ASCII values of the replaced character and 'a' from k.
+9:     If k is less than 0, exit the loop.
+10:    Add the current index to k.
+11: Return the modified string."
+"Input: n: an integer representing the number of stops
+       fuel: an integer representing the amount of fuel available
+
+Output: distance: an integer representing the maximum distance that can be covered
+
+1: Initialize distance to 0
+2: while n is greater than 0:
+3:     Calculate the distance covered by dividing fuel by n and add it to distance
+4:     Decrement n by 1
+5: Return distance"
+"Input: arr: an array
+       n: the length of the array
+Output: 1 if a split point exists, 0 otherwise
+
+1: Calculate the total sum of the array, sum_arr
+2: Initialize left_sum and right_sum as 0
+3: Iterate through the array from index 0 to n-1:
+4:     Add the current element to left_sum
+5:     Subtract the current element from sum_arr
+6:     If left_sum is equal to one-third of sum_arr and right_sum is equal to two-thirds of sum_arr:
+7:         Return 1
+8:     Increment right_sum by the current element
+9: Return 0"
+"Input: 
+- sentence: a string representing a sentence
+- word: a string representing a word
+
+Output:
+- True if the word is present in the sentence
+- False otherwise
+
+1. Split the sentence into a list of words.
+2. Iterate through each word in the list.
+3. If the word matches the given word, return True.
+4. If no match is found, return False."
+"Input: n: an integer
+Output: count: the number of digits in n
+1: Convert n to a string and assign it to variable num_str
+2: Get the absolute value of n and assign it to variable num
+3: Get the logarithm base 10 of num and assign it to variable log_num
+4: Round up log_num to the nearest integer and assign it to variable count
+5: Return count"
+"Input: a, b, c, k: integers
+Output: result: boolean indicating if it is possible to make all three integers equal
+
+1: if a, b, and c are already equal:
+2:     return True
+3: else if k is 0:
+4:     return False
+5: else if k is divisible by 2:
+6:     if the absolute difference between a and b is divisible by k:
+7:         if the absolute difference between b and c is divisible by k:
+8:             return True
+9: else:
+10:    return False"
+"Input: x: an integer, y: an integer
+Output: result: a boolean value indicating whether y is a rotation of x
+
+1: Initialize a variable shift_count to 0
+2: While shift_count is less than or equal to 32:
+3:     Shift the binary representation of x to the left by shift_count bits
+4:     Perform a bitwise OR operation between the shifted x and the original x
+5:     If the resulting value is equal to y:
+6:         Set result to True
+7:         Break out of the loop
+8:     Increment shift_count by 1
+9: If result is not True:
+10:    Set shift_count to 1
+11:    While shift_count is less than or equal to 32:
+12:        Shift the binary representation of x to the right by shift_count bits
+13:        If the resulting value is less than y:
+14:            Set result to False
+15:            Break out of the loop
+16:        Increment shift_count by 1
+17: Return result"
+"Input: s: a string
+Output: count: the number of consecutive characters that are not the same
+
+1: Initialize count to 0
+2: Initialize prev_char to None
+3: Iterate through each character ch in s:
+4:     if prev_char is not None and ch is not equal to prev_char:
+5:         increment count by 1
+6:     set prev_char to ch
+7: Return count"
+"Input: string: a string
+       n: an integer
+Output: count: the count of characters in the string
+
+1: Initialize count to 0
+2: Initialize index to 0
+3: While index is less than the length of the string:
+4:     If the character at index is '0':
+5:         Increment count by 1
+6:         Increment index by 1
+7:     Otherwise:
+8:         Increment count by 2
+9:         Increment index by 2
+10: Return count"
+"Input: arr: an array of integers
+       n: length of the array
+Output: min_removal: minimum number of elements to be removed
+
+1: Initialize min_removal to 0
+2: Sort the array arr in ascending order
+3: Initialize min_diff to infinity
+4: Iterate through the array from index 1 to n-1:
+5:     Calculate the absolute difference between the current element and the previous element
+6:     If the absolute difference is less than min_diff:
+7:         Update min_diff with the new minimum difference
+8: Iterate through the array from index 1 to n-1:
+9:     Calculate the absolute difference between the current element and the previous element
+10:    If the absolute difference is equal to min_diff:
+11:        Increment min_removal by 1
+12: Return min_removal"
+"Input: left: an integer, right: an integer
+Output: max_num: an integer
+
+1: Convert left to binary representation
+2: Initialize max_num as 0
+3: Initialize count as 0
+4: Iterate through each bit in the binary representation of left:
+5:     If the current bit is 1:
+6:         Increment count by 1
+7:         If count is greater than max_num:
+8:             Set max_num as count
+9:     Else:
+10:        Set count as 0
+11:   If max_num is greater than right:
+12:       Set max_num as right
+13: Return max_num"
+"Input: n: an integer
+Output: next_power: the next power of 2 that is greater than or equal to n
+1: Initialize next_power as 1
+2: while next_power is less than n:
+3:     Multiply next_power by 2
+4: return next_power"
+"Input: n: an integer
+Output: True if n is a perfect number, False otherwise
+1: Initialize a variable sum to 0
+2: for each number i from 1 to n-1:
+3:     if n is divisible by i:
+4:         add i to sum
+5: if sum is equal to n:
+6:     return True
+7: else:
+8:     return False"
+"Input: N: an integer representing a year
+Output: odd_days: an integer representing the number of odd days in the year
+
+1: Calculate the number of centuries by dividing N by 100 and rounding down the result
+2: Calculate the number of leap centuries by dividing N by 400 and rounding down the result
+3: Calculate the number of leap years by shifting N by 2 bits
+4: Subtract the number of leap years from the total number of days in the year to get the number of non-leap years
+5: If there are any centuries or leap centuries:
+6:     Adjust the number of non-leap years and leap years accordingly
+7: Calculate the total number of days by adding the number of non-leap years and twice the number of leap years
+8: Calculate the number of odd days by taking the modulus of the total number of days divided by 7
+9: Return the number of odd days"
+"Input: a: a number
+Output: diagonal_length: the pentagonal diagonal length
+
+1: if a is negative:
+2:     return -1
+3: else:
+4:     calculate the diagonal_length using the formula: diagonal_length = 3 * a * (a - 1) + 1
+5:     return diagonal_length"
+"Input: n: an integer, d: an integer
+Output: frequency: an integer
+
+1: Initialize count to 0
+2: Convert n to a string and assign it to n_str
+3: for each character ch in n_str:
+4:     if ch is equal to the string representation of d:
+5:         increment count by 1
+6: return count"
+"Input: n: an integer
+Output: valid: a boolean indicating if n is a valid number
+1: Convert n to a string and store it in a variable called num_str
+2: Create an empty set called unique_digits
+3: For each digit in num_str:
+4:     If the digit is already in unique_digits:
+5:         Set valid to False and break the loop
+6:     Add the digit to unique_digits
+7: If valid is not False, set it to True
+8: Return valid"
+"Input: a: a list of integers
+       n: an integer
+Output: True if it is possible to make all elements in a equal, False otherwise
+
+1: Initialize a variable ""divisible"" to True
+2: Iterate through each element ""num"" in a:
+3:     While num is divisible by 5 or 3:
+4:         If num is divisible by 5:
+5:             Divide num by 5
+6:         If num is divisible by 3:
+7:             Divide num by 3
+8:         If num is not divisible by 5 or 3:
+9:             Set ""divisible"" to False
+10:            Break out of the loop
+11: If ""divisible"" is True:
+12:    Return True
+13: Else:
+14:    Return False"
+"Input: n: an integer
+Output: element: the nth element of the array
+
+1: Create an array with length n+1 and initialize all elements to 0.
+2: Set the first element of the array to 4 and the second element to 7.
+3: For each index i from 3 to n+1:
+4:     If i is odd:
+5:         Set the value at index i to the value at index i//2 multiplied by 10 and added to 4.
+6:     If i is even:
+7:         Set the value at index i to the value at index (i//2)-1 multiplied by 10 and added to 7.
+8: Return the value at index n of the array."
+"Input: n: an integer
+Output: element: the nth element of the array
+
+1: Create an array of length n+1 initialized with 0s
+2: Set the first element of the array to 3
+3: Set the second element of the array to 5
+4: For each index i from 3 to n+1:
+5:     If i is odd:
+6:         Set the element at index i to the element at index i//2 multiplied by 10 and added with 3
+7:     If i is even:
+8:         Set the element at index i to the element at index (i//2)-1 multiplied by 10 and added with 5
+9: Return the element at index n"
+"Input: n: an integer
+Output: element: the nth element of the array
+
+1: Create an array of length n+1 initialized with 0s
+2: Set the first element of the array to 1
+3: Set the second element of the array to 2
+4: For i from 2 to n:
+5:     If i is odd:
+6:         Calculate the element at index i by multiplying the element at index i//2 by 10 and adding 1
+7:     If i is even:
+8:         Calculate the element at index i by multiplying the element at index (i//2)-1 by 10 and adding 2
+9: Return the element at index n"
+"Input: 
+- a: an array of integers
+- n: the length of the array
+
+Output:
+- True if it is possible to form a number by concatenating the elements of the array such that the resulting number is divisible by 11
+- False otherwise
+
+1. Initialize an empty string variable called ""number""
+2. Sort the array in non-decreasing order
+3. Iterate through each element in the sorted array:
+    - Convert the element to a string and concatenate it to the ""number"" variable
+4. Check if the length of the ""number"" variable is less than 2:
+    - If true, return False since a number with less than 2 digits cannot be divisible by 11
+5. Check if the ""number"" variable is divisible by 11:
+    - If true, return True
+    - If false, return False"
+"Input: l: length of the square, b: breadth of the square, h: height of the square
+Output: area: area of the square if all parameters are positive, -1 otherwise
+
+1: if l, b, and h are all positive:
+2:     calculate the area of the square using the formula: area = l * b * h
+3:     return the area
+4: else:
+5:     return -1"
+"Input: string: a string
+Output: new_string: a new string where the first and last letter of each word are capitalized
+
+1: Initialize an empty string called new_string
+2: Split the input string into a list of words
+3: For each word in the list:
+4:     Initialize an empty string called capitalized_word
+5:     For each character in the word:
+6:         If the character is alphabetic:
+7:             If it is the first or last character of the word:
+8:                 Capitalize the character and add it to capitalized_word
+9:             Else:
+10:                Add the character to capitalized_word without capitalizing it
+11:    Add capitalized_word to new_string
+12: Return new_string"
+"Input: p: an integer
+Output: bucketNo: the bucket number where p belongs
+1: Calculate the value inside the square root: 8 * p + 1
+2: Take the square root of the value calculated in step 1
+3: Subtract 1 from the square root value
+4: Divide the result of step 3 by 2
+5: Take the ceiling of the result of step 4
+6: Return the result of step 5 as the bucket number"
+"Input: arr: an array
+Output: True if all elements in arr are distinct, False otherwise
+1: for each element x in arr:
+2:     if x appears more than once in arr:
+3:         return False
+4: return True"
+"Input: string: a string
+Output: count: the count of distinct two-character codes in the string
+
+1: Initialize an empty set called distinct_codes
+2: Initialize a variable called count to 0
+3: Iterate through the string from index 0 to len(string)-2:
+4:     Get the two-character code at the current index and the next index
+5:     If the two-character code is not in distinct_codes:
+6:         Add the two-character code to distinct_codes
+7:         Increment count by 1
+8: Return count"
+"Input: lower: a number, higher: a number
+Output: most_common: the most common number between lower and higher
+
+1: if lower is equal to higher:
+2:     return lower
+3: else:
+4:     return 2"
+"Input: ss: a string
+Output: max_num: the maximum number extracted from ss
+
+1: Initialize max_num as 0
+2: Initialize current_num as 0
+3: for each character ch in ss:
+4:     if ch is a digit:
+5:         current_num = current_num * 10 + int(ch)
+6:     else:
+7:         if current_num > max_num:
+8:             max_num = current_num
+9:         current_num = 0
+10: if current_num > max_num:
+11:     max_num = current_num
+12: return max_num"
+"Input: 
+- s: a string
+- length: the length of the string
+
+Output:
+- longest_substring: the longest substring of consecutive integers in the string
+
+1: Initialize variables:
+   - longest_substring = """"
+   - current_substring = """"
+   - max_length = 0
+
+2: Iterate through each character in the string:
+   - If the character is a digit:
+     - Add the character to the current_substring
+     - If the length of the current_substring is greater than max_length:
+       - Update max_length to the length of the current_substring
+       - Update longest_substring to the current_substring
+
+   - If the character is not a digit:
+     - Reset the current_substring to an empty string
+
+3: Return the longest_substring"
+"Input: N: an integer representing the length of one side of the area
+       M: an integer representing the length of the other side of the area
+       K: an integer representing the number of operations
+
+Output: remaining_area: an integer representing the remaining area after performing the operations
+
+1: while K is greater than 0 and both N and M are greater than 0:
+2:     if N is greater than M:
+3:         subtract M from N
+4:     else:
+5:         subtract N from M
+6:     subtract 1 from K
+7: if both N and M are greater than 0:
+8:     set remaining_area as the product of N and M
+9: else:
+10:    set remaining_area as 0
+11: return remaining_area"
+"Input: 
+- string: a string
+- length: an integer representing the length of the string
+
+Output:
+- valid: a boolean value indicating whether the string is valid or not
+
+1: Initialize a variable ""valid"" as True
+2: Iterate through the string from index 0 to length-2:
+3:     If the current character is equal to the next character:
+4:         Set ""valid"" as False
+5:         Break the loop
+6: Return the value of ""valid"""
+"Input: n: an integer
+Output: power: the largest power of 2 that is less than or equal to n
+1: Initialize power as 1
+2: While power is less than or equal to n:
+3:     Multiply power by 2
+4: Return power divided by 2"
+"Input: A: an integer, B: an integer
+Output: True if A and B have the same number of digits, False otherwise
+1: Convert A and B to strings
+2: Get the length of the string representation of A and B
+3: If the lengths are equal, return True
+4: Otherwise, return False"
+"Input: x: an integer, y: an integer
+Output: result: a boolean value indicating whether the difference between x and y is not equal to 1
+
+1: if the difference between x and y is not equal to 1:
+2:     set result to True
+3: else:
+4:     set result to False
+5: return result"
+"Input: n: an integer
+Output: Sn_3: the nth Tribonacci word
+
+1: Initialize Sn_1 as ""1"", Sn_2 as ""12"", and Sn_3 as ""1213""
+2: If n is less than or equal to 3, return Sn_3
+3: Iterate i from 4 to n:
+4:     Set Sn_3 as the concatenation of Sn_2 and Sn_1
+5:     Set Sn_1 as Sn_2
+6:     Set Sn_2 as Sn_3
+7: Return Sn_3"
+"Input: arr: an array of integers
+       n: length of the array
+Output: min_steps: minimum number of steps required to reach each element in the array
+
+1: Initialize min_steps to 0
+2: Iterate through the array from index 1 to n-1:
+    3: Calculate the absolute difference between the current element and the previous element
+    4: Add the absolute difference to min_steps
+5: Return min_steps"
+"Input: n: an integer
+Output: result: 0 or 1
+1: Calculate the remainder of n divided by 4
+2: if the remainder is 0 or 3:
+3:     set result to 0
+4: else if the remainder is 1 or 2:
+5:     set result to 1
+6: return result"
+"Input: a: an integer, N: an integer
+Output: ans: an integer
+
+1: Calculate the number of multiples of a up to N and store it in the variable m.
+2: Calculate the sum of all numbers from 1 to m using the formula (m * (m + 1)) / 2 and store it in the variable sum.
+3: Multiply a by sum and store the result in the variable ans.
+4: Return ans."
+"Input: N: an integer
+Output: result: a value based on the conditions
+
+1: if N <= 2:
+2:     return N
+3: if N <= 4:
+4:     return N + 3
+5: if (N - 4) is divisible by 4:
+6:     return N + 1
+7: if (N - 4) modulo 4 <= 2:
+8:     return N + 2
+9: return N - 1"
+"Input: arr: an array
+       n: the length of the array
+Output: True if the first element of the array, the last element of the array, and the length of the array are all odd numbers. Otherwise, False.
+
+1: if the length of the array is less than 1:
+2:     return False
+3: if the first element of the array is odd:
+4:     if the last element of the array is odd:
+5:         if the length of the array is odd:
+6:             return True
+7: return False"
+"Input: N: an integer, L: an integer, R: an integer
+Output: count: an integer
+
+1: if N is equal to 1:
+2:     count = R - L + 1
+3: else if N is greater than 1:
+4:     count = R - L + 1 + 1
+5: else:
+6:     count = 0
+7: return count"
+"Input: arr: an array of integers
+       n: length of the array
+Output: min_int: the smallest positive integer that is not present in the array
+
+1: Initialize a set called ""num_set"" to store unique positive integers in the array.
+2: Iterate through each element ""num"" in the array:
+3:     If ""num"" is positive, add it to the ""num_set"".
+4: Initialize a variable ""min_int"" to 1.
+5: While ""min_int"" is in ""num_set"":
+6:     Increment ""min_int"" by 1.
+7: Return ""min_int""."
+"Input: 
+- s: a string
+- n: an integer
+
+Output:
+- smallest_num: the smallest possible number that can be formed by rearranging the digits of the string
+
+1. Convert the integer n to a string and store it in a variable called ""n_str"".
+2. Concatenate the string s and n_str and store it in a variable called ""combined_str"".
+3. Convert the ""combined_str"" to a list of characters and store it in a variable called ""char_list"".
+4. Sort the ""char_list"" in ascending order.
+5. Join the characters in the sorted ""char_list"" to form a string and store it in a variable called ""smallest_num"".
+6. Return the ""smallest_num""."
+"Input: arr: an array of integers
+       n: length of the array
+
+Output: count: total number of boxes removed
+
+1: Initialize count to 0
+2: Iterate through the array from index 1 to n-1:
+3:     If the current element is greater than the previous element:
+4:         Add the difference between the current element and the previous element to count
+5:         Replace the current element with the previous element
+6:     If the current element is less than or equal to the previous element:
+7:         Update the previous element to the current element
+8: Return count"
+"Input: s: a string
+Output: avg: the average value of the ASCII codes of the characters in s
+1: Initialize sum to 0 and count to 0
+2: for each character ch in s:
+3:     add the ASCII code of ch to sum
+4:     increment count by 1
+5: Calculate avg by dividing sum by count
+6: Return avg"
+"Input: 
+- A: the value of each banknote (integer)
+- B: the value of the banknote (integer)
+- S: the desired amount (integer)
+- N: the number of banknotes available (integer)
+
+Output:
+- num_banknotes: the minimum number of banknotes needed to reach the desired amount (integer)
+- -1 if it is not possible to reach the desired amount
+
+1. Calculate the maximum number of banknotes that can be used to reach the desired amount:
+   - max_banknotes = S // A
+
+2. If the maximum number of banknotes is greater than or equal to N, return -1 (not possible to reach the desired amount).
+
+3. Initialize a variable num_banknotes to 0.
+
+4. Iterate from i = max_banknotes to 0 (inclusive) in descending order:
+   - Calculate the remaining amount after using i banknotes of value A: remaining_amount = S - (i * A)
+   - Calculate the number of banknotes of value B needed to reach the remaining amount: num_b_banknotes = remaining_amount // B
+   - If the remaining amount is divisible by B and the number of banknotes of value B is less than or equal to N, update num_banknotes to i + num_b_banknotes and break the loop.
+
+5. If num_banknotes is still 0, return -1 (not possible to reach the desired amount).
+
+6. Return num_banknotes."
+"Input: x: an integer, y: an integer
+Output: lcm: the least common multiple of x and y
+
+1: Find the maximum of x and y and assign it to max_num
+2: Initialize lcm as max_num
+3: While True:
+4:     If lcm is divisible by both x and y:
+5:         Return lcm
+6:     Increment lcm by max_num
+7: Return None"
+"Input: n: an integer
+Output: count: the count of trailing zeros in the binary representation of n
+
+1: Convert n to its binary representation
+2: Initialize count to 0
+3: Iterate through the binary representation of n from right to left:
+4:     If the current digit is 0, increment count by 1
+5:     If the current digit is 1, break the loop
+6: Return count"
+"Input: arr: an array of integers
+       n: the length of the array
+Output: index: the index of the element in the array
+
+1: Initialize max_xor_sum to 0 and index to -1
+2: Iterate through each index i in the range from 0 to n-1:
+3:     Initialize xor_sum_left to 0 and xor_sum_right to 0
+4:     Iterate through each index j in the range from 0 to i-1:
+5:         Update xor_sum_left by performing XOR operation between xor_sum_left and arr[j]
+6:     Iterate through each index k in the range from i+1 to n-1:
+7:         Update xor_sum_right by performing XOR operation between xor_sum_right and arr[k]
+8:     Calculate current_xor_sum by performing XOR operation between xor_sum_left and xor_sum_right
+9:     If current_xor_sum is greater than max_xor_sum:
+10:        Update max_xor_sum to current_xor_sum
+11:        Update index to i
+12: Return index"
+"Input: arr: an array
+       n: the length of the array
+Output: length: the length of the longest decreasing subsequence in the array
+
+1: Initialize a variable max_length to 0
+2: Initialize a variable current_length to 1
+3: Iterate through the array from index 1 to n-1:
+4:     If the current element is less than the previous element:
+5:         Increment current_length by 1
+6:     Else:
+7:         If current_length is greater than max_length:
+8:             Update max_length with current_length
+9:         Reset current_length to 1
+10: If current_length is greater than max_length:
+11:    Update max_length with current_length
+12: Return max_length"
+"Input: arr: an array of integers
+       n: length of the array
+       k: an integer value
+
+Output: result: an integer value
+
+1: Set min_val as the minimum element in arr
+2: Set max_val as the maximum element in arr
+3: If max_val - min_val is less than 2 * k, return min_val + k
+4: Otherwise, return -1"
+"Input: K: an integer
+Output: length: an integer
+
+1: Initialize a variable ""num"" to 1
+2: Initialize a variable ""length"" to 1
+3: Initialize an empty set ""remainders""
+4: While ""num"" is not in ""remainders"":
+5:     Add ""num"" to ""remainders""
+6:     If ""num"" is divisible by K:
+7:         Return ""length""
+8:     Increment ""length"" by 1
+9:     Update ""num"" to (num * 10 + 1) % K
+10: Return -1"
+"Input: arr: an array of integers
+       n: the length of the array
+Output: min_ops: the minimum number of operations required to change all elements of the array to the same number
+
+1: Initialize a variable min_ops to store the minimum number of operations
+2: Initialize a variable target to store the target number to which all elements should be changed
+3: Sort the array arr in ascending order
+4: Calculate the median of the array arr and assign it to target
+5: For each element num in arr:
+6:     Calculate the absolute difference between num and target and add it to min_ops
+7: Return min_ops"
+"Input: n: an integer
+Output: sum: the sum of the first n numbers in the sequence
+
+1: Initialize variables a and b to 3 and 5 respectively
+2: Initialize variable sum to 0
+3: If n is 1, return 3
+4: If n is 2, return 8
+5: For i in range 3 to n+1:
+6:     Calculate the next number in the sequence by adding a and b
+7:     Update a to b and b to the next number
+8:     Add the next number to sum
+9: Return sum"
+"Input: s: a number
+Output: sqrt: the square root of s
+1: import the math module
+2: return the square root of s using the math.sqrt() function"
+"Input: p: a number
+       q: a number
+Output: probability: a number
+
+1: Divide p by 100
+2: Divide q by 100
+3: Calculate p^2
+4: Calculate q^2
+5: Add p^2 and q^2
+6: Add p and q
+7: Divide the sum of p^2 and q^2 by the sum of p and q
+8: Return the result as probability"
+"Input: 
+- str1: a string
+- len1: the length of str1
+
+Output:
+- xor: the XOR of the ASCII values of all the characters in str1
+
+1: Initialize xor as 0
+2: for each character ch in str1:
+3:     Get the ASCII value of ch
+4:     Perform XOR operation between xor and the ASCII value of ch
+5: Return xor"
+"Input: n: an integer
+Output: True if the binary representation of n does not contain consecutive 1's, False otherwise
+1: Convert n to its binary representation
+2: Initialize a variable count to 0
+3: For each digit in the binary representation:
+4:     If the digit is 1:
+5:         Increment count by 1
+6:         If count is greater than 1:
+7:             Return False
+8:     Else:
+9:         Set count to 0
+10: Return True"
+"Input: s: a string
+Output: True if the vowels in s are in alphabetical order, False otherwise
+1: vowels = ['a', 'e', 'i', 'o', 'u']
+2: vowel_list = []
+3: for each character ch in s:
+4:     if ch is a vowel:
+5:         vowel_list.append(ch)
+6: for i in range(len(vowel_list)-1):
+7:     if vowel_list[i] > vowel_list[i+1]:
+8:         return False
+9: return True"
+"Input: low: an integer, the lower bound of the range
+       high: an integer, the upper bound of the range
+       k: an integer, the threshold for the last digit
+Output: count: an integer, the count of numbers between low and high (inclusive) whose last digit is greater than or equal to k
+1: Initialize count to 0
+2: for each number num in the range from low to high (inclusive):
+3:     if the last digit of num is greater than or equal to k:
+4:         increment count by 1
+5: return count"
+"Input: n: an integer
+Output: min_diff: the minimum absolute difference between n and the nearest power of 2
+
+1: Initialize min_diff to infinity
+2: Calculate the logarithm of n to the base 2 and round it to the nearest integer, let's call it nearest_power
+3: Calculate the absolute difference between n and 2 raised to the power of nearest_power, let's call it diff
+4: If diff is less than min_diff, update min_diff to diff
+5: Return min_diff"
+"Input: r: a radius
+Output: area: the area of a Reuleaux triangle with radius r
+1: if r is negative:
+2:     return -1
+3: else:
+4:     calculate the side length of the equilateral triangle inscribed in the Reuleaux triangle using r
+5:     calculate the area of the equilateral triangle using the side length
+6:     calculate the area of the Reuleaux triangle using the area of the equilateral triangle
+7:     return the area of the Reuleaux triangle"
+"Input: s: a string
+Output: new_str: a new string containing all characters from s sorted in alphabetical order
+
+1: Initialize an empty list called ""characters""
+2: For each character ch in s:
+3:     If ch is not already in ""characters"":
+4:         Add ch to ""characters""
+5: Sort ""characters"" in alphabetical order
+6: Convert ""characters"" to a string called ""new_str""
+7: Return new_str"
+"Input: ar: an array of integers
+       size: the size of the array
+Output: missing_num: the missing number in the array
+
+1: Set left = 0 and right = size - 1
+2: While left <= right:
+3:     Set mid = (left + right) // 2
+4:     If ar[mid] - ar[left] != mid - left:
+5:         If mid - left == 1:
+6:             Set missing_num = ar[left] + 1
+7:         Else:
+8:             Set right = mid
+9:     Else:
+10:        If ar[right] - ar[mid] != right - mid:
+11:            If right - mid == 1:
+12:                Set missing_num = ar[mid] + 1
+13:            Else:
+14:                Set left = mid
+15: Return missing_num"
+"Input: str: a string
+Output: count: the number of occurrences of the substring ""010"" in str
+1: Initialize count to 0
+2: for each index i in range(len(str)-2):
+3:     if str[i:i+3] is equal to ""010"":
+4:         increment count by 1
+5: return count"
+"Input: arr: an array of integers
+       n: length of the array
+Output: first_even: the first element in the array that appears an odd number of times
+
+1: Initialize an empty dictionary called count_dict
+2: Iterate through each element num in arr:
+3:     If num is not in count_dict:
+4:         Add num as a key in count_dict with a value of 1
+5:     Else:
+6:         Increment the value of num in count_dict by 1
+7:     If the value of num in count_dict is odd:
+8:         Return num
+9: Return None if no element in arr appears an odd number of times"
+"Input: arr: an array of integers, n: the length of the array
+Output: ans: the maximum XOR value
+
+1: Initialize xorArr to 0
+2: Calculate the XOR of all elements in arr and store it in xorArr
+3: Initialize ans to 0
+4: Iterate through each element num in arr
+5:     Calculate the XOR of xorArr and num
+6:     If the XOR value is greater than ans, update ans with the XOR value
+7: Return ans"
+"Input: sx: an integer (source x-coordinate)
+       sy: an integer (source y-coordinate)
+       dx: an integer (destination x-coordinate)
+       dy: an integer (destination y-coordinate)
+Output: reachable: a boolean value indicating if it is possible to reach the destination point from the source point
+
+1: if sx is equal to dx and sy is equal to dy:
+2:     return True
+3: if sx is greater than dx or sy is greater than dy:
+4:     return False
+5: if (dx - sx) % sy is equal to 0 or (dy - sy) % sx is equal to 0:
+6:     return True
+7: return False"
+"Input: n: an integer
+Output: count: the number of ways to divide n into pairs of numbers
+
+1: if n is odd:
+2:     return 0
+3: else:
+4:     count = 0
+5:     for i in range(1, n, 2):
+6:         if (i + i+1) % 4 == 0:
+7:             count += 1
+8:     return count"
+"Input: arr: an array
+       n: length of the array
+Output: count: count of all possible subsequences in the array
+
+1: Initialize an empty dictionary called ""count_dict""
+2: Iterate through each element ""num"" in the array ""arr"":
+    3: If ""num"" is not already a key in ""count_dict"", add it with a value of 1
+    4: If ""num"" is already a key in ""count_dict"", increment its value by 1
+5: Initialize ""count"" as 1
+6: Iterate through each value ""val"" in ""count_dict"":
+    7: Multiply ""count"" by ""val+1"" and assign the result back to ""count""
+8: Return ""count"" as the count of all possible subsequences in the array"
+"Input: height: an integer representing the height of the AVL tree
+Output: num_nodes: an integer representing the number of nodes in the AVL tree
+
+1: if height is 0:
+2:     return 1
+3: if height is 1:
+4:     return 2
+5: num_nodes = 1
+6: for i in range(2, height+1):
+7:     num_nodes = num_nodes + 1 + num_nodes + 2
+8: return num_nodes"
+"Input: source: an integer representing the starting point
+       step: an integer representing the size of each step
+       dest: an integer representing the destination
+
+Output: steps: an integer representing the minimum number of steps needed to reach the destination from the source
+
+1: Initialize a variable ""current"" with the value of source
+2: Initialize a variable ""num_steps"" with the value of 0
+3: While current is not equal to dest:
+4:     If current is greater than dest:
+5:         Subtract step from current
+6:     Else:
+7:         Add step to current
+8:     Increment num_steps by 1
+9: Return num_steps"
+"Input: n: an integer
+Output: term: the nth term of the ""Count and Say"" sequence
+
+1: Initialize the first term of the sequence as ""1""
+2: For i from 2 to n:
+3:     Initialize an empty string result
+4:     Initialize count as 1
+5:     For j from 0 to length of the (i-1)th term - 1:
+6:         If the jth digit is equal to the (j+1)th digit:
+7:             Increment count by 1
+8:         Else:
+9:             Append the count and the jth digit to the result
+10:            Reset count to 1
+11:    Append the count and the last digit of the (i-1)th term to the result
+12:    Set the (i)th term as the result
+13: Return the nth term of the sequence"
+"Input: arr: an array of integers
+       N: an integer
+
+Output: max_len: an integer representing the maximum length of a subarray with non-negative product
+
+1: Initialize max_len to 0
+2: Initialize count to 0
+3: Iterate through each element num in arr:
+4:     If num is non-negative:
+5:         Increment count by 1
+6:         Update max_len to the maximum value between max_len and count
+7:     If num is negative:
+8:         Set count to 0
+9: If the product of all elements in arr is non-negative:
+10:    Return N
+11: Else:
+12:    Return max_len"
+"Input: m: a number, n: a number
+Output: N: the calculated normal value
+
+1: Calculate the absolute value of m and n
+2: Calculate the square of the absolute value of m and n
+3: Calculate the sum of the squares of the absolute value of m and n
+4: Calculate the square root of the sum from step 3
+5: Calculate the product of the absolute value of m and n
+6: Divide the product from step 5 by the square root from step 4
+7: Return the result from step 6 as the calculated normal value"
+"Input: arr: an array of integers
+       n: length of the array
+       k: target number
+Output: count: the count of subarrays whose sum is less than k
+
+1: Initialize count to 0
+2: Iterate through each element in the array from index 0 to n-1:
+3:     Initialize sum to 0
+4:     Iterate through each element in the array from the current index to n-1:
+5:         Add the current element to sum
+6:         If sum is less than k, increment count by 1
+7: Return count"
+"Input: 
+- n: an integer
+- L: an integer
+- arr: a list of integers
+
+Output:
+- count: an integer representing the total number of triplets (i, j, k) where i < j < k and arr[k] - arr[i] is less than or equal to L
+
+1. Sort the list arr in ascending order.
+2. Initialize a variable count to 0.
+3. Iterate through the list arr using three nested loops:
+   - The first loop iterates from index 0 to n-3.
+   - The second loop iterates from index i+1 to n-2.
+   - The third loop iterates from index j+1 to n-1.
+4. Inside the third loop, check if arr[k] - arr[i] is less than or equal to L.
+   - If it is, increment count by 1.
+5. After the loops, return the value of count."
+"Input: l: an integer, r: an integer
+Output: count: the count of numbers between l and r that can be expressed as the product of only 2 and 3
+1: Initialize count to 0
+2: for each number i from l to r (inclusive):
+3:     if i can be expressed as the product of only 2 and 3:
+4:         increment count by 1
+5: return count"
+"Input: n: an integer, m: an integer
+Output: result: an integer
+
+1: Convert n to binary representation
+2: Get the last m bits of the binary representation of n
+3: Toggle each bit in the last m bits
+4: Replace the last m bits in the binary representation of n with the toggled bits
+5: Convert the modified binary representation of n back to decimal
+6: Return the modified decimal value of n as the result"
+"Input: L, R, K: integers
+Output: count: an integer
+
+1: if K equals 9:
+2:     set K to 0
+3: calculate the total number of numbers between L and R
+4: calculate the number of numbers divisible by 9 by dividing the total number by 9
+5: calculate the remainder by finding the modulus of the total number by 9
+6: initialize count to 0
+7: iterate through the numbers from R to R - remainder (inclusive)
+8:     if the remainder of the current number divided by 9 is equal to K:
+9:         increment count by 1
+10: return count"
+"Input: n: an integer, k: an integer
+Output: digits: a string of the first k digits of the product of n and the logarithm of n to the base 10
+1: Calculate the product of n and the logarithm of n to the base 10
+2: Convert the product to a string
+3: Extract the first k digits from the string
+4: Return the extracted digits"
+"Input: A: a list of integers
+       n: the length of the list A
+Output: element: the first element in A that satisfies the condition
+1: for i from 1 to n-1:
+2:     if A[i] > max(A[0:i]) and A[i] < min(A[i+1:n]):
+3:         return A[i]
+4: return -1"
+"Input: a, b, c: integers
+Output: min_increase: minimum increase needed to make the sum of the two smallest integers greater than or equal to the largest integer
+
+1: Sort the three integers in ascending order
+2: Calculate the sum of the two smallest integers
+3: If the sum is greater than or equal to the largest integer, return 0
+4: Otherwise, calculate the difference between the largest integer and the sum
+5: Return the difference as the minimum increase needed"

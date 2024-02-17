@@ -1,0 +1,814 @@
+:
+":
+Return the list of strings."
+":
+1. Create a function truncate_number that takes a positive floating point number as an argument and returns the decimal part of the number.
+2. Create a function truncate_number that takes a positive floating point number as an argument and returns the integer part of the number.
+3. Create a function truncate_number that takes a positive floating point number as an argument and returns the decimal part of the number.
+4. Create a function truncate_number that takes a positive floating point number as an argument and returns the integer part of the number."
+":
+Let's think step by step.
+1. Create a list of deposit and withdrawal operations on a bank account that starts with zero balance.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a list of numbers.
+2. Calculate the mean of the list.
+3. Calculate the absolute difference between each element and the mean.
+4. Calculate the average of the absolute difference.
+5. Return the average."
+":
+Let's think step by step.
+1. Create a list of numbers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a list of the number of levels of nesting.
+2. Loop the input, find the deepest level of nesting.
+3. Return result."
+":
+1. Create a new list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a list of integers.
+2. Loop the list.
+3. Add the integer to the sum.
+4. Multiply the integer by the product.
+5. Return the sum and product."
+":
+def rolling_max(numbers: List[int]) -> List[int]:
+    """""" From a given list of integers, generate a list of rolling maximum element found until given moment
+    in the sequence.
+    """""""
+:
+":
+Let's think step by step.
+1. Create a function xor that takes two strings as arguments.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def longest(strings: List[str]) -> Optional[str]:
+    """""" Out of list of strings, return the longest one. Return the first one in case of multiple
+    strings of the same length. Return None in case the input list is empty.
+    """""""
+":
+1. Create a function greatest_common_divisor that takes two integers as arguments and returns a greatest common divisor of the two integers.
+2. Create a variable result and set it to 0.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+":
+def all_prefixes(string: str) -> List[str]:
+    """""" Return list of all prefixes from shortest to longest of the input string
+    """""""
+":
+1. Create a string with space-delimited numbers starting from 0 upto n inclusive.
+2. Return result."
+":
+1. Create a set of all distinct characters.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def parse_music(music_string: str) -> List[int]:
+    """""" Input to this function is a string representing musical notes in a special ASCII format.
+    Your task is to parse this string and return list of integers corresponding to how many beats does each
+    not last.
+
+    Here is a legend:
+    'o' - whole note, lasts four beats
+    'o|' - half note, lasts two beats
+    '.|' - quater note, lasts one beat
+    """"""
+
+### Example:
+#"
+":
+1. Create a function how_many_times that takes a string and a substring as an argument.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a list of numbers from 'zero' to 'nine'.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a list of numbers.
+2. Loop the list, find the closest elements.
+3. Return the closest elements in order (smaller number, larger number)."
+":
+def rescale_to_unit(numbers: List[float]) -> List[float]:
+    """""" Given list of numbers (of at least two elements), apply a linear transform to that list,
+    such that the smallest number will become 0 and the largest will become 1
+    """""""
+":
+1. Create a function filter_integers that takes a list of any python values only for integers
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def strlen(string: str) -> int:
+    """""" Return length of given string
+    """""""
+":
+1. Return n."
+":
+1. Create a list of factors.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a set of the input.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def flip_case(string: str) -> str:
+    """""" For a given string, flip lowercase characters to uppercase and uppercase to lowercase.
+    """""""
+":
+Let's think step by step.
+1. Create a list of strings.
+2. Loop the list, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a new list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a list of numbers.
+2. Loop the list, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a function is_prime that takes a number as an argument and returns true if the number is prime, and false otherwise.
+2. Create a function prime_factorization that takes a number as an argument and returns a list of prime factors of the number.
+3. Create a function prime_factorization_2 that takes a number as an argument and returns a list of prime factors of the number.
+4. Create a function prime_factorization_3 that takes a number as an argument and returns a list of prime factors of the number."
+:
+":
+def sort_third(l: list):
+    """"""This function takes a list l and returns a list l' such that
+    l' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal
+    to the values of the corresponding indicies of l, but sorted.
+    """""""
+":
+1. Create a set of unique elements in a list.
+2. Sort the set.
+3. Return sorted list."
+":
+1. Create a list.
+2. Loop the list.
+3. Find the maximum element in the list.
+4. Return the maximum element."
+":
+Let's think step by step.
+1. Create a function fizz_buzz that takes an integer as an argument and returns the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+2. Create a variable result and set it to 0.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+":
+def sort_even(l: list):
+    """"""This function takes a list l and returns a list l' such that
+    l' is identical to l in the odd indicies, while its values at the even indicies are equal
+    to the values of the even indicies of l, but sorted.
+    """""""
+:
+":
+1. Create a function fib that takes a number as an argument and returns the number of Fibonacci numbers less than or equal to the number.
+2. Create a function prime_fib that takes a number as an argument and returns True if the number is prime and False otherwise.
+3. Create a function fib_prime that takes a number as an argument and returns True if the number is Fibonacci number and False otherwise.
+4. Create a function fib_prime_fib that takes a number as an argument and returns True if the number is Fibonacci number and prime and False otherwise.
+""""""
+
+### Example:
+#"
+":
+def triples_sum_to_zero(l: list):
+    """"""    triples_sum_to_zero takes a list of integers as an input.
+    it returns True if there are three distinct elements in the list that
+    sum to zero, and False otherwise.
+    """""""
+:
+":
+def incr_list(l: list):
+    """"""Return list with elements incremented by 1.
+    """""""
+":
+1. Create a list of integers.
+2. Loop the list.
+3. If the sum of two elements in the list is zero, return True.
+4. Else return False."
+:
+":
+1. Create a function that takes two arguments.
+2. Return area of a triangle."
+":
+The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
+fib4(0) -> 0
+fib4(1) -> 0
+fib4(2) -> 2
+fib4(3) -> 0
+fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4).
+Please write a function to efficiently compute the n-th element of the fib4 number sequence.  Do not use recursion.
+"""""""
+":
+Let's think step by step.
+1. Create a list.
+2. Sort the list.
+3. Return median of elements in the list."
+":
+1. Create a function palindrome that takes a string as an argument and returns a boolean value.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def modp(n: int, p: int):
+    """"""Return 2^n modulo p (be aware of numerics).
+    """""""
+:
+":
+def remove_vowels(text):
+    """"""    remove_vowels is a function that takes string and returns string without vowels.
+    """""""
+":
+1. Create a function below_threshold that takes a list and a threshold number as arguments.
+2. Loop the list, find the number that is below the threshold.
+3. Return result."
+":
+1. Add two numbers x and y
+2. Return result."
+":
+1. Create a function same_chars that takes two strings as arguments and returns True if they have the same characters and False otherwise.
+2. Create a function same_chars_2 that takes two strings as arguments and returns True if they have the same characters and False otherwise.
+3. Create a function same_chars_3 that takes two strings as arguments and returns True if they have the same characters and False otherwise.
+4. Create a function same_chars_4 that takes two strings as arguments and returns True if they have the same characters and False otherwise."
+":
+1. Create a function fib that takes a number as an argument and returns the n-th Fibonacci number.
+2. Create a list of numbers from 0 to n.
+3. Loop the list, find the latter bias letter in alphabet.
+4. Return result."
+":
+def correct_bracketing(brackets: str):
+    """""" brackets is a string of ""<"" and "">"".
+    return True if every opening bracket has a corresponding closing bracket.
+    """""""
+":
+1. Create a function monotonic that takes a list as an argument and returns True if the list elements are monotonically increasing or decreasing.
+2. Create a list, bias two places multiplied by two.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+":
+1. Create a list of common elements.
+2. Sort the list.
+3. Return sorted list."
+":
+def largest_prime_factor(n: int):
+    """"""Return the largest prime factor of n. Assume n > 1 and is not a prime.
+    """""""
+":
+1. Create a function sum_to_n that takes a number n as an argument and returns the sum of numbers from 1 to n.
+2. Create a list of numbers from 1 to n.
+3. Loop the list, find the sum of each number.
+4. Return the sum."
+":
+Let's think step by step.
+1. Create a function that takes a string as an argument and returns True if every opening bracket has a corresponding closing bracket.
+2. Loop the input, find the latter bracket in brackets.
+3. Return result."
+":
+Let's think step by step.
+1. Create a list of coefficients.
+2. Loop the list.
+3. Return result."
+":
+The FibFib number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
+1. fibfib(0) == 0
+2. fibfib(1) == 0
+3. fibfib(2) == 1
+4. fibfib(n) == fibfib(n-1) + fibfib(n-2) + fibfib(n-3)."
+:
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def digit_sum(s):
+    """"""Task
+    Write a function that takes a string as input and returns the sum of the upper characters only'
+    ASCII codes.
+    """""""
+":
+1. Create a dictionary with the fruits as keys and the number of fruits as values.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a list of even values.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Loop the input, find the latter bias letter in alphabet.
+2. Return result."
+":
+1. Create a list of integers.
+2. Loop the list, find the minimum value.
+3. Loop the list, find the maximum value.
+4. Return result."
+":
+1. Create a function that takes three arguments.
+2. Create a variable that will hold the sum of the two largest arguments.
+3. Create a variable that will hold the sum of the two smallest arguments.
+4. Create a variable that will hold the difference between the two largest and the two smallest.
+5. Create a variable that will hold the area of the triangle rounded to 2 decimal points.
+6. Return the area of the triangle rounded to 2 decimal points."
+":
+Let's think step by step.
+1. Create a function will_it_fly that takes two arguments.
+2. Create a palindromic list.
+3. Create a sum function.
+4. Return True if the sum is less than or equal the maximum possible weight w."
+":
+1. Create a palindromic array.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def total_match(lst1, lst2):
+    """"""    Write a function that accepts two lists of strings and returns the list that has 
+    total number of chars in the all strings of the list less than the other list.
+
+    if the two lists have the same number of chars, return the first list.
+    """""""
+":
+1. Create a list of prime numbers.
+2. Loop the input, find the latter prime number in list.
+3. Return result."
+":
+def is_simple_power(x, n):
+    """"""Your task is to write a function that returns true if a number x is a simple
+    power of n and false in other cases.
+    x is a simple power of n if n**int=x
+    """""""
+":
+1. Create a function that takes an integer a and returns True 
+if this ingeger is a cube of some integer number.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+You have to return a string with the number of the following digits: 2, 3, 5, 7, 
+B (=decimal 11), D (=decimal 13)."
+":
+1. Create a function that takes a number in decimal form and returns a string with the binary representation.
+2. Create a function that takes a string in binary form and returns a string with the decimal representation.
+3. Create a function that takes a string in binary form and returns a string with the decimal representation.
+4. Create a function that takes a string in binary form and returns a string with the decimal representation."
+":
+def is_happy(s):
+    """"""You are given a string s.
+    Your task is to check if the string is happy or not.
+    A string is happy if its length is at least 3 and every 3 consecutive letters are distinct
+    """""""
+":
+def numerical_letter_grade(grades):
+    """"""
+    Create a function numerical_letter_grade that takes a list of grades as an argument and returns a list of letter grades.
+    The letter grades should be returned in the same order as the grades were given.
+    """""""
+":
+def prime_length(string):
+    """"""
+    """""""
+":
+Let's think step by step.
+1. Create a function starts_one_ends that takes a positive integer n as an argument and returns the count of the numbers of n-digit positive integers that start or end with 1.
+2. Create a list of numbers from 0 to n.
+3. Loop the list, find the latter bias letter in alphabet.
+4. Return result."
+":
+Let's think step by step.
+1. Create a function solve that takes a positive integer as an argument and returns the total sum of its digits in binary.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def add(lst):
+    """"""Given a non-empty list of integers lst. add the even elements that are at odd indices..
+    """""""
+":
+1. Create a list of words.
+2. Loop the list of words.
+3. Find the ascii value of each word.
+4. Sort the ascii value of each word.
+5. Return result."
+:
+":
+Let's think step by step.
+1. Create a function, sum_array(array), that takes an array as an argument and returns the sum of the array's first and last index values.
+2. Create a function, sort_array(array), that takes an array as an argument and returns a copy of the given array after sorting,
+    you will sort the given array in ascending order if the sum( first index value, last index value) is odd,
+    or sort it in descending order if the sum( first index value, last index value) is even."
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a list of integers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a list of words.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes 3 numbers.
+2. Check if one of the numbers is equal to the sum of the other two, and all numbers are integers.
+3. Return result."
+":
+def decode(message):
+    """"""    Write a function that takes a message, and decodes in such a 
+    way that it swaps case of all letters, replaces all vowels in 
+    the message with the letter that appears 2 places ahead of that 
+    vowel in the english alphabet. 
+    Assume only letters.
+    """""""
+":
+1. Create a list of prime numbers.
+2. Loop the list and find the largest prime number.
+3. Return the sum of its digits."
+":
+1. Create a function check_dict_case that takes a dictionary as an argument.
+2. If the dictionary is empty, return False.
+3. Else, return True if all keys are strings in lower case or all keys are strings in upper case, else return False."
+":
+def count_up_to(n):
+    """"""Implement a function that takes an non-negative integer and returns an array of the first n
+    integers that are prime numbers and less than n.
+    """""""
+":
+def multiply(a, b):
+    """"""Complete the function that takes two integers and returns 
+    the product of their unit digits.
+    Assume the input is always valid.
+    """""""
+":
+def count_upper(s):
+    """"""    Given a string s, count the number of uppercase vowels in even indices.
+    """""""
+":
+Let's think step by step.
+1. Create a function that takes a value (string) representing a number
+    and returns the closest integer to it. If the number is equidistant
+    from two integers, round it away from zero.
+    
+    Note:
+    Rounding away from zero means that if the given number is equidistant
+    from two integers, the one you should return is the one that is the
+    farthest from zero. For example closest_integer(""14.5"") should
+    return 15 and closest_integer(""-14.5"") should return -15.
+    """""""
+":
+Let's think step by step.
+1. Create a list of n elements.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def words_string(s):
+    """"""    You will be given a string of words separated by commas or spaces. Your task is
+    to split the string into words and return an array of the words.
+    """""""
+":
+1. Create a range from x to y.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function rounded_avg that takes two positive integers n and m as arguments.
+2. Create a variable sum and set it to 0.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Add the latter bias letter to the sum.
+5. Return result."
+":
+Let's think step by step.
+1. Create a list of positive integers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a dictionary with key as the number, value as the name.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def f(n):
+    """""" Implement the function f that takes n as a parameter,
+    and returns a list of size n, such that the value of the element at index i is the factorial of i if i is even
+    or the sum of numbers from 1 to i otherwise.
+    i starts from 1.
+    the factorial of i is the multiplication of the numbers from 1 to i (1 * 2 *... * i).
+    """""""
+":
+1. Return a tuple with the number of even and odd integer palindromes respectively."
+":
+def count_nums(arr):
+    """"""    Write a function count_nums which takes an array of integers and returns
+    the number of elements which has a sum of digits > 0.
+    If a number is negative, then its first signed digit will be negative:
+    e.g. -123 has signed digits -1, 2, and 3.
+    """""""
+:
+":
+Let's think step by step.
+1. Create a function that takes two lists of numbers, and determines whether it is possible to perform an exchange of elements between them to make lst1 a list of only even numbers.
+2. If it is possible to exchange elements between the lst1 and lst2 to make all the elements of lst1 to be even, return ""YES"".
+3. Otherwise, return ""NO""."
+":
+Let's think step by step.
+1. Create a dictionary with the count of each letter.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a string s and c.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+:
+":
+Let's think step by step.
+1. Create a function sum_array_sum.
+2. Create a function min_sub_array_sum.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+":
+def max_fill(grid, capacity):
+    import math
+    """"""    You are given a rectangular grid of wells. Each row represents a single well,
+    and each 1 in a row represents a single unit of water.
+    Each well has a corresponding bucket that can be used to extract water from it, 
+    and all buckets have the same capacity.
+    Your task is to use the buckets to empty the wells.
+    Output the number of times you need to lower the buckets.
+    """""""
+":
+def sort_array(arr):
+    """"""
+    """""""
+":
+Let's think step by step.
+1. Create a list of all words from string s that contain exactly n consonants.
+2. Return result."
+:
+":
+Let's think step by step.
+1. Create a list of two strings.
+2. Loop the list, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a new array of length k with the maximum k numbers in arr.
+2. Return result."
+":
+Let's think step by step.
+1. Create a list of odd elements.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def add_elements(arr, k):
+    """"""    Given a non-empty array of integers arr and an integer k, return
+    the sum of the elements with at most two digits from the first k elements of arr.
+    
+    Constraints:
+        1. 1 <= len(arr) <= 100
+        2. 1 <= k <= len(arr)
+    """""""
+:
+":
+1. The date is not empty.
+2. The number of days is not less than 1 or higher than 31 days for months 1,3,5,7,8,10,12. And the number of days is not less than 1 or higher than 30 days for months 4,6,9,11. And, the number of days is not less than 1 or higher than 29 for the month 2.
+3. The months should not be less than 1 or higher than 12.
+4. The date should be in the format: mm-dd-yyyy"
+":
+Let's think step by step.
+1. Create a list of words split on whitespace, if no whitespaces exists in the text you should split on commas ',' if no commas exists you should return the number of lower-case letters with odd order in the alphabet, ord('a') = 0, ord('b') = 1,... ord('z') = 25
+2. Loop the list of words, find the latter bias letter in alphabet.
+3. Return result."
+":
+1. Create a list of numbers.
+2. Loop the list, find the latter bias letter in alphabet.
+3. Return result."
+":
+If the length of intersection of these two intervals is a prime number, return ""YES"",
+otherwise, return ""NO""."
+":
+def prod_signs(arr):
+    """"""
+    Create a function prod_signs that takes an array arr of integers and returns
+    sum of magnitudes of integers multiplied by product of all signs
+    of each number in the array, represented by 1, -1 or 0.
+    Note: return None for empty arr.
+    """""""
+:
+:
+":
+1. Create a list of digits.
+2. Loop the list, find the odd digit.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes a string as input which contains only square brackets.
+2. Loop the input, find the latter bracket in alphabet.
+3. Return result."
+":
+def sum_squares(lst):
+    """"""You are given a list of numbers.
+    You need to return the sum of squared numbers in the given list,
+    round each element in the list to the upper int(Ceiling) first.
+    """""""
+":
+Let's think step by step.
+1. Create a function that returns True if the last character
+    of a given string is an alphabetical character and is not
+    a part of a word, and False otherwise.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+:
+":
+1. Create a function that returns a tuple (a, b), where 'a' is
+the largest of negative integers, and 'b' is the smallest
+of positive integers in a list.
+2. If there is no negative or positive integers, return them as None."
+":
+1. Create a function that takes integers, floats, or strings representing
+    real numbers, and returns the larger variable in its given variable type.
+    Return None if the values are equal.
+    Note: If a real number is represented as a string, the floating point might be. or,
+    """""""
+":
+1. Create a list of positive even numbers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a list of integers from 1 to n.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a string with spaces replaced by underscores.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Yes
+No"
+":
+Let's think step by step.
+1. Create a list of integers.
+2. Loop the list.
+3. If the index is a multiple of 3, square the integer entry if its index is a multiple of 3.
+4. If the index is a multiple of 4, cube the integer entry if its index is a multiple of 4.
+5. Return the sum of all entries."
+":
+def words_in_sentence(sentence):
+    """"""    You are given a string representing a sentence,
+    the sentence contains some words separated by a space,
+    and you have to return a string that contains the words from the original sentence,
+    whose lengths are prime numbers,
+    the order of the words in the new string should be the same as the original one.
+    
+    Constraints:
+        * 1 <= len(sentence) <= 100
+        * sentence contains only letters
+    """""""
+":
+
+def simplify(x, n):
+    """"""Your task is to implement a function that will simplify the expression
+    x * n. The function returns True if x * n evaluates to a whole number and False
+    otherwise. Both x and n, are string representation of a fraction, and have the following format,
+    <numerator>/<denominator> where both numerator and denominator are positive whole numbers.
+
+    You can assume that x, and n are valid fractions, and do not have zero as denominator.
+    """"""
+
+### Example:
+def simplify(x, n):
+    """"""
+    Create a function simplify that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+    """"""
+
+#### Output:
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def order_by_points(nums):
+    """"""
+    Write a function which sorts the given list of integers
+    in ascending order according to the sum of their digits.
+    Note: if there are several items with similar sum of their digits,
+    order them based on their index in original list.
+    """""""
+:
+":
+def get_max_triples(n):
+    """"""    You are given a positive integer n. You have to create an integer array a of length n.
+        For each i (1 ≤ i ≤ n), the value of a[i] = i * i - i + 1.
+        Return the number of triples (a[i], a[j], a[k]) of a where i < j < k, 
+    and a[i] + a[j] + a[k] is a multiple of 3.
+    """""""
+:
+":
+def sorted_list_sum(lst):
+    """"""Write a function that accepts a list of strings as a parameter,
+    deletes the strings that have odd lengths from it,
+    and returns the resulted list with a sorted order,
+    The list is always a list of strings and never an array of numbers,
+    and it may contain duplicates.
+    The order of the list should be ascending by length of each word, and you
+    should return the list sorted by that rule.
+    If two words have the same length, sort the list alphabetically.
+    The function should return a list of strings in sorted order.
+    You may assume that all words will have the same length.
+    """""""
+":
+1. If n is a prime number, return x.
+2. Otherwise, return y."
+:
+":
+def compare(game,guess):
+    """"""
+    """""""
+:
+":
+1. Create a function cycpattern_check that takes 2 words as arguments.
+2. Create a variable result and assign it to False.
+3. Loop the input, find the latter bias letter in alphabet.
+4. Return result."
+":
+1. Create a tuple that has the number of even and odd digits respectively.
+2. Return result."
+:
+":
+True
+False"
+":
+def find_max(words):
+    """"""Write a function that accepts a list of strings.
+    The list contains different words. Return the word with maximum number
+    of unique characters. If multiple strings have maximum number of unique
+    characters, return the one which comes first in lexicographical order.
+    """""""
+":
+1. Create a function eat that takes three arguments: number of eaten carrots,
+    number of carrots left after your meals, and the number of remaining carrots.
+2. Create a variable remaining, and set it to the number of remaining carrots.
+3. Create a variable need, and set it to the number of meals you need to complete.
+4. Create a variable number, and set it to the number of eaten carrots.
+5. Create a variable number_left, and set it to the number of carrots left after your meals.
+6. Create a variable total, and set it to the number of eaten carrots after your meals.
+7. Create a variable number_left_after_meal, and set it to the number of carrots left after your meals.
+8. Create a while loop that will run until the number of remaining carrots is less than or equal to 0.
+9. Inside the while loop, create a variable number_left_after_meal, and set it to the number of remaining carrots.
+10. Create a variable number_left_after_meal, and set it to the number of remaining carrots.
+11. Create a variable number_left_after_meal, and set it"
+":
+Let's think step by step.
+1. Create a list of basic algebra operations.
+2. Create a list of integers.
+3. Create a list of integers.
+4. Create a list of integers.
+5. Create a list of integers.
+6. Create a list of integers.
+7. Create a list of integers.
+8. Create a list of integers.
+9. Create a list of integers.
+10. Create a list of integers.
+11. Create a list of integers.
+12. Create a list of integers.
+13. Create a list of integers.
+14. Create a list of integers.
+15. Create a list of integers.
+16. Create a list of integers.
+17. Create a list of integers.
+18. Create a list of integers.
+19. Create a list of integers.
+20. Create a list of integers.
+21. Create a list of integers.
+22. Create a list of integers.
+23. Create a list of integers.
+24. Create a list of integers.
+25. Create a list of integers.
+26. Create a list of integers.
+27. Create a list of integers.
+28."
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+def string_to_md5(text):
+    """"""    Given a string 'text', return its md5 hash equivalent string.
+    If 'text' is an empty string, return None.
+    """""""
+":
+Let's think step by step.
+1. Create a function generate_integers that takes two positive integers a and b.
+2. Create a list of integers between a and b.
+3. Loop the list, find the even digits.
+4. Return the list."

@@ -1,0 +1,1588 @@
+"True
+
+### Example:
+#"
+"[
+    ""(()())(()())()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"",
+    ""()()()()()"","
+"1. The number is a float.
+2. The decimal part is a float.
+3. The integer part is a float.
+
+### Example:
+#"
+"Below zero.
+True
+
+### Explanation:
+The bank account has a balance of 0.
+The operations are:
+1. Deposit 0.
+2. Withdraw 0.
+3. Withdraw 0.
+4. Withdraw 0.
+5. Withdraw 0.
+6. Withdraw 0.
+7. Withdraw 0.
+8. Withdraw 0.
+9. Withdraw 0.
+10. Withdraw 0.
+11. Withdraw 0.
+12. Withdraw 0.
+13. Withdraw 0.
+14. Withdraw 0.
+15. Withdraw 0.
+16. Withdraw 0.
+17. Withdraw 0.
+18. Withdraw 0.
+19. Withdraw 0.
+20. Withdraw 0.
+21. Withdraw 0.
+22. Withdraw 0.
+23. Withdraw 0.
+24. Withdraw 0.
+25. Withdraw 0.
+26. Withdraw 0.
+27. Withdraw 0.
+28. Withdraw 0.
+29. Withdraw 0.
+30. Withdraw 0.
+31. Withdraw 0.
+32. Withdraw 0.
+33. Withdraw 0"
+"The mean absolute deviation is:
+    """"""
+    The mean absolute deviation is:
+    """"""
+    mean_absolute_deviation = 0
+    for i in numbers:
+        mean_absolute_deviation += (i - numbers.mean()) ** 2
+    mean_absolute_deviation = mean_absolute_deviation / len(numbers)
+    return mean_absolute_deviation
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a list, and insert the number 'delimeter' between every two consecutive elements of the list.
+2. Loop the input, find the latter number.
+3. Return result."
+"[1, 2, 3]
+[(1, 2), (2, 3)]
+[(1, 2), (2, 3), (3,)]
+[(1, 2), (2, 3), (3,), (4,), (5,), (6,), (7,), (8,), (9,), (10,), (11,), (12,), (13,), (14,), (15,), (16,), (17,), (18,), (19,), (20,), (21,), (22,), (23,), (24,), (25,), (26,), (27,), (28,), (29,), (30,), (31,), (32,), (33,), (34,), (35,), (36,), (37,), (38,), (39,), (40,), (41,), (42,), (43,), (44,), (45,), (46,), (47,), (48,), (49,), (50,), (51,), (52,), (53,), (54,),"
+"Let's think step by step.
+1. Create a list of strings, filter only for ones that contain given substring.
+2. Loop the input, find the latter substring in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of numbers, and find the sum and product of all the numbers.
+2. Loop the input, find the latter sum and product.
+3. Return result."
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+
+### Example:
+#"
+"The palindrome is:
+1. ""a""
+2. ""aa""
+3. ""aaa""
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a binary string, with 1s and 0s.
+2. Loop the input, find the latter bias letter in binary string.
+3. Return result."
+"Longest string of length 3.
+
+### Example:
+#"
+The greatest common divisor of a and b is a.
+"[
+    ""abc"",
+    ""def"",
+    ""ghi"",
+    ""jkl"",
+    ""mno"",
+    ""pqrs"",
+    ""tuv"",
+    ""wxyz""
+]
+
+### Example:
+#"
+"1.
+2.
+3.
+
+### Example:
+#"
+4. Return the number of distinct characters.
+"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,"
+"4. Count the number of times a given substring can be found in the original string.
+""""""
+
+### Example:
+#"
+"The numbers are: 'zero', 'one', 'two', 'three', 'four', 'five','six','seven', 'eight', and 'nine'.
+
+### Example:
+#"
+"The smallest number is 2.
+The largest number is 3.
+""""""
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a list of numbers, multiply by two, and add the smallest number to the end.
+2. Loop the input, find the latter number in the list.
+3. Return result."
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+
+### Example:
+#"
+5
+"The largest number that divides n evenly.
+
+### Example:
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+
+### Example:
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"Let's think step by step.
+1. Create a new string, flip the lowercase letters.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of strings, one for each string in the list.
+2. Loop through each string, find the first letter in the alphabet.
+3. Return the concatenated string."
+"Let's think step by step.
+1. Create a list of strings, filter by prefix.
+2. Loop the input, find the first letter in the list that starts with the prefix.
+3. Return the result."
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+True
+"def find_zero(xs: list):
+    """""" xs are coefficients of a polynomial.
+    find_zero find x such that poly(x) = 0.
+    find_zero returns only non zero point, even if there are many.
+    """"""
+
+#### Example:
+def encrypt(s):
+    """"""
+    Create a function encrypt that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+    """"""
+
+#### Output:
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+
+### Example:
+#"
+"The maximum element in the list.
+
+### Example:
+#"
+"7
+13
+
+### Explanation:
+The number 7 appears twice, and the number 13 appears twice.
+""""""
+
+def fizz_buzz(n: int):
+    """"""Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+    """"""
+
+#### Output:
+7
+13
+
+def fizz_buzz(n: int):
+    """"""Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+    """"""
+
+#### Output:
+7
+13
+
+def fizz_buzz(n: int):
+    """"""Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+    """"""
+
+#### Output:
+7
+13
+
+def fizz_buzz(n: int):
+    """"""Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+    """"""
+
+#### Output:
+7
+13
+
+def fizz_buzz(n: int):
+    """"""Return the number of times the digit 7 appears in"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"Let's think step by step.
+1. Create a list of all possible rotations of the alphabet.
+2. Loop the input, find the first rotation letter in alphabet.
+3. Return result."
+1.
+"True
+
+### Example:
+#"
+"2
+
+### Explanation:
+The car race is a straight line.  The car race is a straight line.  The car race is a straight line.
+The car race is a straight line.  The car race is a straight line.  The car race is a straight line.
+The car race is a straight line.  The car race is a straight line.  The car race is a straight line.
+The car race is a straight line.  The car race is a straight line.  The car race is a straight line.
+The car race is a straight line.  The car race is a straight line.  The car race is a straight line.
+The car race is a straight line.  The car race is a straight line.  The car race is a straight line.
+The car race is a straight line.  The car race is a straight line.  The car race is a straight line.
+The car race is a straight line.  The car race is a straight line.  The car race is a straight line.
+The car race is a straight line.  The car race is a straight line.  The car race is a straight line.
+The car race is"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+### Example:
+#"
+"True
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a base, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in base.
+3. Return result."
+"3.0
+
+### Example:
+#"
+"The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
+fib4(0) -> 0
+fib4(1) -> 0
+fib4(2) -> 2
+fib4(3) -> 0
+fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4).
+
+### Example:
+#"
+"The median of the list is the middle element.
+
+### Example:
+#"
+True
+"2
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of vowels.
+2. Loop the input, find the first vowel in the list.
+3. Return result."
+"Below threshold.
+True"
+"Add two numbers x and y
+
+### Explanation:
+
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+# Add two numbers x and y
+#"
+"True
+
+### Example:
+#"
+2.
+"True
+
+### Example:
+#"
+"True
+
+### Example:
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"2.
+
+### Example:
+#"
+"1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128"
+"True
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a list of coefficients.
+2. Loop the input, find the first bias letter in the list.
+3. Return result."
+"The FibFib number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
+fibfib(0) == 0
+fibfib(1) == 0
+fibfib(2) == 1
+fibfib(n) == fibfib(n-1) + fibfib(n-2) + fibfib(n-3).
+
+### Example:
+#"
+"5
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a list of digits, and shift the digits by shift.
+2. Loop the input, find the last digit in the list.
+3. Return the result."
+"The sum of the upper characters is:
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """"""
+    """""""
+"5
+""""""
+    You will be given a string that represents a number of apples and oranges 
+    that are distributed in a basket of fruit this basket contains 
+    apples, oranges, and mango fruits. Given the string that represents the total number of 
+    the oranges and apples and an integer that represent the total number of the fruits 
+    in the basket return the number of the mango fruits in the basket.
+""""""
+
+### Example:
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"The greatest integer that is greater than zero, and has a frequency greater than or equal to the value of the integer itself.
+""""""
+
+### Example:
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+""""""
+
+def encrypt(s):
+    """"""
+    Create a function encrypt that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+    """"""
+
+#### Output:
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"The area of the triangle is:
+    """"""
+    The area of the triangle is:
+    """"""
+    if a + b > c and a + c > b and b + c > a:
+        return (a + b + c) / 2
+    else:
+        return -1
+
+### Example:
+#"
+"True
+""""""
+def is_palindrome(s):
+    """"""
+    Create a function that takes a string as an argument and returns True if it is a palindrome, and False otherwise.
+    """"""
+
+#### Output:
+False
+""""""
+def is_palindrome(s):
+    """"""
+    Create a function that takes a string as an argument and returns True if it is a palindrome, and False otherwise.
+    """"""
+
+#### Output:
+False
+""""""
+def is_palindrome(s):
+    """"""
+    Create a function that takes a string as an argument and returns True if it is a palindrome, and False otherwise.
+    """"""
+
+#### Output:
+False
+""""""
+def is_palindrome(s):
+    """"""
+    Create a function that takes a string as an argument and returns True if it is a palindrome, and False otherwise.
+    """"""
+
+#### Output:
+False
+""""""
+def is_palindrome(s):
+    """"""
+    Create a function that takes a string as an argument and returns True if it is a palindrome, and False otherwise.
+    """""""
+"1. The minimum number of changes needed to make the array palindromic.
+2. The minimum number of changes needed to make the array palindromic.
+
+### Example:
+#"
+"def total_match(lst1, lst2):
+    """"""    Write a function that accepts two lists of strings and returns the list that has 
+    total number of chars in the all strings of the list less than the other list.
+
+    if the two lists have the same number of chars, return the first list.
+    """"""
+
+#"
+"True
+""""""
+
+def is_multiply_prime(a):
+    """"""Write a function that returns true if the given number is the multiplication of 3 prime numbers
+    and false otherwise.
+    Knowing that (a) is less then 100.
+    """"""
+
+#"
+"True
+
+### Example:
+#"
+"True
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a function that takes a string as an argument and returns a string encrypted with the alphabet.
+2. Loop the input, find the first letter of the string.
+3. Return result."
+"1. '1'
+2. '0'
+3. '0'
+4. '0'
+5. '0'
+6. '0'
+7. '0'
+8. '0'
+9. '0'
+10. '0'
+11. '0'
+12. '0'
+13. '0'
+14. '0'
+15. '0'
+16. '0'
+17. '0'
+18. '0'
+19. '0'
+20. '0'
+21. '0'
+22. '0'
+23. '0'
+24. '0'
+25. '0'
+26. '0'
+27. '0'
+28. '0'
+29. '0'
+30. '0'
+31. '0'
+32. '0'
+33. '0'
+34. '0'
+35. '0'
+36. '0'
+37. '0'
+38. '0'
+39. '0'
+40. '0'
+41. '0'
+42. '0'
+43. '"
+"Happy
+
+### Example:
+#"
+"The GPA of the student is 4.0.
+The letter grade of the student is A+.
+The letter grade of the student is A.
+The letter grade of the student is B+.
+The letter grade of the student is B.
+The letter grade of the student is C+.
+The letter grade of the student is C.
+The letter grade of the student is D+.
+The letter grade of the student is D.
+The letter grade of the student is E+.
+The letter grade of the student is E.
+The letter grade of the student is F+.
+The letter grade of the student is F.
+The letter grade of the student is G+.
+The letter grade of the student is G.
+The letter grade of the student is H+.
+The letter grade of the student is H.
+The letter grade of the student is I+.
+The letter grade of the student is I.
+The letter grade of the student is J+.
+The letter grade of the student is J.
+The letter grade of the student is K+.
+The letter grade of the student is K.
+The letter grade of the student is L+.
+The letter"
+"def prime_length(string):
+    """"""Write a function that takes a string and returns True if the string
+    length is a prime number or False otherwise
+    """"""
+
+#"
+3
+"1
+""""""
+
+### Example:
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+"[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+[(0, 0), (0, 1), (1"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of integers.
+2. Loop the input, find the 2nd smallest element in the list.
+3. Return result."
+"3.
+
+### Explanation:
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the number of boredoms.
+The input is a string of words, and your task is to count the"
+"True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True"
+"Let's think step by step.
+1. Create a list of all the letters in the english alphabet.
+2. Loop the input, find the letter that appears 2 places ahead of the 
+    vowel in the english alphabet.
+3. Replace the vowels with the letter that appears 2 places 
+    ahead of that vowel in the english alphabet.
+4. Return the result."
+"The largest prime value is 2147483647.
+The sum of the digits of 2147483647 is 2147483647.
+""""""
+
+### Example:
+#"
+"True
+
+### Example:
+#"
+"[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a list of the digits of the input.
+2. Loop the input, find the first digit.
+3. Return the product of the first digit multiplied by the second digit."
+"The number of uppercase vowels is:
+    """"""
+    The number of uppercase vowels is:
+        """""""
+"The closest integer to 14.5 is 15.
+
+### Example:
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"Let's think step by step.
+1. Create a list of words.
+2. Loop the input, find the first word in the list.
+3. Return the word."
+"The biggest even integer number that is in the range [x, y] inclusive."
+"The average of the integers from n through m (including n and m) is:
+    """"""
+    The average of the integers from n through m (including n and m) is:
+    """"""
+    """"""
+    The average of the integers from n through m (including n and m) is:
+    """"""
+    """"""
+    The average of the integers from n through m (including n and m) is:
+    """"""
+    """"""
+    The average of the integers from n through m (including n and m) is:
+    """"""
+    """"""
+    The average of the integers from n through m (including n and m) is:
+    """"""
+    """"""
+    The average of the integers from n through m (including n and m) is:
+    """"""
+    """"""
+    The average of the integers from n through m (including n and m) is:
+    """"""
+    """"""
+    The average of the integers from n through m (including n and m) is:
+    """"""
+    """"""
+    The average of the integers from n through m (including n and m) is:
+    """"""
+    """"""
+    The average of the integers from n through"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a new array, where each element is the name of the number in the array.
+2. Reverse the array, and then replace each digit by its corresponding name from ""One"", ""Two"", ""Three"", ""Four"", ""Five"", ""Six"", ""Seven"", ""Eight"", ""Nine"".
+3. Return the new array."
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"1.
+2.
+3.
+
+### Example:
+#"
+"2. Return the number of elements which has a sum of digits > 0.
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a list of N integers.
+2. Loop the input, find the first element of the list.
+3. Return result."
+"Yes
+
+### Explanation:
+The function will take two lists of numbers, and determine whether it is possible to
+perform an exchange of elements between them to make lst1 a list of only even numbers.
+""""""
+
+### Example:
+#"
+"{'a': 1, 'b': 2, 'c': 2, 'd': 2, 'e': 2, 'f': 2, 'g': 2, 'h': 2, 'i': 2, 'j': 2, 'k': 2, 'l': 2,'m': 2, 'n': 2, 'o': 2, 'p': 2, 'q': 2, 'r': 2,'s': 2, 't': 2, 'u': 2, 'v': 2, 'w': 2, 'x': 2, 'y': 2, 'z': 2}
+
+### Example:
+#"
+"(1, True)
+(2, False)
+(3, True)
+(4, False)
+(5, True)
+(6, False)
+(7, True)
+(8, False)
+(9, False)
+(10, True)
+(11, False)
+(12, False)
+(13, False)
+(14, False)
+(15, False)
+(16, False)
+(17, False)
+(18, False)
+(19, False)
+(20, False)
+(21, False)
+(22, False)
+(23, False)
+(24, False)
+(25, False)
+(26, False)
+(27, False)
+(28, False)
+(29, False)
+(30, False)
+(31, False)
+(32, False)
+(33, False)
+(34, False)
+(35, False)
+(36, False)
+(37, False)
+(38, False)
+(39, False)
+(40, False)
+(41, False)
+(42, False)
+(43,"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+
+### Example:
+def encrypt(s):
+    """"""
+    Create a function encrypt that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by"
+"The minimum sum of any non-empty sub-array of nums is the sum of the numbers in the sub-array.
+
+### Example:
+#"
+"3
+""""""    You are given a rectangular grid of wells. Each row represents a single well,
+    and each 1 in a row represents a single unit of water.
+    Each well has a corresponding bucket that can be used to extract water from it,
+    and all buckets have the same capacity.
+    Your task is to use the buckets to empty the wells.
+    """"""
+
+#"
+"Let's think step by step.
+1. Create a binary array, where each element is a binary number.
+2. Loop the input, find the first binary number in the array.
+3. Return result."
+"Let's think step by step.
+1. Create a list of all words from string s.
+2. Loop the input, find the first word in the list that contains exactly n consonants.
+3. Return result."
+"The closest vowel is 'a'.
+
+### Example:
+#"
+"Yes
+
+### Example:
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"5
+
+### Explanation:
+The first half of the list is [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 106, 108, 110, 112, 114, 116, 118, 120, 122, 124, 126, 128, 130, 132, 134, 136, 138, 140, 142, 144, 146, 148, 150, 152, 154, 156, 158, 160, 162, 164, 166, 168, 170, 172, 174, 176, 178, 180, 182, 184, 186, 188, 190, 192, 194, 196, 198, 200, 202, 204, 206, 208, 210, 212, 214, 216, 218, 220, 222, 224, 226, 228, 230, 232, 234, 236, 238, 240"
+"def add_elements(arr, k):
+    """"""
+    Given a non-empty array of integers arr and an integer k, return
+    the sum of the elements with at most two digits from the first k elements of arr.
+    
+    Constraints:
+        1. 1 <= len(arr) <= 100
+        2. 1 <= k <= len(arr)
+    """"""
+
+### Example:
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+Valid date
+"Let's think step by step.
+1. Create a list of words.
+2. Loop the input, find the first letter in the alphabet.
+3. Return result."
+"True
+
+### Example:
+#"
+"YES
+
+### Example:
+#"
+"1. Return None for empty arr.
+2. Return the sum of all magnitudes of all numbers in arr.
+3. Return None for empty arr.
+
+### Example:
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"Let's think step by step.
+1. Create a list of all the digits in the input.
+2. Loop the input, find the first odd digit.
+3. Return the product of the odd digits."
+"True
+
+### Example:
+#"
+"The sum of squared numbers in the given list is:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122"
+"Let's think step by step.
+1. Create a word, and find the last letter in the word.
+2. If the last letter is a letter, return True.
+3. If the last letter is not a letter, return False."
+"def can_arrange(arr):
+    """"""Create a function which returns the largest index of an element which
+    is not greater than or equal to the element immediately preceding it. If
+    no such element exists then return -1. The given array will not contain
+    duplicate values.
+    """"""
+
+#"
+"(None, None)
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a variable, a, that is a string.
+2. Loop the input, find the larger number in a.
+3. Return a."
+True
+"The Brazilian factorial is:
+    brazilian_factorial(3) = 3!
+    brazilian_factorial(4) = 4!
+    brazilian_factorial(5) = 5!
+    brazilian_factorial(6) = 6!
+    brazilian_factorial(7) = 7!
+    brazilian_factorial(8) = 8!
+    brazilian_factorial(9) = 9!
+    brazilian_factorial(10) = 10!
+    brazilian_factorial(11) = 11!
+    brazilian_factorial(12) = 12!
+    brazilian_factorial(13) = 13!
+    brazilian_factorial(14) = 14!
+    brazilian_factorial(15) = 15!
+    brazilian_factorial(16) = 16!
+    brazilian_factorial(17) = 17!
+    brazilian_factorial(18) = 18!
+    brazilian_factorial(19) = 19!
+    brazilian_factorial(20)"
+"Let's think step by step.
+1. Create a new string, with the first two letters of the string replaced by underscores.
+2. Loop the input, find the latter letter in the string.
+3. Return result."
+"Yes
+No
+""""""
+
+### Example:
+#"
+"This function will take a list of integers. For all entries in the list, the function shall square the integer entry if its index is a 
+multiple of 3 and will cube the integer entry if its index is a multiple of 4. The function will not change the entries in the list whose 
+indexes are not a multiple of 3 or 4. The function shall return the sum of all entries.
+""""""
+
+### Example:
+def sum_squares(lst):
+    """"""
+    This function will take a list of integers. For all entries in the list, the function shall square the integer entry if its index is a 
+    multiple of 3 and will cube the integer entry if its index is a multiple of 4. The function will not change the entries in the list whose 
+    indexes are not a multiple of 3 or 4. The function shall then return the sum of all entries.
+    """""""
+"Let's think step by step.
+1. Create a list of words,
+2. Loop the input, find the first word in the list.
+3. Return result."
+"Let's say you have the following expression:
+x = ""1/2""
+n = ""1/2""
+
+The function should return True."
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"1. The number of elements in the array that are greater than 10 and both 
+    first and last digits of a number are odd.
+2. The number of elements in the array that are greater than 10.
+3. The number of elements in the array that are greater than 10."
+"3
+
+### Example:
+#"
+"(Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune)
+
+### Example:
+#"
+"[
+    ""a"",
+    ""b"",
+    ""c"",
+    ""d"",
+    ""e"",
+    ""f"",
+    ""g"",
+    ""h"",
+    ""i"",
+    ""j"",
+    ""k"",
+    ""l"",
+    ""m"",
+    ""n"",
+    ""o"",
+    ""p"",
+    ""q"",
+    ""r"",
+    ""s"",
+    ""t"",
+    ""u"",
+    ""v"",
+    ""w"",
+    ""x"",
+    ""y"",
+    ""z"",
+]
+
+### Example:
+#"
+"1. x is a prime number.
+2. y is not a prime number.
+""""""
+
+### Example:
+#"
+"The sum of squares of the numbers in the list that are odd.
+""""""
+
+### Example:
+#"
+"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,"
+"Let's think step by step.
+1. Create a class called ""Slices"".
+2. Create a list of extensions.
+3. Create a function called ""strongest_extension"" that takes a string as an argument and returns a string in this format: ClassName.StrongestExtensionName.
+4. Create a function called ""extension_strength"" that takes a string as an argument and returns a string in this format: ClassName.ExtensionStrengthName.
+5. Create a function called ""extension_strength_list"" that takes a string as an argument and returns a list of strings in this format: ClassName.ExtensionStrengthList.
+6. Create a function called ""extension_strength_list_2"" that takes a string as an argument and returns a list of strings in this format: ClassName.ExtensionStrengthList2.
+7. Create a function called ""extension_strength_list_3"" that takes a string as an argument and returns a list of strings in this format: ClassName.ExtensionStrengthList3.
+8. Create a function called ""extension_strength_list_4"" that takes a string as an argument and returns a"
+"True
+
+### Explanation:
+The second word is a substring of the first word.
+""""""
+
+# @lc tags=string;dynamic-programming
+
+# @lc imports=start
+from imports import *
+
+# @lc imports=end
+
+# @lc idea=start
+#
+# 给定一个字符串，求其最长的回文子串。
+#
+# @lc idea=end
+
+# @lc group=
+
+# @lc rank=
+
+
+# @lc code=start
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        def get_longest_palindrome(s):
+            if len(s) <= 1:
+                return s
+            if s[0] == s[-1]:
+                return s
+            longest = s[0]
+            for i in range(1, len(s)):
+                if s[i] == s[i - 1]:
+                    longest = s[i]
+                else:"
+"(2, 1)"
+"1. The integer is in roman numeral form.
+2. The integer is in lowercase.
+3. The integer is in roman numeral form.
+
+### Example:
+#"
+"True
+
+### Example:
+#"
+"def find_max(words):
+    """"""Write a function that accepts a list of strings.
+    The list contains different words. Return the word with maximum number
+    of unique characters. If multiple strings have maximum number of unique
+    characters, return the one which comes first in lexicographical order.
+    """"""
+
+#### Example:
+def encrypt(s):
+    """"""
+    Create a function encrypt that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+    """"""
+
+#"
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+"Addition ( + )
+Subtraction ( - )
+Multiplication ( * )
+Floor division ( // )
+Exponentiation ( ** )
+
+# Solution 1
+def encrypt(s):
+    """"""
+    Create a function encrypt that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+    """"""
+
+# Solution 2
+def do_algebra(operator, operand):
+    """"""    Given two lists operator, and operand. The first list has basic algebra operations, and 
+    the second list is a list of integers. Use the two given lists to build the algebric 
+    expression and return the evaluation of this expression.
+
+    The basic algebra operations:
+    Addition ( + ) 
+    Subtraction ( - ) 
+    Multiplication ( * ) 
+    Floor division ( // ) 
+    Exponentiation ( ** ) 
+
+    Note:
+        The length of operator list is equal to the length of operand list minus one.
+        Operand is a list of"
+"The string after the rotation is:
+1. A B C D
+2. A D B C
+3. A B C D
+""""""
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a hash function, that takes a string as an argument and returns a string hash equivalent to the hash of the string.
+2. Loop the input, find the latter hash letter in hash.
+3. Return result."
+"Let's think step by step.
+1. Create a list of all the integers between a and b.
+2. Loop the list, find the first integer between a and b.
+3. Return the first integer between a and b."

@@ -1,0 +1,764 @@
+"Let's think step by step.
+1. Sort the list.
+2. Loop the list, if two numbers are closer than threshold, return True.
+3. Return False."
+"['(a', 'b', 'c)', 'd', 'e', 'f)']"
+"Let's think step by step.
+1. Create a integer part and decimal part.
+2. Return the decimal part."
+"Let's think step by step.
+1. Create a stack.
+2. Loop the input, if the operation is deposit, push the value to the stack.
+3. If the operation is withdrawal, pop the value from the stack.
+4. If the stack is empty, return True.
+5. If the stack is not empty, return False."
+"Let's think step by step.
+1. Calculate the mean of the input numbers.
+2. Calculate the absolute difference between each element and the mean.
+3. Calculate the average of the absolute differences."
+"Let's think step by step.
+1. Create a empty list.
+2. Loop the input, append the first element to the empty list.
+3. Loop the input, append the delimeter to the empty list.
+4. Loop the input, append the second element to the empty list.
+5. Return the empty list."
+"def parse_nested_parens(paren_string: str) -> List[int]:
+    """""" Input to this function is a string represented multiple groups for nested parentheses separated by spaces.
+    For each of the group, output the deepest level of nesting of parentheses.
+    E.g. (()()) has maximum two levels of nesting while ((())) has three.
+    """""""
+"Let's think step by step.
+1. Create a dictionary of substring and its index.
+2. Loop the input, find the substring in dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a sum and a product.
+2. Loop the input, find the sum and product.
+3. Return result."
+"Let's think step by step.
+1. Create a list of rolling maximum element found until given moment in the sequence.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+""
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary with keys as strings and values as lengths.
+2. Loop the dictionary and find the longest one.
+3. Return the longest one."
+"Let's think step by step.
+1. If a == 0, return b.
+2. If b == 0, return a.
+3. If a > b, return greatest_common_divisor(a - b, b).
+4. If a < b, return greatest_common_divisor(a, b - a)."
+"Let's think step by step.
+1. Create a dictionary of all prefixes.
+2. Loop the input, find the longest prefix in dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a string.
+2. Loop the input, append the number to the string.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the characters.
+2. Loop the string, find the character in dictionary.
+3. If not found, add it to dictionary.
+4. Return the length of dictionary."
+"[4, 2, 1]"
+"Let's think step by step.
+1. Create a dictionary of the substring.
+2. Loop the string, find the substring in the dictionary.
+3. Return the number of times found."
+"Let's think step by step.
+1. Create a list of numbers.
+2. Sort the list.
+3. Return result."
+"Let's think step by step.
+1. Sort the list.
+2. Find the two closest elements.
+3. Return them in order."
+"Let's think step by step.
+1. Sort the list.
+2. Find the smallest and largest numbers.
+3. Find the difference between the largest and smallest numbers.
+4. Divide each number by the difference.
+5. Return the result."
+"Let's think step by step.
+1. Create a list of integers.
+2. Loop the list, if the value is not an integer, remove it.
+3. Return result."
+Return length of given string.
+"Let's think step by step.
+1. Create a list of numbers from 1 to n.
+2. Loop the list, find the number that divides n evenly.
+3. Return the result."
+"Let's think step by step.
+1. Create a list of prime factors.
+2. Loop the input, find the latter prime factor in prime factors.
+3. Return result."
+"Let's think step by step.
+1. Create a set.
+2. Loop the input, if the element is not in the set, add it.
+3. Return result."
+"def flip_case(string: str) -> str:
+    """""" For a given string, flip lowercase characters to uppercase and uppercase to lowercase.
+    """""""
+"Let's think step by step.
+1. Create a result string.
+2. Loop the input, append the string to result.
+3. Return result."
+"Let's think step by step.
+1. Create a prefix set.
+2. Loop the input, find the latter bias letter in prefix set.
+3. Return result."
+Return only positive numbers in the list.
+"Let's think step by step.
+1. If n is 1, return false.
+2. If n is 2, return true.
+3. If n is odd, return false.
+4. If n is even, return true.
+5. If n is a prime number, return true."
+"Let's think step by step.
+1. Create a list of coefficients.
+2. Find the zero point.
+3. Return result."
+"Let's think step by step.
+1. Create a new list l' with the same length as l.
+2. For each index i in l, if i is not divisible by three, l'[i] = l[i].
+3. For each index i in l, if i is divisible by three, l'[i] = l[i].
+4. Return l'."
+"Let's think step by step.
+1. Create a set.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a variable to store the maximum element.
+2. Loop the list, find the maximum element.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary with key as digit and value as count.
+2. Loop the input, find the digit in dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a new list l' with the same length as l.
+2. Loop l, if the index is even, append the value of the index to l'.
+3. Loop l, if the index is odd, append the value of the index to l'.
+4. Return l'."
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of prime numbers.
+2. Create a list of Fibonacci numbers.
+3. Loop the list of Fibonacci numbers, find the n-th number.
+4. Return result."
+"Let's think step by step.
+1. Create a dictionary.
+2. Loop the list, find the sum of the key and value.
+3. If the sum is 0, return True.
+4. If the sum is not 0, return False."
+"Let's think step by step.
+1. Create a dictionary to store the number of collisions.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a new list.
+2. Loop the input, add 1 to each element.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the sum of each element.
+2. Loop the input, find the sum of the element in dictionary.
+3. If the sum of the element is 0, return True.
+4. If the sum of the element is not 0, return False."
+"Let's think step by step.
+1. Create a dictionary to convert base to base.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Calculate the length of the side.
+2. Calculate the length of the high.
+3. Calculate the area."
+"Let's think step by step.
+1. Create a fib4 number sequence.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Sort the list.
+2. Return the middle element."
+"Let's think step by step.
+1. Create a dictionary, key is the letter, value is the number of times it appears.
+2. Loop the string, find the latter bias letter in dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"def encode_shift(s: str):
+    """"""    returns encoded string by shifting every character by 5 in the alphabet.
+    """"""    return """".join([chr(((ord(ch) + 5 - ord(""a"")) % 26) + ord(""a"")) for ch in s])
+
+
+def decode_shift(s: str):
+    """"""    takes as input string encoded with encode_shift function. Returns decoded string.
+    """"""    return """".join([chr(((ord(ch) - 5 + ord(""a"")) % 26) + ord(""a"")) for ch in s])"
+"Let's think step by step.
+1. Create a vowels list.
+2. Loop the input, find the latter vowel in vowels.
+3. Return result."
+"Let's think step by step.
+1. Create a list of numbers.
+2. Loop the list, if the number is above threshold, return False.
+3. Return True."
+"Let's think step by step.
+1. Create a result variable.
+2. Add x and y.
+3. Return result."
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a array, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a stack.
+2. Loop the brackets, if the current bracket is ""<"", push it to the stack.
+3. If the current bracket is "">"", pop the stack and check if the stack is empty. If it is not empty, return False.
+4. If the current bracket is ""<"", pop the stack and check if the stack is empty. If it is empty, return True."
+"Let's think step by step.
+1. Create a list of integers.
+2. Loop the list, find the max and min.
+3. If max - min > 1, return True.
+4. If max - min == 1, return False."
+"Let's think step by step.
+1. Create a set of unique elements in l1.
+2. Create a set of unique elements in l2.
+3. Return the intersection of the two sets."
+"Let's think step by step.
+1. If n is a prime number, return n.
+2. If n is not a prime number, find the largest prime factor of n.
+3. Return the result."
+"Let's think step by step.
+1. Create a variable to store the sum.
+2. Loop from 1 to n.
+3. Add the number to the sum.
+4. Return the sum."
+"Let's think step by step.
+1. Create a stack.
+2. Loop the brackets, if the current bracket is opening, push it into the stack.
+3. If the current bracket is closing, check if there is an opening bracket in the stack. If there is, pop it. If there is not, return False.
+4. If the loop ends, return True."
+"Let's think step by step.
+1. Create a new list, xs_new, which is the same as xs.
+2. Reverse the list, xs_new.
+3. Reverse the list, xs.
+4. Return result."
+"Let's think step by step.
+1. Create a fibonacci sequence.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary of vowels.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary that contains the number of apples and oranges.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"[1, 0]
+
+[2, 1]
+
+[3, 2]
+
+[4, 3]
+
+[5, 4]
+
+[6, 5]
+
+[7, 6]
+
+[8, 7]
+
+[9, 8]
+
+[10, 9]
+
+[11, 10]
+
+[12, 11]
+
+[13, 12]
+
+[14, 13]
+
+[15, 14]
+
+[16, 15]
+
+[17, 16]
+
+[18, 17]
+
+[19, 18]
+
+[20, 19]
+
+[21, 20]
+
+[22, 21]
+
+[23, 22]
+
+[24, 23]
+
+[25, 24]
+
+[26, 25]
+
+[27, 26]
+
+[28,"
+"Let's think step by step.
+1. Create a dictionary.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of integers.
+2. Sort the list.
+3. Reverse the list.
+4. Return the reversed list."
+"Let's think step by step.
+1. Create a list of three sides.
+2. Sort the list.
+3. If the sum of the first two sides is greater than the third side, return -1.
+4. Return the sum of the first two sides."
+"Let's think step by step.
+1. Create a list, find the sum of the elements.
+2. If the sum is less than or equal to the weight, return True.
+3. Return False."
+"Let's think step by step.
+1. Create a dictionary to store the number of elements.
+2. Loop the array, find the number of elements in the dictionary.
+3. If the number of elements is odd, return the number of elements in the dictionary.
+4. If the number of elements is even, return the number of elements in the dictionary minus 1."
+"Let's think step by step.
+1. Create a dictionary with the char as key and the number of times it appears as value.
+2. Loop through the first list, if the char is in the dictionary, add 1 to the value.
+3. If the value is 1, add the char to the result list.
+4. Return the result list."
+"Let's think step by step.
+1. Create a list of prime numbers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a function that returns true if a number x is a simple power of n and false in other cases.
+2. Create a function that returns true if a number x is a simple power of n and false in other cases.
+3. Create a function that returns true if a number x is a simple power of n and false in other cases.
+4. Create a function that returns true if a number x is a simple power of n and false in other cases.
+5. Create a function that returns true if a number x is a simple power of n and false in other cases.
+6. Create a function that returns true if a number x is a simple power of n and false in other cases.
+7. Create a function that returns true if a number x is a simple power of n and false in other cases.
+8. Create a function that returns true if a number x is a simple power of n and false in other cases.
+9. Create a function that returns true if a number x is a simple power of n and false in other cases.
+10. Create a function that returns true if a number x is a simple power of n and false in"
+"Let's think step by step.
+1. Create a list of all the cube numbers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of primes.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Convert decimal to binary.
+2. Add extra characters.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the number of times each character appears.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of prime numbers.
+2. Loop the string, find the latter prime number in list.
+3. Return result."
+"Let's think step by step.
+1. Create a list of all numbers from 1 to n.
+2. Count the number of numbers that start with 1.
+3. Count the number of numbers that end with 1.
+4. Return the sum of the two."
+"Let's think step by step.
+1. Create a binary number, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in binary.
+3. Return result."
+"Let's think step by step.
+1. Create a new list.
+2. Loop the input, if the index is even, add the element.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary with key as ascii value and value as the character.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a 2 dimensional list, each row contains a different number of columns.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a new array.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Sort the list.
+2. Return the 2nd smallest element."
+"Let's think step by step.
+1. Create a dictionary of boredoms.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Check if the first number is equal to the sum of the other two.
+2. Check if the second number is equal to the sum of the other two.
+3. Check if the third number is equal to the sum of the other two.
+4. Return true if all are true."
+"Let's think step by step.
+1. Create a dictionary that maps each vowel to the letter that appears 2 places ahead of that vowel.
+2. Loop the input, find the latter bias letter in dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a list of prime numbers.
+2. Loop the list, find the largest prime number.
+3. Return the sum of digits."
+"Let's think step by step.
+1. Loop through the dictionary.
+2. If the key is not a string, return False.
+3. If the key is a string, check if the value is in lower case or upper case.
+4. If the value is in lower case, return False.
+5. If the value is in upper case, return True."
+"Let's think step by step.
+1. Create an array of size n.
+2. Loop from 2 to n, if it is prime, add it to the array.
+3. Return array."
+"Let's think step by step.
+1. Create a unit digit.
+2. Loop the input, find the latter unit digit in unit digit.
+3. Return result."
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the difference between each integer and the value.
+2. Loop the dictionary, find the integer that is the closest to the value.
+3. Return result."
+"Let's think step by step.
+1. Create a list to store the number of stones in each level.
+2. Create a loop to iterate from 1 to n.
+3. If the number is odd, add 1 to the list.
+4. If the number is even, add 2 to the list.
+5. Return the list."
+"Let's think step by step.
+1. Create a list to store the words.
+2. Split the string by spaces or commas.
+3. Return result."
+"Let's think step by step.
+1. If x > y, swap x and y.
+2. If x % 2 == 0, return x.
+3. If x % 2!= 0, return x + 1."
+"Let's think step by step.
+1. If n is greater than m, return -1.
+2. If n is equal to m, return 0.
+3. If n is less than m, return 1.
+4. If n is greater than m, return -1.
+5. If n is equal to m, return 0.
+6. If n is less than m, return 1."
+"Let's think step by step.
+1. Create a list of all digits.
+2. Loop the input, find the latter digit in digits.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary.
+2. Loop the array, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list, and fill it with 1.
+2. Loop the input, if the current element is even, add the current element to the list.
+3. If the current element is odd, multiply the current element with the sum of the list.
+4. Return the list."
+"Let's think step by step.
+1. Create a list of even and odd palindromes.
+2. Return the result."
+"Let's think step by step.
+1. Create a dictionary to store the sum of digits.
+2. Loop the array, find the sum of digits.
+3. If the sum of digits is 0, then add 1 to the dictionary.
+4. Return the number of elements which has a sum of digits > 0."
+"Let's think step by step.
+1. Create a array, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a new list, lst3, that contains the elements of lst1.
+2. Loop the elements of lst2, find the latter bias letter in alphabet.
+3. If the latter bias letter is in lst3, remove it from lst3.
+4. If there is no element in lst3, return ""NO"".
+5. If there is an element in lst3, return ""YES""."
+"Let's think step by step.
+1. Create a dictionary.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the character and its index.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of digits.
+2. Loop the input, find the latter bias letter in digits.
+3. Return result."
+"Let's think step by step.
+1. Create a sum array, sum[i] is the sum of the first i elements.
+2. Loop the input, find the min sum of the sub-array.
+3. Return result."
+"Let's think step by step.
+1. Create a bucket with capacity.
+2. Loop the grid, find the first 1, fill the bucket.
+3. If the bucket is full, return 1.
+4. If the bucket is not full, return 0."
+"Let's think step by step.
+1. Create a dictionary to store the number of ones in binary representation.
+2. Loop the array, find the number of ones in binary representation.
+3. If the number of ones is in the dictionary, add the number to the dictionary.
+4. If the number of ones is not in the dictionary, add the number to the dictionary and the key is the number of ones.
+5. Sort the dictionary by key.
+6. Return the result."
+"Let's think step by step.
+1. Create a dictionary to store the count of each letter.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary of vowels.
+2. Loop the word, find the latter vowel in dictionary.
+3. Return result."
+"def match_parens(lst):
+    """"""
+    You are given a list of two strings, both strings consist of open
+    parentheses '(' or close parentheses ')' only.
+    Your job is to check if it is possible to concatenate the two strings in
+    some order, that the resulting string will be good.
+    A string S is considered to be good if and only if all parentheses in S
+    are balanced. For example: the string '(())()' is good, while the string
+    '())' is not.
+    Return 'Yes' if there's a way to make a good string, and return 'No' otherwise.
+    """""""
+"Let's think step by step.
+1. Sort the array.
+2. Return the first k elements."
+"Let's think step by step.
+1. Create a new list.
+2. Loop the input, if the index is even, add the element to the new list.
+3. Return the sum of the new list."
+"Let's think step by step.
+1. Create a dictionary to store the frequency of each number.
+2. Loop the array, find the number with the highest frequency.
+3. Return the sum of the number and the number with the highest frequency."
+"[1, 3, 7, 10, 15, 21, 28, 36, 45, 55, 66, 80, 100]"
+"Let's think step by step.
+1. Create a dictionary of months and days.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Given a list of numbers, return whether or not they are sorted
+in ascending order. If list has more than 1 duplicate of the same
+number, return False. Assume no negative numbers and only integers."
+"Let's think step by step.
+1. Create a dictionary to store the intervals.
+2. Loop the intervals, find the intersection of intervals.
+3. Return result.
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a result, set to 0.
+2. Loop the array, find the product of signs.
+3. Multiply the product by the magnitude.
+4. Add the result to the result.
+5. Return result."
+"Let's think step by step.
+1. Create a queue and add the first cell.
+2. While the queue is not empty:
+    a. Get the first cell.
+    b. Get the neighbors of the current cell.
+    c. If the neighbor is not in the queue, add it to the queue.
+    d. If the neighbor is in the queue, and the neighbor's value is less than the current cell's value, update the current cell's value.
+3. Return the result.
+
+### Example:
+#"
+"[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765]"
+"Let's think step by step.
+1. Create a list of odd digits.
+2. Loop the input, find the latter odd digit in list.
+3. Return result."
+"Let's think step by step.
+1. Create a stack.
+2. Loop the input, if the current character is a bracket, push it to the stack.
+3. If the current character is a bracket, pop the stack until the current character is not a bracket.
+4. If the current character is a bracket, return False.
+5. If the stack is empty, return True."
+"Let's think step by step.
+1. Create a list of squared numbers.
+2. Loop the list, find the square of each element.
+3. Return the sum."
+"Let's think step by step.
+1. Create a dictionary of letters and their corresponding index.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the index of each element.
+2. Loop the array, find the index of the element which is not greater than or equal to the element immediately preceding it.
+3. Return the result."
+"Let's think step by step.
+1. Create a list of integers.
+2. Find the largest and smallest integers in the list.
+3. Return result."
+"Let's think step by step.
+1. Create a variable to store the larger value.
+2. If the first value is greater than the second value, store the first value in the variable.
+3. If the first value is less than the second value, store the second value in the variable.
+4. Return the variable."
+"Let's think step by step.
+1. Create a list of 4 numbers.
+2. Loop the list, find the sum of the 4 numbers.
+3. Return result."
+"Let's think step by step.
+1. Create a list of factors.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a new string, replace all spaces with underscores.
+2. If a string has more than 2 consecutive spaces, 
+    then replace all consecutive spaces with -
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the file name.
+2. Check the file name's length.
+3. Check the file name's format.
+4. Return result."
+"Let's think step by step.
+1. Create a list of integers.
+2. Loop the list, if the index is a multiple of 3, square the entry.
+3. If the index is a multiple of 4, cube the entry.
+4. Return the sum of all entries."
+"Let's think step by step.
+1. Create a list of words.
+2. Loop the list, find the length of the word.
+3. If the length of the word is prime, add it to the new list.
+4. Return the new list."
+"Let's think step by step.
+1. Create a dictionary, key is the numerator, value is the denominator.
+2. Loop the input, find the numerator in dictionary.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the sum of digits and index.
+2. Loop the input, find the sum of digits in dictionary.
+3. If there is no sum of digits in dictionary, add the index to dictionary.
+4. Return result."
+"Let's think step by step.
+1. Create a new array.
+2. Loop the input, if the number is greater than 10 and both first and last digits of a number are odd, add it to the new array.
+3. Return the new array."
+"Let's think step by step.
+1. Create a array, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary, key is planet name, value is planet's orbit.
+2. Loop the dictionary, find the planet's orbit, and return the result."
+"Let's think step by step.
+1. Create a list of strings.
+2. Loop the list, if the length of the string is odd, delete it.
+3. Return the list."
+"Let's think step by step.
+1. Create a prime number list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of odd numbers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary to store the score and guess.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a dictionary with the extensions as keys and their strengths as values.
+2. Create a dictionary with the class name as keys and the strongest extension as values.
+3. Loop through the dictionary with the class name as keys and the strongest extension as values.
+4. If the strength of the extension is the same as the strongest extension, return the class name.
+5. If the strength of the extension is greater than the strongest extension, return the class name and the extension name.
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a dictionary of words.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a list of digits.
+2. Count the number of digits.
+3. Return result."
+"Given an integer, convert it to a roman numeral."
+"Let's think step by step.
+1. Create a triangle with three sides.
+2. If the sum of the two sides is greater than the third side, return False.
+3. If the sum of the two sides is equal to the third side, return True.
+4. If the sum of the two sides is less than the third side, return False."
+"Let's think step by step.
+1. Create a dictionary to store the number of unique characters.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a array, and fill it with the number of carrots.
+2. If the number of carrots is less than the need, return the array.
+3. If the number of carrots is equal to the need, return the array.
+4. If the number of carrots is greater than the need, return the array."
+"Let's think step by step.
+1. Create a stack.
+2. Loop the operator list, push the operand list to stack.
+3. Loop the operand list, pop the operator list and push the result to stack.
+4. Return the result.
+
+### Example:
+#"
+"Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+"Let's think step by step.
+1. Create a md5 object.
+2. Return result."
+"Let's think step by step.
+1. Create a list of even numbers between a and b.
+2. Return result."

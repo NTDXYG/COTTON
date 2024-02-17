@@ -1,0 +1,1889 @@
+"Input: 
+- numbers: a list of float numbers
+- threshold: a float number
+
+Output:
+- result: a boolean value indicating whether there are any two numbers in the list that are closer to each other than the threshold
+
+1: for each number num1 in numbers:
+2:     for each number num2 in numbers:
+3:         if num1 is not equal to num2 and the absolute difference between num1 and num2 is less than the threshold:
+4:             return True
+5: return False"
+"Input: paren_string: a string containing multiple groups of nested parentheses
+Output: groups: a list of separate groups of parentheses
+
+1: Initialize an empty list called ""groups""
+2: Initialize an empty string called ""current_group""
+3: Initialize a counter variable called ""open_braces"" and set it to 0
+4: Remove any spaces from the paren_string
+5: Iterate through each character ch in paren_string:
+6:     If ch is an opening parenthesis:
+7:         Increment the open_braces counter by 1
+8:         Add ch to the current_group string
+9:     If ch is a closing parenthesis:
+10:        Decrement the open_braces counter by 1
+11:        Add ch to the current_group string
+12:        If open_braces is 0:
+13:            Add the current_group string to the groups list
+14:            Reset the current_group string to an empty string
+15: If the current_group string is not empty:
+16:    Add the current_group string to the groups list
+17: Return the groups list"
+"Input: number: a positive floating point number
+Output: decimal_part: the decimal part of the number
+
+1: Convert the number to a string
+2: Find the index of the decimal point in the string
+3: Extract the substring after the decimal point
+4: Convert the substring to a float
+5: Return the float value as the decimal part"
+"Input: operations - a list of integers representing deposit and withdrawal operations on a bank account
+
+Output: True if the balance of the account falls below zero at any point, False otherwise
+
+1: Initialize a variable balance to 0
+2: Iterate through each operation in the list of operations
+3:    Add the operation value to the balance if the operation is a deposit
+4:    Subtract the operation value from the balance if the operation is a withdrawal
+5:    If the balance is less than 0, return True
+6: Return False if the balance never falls below 0"
+"Input: numbers: a list of float numbers
+Output: mad: the mean absolute deviation of the numbers
+
+1: Calculate the mean of the numbers
+2: Initialize a variable sum_diff to 0
+3: For each number in numbers:
+4:     Calculate the absolute difference between the number and the mean
+5:     Add the absolute difference to sum_diff
+6: Calculate the mean absolute deviation by dividing sum_diff by the length of numbers
+7: Return the mean absolute deviation"
+"Input: numbers: a list of integers
+       delimeter: an integer
+Output: result: a list of integers with delimeter inserted between every two consecutive elements of numbers
+1: Initialize an empty list called result
+2: Iterate through each element num in numbers:
+3:     Append num to result
+4:     Append delimeter to result
+5: Remove the last delimeter from result
+6: Return result"
+"Input: paren_string: a string representing multiple groups of nested parentheses separated by spaces
+Output: levels: a list of integers representing the deepest level of nesting for each group
+
+1: Split the paren_string by spaces to get a list of groups
+2: Initialize an empty list called levels to store the deepest level of nesting for each group
+3: For each group in the list of groups:
+4:     Initialize a variable called max_level to 0 to keep track of the deepest level of nesting
+5:     Initialize a variable called current_level to 0 to keep track of the current level of nesting
+6:     For each character ch in the group:
+7:         If ch is an opening parenthesis:
+8:             Increment the current_level by 1
+9:             If the current_level is greater than the max_level, update the max_level to the current_level
+10:        If ch is a closing parenthesis:
+11:            Decrement the current_level by 1
+12:    Append the max_level to the levels list
+13: Return the levels list"
+"Input: 
+- strings: a list of strings
+- substring: a string
+
+Output:
+- filtered_strings: a list of strings that contain the given substring
+
+1: Initialize an empty list called filtered_strings
+2: For each string in the input list strings:
+3:     If the substring is found in the string:
+4:         Add the string to the filtered_strings list
+5: Return the filtered_strings list"
+"Input: numbers: a list of integers
+Output: sum: the sum of all the integers in the list, product: the product of all the integers in the list
+
+1: Initialize sum to 0 and product to 1
+2: If the list numbers is empty, return (sum, product)
+3: For each number in numbers:
+4:     Add the number to sum
+5:     Multiply the number with product
+6: Return (sum, product)"
+"Input: numbers: a list of integers
+Output: rolling_max_list: a list of rolling maximum elements found until a given moment in the sequence
+
+1: Initialize an empty list called rolling_max_list
+2: Iterate through each element num in numbers:
+3:     If rolling_max_list is empty:
+4:         Append num to rolling_max_list
+5:     Else:
+6:         Find the maximum element in rolling_max_list and store it in max_num
+7:         If num is greater than max_num:
+8:             Append num to rolling_max_list
+9:         Else:
+10:            Append max_num to rolling_max_list
+11: Return rolling_max_list"
+"Input: string: a string
+
+Output: is_palindrome: a boolean value indicating whether the string is a palindrome
+
+1: Reverse the string and store it in a variable called reversed_string
+2: If the reversed_string is equal to the original string, return True
+3: Otherwise, return False
+
+Input: string: a string
+
+Output: palindrome: a string that is the shortest palindrome starting with the supplied string
+
+1: Initialize a variable called palindrome with the value of the supplied string
+2: Iterate through the characters in the string from the end to the beginning
+3: For each character, check if the substring from the beginning to that character is a palindrome
+4: If it is, append the reverse of the substring to the end of the palindrome and break the loop
+5: Return the palindrome"
+"Input: a: a string consisting of 1s and 0s
+       b: a string consisting of 1s and 0s
+Output: result: a string representing the result of binary XOR operation on a and b
+
+1: Initialize an empty string called result
+2: Iterate through each character ch in a and b simultaneously
+3: If ch in a is '1' and ch in b is '0', or vice versa, append '1' to result
+4: Otherwise, append '0' to result
+5: Return result"
+"Input: strings: a list of strings
+Output: longest_string: the longest string in the list, or None if the list is empty
+
+1: if the list is empty:
+2:     return None
+3: initialize longest_string as the first string in the list
+4: for each string in the list starting from the second string:
+5:     if the length of the string is greater than the length of longest_string:
+6:         update longest_string to be the current string
+7: return longest_string"
+"Input: a: an integer, b: an integer
+Output: gcd: an integer
+
+1: if b is equal to 0:
+2:     return a
+3: else:
+4:     return the greatest common divisor of b and the remainder of a divided by b"
+"Input: string: a string
+Output: prefixes: a list of all prefixes from shortest to longest of the input string
+1: Initialize an empty list called prefixes
+2: For i in range from 1 to the length of the string:
+3:     Append the substring of the string from index 0 to i to the prefixes list
+4: Return the prefixes list"
+"Input: n: an integer
+Output: sequence: a string containing space-delimited numbers starting from 0 up to n inclusive
+1: Initialize an empty string called sequence
+2: Iterate from 0 to n (inclusive) using a for loop:
+3:     Convert each number to a string and append it to the sequence string, followed by a space
+4: Return the sequence string"
+"Input: string: a string
+Output: count: the number of distinct characters in the string
+1: Initialize an empty set called ""distinct_chars""
+2: Convert the string to lowercase
+3: for each character ch in the string:
+4:     if ch is not in distinct_chars:
+5:         add ch to distinct_chars
+6: return the length of distinct_chars"
+"Input: music_string - a string representing musical notes in a special ASCII format
+
+Output: beats - a list of integers corresponding to how many beats each note lasts
+
+1. Initialize an empty list called ""beats""
+2. Initialize a variable called ""i"" to 0
+3. While ""i"" is less than the length of ""music_string"", do the following:
+    4. If the character at index ""i"" in ""music_string"" is 'o':
+        5. Append 4 to ""beats""
+        6. Increment ""i"" by 1
+    7. Else if the characters at index ""i"" and ""i+1"" in ""music_string"" are 'o|':
+        8. Append 2 to ""beats""
+        9. Increment ""i"" by 2
+    10. Else if the characters at index ""i"" and ""i+1"" in ""music_string"" are '.|':
+        11. Append 1 to ""beats""
+        12. Increment ""i"" by 2
+    13. Increment ""i"" by 1
+14. Return ""beats"""
+"Input: 
+- string: a string
+- substring: a string
+
+Output:
+- count: an integer representing the number of times the substring appears in the original string
+
+1: Initialize count to 0
+2: Iterate through each character in the original string using a for loop
+3: Check if the current substring starting from the current character matches the given substring
+4: If there is a match, increment count by 1
+5: Return the final count after iterating through the entire string"
+"Input: numbers: a space-delimited string of numberals from 'zero' to 'nine'
+
+Output: sorted_numbers: a string with numbers sorted from smallest to largest
+
+1: Split the input string into a list of numberals using space as the delimiter
+2: Create a dictionary to map each numberal to its corresponding numerical value
+3: Convert each numberal in the list to its numerical value using the dictionary
+4: Sort the list of numerical values in ascending order
+5: Convert each numerical value back to its corresponding numberal using the dictionary
+6: Join the sorted numberals into a string with space as the delimiter
+7: Return the sorted_numbers string"
+"Input: numbers: a list of floats
+Output: closest_nums: a tuple of two floats
+
+1: Initialize closest_nums as an empty tuple
+2: Initialize min_diff as a large positive number
+3: Iterate through each pair of numbers in the list:
+4:     Calculate the absolute difference between the two numbers
+5:     If the difference is smaller than min_diff:
+6:         Update min_diff to be the new difference
+7:         Update closest_nums to be the pair of numbers
+8: Return closest_nums"
+"Input: numbers: a list of floats
+Output: rescaled_numbers: a list of floats after applying linear transform
+
+1: Find the smallest number in the list and store it in a variable min_num.
+2: Find the largest number in the list and store it in a variable max_num.
+3: Calculate the difference between max_num and min_num and store it in a variable diff.
+4: Create an empty list called rescaled_numbers.
+5: Iterate through each number in the input list.
+6: For each number, calculate the rescaled value using the formula (number - min_num) / diff.
+7: Append the rescaled value to the rescaled_numbers list.
+8: Return the rescaled_numbers list."
+"Input: values: a list of any python values
+Output: integers: a list of integers from values
+1: Create an empty list called integers
+2: For each value in values:
+3:     If the value is an integer:
+4:         Append the value to the integers list
+5: Return the integers list"
+"Input: string: a string
+Output: length: an integer representing the length of the string
+
+1: Initialize a variable length to 0
+2: Iterate through each character ch in the string:
+3:     Increment length by 1
+4: Return length"
+"Input: n: an integer
+Output: divisor: the largest number that divides n evenly and is smaller than n
+1: for each number divisor from n-1 to 1 in descending order:
+2:     if n is divisible by divisor:
+3:         return divisor
+4: return None"
+"Input: n: an integer
+Output: factors: a list of prime factors of n in ascending order
+
+1: Initialize an empty list called factors
+2: Iterate from 2 to the square root of n:
+3:     While n is divisible by i:
+4:         Append i to factors
+5:         Divide n by i
+6: If n is greater than 1, append n to factors
+7: Return factors"
+"Input: numbers: a list of integers
+Output: result: a list of integers with duplicates removed
+1: Initialize an empty list called ""result""
+2: Initialize an empty set called ""seen""
+3: For each number in the input list ""numbers"":
+4:     If the number is not in the set ""seen"":
+5:         Add the number to the set ""seen""
+6:         Add the number to the list ""result""
+7: Return the list ""result"""
+"Input: string: a string
+Output: flipped_string: a string with flipped case characters
+
+1: Initialize an empty string flipped_string
+2: For each character ch in string:
+3:     If ch is lowercase:
+4:         Convert ch to uppercase and append it to flipped_string
+5:     Else if ch is uppercase:
+6:         Convert ch to lowercase and append it to flipped_string
+7:     Else:
+8:         Append ch to flipped_string
+9: Return flipped_string"
+"Input: strings: a list of strings
+Output: result: a single string
+
+1: Initialize an empty string called result
+2: Iterate through each string in the list strings
+3:     Concatenate the current string with the result string
+4: Return the result string"
+"Input: 
+- strings: a list of strings
+- prefix: a string
+
+Output:
+- filtered_strings: a list of strings that start with the given prefix
+
+1: Initialize an empty list called filtered_strings
+2: For each string in the input list strings:
+3:     Check if the string starts with the given prefix:
+4:         If it does, add the string to the filtered_strings list
+5: Return the filtered_strings list"
+"Input: l: a list of numbers
+Output: positive_nums: a list of positive numbers from l
+1: Initialize an empty list positive_nums
+2: for each number num in l:
+3:     if num is greater than 0:
+4:         append num to positive_nums
+5: return positive_nums"
+"Input: n: an integer
+Output: prime: a boolean value indicating whether n is prime or not
+1: if n is less than or equal to 1:
+2:     return False
+3: for i in range(2, n):
+4:     if n is divisible by i:
+5:         return False
+6: return True"
+"Input: xs: a list of coefficients of a polynomial
+
+Output: x: a zero point of the polynomial
+
+1. Check if the length of xs is even. If not, return None.
+2. Find the largest non-zero coefficient in xs.
+3. Set the initial value of x as -1.
+4. Iterate through xs:
+   - For each coefficient coeff at index i:
+     - If coeff is the largest non-zero coefficient:
+       - Set x as -i/coeff.
+       - Break the loop.
+5. Return x."
+"Input: l: a list
+Output: l': a modified list
+
+1: Create an empty list called l'
+2: Iterate through each index i and value v in the list l:
+3:     If i is divisible by three:
+4:         Create a sublist called temp_list containing the values at indices i, i+1, and i+2 in l
+5:         Sort temp_list in ascending order
+6:         Append the sorted temp_list to l'
+7:     Else:
+8:         Append v to l'
+9: Return l'"
+"Input: l: a list
+Output: unique_list: a list of sorted unique elements in l
+1: create an empty list unique_list
+2: for each element num in l:
+3:     if num is not in unique_list:
+4:         add num to unique_list
+5: sort unique_list in ascending order
+6: return unique_list"
+"Input: l: a list
+Output: max_element: the maximum element in the list
+
+1: Initialize max_element as the first element of the list
+2: Iterate through each element in the list starting from the second element
+3:     If the current element is greater than max_element, update max_element with the current element
+4: Return max_element"
+"Input: n: an integer
+Output: count: the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+
+1: Initialize count to 0.
+2: Iterate through each integer i from 1 to n-1.
+3:     Check if i is divisible by 11 or 13.
+4:         Convert i to a string.
+5:         Iterate through each character ch in the string representation of i.
+6:             Check if ch is equal to '7'.
+7:                 Increment count by 1.
+8: Return count."
+"Input: l: a list
+Output: l': a modified list
+
+1: Create an empty list called l'
+2: Iterate through the elements in l using a for loop:
+3:     If the index of the element is odd:
+4:         Append the element to l'
+5:     If the index of the element is even:
+6:         Get all the elements at the even indices of l and sort them
+7:         Append the sorted elements to l'
+8: Return l'"
+"Input: s: a string
+
+Output: encoded_string: a string encoded by cycling groups of three characters
+
+1. Split the string into groups of three characters.
+2. Create an empty list called ""groups"".
+3. Iterate over the range from 0 to the length of the string divided by 3, rounded up to the nearest integer.
+4. Inside the loop, get a substring of the string starting from 3 times the current index and ending at the minimum of (3 times the current index + 3) and the length of the string.
+5. Append the substring to the ""groups"" list.
+6. Iterate over each group in the ""groups"" list.
+7. If the length of the group is equal to 3, rotate the elements in the group by moving the first element to the end.
+8. Join the groups together into a single string.
+9. Return the encoded string.
+
+Input: s: a string encoded with encode_cyclic function
+
+Output: decoded_string: a decoded string
+
+1. Create an empty string called ""decoded_string"".
+2. Iterate over the characters in the input string.
+3. If the character is not a digit, append it to the ""decoded_string"".
+4. If the character is a digit, convert it to an integer and repeat the next character that many times.
+5. Return the ""decoded_string""."
+"Input: n: an integer
+Output: num: the n-th number that is both a Fibonacci number and prime
+1: Initialize a counter variable, count, to 0
+2: Initialize a variable, num, to 0
+3: Initialize a variable, fib1, to 0
+4: Initialize a variable, fib2, to 1
+5: while count is less than n:
+6:     Set num to the sum of fib1 and fib2
+7:     Set fib1 to fib2
+8:     Set fib2 to num
+9:     if num is a Fibonacci number and prime:
+10:        Increment count by 1
+11: return num"
+"Input: l: a list of integers
+Output: True if there are three distinct elements in l that sum to zero, False otherwise
+1: for each element a in l:
+2:     for each element b in l:
+3:         for each element c in l:
+4:             if a, b, and c are distinct and their sum is zero:
+5:                 return True
+6: return False"
+"Input: n: an integer representing the number of cars
+
+Output: count: an integer representing the number of collisions
+
+1: Initialize count to 0
+2: For i from 1 to n:
+3:     For j from 1 to n:
+4:         If i != j:
+5:             Increment count by 1
+6: Return count"
+"Input: l: a list of integers
+Output: new_list: a list with elements incremented by 1
+1: Create an empty list called new_list
+2: For each element num in l:
+3:     Increment num by 1
+4:     Append the incremented num to new_list
+5: Return new_list"
+"Input: l: a list of integers
+Output: True if there are two distinct elements in l that sum to zero, False otherwise
+1: for each element x in l:
+2:     for each element y in l:
+3:         if x is not equal to y and x + y is equal to zero:
+4:             return True
+5: return False"
+"Input: x: an integer, base: an integer
+Output: result: a string representation of x in the new base
+
+1: Initialize an empty string variable result
+2: While x is greater than 0:
+3:     Get the remainder of x divided by base and convert it to a string
+4:     Add the string representation of the remainder to the beginning of result
+5:     Divide x by base and update its value
+6: Return result"
+"Input: a: length of a side (float)
+       h: height of the triangle (float)
+Output: area: area of the triangle (float)
+
+1: Calculate the area of the triangle using the formula: area = (1/2) * a * h
+2: Return the calculated area"
+"Input: n: an integer
+Output: fib: the n-th element of the fib4 number sequence
+
+1: if n is 0 or 1:
+2:     return 0
+3: if n is 2:
+4:     return 2
+5: initialize fib0, fib1, fib2, fib3, fib4 as 0, 0, 2, 0, respectively
+6: for i from 4 to n:
+7:     fib = fib0 + fib1 + fib2 + fib3
+8:     fib0 = fib1
+9:     fib1 = fib2
+10:    fib2 = fib3
+11:    fib3 = fib4
+12:    fib4 = fib
+13: return fib"
+"Input: l: a list of elements
+Output: median: the median of elements in l
+
+1: Sort the list l in ascending order
+2: If the length of l is odd:
+3:     Return the middle element of l
+4: If the length of l is even:
+5:     Return the average of the two middle elements of l"
+"Input: text: a string
+Output: is_palindrome: a boolean value indicating whether the given string is a palindrome or not
+
+1: Initialize a variable ""is_palindrome"" as True
+2: Initialize two pointers, ""start"" and ""end"", pointing to the first and last characters of the string respectively
+3: While ""start"" is less than or equal to ""end"":
+4:     If the characters at ""start"" and ""end"" are not equal:
+5:         Set ""is_palindrome"" as False
+6:         Break the loop
+7:     Increment ""start"" by 1 and decrement ""end"" by 1
+8: Return the value of ""is_palindrome"""
+"Input: 
+- n: an integer representing the exponent
+- p: an integer representing the modulus
+
+Output:
+- result: an integer representing the result of 2^n modulo p
+
+1: Calculate 2^n modulo p
+2: Return the result"
+"Input: s: a string
+
+Output: encoded_str: an encoded string
+
+1: Initialize an empty string encoded_str
+2: For each character ch in s:
+3:     Convert ch to its ASCII value using the ord() function
+4:     Subtract the ASCII value of ""a"" from the ASCII value of ch
+5:     Add 5 to the result
+6:     Take the modulus of the result with 26
+7:     Add the ASCII value of ""a"" to the result
+8:     Convert the result back to a character using the chr() function
+9:     Append the character to encoded_str
+10: Return encoded_str
+
+Input: s: an encoded string
+
+Output: decoded_str: a decoded string
+
+1: Initialize an empty string decoded_str
+2: For each character ch in s:
+3:     Convert ch to its ASCII value using the ord() function
+4:     Subtract the ASCII value of ""a"" from the ASCII value of ch
+5:     Subtract 5 from the result
+6:     Take the modulus of the result with 26
+7:     Add the ASCII value of ""a"" to the result
+8:     Convert the result back to a character using the chr() function
+9:     Append the character to decoded_str
+10: Return decoded_str"
+"Input: text: a string
+Output: result: a string without vowels
+1: Initialize an empty string called result
+2: For each character ch in text:
+3:     If ch is not a vowel:
+4:         Append ch to result
+5: Return result"
+"Input: l: a list of numbers, t: an integer threshold
+Output: True if all numbers in l are below t, False otherwise
+1: for each number num in l:
+2:     if num is greater than or equal to t:
+3:         return False
+4: return True"
+"Input: x: an integer, y: an integer
+Output: sum: the sum of x and y
+1: sum = x + y
+2: return sum"
+"Input: 
+s0: a string
+s1: a string
+
+Output: 
+result: a boolean value indicating whether s0 and s1 have the same characters
+
+1: Create a set of characters from s0
+2: Create a set of characters from s1
+3: Check if the sets are equal
+4: If the sets are equal, return True
+5: If the sets are not equal, return False"
+"Input: n: an integer
+Output: fib_num: the n-th Fibonacci number
+
+1: if n is 0 or 1:
+2:     return n
+3: else:
+4:     initialize fib_num_1 as 0
+5:     initialize fib_num_2 as 1
+6:     for i from 2 to n:
+7:         calculate fib_num as fib_num_1 + fib_num_2
+8:         update fib_num_1 as fib_num_2
+9:         update fib_num_2 as fib_num
+10:    return fib_num"
+"Input: brackets: a string of ""<"" and "">""
+Output: True if every opening bracket has a corresponding closing bracket, False otherwise
+
+1: Initialize a stack to store opening brackets
+2: For each character ch in brackets:
+3:     If ch is an opening bracket (""<""):
+4:         Push ch onto the stack
+5:     If ch is a closing bracket ("">""):
+6:         If the stack is empty:
+7:             Return False
+8:         Pop the top element from the stack
+9: If the stack is empty:
+10:    Return True
+11: Else:
+12:    Return False"
+"Input: l: a list
+Output: True if list elements are monotonically increasing or decreasing, False otherwise
+1: if len(l) <= 1:
+2:     return True
+3: is_increasing = True
+4: is_decreasing = True
+5: for i in range(1, len(l)):
+6:     if l[i] < l[i-1]:
+7:         is_increasing = False
+8:     if l[i] > l[i-1]:
+9:         is_decreasing = False
+10: if is_increasing or is_decreasing:
+11:     return True
+12: else:
+13:     return False"
+"Input: l1: a list
+       l2: a list
+Output: common_elements: a list of sorted unique common elements between l1 and l2
+
+1: Initialize an empty list called common_elements
+2: For each element x in l1:
+3:     If x is also in l2 and x is not already in common_elements:
+4:         Append x to common_elements
+5: Sort common_elements in ascending order
+6: Return common_elements"
+"Input: n: an integer
+Output: largest_prime: the largest prime factor of n
+
+1: for each number i from 2 to n/2:
+2:     if n is divisible by i:
+3:         if i is a prime number:
+4:             largest_prime = i
+5: return largest_prime"
+"Input: n: an integer
+Output: sum: the sum of numbers from 1 to n
+1: Initialize sum to 0
+2: for each number i from 1 to n:
+3:     add i to sum
+4: return sum"
+"Input: brackets: a string of ""("" and "")""
+Output: True if every opening bracket has a corresponding closing bracket, False otherwise
+
+1: Initialize a stack to store opening brackets
+2: For each character ch in brackets:
+3:     If ch is an opening bracket:
+4:         Push ch onto the stack
+5:     If ch is a closing bracket:
+6:         If the stack is empty:
+7:             Return False
+8:         Pop the top element from the stack
+9: If the stack is empty:
+10:    Return True
+11: Else:
+12:    Return False"
+"Input: xs: a list of coefficients of a polynomial
+Output: derivative: a list representing the derivative of the polynomial
+
+1: Create an empty list called derivative
+2: Iterate through each coefficient in xs
+3: For each coefficient, multiply it by its corresponding power of x
+4: Append the result to the derivative list
+5: Remove the first element from the derivative list (since it represents the constant term)
+6: Return the derivative list"
+"Input: n: an integer
+Output: fib: the n-th element of the fibfib number sequence
+
+1: if n is 0:
+2:     return 0
+3: if n is 1:
+4:     return 0
+5: if n is 2:
+6:     return 1
+7: initialize fib1 as 0
+8: initialize fib2 as 0
+9: initialize fib3 as 1
+10: for i from 3 to n:
+11:     fib = fib1 + fib2 + fib3
+12:     fib1 = fib2
+13:     fib2 = fib3
+14:     fib3 = fib
+15: return fib"
+"Input: s: a string representing a word
+Output: count: the number of vowels in the string
+1: Initialize count to 0
+2: for each character ch in s:
+3:     if ch is 'a' or 'e' or 'i' or 'o' or 'u':
+4:         increment count by 1
+5:     if ch is 'y' and it is at the end of s:
+6:         increment count by 1
+7: return count"
+"Input: 
+x: an integer
+shift: an integer
+
+Output:
+result: a string representing the circular shifted digits of x
+
+1: Convert x to a string and store it in a variable called ""digits""
+2: Calculate the length of ""digits"" and store it in a variable called ""num_digits""
+3: If shift is greater than num_digits, reverse ""digits"" and store it in a variable called ""reversed_digits""
+4: Otherwise, shift the digits of ""digits"" right by shift and store the result in a variable called ""shifted_digits""
+5: Return ""reversed_digits"" if shift is greater than num_digits, otherwise return ""shifted_digits"""
+"Input: s: a string
+Output: sum: the sum of the ASCII codes of the upper characters in s
+1: Initialize sum to 0
+2: for each character ch in s:
+3:     if ch is an upper character:
+4:         add the ASCII code of ch to sum
+5: return sum"
+"Input: 
+- s: a string representing the number of apples and oranges in the basket
+- n: an integer representing the total number of fruits in the basket
+
+Output:
+- mango_count: an integer representing the number of mango fruits in the basket
+
+1. Initialize a variable mango_count to 0.
+2. Split the string s into a list of strings using space as the delimiter.
+3. Convert the first element of the list to an integer and assign it to the variable apple_count.
+4. Convert the second element of the list to an integer and assign it to the variable orange_count.
+5. Calculate the total number of fruits in the basket by adding apple_count and orange_count.
+6. Subtract the total number of fruits in the basket from n to get the number of mango fruits.
+7. Assign the result to mango_count.
+8. Return mango_count."
+"Input: arr: a list of non-negative integers
+Output: plucked_node: a list containing the smallest even value and its index
+
+1: Initialize a variable smallest_even to infinity
+2: Initialize a variable smallest_index to -1
+3: Iterate through each element num and its index i in arr:
+4:     If num is even and smaller than smallest_even:
+5:         Update smallest_even to num
+6:         Update smallest_index to i
+7: If smallest_index is -1:
+8:     Return an empty list
+9: Else:
+10:    Return [smallest_even, smallest_index]"
+"Input: lst: a non-empty list of positive integers
+Output: greatest_int: the greatest integer that meets the condition, or -1 if no such integer exists
+
+1: Initialize a variable greatest_int to -1
+2: For each integer num in lst:
+3:     If num is greater than zero and the frequency of num in lst is greater than or equal to num:
+4:         If greatest_int is -1 or num is greater than greatest_int:
+5:             Set greatest_int to num
+6: Return greatest_int"
+"Input: lst: a list of integers
+Output: sorted_lst: a list sorted in a strange order
+
+1: Find the minimum value in lst and remove it from lst
+2: Find the maximum value in the remaining lst and remove it from lst
+3: Append the minimum value to sorted_lst
+4: Append the maximum value to sorted_lst
+5: Repeat steps 1-4 until lst is empty
+6: Return sorted_lst"
+"Input: a, b, c: lengths of the three sides of a triangle
+Output: area: the area of the triangle rounded to 2 decimal points if the three sides form a valid triangle, otherwise -1
+
+1: if a + b > c and a + c > b and b + c > a:
+2:     s = (a + b + c) / 2
+3:     area = sqrt(s * (s - a) * (s - b) * (s - c))
+4:     return round(area, 2)
+5: else:
+6:     return -1"
+"Input: q: a list of elements
+       w: maximum possible weight
+Output: True if q will fly, False otherwise
+
+1: if q is not a palindromic list:
+2:     return False
+3: if the sum of elements in q is greater than w:
+4:     return False
+5: return True"
+pass
+"Input: lst1: a list of strings
+       lst2: a list of strings
+Output: result: a list of strings
+
+1: Initialize total1 to 0
+2: Initialize total2 to 0
+3: for each string s in lst1:
+4:     Add the length of s to total1
+5: for each string s in lst2:
+6:     Add the length of s to total2
+7: if total1 < total2:
+8:     return lst1
+9: else if total1 > total2:
+10:    return lst2
+11: else:
+12:    return lst1"
+"Input: a: an integer less than 100
+Output: is_multiply_prime: a boolean value indicating whether a is the multiplication of 3 prime numbers
+1: Create a list of prime numbers less than 100
+2: for each prime number p1 in the list:
+3:     for each prime number p2 in the list:
+4:         for each prime number p3 in the list:
+5:             if p1 * p2 * p3 is equal to a:
+6:                 return True
+7: return False"
+"Input: x: an integer, n: an integer
+Output: True if x is a simple power of n, False otherwise
+1: for each integer i from 0 to x:
+2:     if n**i is equal to x:
+3:         return True
+4: return False"
+"Input: a: an integer
+Output: True if a is a cube of some integer number, False otherwise
+1: for each integer i from 1 to a:
+2:     if i^3 is equal to a:
+3:         return True
+4: return False"
+"Input: num: a hexadecimal number as a string
+Output: count: the number of hexadecimal digits that are primes
+
+1: Initialize count to 0
+2: for each digit in num:
+3:     if digit is '2' or '3' or '5' or '7' or 'B' or 'D':
+4:         increment count by 1
+5: return count"
+"Input: decimal: an integer
+Output: binary: a string representing the binary format of decimal
+1: Initialize an empty string binary
+2: while decimal is greater than 0:
+3:     Append the remainder of decimal divided by 2 to binary
+4:     Divide decimal by 2 and update decimal
+5: Reverse the string binary
+6: Add 'db' at the beginning and at the end of binary
+7: Return binary"
+"Input: s: a string
+Output: happy: a boolean value indicating whether the string is happy or not
+1: if the length of s is less than 3:
+2:     return False
+3: for i in range(len(s) - 2):
+4:     if s[i] == s[i+1] or s[i] == s[i+2] or s[i+1] == s[i+2]:
+5:         return False
+6: return True"
+"Input: grades: a list of GPAs for some students
+Output: letter_grades: a list of letter grades corresponding to the GPAs in grades
+
+1: Initialize an empty list called letter_grades
+2: For each GPA in grades:
+3:     If GPA is greater than or equal to 4.0:
+4:         Append ""A+"" to letter_grades
+5:     Else if GPA is greater than or equal to 3.7:
+6:         Append ""A"" to letter_grades
+7:     Else if GPA is greater than or equal to 3.3:
+8:         Append ""A-"" to letter_grades
+9:     Else if GPA is greater than or equal to 3.0:
+10:        Append ""B+"" to letter_grades
+11:    Else if GPA is greater than or equal to 2.7:
+12:        Append ""B"" to letter_grades
+13:    Else if GPA is greater than or equal to 2.3:
+14:        Append ""B-"" to letter_grades
+15:    Else if GPA is greater than or equal to 2.0:
+16:        Append ""C+"" to letter_grades
+17:    Else if GPA is greater than or equal to 1.7:
+18:        Append ""C"" to letter_grades
+19:    Else if GPA is greater than or equal to 1.3:
+20:        Append ""C-"" to letter_grades
+21:    Else if GPA is greater than or equal to 1.0:
+22:        Append ""D+"" to letter_grades
+23:    Else if GPA is greater than or equal to 0.7:
+24:        Append ""D"" to letter_grades
+25:    Else if GPA is greater than or equal to 0.0:
+26:        Append ""D-"" to letter_grades
+27:    Else:
+28:        Append ""E"" to letter_grades
+29: Return letter_grades"
+"Input: string: a string
+Output: is_prime: a boolean value indicating whether the length of the string is prime or not
+1: length = length of string
+2: if length is less than or equal to 1:
+3:     return False
+4: for i in range(2, int(sqrt(length)) + 1):
+5:     if length is divisible by i:
+6:         return False
+7: return True"
+"Input: n: a positive integer
+Output: count: the count of n-digit positive integers that start or end with 1
+1: Initialize count to 0
+2: for each number i from 1 to 9:
+3:     if i is equal to 1 or i is equal to 10 - n:
+4:         increment count by 1
+5: return count"
+"Input: N: a positive integer
+Output: sum: the total sum of the digits of N in binary
+1: Convert N to binary representation
+2: Initialize sum to 0
+3: for each digit d in the binary representation of N:
+4:     Add d to sum
+5: return sum"
+"Input: lst: a non-empty list of integers
+Output: sum: the sum of even elements at odd indices in lst
+
+1: Initialize sum to 0
+2: Iterate through each element in lst with index i:
+3:     if i is odd and lst[i] is even:
+4:         Add lst[i] to sum
+5: Return sum"
+"Input: s: a string
+Output: ordered_s: an ordered version of s
+
+1: Split the string s into a list of words using space as the delimiter.
+2: Initialize an empty list called ordered_words.
+3: For each word in the list of words:
+4:     Convert the word into a list of characters.
+5:     Sort the list of characters in ascending order based on ascii value.
+6:     Join the sorted list of characters back into a string.
+7:     Append the sorted word to the ordered_words list.
+8: Join the ordered_words list back into a string using space as the delimiter.
+9: Return the ordered string."
+"Input: lst: a nested list representing a 2-dimensional data
+       x: an integer
+
+Output: coordinates: a list of tuples representing the coordinates of x in lst
+
+1: Initialize an empty list called ""coordinates""
+2: Iterate through each row in lst using a for loop:
+    3: Iterate through each column in the current row using a for loop:
+        4: If the current element is equal to x:
+            5: Append a tuple (row index, column index) to ""coordinates""
+6: Sort ""coordinates"" in ascending order based on the row index
+7: Sort ""coordinates"" in descending order based on the column index within each row
+8: Return ""coordinates"""
+"Input: array: a list of non-negative integers
+Output: sorted_array: a copy of the given array after sorting
+
+1: Calculate the sum of the first index value and the last index value of the array.
+2: Check if the sum is odd or even.
+3: If the sum is odd, sort the array in ascending order and assign it to sorted_array.
+4: If the sum is even, sort the array in descending order and assign it to sorted_array.
+5: Return sorted_array."
+"Input: s: a string
+Output: encrypted_s: a string encrypted with the alphabet being rotated
+
+1: Initialize an empty string encrypted_s
+2: For each character ch in s:
+3:     If ch is a lowercase letter:
+4:         Convert ch to its ASCII code
+5:         Subtract 97 from the ASCII code to get the index of ch in the alphabet
+6:         Add 2 multiplied by 2 to the index
+7:         Take the modulo 26 of the result to ensure it stays within the range of the alphabet
+8:         Add 97 to the result to convert it back to ASCII code
+9:         Convert the ASCII code back to a character and append it to encrypted_s
+10:    Else if ch is an uppercase letter:
+11:        Convert ch to its ASCII code
+12:        Subtract 65 from the ASCII code to get the index of ch in the alphabet
+13:        Add 2 multiplied by 2 to the index
+14:        Take the modulo 26 of the result to ensure it stays within the range of the alphabet
+15:        Add 65 to the result to convert it back to ASCII code
+16:        Convert the ASCII code back to a character and append it to encrypted_s
+17:    Else:
+18:        Append ch to encrypted_s as it is
+19: Return encrypted_s"
+"Input: lst: a list of integers
+Output: second_smallest: the second smallest element in lst
+
+1: Sort the list lst in ascending order
+2: If the length of lst is less than 2, return None
+3: Initialize a variable second_smallest to None
+4: Iterate through the sorted list lst starting from index 1
+5:     If the current element is not equal to the previous element, update second_smallest to the current element and break the loop
+6: Return second_smallest"
+"Input: S: a string of words
+Output: count: the number of boredoms in S
+1: Initialize count to 0
+2: Split S into sentences using delimiters '.', '?' or '!'
+3: For each sentence in the list of sentences:
+4:     If the sentence starts with the word ""I"":
+5:         Increment count by 1
+6: Return count"
+"Input: x, y, z: three numbers
+Output: True if one of the numbers is equal to the sum of the other two and all numbers are integers, False otherwise
+
+1: if x + y == z and x, y, z are all integers:
+2:     return True
+3: elif x + z == y and x, y, z are all integers:
+4:     return True
+5: elif y + z == x and x, y, z are all integers:
+6:     return True
+7: else:
+8:     return False"
+"Input: message: a string
+Output: encoded_message: an encoded string
+
+1: Initialize an empty string encoded_message
+2: For each character ch in message:
+3:     If ch is a vowel:
+4:         Convert ch to lowercase
+5:         Find the index of ch in the English alphabet
+6:         Add 2 to the index
+7:         If the index is greater than or equal to 26, subtract 26 from the index
+8:         Convert the new index to a character and add it to encoded_message
+9:     Else if ch is an uppercase letter:
+10:        Convert ch to lowercase and add it to encoded_message
+11:    Else if ch is a lowercase letter:
+12:        Convert ch to uppercase and add it to encoded_message
+13:    Else:
+14:        Add ch to encoded_message
+15: Return encoded_message"
+"Input: lst: a list of integers
+Output: sum: the sum of digits of the largest prime value in lst
+1: Initialize max_prime as 0
+2: for each number num in lst:
+3:     if num is prime and num > max_prime:
+4:         set max_prime as num
+5: if max_prime is 0:
+6:     return None
+7: else:
+8:     Initialize sum as 0
+9:     for each digit in the digits of max_prime:
+10:        add digit to sum
+11:    return sum"
+"Input: dict: a dictionary
+Output: True if all keys are strings in lower case or all keys are strings in upper case, else False
+1: if dict is empty:
+2:     return False
+3: initialize a variable lower_case to True
+4: initialize a variable upper_case to True
+5: for each key in dict:
+6:     if key is not a string or key is not in lower case:
+7:         set lower_case to False
+8:     if key is not a string or key is not in upper case:
+9:         set upper_case to False
+10: if lower_case is True or upper_case is True:
+11:     return True
+12: else:
+13:     return False"
+"Input: n: a non-negative integer
+Output: primes: an array of the first n prime numbers less than n
+
+1: Initialize an empty array primes
+2: for each number i from 2 to n-1:
+3:     if i is prime:
+4:         append i to primes
+5:         if the length of primes is equal to n:
+6:             break the loop
+7: return primes"
+"Input: a: an integer, b: an integer
+Output: product: the product of the unit digits of a and b
+
+1: Get the unit digit of a and store it in a variable called unit_a
+2: Get the unit digit of b and store it in a variable called unit_b
+3: Calculate the product of unit_a and unit_b and store it in a variable called product
+4: Return product"
+"Input: s: a string
+Output: count: the number of uppercase vowels in even indices of s
+1: Initialize count to 0
+2: for each character ch at even index in s:
+3:     if ch is an uppercase vowel:
+4:         increment count by 1
+5: return count"
+"Input: value: a string representing a number
+Output: closest_int: the closest integer to the given number
+
+1: Convert the value to a float number
+2: Calculate the floor and ceiling of the float number
+3: Calculate the difference between the float number and the floor
+4: Calculate the difference between the ceiling and the float number
+5: If the difference between the floor and the float number is smaller than or equal to the difference between the ceiling and the float number:
+6:     Return the floor as the closest integer
+7: Else:
+8:     Return the ceiling as the closest integer"
+"Input: n: a positive integer
+Output: levels: a list of integers representing the number of stones in each level
+
+1: Initialize an empty list called levels
+2: Set the variable stones to n
+3: For i in range(n):
+4:     Append stones to levels
+5:     If n is odd:
+6:         Increment stones by 2
+7:     Else:
+8:         Increment stones by 1
+9: Return levels"
+"Input: s: a string of words separated by commas or spaces
+Output: words: an array of the words in s
+
+1: Initialize an empty array called words
+2: Initialize an empty string called word
+3: Iterate through each character ch in s:
+4:     if ch is a comma or a space:
+5:         if word is not empty:
+6:             append word to words
+7:             reset word to an empty string
+8:     else:
+9:         add ch to word
+10: if word is not empty:
+11:     append word to words
+12: return words"
+"Input: x: a positive number
+       y: a positive number
+Output: num: the biggest even integer number in the range [x, y] inclusive, or -1 if there's no such number
+
+1: Initialize num as -1
+2: for each number i in the range [x, y]:
+3:     if i is even and i is greater than num:
+4:         set num as i
+5: return num"
+"Input: n: a positive integer
+       m: a positive integer
+Output: result: the rounded average of the integers from n through m in binary
+
+1: if n > m:
+2:     return -1
+3: sum = 0
+4: count = 0
+5: for i in range(n, m+1):
+6:     sum += i
+7:     count += 1
+8: avg = sum / count
+9: rounded_avg = round(avg)
+10: binary_avg = bin(rounded_avg)
+11: return binary_avg"
+"Input: x: a list of positive integers
+Output: result: a sorted list of positive integers that do not contain any even digit
+
+1: Initialize an empty list called ""result""
+2: For each number num in x:
+3:     Convert num to a string and store it in a variable called ""num_str""
+4:     Initialize a variable called ""has_even_digit"" to False
+5:     For each character ch in num_str:
+6:         If ch is an even digit (0, 2, 4, 6, 8):
+7:             Set ""has_even_digit"" to True
+8:             Break out of the loop
+9:     If ""has_even_digit"" is False:
+10:        Append num to ""result""
+11: Sort ""result"" in increasing order
+12: Return ""result"""
+"Input: arr: an array of integers
+Output: result: an array of strings
+
+1: Initialize an empty list called ""result""
+2: Sort the integers in arr that are between 1 and 9 inclusive
+3: Reverse the sorted integers
+4: For each integer num in the reversed sorted integers:
+5:     If num is 1, append ""One"" to result
+6:     If num is 2, append ""Two"" to result
+7:     If num is 3, append ""Three"" to result
+8:     If num is 4, append ""Four"" to result
+9:     If num is 5, append ""Five"" to result
+10:    If num is 6, append ""Six"" to result
+11:    If num is 7, append ""Seven"" to result
+12:    If num is 8, append ""Eight"" to result
+13:    If num is 9, append ""Nine"" to result
+14: Return the result list"
+"Input: n: an integer
+Output: result: a list of size n
+
+1: Initialize an empty list called result
+2: for i in range(1, n+1):
+3:     if i is even:
+4:         Calculate the factorial of i and append it to result
+5:     else:
+6:         Calculate the sum of numbers from 1 to i and append it to result
+7: return result"
+"Input: n: a positive integer
+Output: tuple: (even_count, odd_count)
+
+1: Initialize even_count and odd_count to 0
+2: for each number i in the range from 1 to n:
+3:     Convert i to a string and assign it to the variable num_str
+4:     if num_str is equal to its reverse:
+5:         if i is even:
+6:             increment even_count by 1
+7:         else:
+8:             increment odd_count by 1
+9: return the tuple (even_count, odd_count)"
+"Input: arr: an array of integers
+Output: count: the number of elements in arr with a sum of digits > 0
+
+1: Initialize count to 0
+2: For each number num in arr:
+3:     Initialize sum_digits to 0
+4:     If num is negative:
+5:         Convert num to a string and remove the negative sign
+6:         Add the negative sign to sum_digits
+7:     For each digit in num:
+8:         Add the digit to sum_digits
+9:     If sum_digits > 0:
+10:        Increment count by 1
+11: Return count"
+"Input: arr: a list of integers
+
+Output: possible: a boolean value indicating if it is possible to obtain a sorted array
+
+1: if arr is empty:
+2:     return True
+3: else:
+4:     find the minimum value in arr
+5:     find the index of the minimum value in arr
+6:     shift all elements in arr to the right by (len(arr) - index) positions
+7:     check if the resulting array is sorted in non-decreasing order
+8:     if the resulting array is sorted:
+9:         return True
+10:    else:
+11:        return False"
+"Input: lst1: a list of numbers
+       lst2: a list of numbers
+Output: ""YES"" or ""NO""
+
+1: Initialize a variable count to 0
+2: For each number num in lst1:
+3:     If num is odd:
+4:         Increment count by 1
+5: For each number num in lst2:
+6:     If num is odd:
+7:         Increment count by 1
+8: If count is even:
+9:     Return ""YES""
+10: Else:
+11:     Return ""NO"""
+"Input: test: a string representing space separated lowercase letters
+Output: result: a dictionary containing the letter(s) with the most repetition and their count
+
+1: Initialize an empty dictionary called ""count_dict""
+2: Split the input string into a list of letters using the space as a delimiter
+3: Iterate through each letter in the list:
+    4: If the letter is already a key in ""count_dict"", increment its value by 1
+    5: If the letter is not a key in ""count_dict"", add it as a key with a value of 1
+6: Find the maximum value in ""count_dict"" using the max() function
+7: Create an empty list called ""max_letters""
+8: Iterate through each key-value pair in ""count_dict"":
+    9: If the value is equal to the maximum value, append the key to ""max_letters""
+10: Create an empty dictionary called ""result""
+11: Add the key ""letters"" to ""result"" with a value of ""max_letters""
+12: Add the key ""count"" to ""result"" with a value of the maximum value
+13: Return ""result"""
+"Input: s: a string, c: a string
+Output: result: a string, is_palindrome: True/False
+
+1: Initialize an empty string result
+2: for each character ch in s:
+3:     if ch is not equal to any character in c:
+4:         append ch to result
+5: if result is equal to the reverse of result:
+6:     set is_palindrome to True
+7: else:
+8:     set is_palindrome to False
+9: return (result, is_palindrome)"
+"Input: lst: a list of strings
+Output: result: a list of integers representing the number of odd digits in each string
+
+1: Initialize an empty list called result
+2: Iterate through each string in lst
+3: Initialize a variable called count to 0
+4: Iterate through each character in the string
+5: Check if the character is a digit and if it is odd
+6: If it is odd, increment the count by 1
+7: Append the count to the result list
+8: Return the result list"
+"Input: nums: an array of integers
+Output: min_sum: the minimum sum of any non-empty sub-array of nums
+
+1: Initialize min_sum as infinity
+2: Iterate through each element in nums:
+3:     Initialize current_sum as 0
+4:     Iterate through each element from the current element to the end of nums:
+5:         Add the current element to current_sum
+6:         If current_sum is less than min_sum, update min_sum with current_sum
+7: Return min_sum"
+"Input: 
+- grid: a rectangular grid of wells represented as a list of lists
+- capacity: the capacity of each bucket
+
+Output:
+- count: the number of times the buckets need to be lowered
+
+1. Initialize count to 0.
+2. Iterate through each row in the grid:
+    - For each row, iterate through each well:
+        - If the well contains water (value is 1):
+            - Calculate the number of times the bucket needs to be lowered to empty the well:
+                - Divide the value of the well by the capacity of the bucket and round up to the nearest integer using math.ceil()
+            - Add the calculated number of times to count
+3. Return count."
+"Input: arr: a list of non-negative integers
+Output: sorted_arr: a sorted list of non-negative integers
+
+1: Create a helper function count_ones(num) that takes an integer num as input and returns the number of ones in its binary representation.
+2: Create a custom sorting function that takes two integers a and b as input.
+3: Inside the sorting function, compare the number of ones in the binary representation of a and b.
+4: If the number of ones in a is less than the number of ones in b, return -1.
+5: If the number of ones in a is greater than the number of ones in b, return 1.
+6: If the number of ones in a is equal to the number of ones in b, compare the decimal values of a and b.
+7: If the decimal value of a is less than the decimal value of b, return -1.
+8: If the decimal value of a is greater than the decimal value of b, return 1.
+9: If the decimal value of a is equal to the decimal value of b, return 0.
+10: Use the custom sorting function to sort the input array arr in ascending order.
+11: Return the sorted array sorted_arr."
+"Input: 
+- s: a string
+- n: a natural number
+
+Output:
+- words: a list of words from string s that contain exactly n consonants, in the order they appear in s
+
+1. Initialize an empty list called ""words""
+2. If s is empty, return an empty list
+3. Split the string s into a list of words using spaces as the delimiter
+4. For each word in the list of words:
+    5. Initialize a variable called ""consonant_count"" to 0
+    6. For each character in the word:
+        7. If the character is a consonant (not a vowel):
+            8. Increment the consonant_count by 1
+    9. If the consonant_count is equal to n:
+        10. Append the word to the ""words"" list
+11. Return the ""words"" list"
+"Input: word: a string
+
+Output: closest_vowel: a vowel that stands between two consonants from the right side of the word, or an empty string if no such vowel is found
+
+1: Initialize closest_vowel as an empty string
+2: Iterate through the characters in the word from right to left:
+3:     If the current character is a consonant:
+4:         If the next character is a vowel:
+5:             Set closest_vowel as the next character
+6:             Break the loop
+7: Return closest_vowel"
+"Input: lst: a list of two strings
+
+Output: result: a string ('Yes' or 'No')
+
+1. Concatenate the two strings in the list to form a new string.
+2. Initialize a stack to keep track of the parentheses.
+3. Iterate through each character in the new string.
+4. If the character is an opening parenthesis '(', push it onto the stack.
+5. If the character is a closing parenthesis ')', check if the stack is empty.
+6. If the stack is empty, return 'No' because the parentheses are not balanced.
+7. If the stack is not empty, pop the top element from the stack.
+8. After iterating through all characters, check if the stack is empty.
+9. If the stack is empty, return 'Yes' because the parentheses are balanced.
+10. If the stack is not empty, return 'No' because the parentheses are not balanced."
+"Input: arr: a list of integers, k: a positive integer
+Output: result: a sorted list of length k with the maximum k numbers in arr
+
+1: Sort the array arr in descending order
+2: Create an empty list result
+3: Iterate over the first k elements in the sorted array arr
+4:     Append each element to the list result
+5: Return the list result"
+"Input: lst: a non-empty list of integers
+Output: sum: the sum of all odd elements in even positions in lst
+
+1: Initialize sum to 0
+2: Iterate through each element num in lst with index i:
+3:     if i is even and num is odd:
+4:         Add num to sum
+5: Return sum"
+"Input: arr: a non-empty array of integers
+       k: an integer
+
+Output: sum: the sum of the elements with at most two digits from the first k elements of arr
+
+1: Initialize sum as 0
+2: Iterate over the first k elements of arr
+3:     If the element has at most two digits:
+4:         Add the element to sum
+5: Return sum"
+"Input: n - a positive integer
+Output: collatz_list - a sorted list of odd numbers in the Collatz sequence
+
+1. Initialize an empty list called collatz_list
+2. Add n to collatz_list
+3. While n is not equal to 1:
+    4. If n is even:
+        5. Set n to n divided by 2
+    6. Else (n is odd):
+        7. Set n to 3 times n plus 1
+    8. If n is odd:
+        9. Add n to collatz_list
+10. Sort collatz_list in increasing order
+11. Return collatz_list"
+"Input: date: a string representing a date
+Output: valid: a boolean indicating whether the date is valid or not
+1: if date is empty:
+2:     return False
+3: if the format of date is not mm-dd-yyyy:
+4:     return False
+5: extract the month, day, and year from date
+6: if month is not between 1 and 12:
+7:     return False
+8: if month is 1, 3, 5, 7, 8, 10, or 12:
+9:     if day is not between 1 and 31:
+10:         return False
+11: if month is 4, 6, 9, or 11:
+12:     if day is not between 1 and 30:
+13:         return False
+14: if month is 2:
+15:     if year is not a leap year:
+16:         if day is not between 1 and 28:
+17:             return False
+18:     else:
+19:         if day is not between 1 and 29:
+20:             return False
+21: return True"
+"Input: txt: a string of words
+Output: words: a list of words split on whitespace, or count: the number of lower-case letters with odd order in the alphabet
+
+1: if txt contains whitespace:
+2:     split txt on whitespace and assign the result to words
+3: else if txt contains commas:
+4:     split txt on commas and assign the result to words
+5: else:
+6:     initialize count to 0
+7:     for each character ch in txt:
+8:         if ch is a lower-case letter:
+9:             calculate the order of ch in the alphabet using ord() function
+10:            if the order is odd:
+11:                increment count by 1
+12:    return count if count is not 0, otherwise return words"
+"Input: lst: a list of integers
+Output: sorted: a boolean value indicating whether lst is sorted in ascending order
+
+1: if len(lst) <= 1:
+2:     return True
+3: for i in range(len(lst)-1):
+4:     if lst[i] >= lst[i+1]:
+5:         return False
+6: return True"
+"Input: interval1: a pair of integers representing the first interval
+       interval2: a pair of integers representing the second interval
+Output: result: a string indicating whether the length of the intersection is a prime number or not
+
+1: Calculate the start and end points of the intersection:
+   1.1: Set the start point of the intersection as the maximum of the start points of interval1 and interval2
+   1.2: Set the end point of the intersection as the minimum of the end points of interval1 and interval2
+   1.3: If the start point is greater than the end point, return ""NO"" (the intervals don't intersect)
+
+2: Calculate the length of the intersection:
+   2.1: Set the length as the difference between the end point and the start point plus 1
+
+3: Check if the length of the intersection is a prime number:
+   3.1: If the length is less than or equal to 1, return ""NO"" (prime numbers are greater than 1)
+   3.2: Iterate from 2 to the square root of the length (inclusive):
+        3.2.1: If the length is divisible by any number in the iteration, return ""NO""
+   3.3: If the loop completes without finding a divisor, return ""YES"" (the length is a prime number)"
+"Input: arr: a list of integers
+Output: result: an integer
+
+1: if arr is empty:
+2:     return None
+3: initialize a variable sign_product to 1
+4: initialize a variable magnitude_sum to 0
+5: for each number num in arr:
+6:     if num is positive:
+7:         add num to magnitude_sum
+8:         multiply sign_product by 1
+9:     if num is negative:
+10:        add the absolute value of num to magnitude_sum
+11:        multiply sign_product by -1
+12:    if num is zero:
+13:        multiply sign_product by 0
+14: return magnitude_sum multiplied by sign_product"
+"Input: grid: a 2D list representing the grid
+       k: a positive integer representing the length of the minimum path
+
+Output: path: an ordered list of values on the cells that the minimum path goes through
+
+1: Create a function minPath(grid, k) that takes a grid and a positive integer k as input.
+2: Create an empty list called path to store the values on the cells that the minimum path goes through.
+3: Create a nested loop to iterate through each cell in the grid.
+4: Inside the nested loop, create a recursive function called findPath(cell, length) that takes a cell and the current length of the path as input.
+5: Inside the findPath function, add the value of the current cell to the path list.
+6: Check if the length of the path is equal to k. If it is, return the path.
+7: If the length of the path is less than k, iterate through the neighboring cells of the current cell.
+8: For each neighboring cell, check if it has already been visited by checking if its value is in the path list.
+9: If the neighboring cell has not been visited, recursively call the findPath function with the neighboring cell and the updated length of the path.
+10: After the recursive call, remove the value of the current cell from the path list to backtrack.
+11: After the nested loop, return the path list."
+"Input: n: a non-negative integer number
+Output: seq: a list of the first n + 1 numbers of the Tribonacci sequence
+
+1: if n is 0:
+2:     return [0]
+3: if n is 1:
+4:     return [0, 1]
+5: if n is 2:
+6:     return [0, 1, 1]
+7: initialize seq as [0, 1, 1]
+8: for i from 3 to n:
+9:     if i is even:
+10:        append 1 + i / 2 to seq
+11:    else:
+12:        append seq[i - 1] + seq[i - 2] + seq[i + 1] to seq
+13: return seq"
+"Input: n: a positive integer
+Output: product: the product of the odd digits in n
+
+1: Initialize product as 1
+2: Convert n to a string and iterate through each character ch in the string:
+3:     Convert ch back to an integer
+4:     If ch is odd:
+5:         Multiply product by ch
+6: If product is still 1:
+7:     Return 0
+8: Else:
+9:     Return product"
+"Input: string: a string containing only square brackets
+Output: True if there is a valid subsequence of brackets where at least one bracket is nested, False otherwise
+
+1: Initialize a stack to store the opening brackets
+2: Iterate through each character ch in the string
+3: If ch is an opening bracket, push it onto the stack
+4: If ch is a closing bracket:
+5:     If the stack is empty, return False (no opening bracket to match)
+6:     Pop the top element from the stack
+7: If the stack is empty, return False (no nested brackets found)
+8: Otherwise, return True (nested brackets found)"
+"Input: lst: a list of numbers
+Output: sum_squares: the sum of squared numbers in lst
+
+1: Initialize sum_squares to 0
+2: for each number num in lst:
+3:     Round num to the upper integer
+4:     Square the rounded number
+5:     Add the squared number to sum_squares
+6: return sum_squares"
+"Input: txt: a string
+Output: is_last_char: a boolean value indicating whether the last character is an alphabetical character and not part of a word
+1: Split the string into a list of words using space as the delimiter
+2: Get the last word from the list
+3: Get the last character from the last word
+4: Check if the last character is an alphabetical character
+5: If the last character is an alphabetical character and not part of a word, return True
+6: Otherwise, return False"
+"Input: arr: a list of integers
+Output: index: an integer representing the largest index of an element which is not greater than or equal to the element immediately preceding it, or -1 if no such element exists
+
+1: Initialize a variable index to -1
+2: Iterate through the elements in arr starting from the second element:
+3:     If the current element is not greater than or equal to the element immediately preceding it:
+4:         Set index to the current index
+5: Return index"
+"Input: lst: a list of integers
+Output: (a, b): a tuple where 'a' is the largest negative integer and 'b' is the smallest positive integer in lst
+
+1: Initialize variables a and b as None
+2: Iterate through each element num in lst:
+3:     if num is negative and a is None or num is greater than a:
+4:         set a as num
+5:     if num is positive and b is None or num is less than b:
+6:         set b as num
+7: Return (a, b)"
+"Input: a: an integer, float, or string representing a real number
+       b: an integer, float, or string representing a real number
+Output: larger: the larger variable in its given variable type, or None if the values are equal
+
+1: if a is an integer and b is an integer:
+2:     if a is greater than b:
+3:         return a
+4:     else if b is greater than a:
+5:         return b
+6:     else:
+7:         return None
+8: else if a is a float and b is a float:
+9:     if a is greater than b:
+10:        return a
+11:    else if b is greater than a:
+12:        return b
+13:    else:
+14:        return None
+15: else if a is a string and b is a string:
+16:    convert a to a float by replacing ',' with '.' if necessary
+17:    convert b to a float by replacing ',' with '.' if necessary
+18:    if a is greater than b:
+19:        return a
+20:    else if b is greater than a:
+21:        return b
+22:    else:
+23:        return None
+24: else:
+25:    return None"
+"Input: n: an integer
+Output: result: a boolean value indicating whether n can be written as the sum of exactly 4 positive even numbers
+
+1: Initialize a counter variable, count, to 0
+2: Initialize a variable, sum_even, to 0
+3: Iterate through the range from 2 to n (inclusive) with a step size of 2
+4:     Add the current number to sum_even
+5:     Increment count by 1
+6:     If count is equal to 4 and sum_even is equal to n, return True
+7: If the loop completes without finding a solution, return False"
+"Input: n: an integer
+Output: result: the special factorial of n
+1: Initialize result to 1
+2: for i from n to 1:
+3:     Initialize factorial to 1
+4:     for j from i to 1:
+5:         Multiply factorial by j
+6:     Multiply result by factorial
+7: return result"
+"Input: text: a string
+Output: new_text: a modified string with spaces replaced by underscores and consecutive spaces replaced by -
+
+1: Initialize a variable new_text as an empty string
+2: Initialize a variable count as 0
+3: Iterate through each character ch in text:
+4:     If ch is a space:
+5:         If count is less than 2:
+6:             Append an underscore to new_text
+7:         Increment count by 1
+8:     Else:
+9:         If count is greater than 2:
+10:            Append a - to new_text
+11:        Append ch to new_text
+12:        Reset count to 0
+13: Return new_text"
+"Input: file_name: a string representing a file's name
+Output: 'Yes' if the file's name is valid, 'No' otherwise
+
+1: count the number of digits in file_name
+2: if the count is more than three, return 'No'
+3: count the number of dots in file_name
+4: if the count is not equal to one, return 'No'
+5: split file_name into two parts at the dot
+6: if the first part is empty or does not start with a letter, return 'No'
+7: if the second part is not in ['txt', 'exe', 'dll'], return 'No'
+8: return 'Yes'"
+"Input: lst: a list of integers
+Output: sum: the sum of all entries in lst after applying the specified operations
+
+1: Initialize sum to 0
+2: For each index i and entry num in lst:
+3:     If i is a multiple of 3:
+4:         Square num and add it to sum
+5:     If i is a multiple of 4 and not a multiple of 3:
+6:         Cube num and add it to sum
+7: Return sum"
+"Input: sentence: a string representing a sentence
+
+Output: new_sentence: a string containing words with prime lengths
+
+1: Split the sentence into a list of words using space as the delimiter
+2: Initialize an empty list called prime_words
+3: For each word in the list of words:
+4:     If the length of the word is a prime number:
+5:         Append the word to the prime_words list
+6: Join the prime_words list into a string using space as the separator
+7: Return the new_sentence string"
+"Input: x: a string representation of a fraction
+       n: a string representation of a fraction
+Output: True if x * n evaluates to a whole number, False otherwise
+
+1: Convert x and n to fractions
+2: Multiply x and n
+3: Check if the result is a whole number
+4: If the result is a whole number, return True
+5: If the result is not a whole number, return False"
+"Input: nums: a list of integers
+Output: sorted_nums: a list of integers sorted in ascending order according to the sum of their digits
+
+1: Create an empty dictionary called ""digit_sums""
+2: Create an empty list called ""sorted_nums""
+3: Iterate over each number ""num"" in ""nums"" with index ""i"":
+4:     Calculate the sum of the digits of ""num"" and store it in a variable called ""sum_digits""
+5:     If ""sum_digits"" is not already a key in ""digit_sums"":
+6:         Add ""sum_digits"" as a key in ""digit_sums"" and set its value as a list containing the index ""i"" and ""num""
+7:     Else:
+8:         Append the index ""i"" and ""num"" to the value list of ""sum_digits"" in ""digit_sums""
+9: Sort the keys of ""digit_sums"" in ascending order
+10: Iterate over each key ""sum_digits"" in the sorted keys of ""digit_sums"":
+11:    Get the value list of ""sum_digits"" from ""digit_sums""
+12:    Sort the value list based on the index in original list
+13:    Append the sorted value list to ""sorted_nums""
+14: Return ""sorted_nums"""
+"Input: nums: an array of numbers
+Output: count: the number of elements in nums that are greater than 10 and have both first and last digits odd
+1: Initialize count to 0
+2: for each number num in nums:
+3:     Convert num to a string and store it in str_num
+4:     if num is greater than 10 and the first and last digits of str_num are odd:
+5:         Increment count by 1
+6: Return count"
+"Input: n - a positive integer
+Output: count - the number of triples (a[i], a[j], a[k]) where i < j < k and a[i] + a[j] + a[k] is a multiple of 3
+
+1. Initialize count to 0
+2. Create an empty list a
+3. For each i from 1 to n:
+    4. Calculate a[i] = i * i - i + 1
+5. For each i from 1 to n-2:
+    6. For each j from i+1 to n-1:
+        7. For each k from j+1 to n:
+            8. If (a[i] + a[j] + a[k]) is divisible by 3:
+                9. Increment count by 1
+10. Return count"
+"Input: planet1: a string representing the name of a planet
+       planet2: a string representing the name of a planet
+Output: planets: a tuple containing the planets between planet1 and planet2
+
+1: Create a list of all the planets in the solar system in the correct order: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune
+2: Check if planet1 and planet2 are valid planet names by comparing them to the list of planets
+3: If either planet1 or planet2 is not a valid planet name, return an empty tuple
+4: Find the index of planet1 and planet2 in the list of planets
+5: If planet1 is located after planet2 in the list, swap their positions
+6: Create a sublist of planets between the index of planet1 and planet2, excluding planet1 and planet2
+7: Sort the sublist of planets by their proximity to the sun
+8: Convert the sublist of planets to a tuple
+9: Return the tuple of planets"
+"Input: lst: a list of strings
+Output: sorted_lst: a list of strings in sorted order
+
+1: Create an empty list called ""filtered_lst""
+2: For each string ""word"" in lst:
+3:     If the length of ""word"" is even:
+4:         Append ""word"" to ""filtered_lst""
+5: Sort ""filtered_lst"" in ascending order by length of each word
+6: Sort ""filtered_lst"" alphabetically if two words have the same length
+7: Return ""filtered_lst"""
+"Input: 
+- n: an integer
+- x: a value
+- y: a value
+
+Output:
+- result: the value of x if n is a prime number, otherwise the value of y
+
+1: if n is less than or equal to 1:
+2:     return y
+3: for i in range(2, int(n/2) + 1):
+4:     if n is divisible by i:
+5:         return y
+6: return x"
+"Input: lst: a list of numbers
+Output: sum: the sum of squares of the odd numbers in lst
+
+1: Initialize sum to 0
+2: for each number num in lst:
+3:     if num is an odd number and num is positive and num is an integer:
+4:         square num and add it to sum
+5: return sum"
+"Input: 
+- game: an array of scores
+- guess: an array of guesses
+
+Output:
+- diff: an array of the same length as game and guess, denoting the difference between each guess and the corresponding score
+
+1. Initialize an empty array diff
+2. Iterate over each index i in the range from 0 to the length of game:
+    3. Calculate the absolute difference between guess[i] and game[i]
+    4. Append the difference to diff
+5. Return diff"
+"Input: class_name (string), extensions (list of strings)
+Output: strongest_extension (string)
+
+1. Initialize a variable strongest_extension_name to an empty string.
+2. Initialize a variable strongest_extension_strength to None.
+3. Iterate over each extension in the extensions list:
+    4. Initialize a variable cap_count to 0.
+    5. Initialize a variable sm_count to 0.
+    6. Iterate over each character in the extension:
+        7. If the character is uppercase, increment cap_count by 1.
+        8. If the character is lowercase, increment sm_count by 1.
+    9. Calculate the strength of the extension using the formula: strength = cap_count - sm_count.
+    10. If strongest_extension_strength is None or strength is greater than strongest_extension_strength:
+        11. Update strongest_extension_name to the current extension.
+        12. Update strongest_extension_strength to the current strength.
+13. Return the string in the format: class_name + ""."" + strongest_extension_name."
+"Input: a: a string (first word)
+       b: a string (second word)
+Output: True if b or any of its rotations is a substring in a, False otherwise
+
+1: for each rotation of b:
+2:     if the rotation is a substring in a:
+3:         return True
+4: return False"
+"Input: num: an integer
+Output: count_tuple: a tuple containing the number of even and odd digits in num
+1: Initialize even_count and odd_count to 0
+2: Convert num to a string and store it in num_str
+3: For each character ch in num_str:
+4:     If ch is a digit:
+5:         If int(ch) is even:
+6:             Increment even_count by 1
+7:         Else:
+8:             Increment odd_count by 1
+9: Set count_tuple to (even_count, odd_count)
+10: Return count_tuple"
+"Input: number: a positive integer
+Output: roman_numeral: the roman numeral equivalent of number in lowercase
+
+1: Create a dictionary to store the mapping of roman numerals to their corresponding values.
+2: Create an empty string called roman_numeral.
+3: Check if the number is within the valid range (1 <= number <= 1000).
+4: If the number is not within the valid range, return None.
+5: Iterate through the dictionary in descending order of values.
+6: For each key-value pair in the dictionary:
+    7: While the number is greater than or equal to the current value:
+        8: Append the corresponding roman numeral to the roman_numeral string.
+        9: Subtract the current value from the number.
+10: Return the roman_numeral string."
+"Input: a, b, c: lengths of the three sides of a triangle
+Output: True if the three sides form a right-angled triangle, False otherwise
+
+1: Calculate the square of the lengths of the sides: a_squared = a * a, b_squared = b * b, c_squared = c * c
+2: If a_squared + b_squared = c_squared or a_squared + c_squared = b_squared or b_squared + c_squared = a_squared, return True
+3: Otherwise, return False"
+"Input: words: a list of strings
+Output: max_word: the word with maximum number of unique characters
+
+1: Initialize a variable max_count to 0
+2: Initialize an empty list max_words
+3: For each word in words:
+4:     Initialize an empty set unique_chars
+5:     For each character ch in word:
+6:         Add ch to unique_chars
+7:     If the length of unique_chars is greater than max_count:
+8:         Set max_count to the length of unique_chars
+9:         Clear max_words and add word to max_words
+10:    If the length of unique_chars is equal to max_count:
+11:        Add word to max_words
+12: Sort max_words in lexicographical order
+13: Return the first word in max_words"
+"Input: 
+- number: an integer representing the number of carrots already eaten
+- need: an integer representing the number of carrots needed for the day's meals
+- remaining: an integer representing the number of remaining carrots
+
+Output:
+- result: a list containing two integers - the total number of eaten carrots after the meals and the number of carrots left after the meals
+
+1. Calculate the total number of carrots eaten after the meals by adding the number of carrots already eaten (number) and the number of carrots needed for the day's meals (need).
+2. If the remaining carrots (remaining) is greater than or equal to the number of carrots needed for the day's meals (need):
+    - Subtract the number of carrots needed for the day's meals (need) from the remaining carrots (remaining) to get the number of carrots left after the meals.
+3. If the remaining carrots (remaining) is less than the number of carrots needed for the day's meals (need):
+    - Set the number of carrots left after the meals to 0.
+4. Return a list containing the total number of eaten carrots after the meals and the number of carrots left after the meals."
+"Input: operator: a list of algebra operations
+       operand: a list of integers
+
+Output: result: the evaluation of the algebraic expression
+
+1: Initialize result as the first element of operand list
+2: For each index i in the range from 0 to the length of operator list:
+3:     If operator[i] is '+':
+4:         Add operand[i+1] to result
+5:     If operator[i] is '-':
+6:         Subtract operand[i+1] from result
+7:     If operator[i] is '*':
+8:         Multiply result by operand[i+1]
+9:     If operator[i] is '//':
+10:        Perform floor division of result by operand[i+1]
+11:    If operator[i] is '**':
+12:        Raise result to the power of operand[i+1]
+13: Return result"
+"Input: s: a string
+Output: result: the resulted string
+
+1: Initialize an empty string called ""result""
+2: Initialize a boolean variable called ""has_letter"" to False
+3: Iterate through each character ""ch"" in the string ""s"":
+4:     If ""ch"" is a letter:
+5:         Set ""has_letter"" to True
+6:         If ""ch"" is uppercase:
+7:             Convert ""ch"" to lowercase and append it to ""result""
+8:         Else:
+9:             Convert ""ch"" to uppercase and append it to ""result""
+10:    Else:
+11:        Append ""ch"" to ""result""
+12: If ""has_letter"" is False:
+13:    Reverse the string ""s"" and assign it to ""result""
+14: Return ""result"""
+"Input: text: a string
+Output: md5_hash: a string representing the md5 hash of text
+
+1: if text is an empty string:
+2:     return None
+3: else:
+4:     calculate the md5 hash of text
+5:     return the md5 hash as a string"
+"Input: a: a positive integer
+       b: a positive integer
+Output: even_digits: a list of even digits between a and b in ascending order
+
+1: Initialize an empty list called even_digits
+2: For each number i in the range from a to b (inclusive):
+3:     Convert i to a string and iterate through each character ch in the string:
+4:         If ch is an even digit:
+5:             Append ch to the even_digits list
+6: Sort the even_digits list in ascending order
+7: Return the even_digits list"

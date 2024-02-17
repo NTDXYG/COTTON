@@ -1,0 +1,1110 @@
+":
+True
+
+### Example:
+#"
+":
+[
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '(',
+    '("
+":
+Let's think step by step.
+1. Create a function truncate_number that takes a positive floating point number as an argument and returns a float.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Below zero balance."
+":
+Let's think step by step.
+1. Create a list of input numbers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function intersperse that takes a list of numbers and a number 'delimeter' as an argument and returns a list of numbers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+[2, 3]
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function filter_by_substring that takes a list of strings as an argument and returns a list of strings that contain given substring.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function sum_product that takes a list of integers as an argument and returns a tuple consisting of a sum and a product of all the integers in a list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function rolling_max that takes a list of integers as an argument and returns a list of rolling maximum element found until given moment in the sequence.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function make_palindrome that takes a string as an argument and returns a string that is a palindrome.
+2. Loop the input, find the longest postfix of supplied string that is a palindrome.
+3. Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function string_xor that takes two strings as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function longest that takes a list of strings as an argument and returns the longest one.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function greatest_common_divisor that takes two integers a and b as an argument and returns a integer.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function that takes a string as an argument and returns a list of all prefixes from shortest to longest of the input string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a string, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function count_distinct_characters that takes a string as an argument and returns the number of distinct characters (regardless of case) does it consist of.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function parse_music that takes a string as an argument and returns a list of integers corresponding to how many beats does each note lasts.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function how_many_times that takes a string as an argument and returns a number of times a given substring can be found in the original string. Count overlaping cases.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function sort_numbers that takes a string as an argument and returns a string with numbers sorted from smallest to largest.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function find_closest_elements that takes a list of numbers as an argument and returns two that are the closest to each other.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function rescale_to_unit that takes a list of numbers as an argument and returns a list of numbers rescaled to unit.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function filter_integers that takes a list of any python values only for integers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function strlen that takes a string as an argument and returns length of given string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function largest_divisor that takes a number n as an argument and returns the largest number that divides n evenly, smaller than n.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function factorize that takes a number as an argument and returns a list of prime factors of given integer in the order from smallest to largest.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function remove_duplicates that takes a list of integers as an argument and returns a list of integers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function flip_case that takes a string as an argument and returns a string with the same characters but with the case flipped.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function concatenate that takes a list of strings as an argument and returns a string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function filter_by_prefix that takes a list of strings as an argument and returns a list of strings that start with a given prefix.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function get_positive that takes a list as an argument and returns a list of only positive numbers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function is_prime that takes a number as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function find_zero that takes list xs having even number of coefficients and largest non zero coefficient as it guarantees
+a solution.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a list l, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function unique that takes a list as an argument and returns a list of unique elements.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function max_element that takes a list as an argument and returns the maximum element in the list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function fizz_buzz that takes a number as an argument and returns a string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function sort_even that takes a list l as an argument and returns a list l' such that
+    l' is identical to l in the odd indicies, while its values at the even indicies are equal
+    to the values of the even indicies of l, but sorted.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function encode_cyclic that takes a string as an argument and returns a string encoded with the alphabet being rotated. 
+The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+2. Create a function decode_cyclic that takes as input a string encoded with encode_cyclic function and returns decoded string.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function prime_fib that takes a number as an argument and returns a number that is a Fibonacci number and it's also prime.
+2. Create a function prime_fib that takes a number as an argument and returns a number that is a Fibonacci number and it's also prime.
+3. Create a function prime_fib that takes a number as an argument and returns a number that is a Fibonacci number and it's also prime.
+4. Create a function prime_fib that takes a number as an argument and returns a number that is a Fibonacci number and it's also prime.
+5. Create a function prime_fib that takes a number as an argument and returns a number that is a Fibonacci number and it's also prime.
+6. Create a function prime_fib that takes a number as an argument and returns a number that is a Fibonacci number and it's also prime.
+7. Create a function prime_fib that takes a number as an argument and returns a number that is a Fibonacci number and it's also prime.
+8. Create a function prime_fib"
+":
+Let's think step by step.
+1. Create a function triples_sum_to_zero that takes a list as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+The number of collisions is 2."
+":
+Let's think step by step.
+1. Create a function incr_list that takes a list as an argument and returns a list with elements incremented by 1.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function pairs_sum_to_zero that takes a list as an argument and returns True if there are two distinct elements in the list that sum to zero, and False otherwise.
+2. Create a function pairs_sum_to_zero that takes a list as an argument and returns True if there are two distinct elements in the list that sum to zero, and False otherwise.
+3. Create a function pairs_sum_to_zero that takes a list as an argument and returns True if there are two distinct elements in the list that sum to zero, and False otherwise.
+4. Create a function pairs_sum_to_zero that takes a list as an argument and returns True if there are two distinct elements in the list that sum to zero, and False otherwise.
+5. Create a function pairs_sum_to_zero that takes a list as an argument and returns True if there are two distinct elements in the list that sum to zero, and False otherwise.
+6. Create a function pairs_sum_to_zero that takes a list as an argument and returns True if there are two distinct elements in the list that sum to zero, and False otherwise.
+7"
+":
+Let's think step by step.
+1. Create a function change_base that takes a number x and a base as an argument and returns a string representation after the conversion.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function triangle_area that takes a length of a side and high as an argument and returns area for a triangle.
+2. Return result."
+":
+Let's think step by step.
+1. Create a function fib4 that takes a number as an argument and returns the n-th element of the fib4 number sequence.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a list, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function is_palindrome that takes a string as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function modp that takes a number and a modulo.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function encode_shift that takes a string as an argument and returns a string encoded with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function remove_vowels that takes string as an argument and returns string without vowels.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function below_threshold that takes a list as an argument and returns True if all numbers in the list are below threshold t.
+2. Return result."
+":
+Let's think step by step.
+1. Create a function add that takes two numbers x and y as an argument and returns the sum.
+2. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function same_chars that takes two strings as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function fib that takes a number as an argument and returns the n-th Fibonacci number.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function monotonic that takes a list as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function common that takes two lists as an argument and returns a list of common elements.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function largest_prime_factor that takes a number as an argument and returns the largest prime factor of n.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function sum_to_n that takes a number as an argument and returns the sum of all numbers from 1 to that number.
+2. Return result."
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function derivative that takes a list as an argument and returns a list of the derivative of the polynomial.
+2. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function fibfib that takes a number as an argument and returns the n-th element of the fibfib number sequence.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function vowels_count which takes a string as an argument and returns the number of vowels in the string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function circular_shift that takes a string as an argument and returns a string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function digit_sum that takes a string as an argument and returns the sum of the upper characters only'
+ASCII codes.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function fruit_distribution that takes a string as an argument and returns a string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+[ smalest_value, its index ]"
+":
+Let's think step by step.
+1. Create a function search that takes a list as an argument and returns the greatest integer that is greater than 
+    zero, and has a frequency greater than or equal to the value of the integer itself. 
+    The frequency of an integer is the number of times it appears in the list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+":
+Let's think step by step.
+1. Create a function triangle_area that takes three sides of a triangle. Return the area rounded to 2 decimal places if the three sides form a valid triangle. 
+2. Return -1 otherwise."
+":
+Let's think step by step.
+1. Create a function that returns True if the object q will fly, and False otherwise.
+2. Create a function that returns True if the object q will fly, and False otherwise.
+3. Create a function that returns True if the object q will fly, and False otherwise.
+4. Create a function that returns True if the object q will fly, and False otherwise.
+5. Create a function that returns True if the object q will fly, and False otherwise.
+6. Create a function that returns True if the object q will fly, and False otherwise.
+7. Create a function that returns True if the object q will fly, and False otherwise.
+8. Create a function that returns True if the object q will fly, and False otherwise.
+9. Create a function that returns True if the object q will fly, and False otherwise.
+10. Create a function that returns True if the object q will fly, and False otherwise.
+11. Create a function that returns True if the object q will fly, and False otherwise.
+12. Create a function that returns True if the object q will fly, and False otherwise.
+13. Create a function that returns"
+":
+Let's think step by step.
+1. Create a function smallest_change that takes a list as an argument and returns the minimum number of elements that
+need to be changed to make the array palindromic. A palindromic array is an array that is read the same backwards and forwards. In one change, you can change one element to any other element.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function total_match that accepts two lists of strings and returns the list that has 
+    total number of chars in the all strings of the list less than the other list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+2. Create a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+3. Create a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+4. Create a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+5. Create a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+6. Create a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+7. Create a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+8. Create a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+9. Create a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+10. Create a function that returns true if the given number is the multiplication of 3 prime numbers
+and false"
+":
+Let's think step by step.
+1. Create a function that returns true if a number x is a simple power of n and false in other cases.
+2. Create a function that returns true if a number x is a simple power of n and false in other cases.
+3. Create a function that returns true if a number x is a simple power of n and false in other cases.
+4. Create a function that returns true if a number x is a simple power of n and false in other cases.
+5. Create a function that returns true if a number x is a simple power of n and false in other cases.
+6. Create a function that returns true if a number x is a simple power of n and false in other cases.
+7. Create a function that returns true if a number x is a simple power of n and false in other cases.
+8. Create a function that returns true if a number x is a simple power of n and false in other cases.
+9. Create a function that returns true if a number x is a simple power of n and false in other cases.
+10. Create a function that returns true if a number x is a simple power of n and false in other"
+":
+Let's think step by step.
+1. Create a function that takes an integer a and returns True 
+if this ingeger is a cube of some integer number.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function hex_key that takes a string as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a string, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function is_happy that takes a string as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function numerical_letter_grade that takes a list of GPAs as an argument and returns a list of letter grades using the following table:
+             GPA       |    Letter grade
+              4.0                A+
+            > 3.7                A 
+            > 3.3                A- 
+            > 3.0                B+
+            > 2.7                B 
+            > 2.3                B-
+            > 2.0                C+
+            > 1.7                C
+            > 1.3                C-
+            > 1.0                D+ 
+            > 0.7                D 
+            > 0.0                D-
+              0.0                E"
+":
+Let's think step by step.
+1. Create a function that takes a string as an argument and returns True if the string
+    length is a prime number or False otherwise
+2. Create a function that takes a string as an argument and returns True if the string
+    length is a prime number or False otherwise
+3. Create a function that takes a string as an argument and returns True if the string
+    length is a prime number or False otherwise
+4. Create a function that takes a string as an argument and returns True if the string
+    length is a prime number or False otherwise
+5. Create a function that takes a string as an argument and returns True if the string
+    length is a prime number or False otherwise
+6. Create a function that takes a string as an argument and returns True if the string
+    length is a prime number or False otherwise
+7. Create a function that takes a string as an argument and returns True if the string
+    length is a prime number or False otherwise
+8. Create a function that takes a string as an argument and returns True if the string
+    length is a prime number or False otherwise
+9. Create a function that takes a string as an argument and returns True"
+":
+Let's think step by step.
+1. Create a function starts_one_ends that takes a positive integer as an argument and returns a count of the numbers of n-digit positive integers that start or end with 1.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function solve that takes a positive integer as an argument and returns the total sum of its digits in binary.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+[0, 2, 4, 6, 8]
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function that takes a string as an argument and returns an ordered version of it.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+[(0, 0), (0, 1), (0, 2), (0, 3), (1, 0), (1, 1), (1, 2), (1, 3), (2, 0), (2, 1), (2, 2), (2, 3), (3, 0), (3, 1), (3, 2), (3, 3)]"
+":
+Let's think step by step.
+1. Create a function sort_array that takes a list as an argument and returns a copy of the given list after sorting,
+    you will sort the given list in ascending order if the sum( first index value, last index value) is odd,
+    or sort it in descending order if the sum( first index value, last index value) is even.
+2. Return result."
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function next_smallest() that returns the 2nd smallest element of the list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function count_bored that takes a string as an argument and returns the number of boredoms.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes 3 numbers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a list of integers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function check_dict_case that takes a dictionary as an argument and returns True if all keys are strings in lower 
+case or all keys are strings in upper case, else return False.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function count_up_to that takes an non-negative integer as an argument and returns an array of the first n
+    integers that are prime numbers and less than n.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function multiply that takes two integers as an argument and returns 
+    the product of their unit digits.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function count_upper that takes a string as an argument and returns a string with the number of uppercase vowels in even indices.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function closest_integer that takes a value (string) representing a number
+    and returns the closest integer to it. If the number is equidistant
+    from two integers, round it away from zero.
+2. Create a function closest_integer that takes a value (string) representing a number
+    and returns the closest integer to it. If the number is equidistant
+    from two integers, round it away from zero.
+3. Create a function closest_integer that takes a value (string) representing a number
+    and returns the closest integer to it. If the number is equidistant
+    from two integers, round it away from zero.
+4. Create a function closest_integer that takes a value (string) representing a number
+    and returns the closest integer to it. If the number is equidistant
+    from two integers, round it away from zero.
+5. Create a function closest_integer that takes a value (string) representing a number
+    and returns the closest integer to it. If the number is equidistant
+    from two integers, round it away from zero.
+6. Create a function closest_"
+":
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,"
+":
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]
+words_string(""hello, world!"") # [""hello"", ""world""]"
+":
+Let's think step by step.
+1. Create a function choose_num that takes two positive numbers x and y and returns the
+biggest even integer number that is in the range [x, y] inclusive. If there's no such number, then the function should return -1.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function rounded_avg that takes two positive integers n and m as arguments and returns the average of the integers from n through m (including n and m). 
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a list of positive integers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function by_length that takes a list as an argument and returns a string encrypted with the alphabet being rotated. 
+    The alphabet should be rotated in a manner such that the letters shift down by two multiplied to two places.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function f that takes n as a parameter,
+    and returns a list of size n, such that the value of the element at index i is the factorial of i if i is even
+    or the sum of numbers from 1 to i otherwise.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes a positive integer n as an argument and returns a tuple that has the number of even and odd integer palindromes that fall within the range(1, n), inclusive.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function count_nums which takes an array of integers and returns
+the number of elements which has a sum of digits > 0.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function move_one_ball that takes a list as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes two lists of numbers, and determines whether it is possible to perform an exchange of elements between them to make lst1 a list of only even numbers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a dictionary.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function reverse_delete that takes two strings as an argument and returns a tuple containing the result string and a boolean for the check.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function odd_count that takes a list of strings as an argument and returns a list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function min_sub_array_sum that takes a list of integers as an argument and returns the minimum sum of any non-empty sub-array of nums.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+You need to lower the buckets."
+":
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6,"
+":
+Let's think step by step.
+1. Create a function select_words that takes a string as an argument and returns a list of all words from string s that contain exactly n consonants.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function get_closest_vowel that takes a string as an argument and returns a string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function match_parens that takes a list of two strings as an argument and returns a string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function maximum that takes a list arr of integers and a positive integer k.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+The sum of all of the odd elements that are in even positions.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function add_elements that takes a non-empty array of integers arr and an integer k.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function get_odd_collatz that takes a positive integer n as an argument and returns a sorted list that has the odd numbers in collatz sequence.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function valid_date that takes a string as an argument and returns a boolean.
+2. Create a function valid_date that takes a string as an argument and returns a boolean.
+3. Create a function valid_date that takes a string as an argument and returns a boolean.
+4. Create a function valid_date that takes a string as an argument and returns a boolean.
+5. Create a function valid_date that takes a string as an argument and returns a boolean.
+6. Create a function valid_date that takes a string as an argument and returns a boolean.
+7. Create a function valid_date that takes a string as an argument and returns a boolean.
+8. Create a function valid_date that takes a string as an argument and returns a boolean.
+9. Create a function valid_date that takes a string as an argument and returns a boolean.
+10. Create a function valid_date that takes a string as an argument and returns a boolean.
+11. Create a function valid_date that takes a string as an argument and returns a boolean.
+12. Create a function valid_date that takes a string as an argument and"
+":
+Let's think step by step.
+1. Create a list of words split on whitespace, if no whitespaces exists in the text you should split on commas ',' if no commas exists you should return the number of lower-case letters with odd order in the alphabet, ord('a') = 0, ord('b') = 1,... ord('z') = 25
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function is_sorted that takes a list as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function intersection that takes two intervals as an argument and returns a string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function prod_signs that takes a list as an argument and returns a string encrypted with the alphabet being rotated. 
+The alphabet should be rotated in a manner such that the signs shift down by two multiplied to two places.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function minPath which takes a grid with N rows and N columns (N >= 2) and a positive integer k.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+[1, 1, 2, 4, 7, 13, 24, 44, 81, 149,...]"
+":
+Let's think step by step.
+1. Create a function digits that takes a positive integer as an argument and returns the product of the odd digits.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes a string as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function sum_squares that takes a list as an argument and returns a sum of squared numbers in the given list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that returns True if the last character
+of a given string is an alphabetical character and is not
+a part of a word, and False otherwise.
+2. Create a function that returns True if the last character
+of a given string is an alphabetical character and is not
+a part of a word, and False otherwise.
+3. Create a function that returns True if the last character
+of a given string is an alphabetical character and is not
+a part of a word, and False otherwise.
+4. Create a function that returns True if the last character
+of a given string is an alphabetical character and is not
+a part of a word, and False otherwise."
+":
+Let's think step by step.
+1. Create a function which returns the largest index of an element which
+    is not greater than or equal to the element immediately preceding it. If
+    no such element exists then return -1. The given array will not contain
+    duplicate values.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that returns a tuple (a, b), where 'a' is
+the largest of negative integers, and 'b' is the smallest
+of positive integers in a list.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes integers, floats, or strings representing
+real numbers, and returns the larger variable in its given variable type.
+2. Return None if the values are equal.
+3. Return None if the values are equal.
+4. Return None if the values are equal.
+5. Return None if the values are equal.
+6. Return None if the values are equal.
+7. Return None if the values are equal.
+8. Return None if the values are equal.
+9. Return None if the values are equal.
+10. Return None if the values are equal.
+11. Return None if the values are equal.
+12. Return None if the values are equal.
+13. Return None if the values are equal.
+14. Return None if the values are equal.
+15. Return None if the values are equal.
+16. Return None if the values are equal.
+17. Return None if the values are equal.
+18. Return None if the values are equal.
+19. Return None if the values are equal.
+20. Return None if the values are equal.
+21. Return None if the values are"
+":
+Let's think step by step.
+1. Create a function is_equal_to_sum_even that takes a number as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes an integer as an argument and returns the special factorial of this integer.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function fix_spaces that takes a string as an argument and returns a string with the spaces replaced with underscores.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function which takes a string representing a file's name, and returns 'Yes' if the the file's name is valid, and returns 'No' otherwise.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function sum_squares that takes a list as an argument and returns a sum of all entries in the list whose indexes are not a multiple of 3 or 4.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function words_in_sentence that takes a string as an argument and returns a string that contains the words from the original sentence,
+    whose lengths are prime numbers,
+    the order of the words in the new string should be the same as the original one.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that will simplify the expression x * n.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function which sorts the given list of integers
+in ascending order according to the sum of their digits.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes an array of numbers as an argument and returns 
+    the number of elements in the array that are greater than 10 and both 
+    first and last digits of a number are odd (1, 3, 5, 7, 9).
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function get_max_triples that takes a positive integer n as an argument and returns a number of triples.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function bf that takes two planet names as strings planet1 and planet2.
+2. Create a function that takes two planet names as strings planet1 and planet2.
+3. Create a function that takes two planet names as strings planet1 and planet2.
+4. Create a function that takes two planet names as strings planet1 and planet2.
+5. Create a function that takes two planet names as strings planet1 and planet2.
+6. Create a function that takes two planet names as strings planet1 and planet2.
+7. Create a function that takes two planet names as strings planet1 and planet2.
+8. Create a function that takes two planet names as strings planet1 and planet2.
+9. Create a function that takes two planet names as strings planet1 and planet2.
+10. Create a function that takes two planet names as strings planet1 and planet2.
+11. Create a function that takes two planet names as strings planet1 and planet2.
+12. Create a function that takes two planet names as strings planet1 and planet2.
+13. Create a function that takes two planet names as strings planet1 and planet2"
+":
+Let's think step by step.
+1. Create a function that accepts a list of strings as a parameter,
+    deletes the strings that have odd lengths from it,
+    and returns the resulted list with a sorted order,
+    The list is always a list of strings and never an array of numbers,
+    and it may contain duplicates.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function x_or_y that should return the value of x if n is 
+    a prime number and should return the value of y otherwise.
+2. Create a variable n, assign it a value of 1.
+3. Create a variable x, assign it a value of 2.
+4. Create a variable y, assign it a value of 3.
+5. Return result."
+":
+Let's think step by step.
+1. Create a function double_the_difference that takes a list of numbers as an argument and returns the sum of squares of the numbers
+in the list that are odd. Ignore numbers that are negative or not integers.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function compare that takes two arrays of scores and guesses of equal length.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a class, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function cycpattern_check that takes a string as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function that takes a number as an argument and returns a tuple that has the number of even and odd digits respectively.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a alphabet, bias two places multiplied by two.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function right_angle_triangle that takes a, b, c as an argument and returns a boolean.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function find_max that accepts a list of strings.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function eat that takes a number, a number of carrots, and a number of remaining carrots as an argument and returns a string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function do_algebra that takes two lists operator, and operand. The first list has basic algebra operations, and 
+the second list is a list of integers. Use the two given lists to build the algebric expression and return the evaluation of this expression.
+
+    The basic algebra operations:
+    Addition ( + ) 
+    Subtraction ( - ) 
+    Multiplication ( * ) 
+    Floor division ( // ) 
+    Exponentiation ( ** ) 
+
+    Note:
+        The length of operator list is equal to the length of operand list minus one.
+        Operand is a list of of non-negative integers.
+        Operator list has at least one operator, and operand list has at least two operands."
+":
+Let's think step by step.
+1. Create a function solve that takes a string as an argument and returns a string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result.
+
+### Example:
+#"
+":
+Let's think step by step.
+1. Create a function string_to_md5 that takes a string 'text' as an argument and returns its md5 hash equivalent string.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."
+":
+Let's think step by step.
+1. Create a function generate_integers that takes two positive integers a and b as an argument and returns a list of even integers between a and b, in ascending order.
+2. Loop the input, find the latter bias letter in alphabet.
+3. Return result."

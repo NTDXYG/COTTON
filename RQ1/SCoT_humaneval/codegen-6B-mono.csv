@@ -1,0 +1,596 @@
+"Input: numbers: a list of numbers
+threshold: a threshold
+Output: True if any two numbers are closer to each other than threshold, False otherwise"
+"Input: paren_string: a string containing multiple groups of nested parentheses
+Output: a list of strings, each string is a separate group of nested parentheses"
+"Input: number: a positive floating point number
+Output: decimals: a decimal part of number"
+"Input: operations: List[int]
+Output: bool"
+"Input: numbers: a list of numbers
+Output: MAD: a float"
+"Input: numbers: [1,2,3,4,5,6,7,8,9]
+Output: [1,delimeter,2,delimeter,3,delimeter,4,delimeter,5,delimeter,6,delimeter,7,delimeter,8,delimeter,9]"
+"Input: str: a string
+Output: List[int]: a list of integers representing the maximum number of nesting levels"
+"Input: strings: List[str], substring: str
+Output: List[str]"
+"Input: numbers: [1, 2, 3, 4, 5]
+Output: (15, 120)"
+"Input: numbers: a list of integers
+Output: rolling_max: a list of rolling maximum element found until given moment
+1: for i in range(len(numbers)):
+2:     if i == 0:
+3:         rolling_max.append(numbers[i])
+4:     else:
+5:         rolling_max.append(max(numbers[i], rolling_max[i-1]))"
+"Input: string: a string
+Output: palindrome: a palindrome that begins with string"
+"Input: a: ""11000101""
+       b: ""01111101""
+Output: ""10101010"""
+"Input: List[str]
+Output: str"
+"Input: a: an integer
+Output: gcd: a greatest common divisor of a and b
+1: if a == 0:
+2:     return b
+3: elif b == 0:
+4:     return a
+5: else:
+6:     return greatest_common_divisor(b, a % b)"
+"Input: str: a string
+Output: List[str]: list of all prefixes from shortest to longest of the input string"
+"Input: n: an integer
+Output: string: a string containing space-delimited numbers starting from 0 upto n inclusive"
+"Input: str: a string
+Output: int: the number of distinct characters"
+"Input: str: a string representing musical notes in a special ASCII format
+Output: List[int]: list of integers corresponding to how many beats does each not last
+
+### Example:
+Input: ""o.o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o"
+"Input: string: a string, substring: a substring
+Output: count: the number of times the substring can be found in the string"
+"Input: numbers: a string of numbers
+Output: sorted_numbers: a string of numbers sorted from smallest to largest"
+"Input: numbers: a list of numbers
+Output: closest_numbers: a tuple of two closest numbers
+1: closest_numbers = (numbers[0], numbers[1])
+2: return closest_numbers"
+"Input: numbers: a list of numbers
+Output: rescaled_numbers: a list of numbers, rescaled to be between 0 and 1"
+"Input: values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]"
+"def strlen(string: str) -> int:
+    """""" Return length of given string
+    """""""
+"Input: n: a positive integer
+Output: the largest number that divides n evenly, smaller than n
+1: for i in range(1, n):
+2:     if n % i == 0:
+3:         return i
+4: return None"
+"Input: n: int
+Output: List[int]: list of factors of n"
+"Input: numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+"Input: str: a string
+Output: str: a string with all lowercase characters converted to uppercase and all uppercase characters converted to lowercase"
+"Input: strings: List[str]
+Output: str: concatenated string"
+"Input: strings: List[str], prefix: str
+Output: filtered_strings: List[str]"
+"Input: l: a list of numbers
+Output: l: a list of positive numbers"
+"Input: n: a positive integer
+Output: True if n is prime, False otherwise"
+"Input: xs: list of coefficients of a polynomial
+Output: x: a zero point of the polynomial"
+"Input: l: a list
+Output: l' a list that is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal to the values of the corresponding indicies of l, but sorted."
+"Input: l: a list
+Output: unique_l: a sorted list of unique elements in l"
+"Input: l: a list
+Output: max_element: maximum element in l
+1: for each element in l:
+2:     if element > max_element:
+3:         max_element = element
+4: return max_element"
+"Input: n: a positive integer
+Output: fizz_buzz: the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13"
+"Input: l: a list of integers
+Output: l' a list of integers"
+"Input: s: a string
+Output: decoded string"
+"Input: n: an integer
+Output: fib: n-th Fibonacci number
+1: assert n > 0
+2: assert isinstance(n, int)
+3: assert isinstance(fib, int)
+4: assert fib > 0
+5: assert isPrime(fib)"
+"Input: l: a list of integers
+Output: True if there are three distinct elements in l that sum to zero,
+and False otherwise."
+"Input: n: an integer
+Output: the number of collisions"
+"Input: l: a list
+Output: l: a list with elements incremented by 1"
+"Input: l: a list of integers
+Output: True if there are two distinct elements in the list that sum to zero,
+and False otherwise."
+"Input: x: a number
+base: a number
+Output: string representation of x after the conversion."
+"Input: a, h: positive integers
+Output: area: a positive integer
+1: area = 0.5 * a * h
+2: return area"
+"Input: n: an integer
+Output: fib4(n): an integer"
+"Input: l: a list of numbers
+Output: median: a number"
+"Input: text: a string
+Output: True if text is a palindrome, False otherwise"
+"Input: n: int, p: int
+Output: int"
+"Input: str: a string
+Output: decoded string"
+"Input: text: a string
+Output: text without vowels"
+"Input: l: a list of numbers
+t: a threshold number
+Output: True if all numbers in l are below threshold t
+False otherwise"
+"Input: x: int, y: int
+Output: z: int
+1: z = x + y
+2: return z"
+"Input: s0: a string
+Input: s1: a string
+Output: True if s0 and s1 have the same characters, False otherwise"
+"Input: n: an integer
+Output: the n-th Fibonacci number
+1: if n is 0:
+2:     return 0
+3: elif n is 1:
+4:     return 1
+5: else:
+6:     return fib(n-1) + fib(n-2)"
+"Input: brackets: a string of ""<"" and "">""
+Output: True or False"
+"Input: l: a list of integers
+Output: True if l is monotonic increasing, False otherwise"
+"Input: l1: a list
+Input: l2: a list
+Output: common: a list of common elements
+1: for each element e in l1:
+2:     if e in l2:
+3:         common.append(e)
+4: return common"
+"Input: n: an integer
+Output: the largest prime factor of n"
+"Input: n: a positive integer
+Output: sum: the sum of all numbers from 1 to n"
+"Input: brackets: a string of ""("" and "")"".
+Output: True/False"
+"def derivative(xs: list):
+    """""" xs represent coefficients of a polynomial.
+    xs[0] + xs[1] * x + xs[2] * x^2 +....
+     Return derivative of this polynomial in the same form.
+    """""""
+"Input: n: an integer
+Output: fibfib(n): an integer
+1: if n == 0:
+2:     return 0
+3: elif n == 1:
+4:     return 0
+5: elif n == 2:
+6:     return 1
+7: elif n > 2:
+8:     return fibfib(n-1) + fibfib(n-2) + fibfib(n-3)"
+"Input: str: a string
+Output: int: the number of vowels in str"
+"Input: x: an integer
+shift: an integer
+Output: a string"
+"Input: str: a string
+Output: int: the sum of the upper characters"
+"Input: s: a string that represents the total number of the fruits in the basket
+n: an integer that represent the total number of the fruits in the basket
+Output: m: the number of the mango fruits in the basket"
+"Input: arr: a list of integers
+Output: [ smallest_even_value, index_of_smallest_even_value ]"
+"Input: lst: a list of integers
+Output: int: the greatest integer that is greater than zero, and has a frequency greater than or equal to the value of the integer itself"
+"Input: lst: a list of integers
+Output: lst: a list of integers in strange order"
+"Input: a, b, c: three sides of a triangle
+Output: area of the triangle rounded to 2 decimal points"
+"Input: q: a list
+Output: True/False"
+"Input: arr: an array of integers
+Output: the minimum number of changes needed to make arr palindromic"
+"Input: lst1: a list of strings
+Input: lst2: a list of strings
+Output: lst: a list of strings
+1: for each string in lst1:
+2:     for each string in lst2:
+3:         if len(string) < len(lst2):
+4:             return lst1
+5:         elif len(string) > len(lst2):
+6:             return lst2
+7:         elif len(string) == len(lst2):
+8:             return lst1
+9: return lst2"
+"Input: a: a positive integer
+Output: True if a is a multiplication of 3 prime numbers
+False otherwise"
+"Input: x, n
+Output: True or False"
+"Input: a: an integer
+Output: True or False"
+"Input: num: a string of hexadecimal digits
+Output: count: a number of the following digits
+1: 2
+2: 3
+3: 5
+4: 7
+5: B (=decimal 11)
+6: D (=decimal 13)"
+"Input: decimal: a number in decimal form
+Output: binary: a string of binary numbers
+1: for each digit d in decimal:
+2:     if d is 0:
+3:         binary += '0'
+4:     else:
+5:         binary += '1'
+6: return binary[2:len(binary)-2]"
+"Input: s: a string
+Output: True/False"
+"Input: grades: a list of GPA
+Output: a list of letter grades"
+"Input: str: a string
+Output: Boolean: True if the string length is a prime number, False otherwise"
+"Input: n: a positive integer
+Output: count: the count of the numbers of n-digit positive integers that start or end with 1
+1: count = 0
+2: for i in range(10**(n-1), 10**n):
+3:     if i % 10 == 1 or i % 10 == 9:
+4:         count += 1
+5: return count"
+"Input: N: a positive integer
+Output: sum: the total sum of its digits in binary
+1: sum = 0
+2: for i in range(N):
+3:     sum += N % 10
+4: return sum"
+"Input: lst: a list of integers
+Output: sum: the sum of the even elements that are at odd indices
+1: sum = 0
+2: for each integer in lst:
+3:     if integer % 2 == 0:
+4:         sum += integer
+5: return sum"
+"Input: str: a string
+Output: str: an ordered version of the string"
+"Input: lst: a list of lists
+x: an integer
+Output: list of tuples
+""""""
+
+def get_row(lst, x):
+    """"""    You are given a 2 dimensional data, as a nested lists,
+    which is similar to matrix, however, unlike matrices,
+    each row may contain a different number of columns.
+    Given lst, and integer x, find integers x in the list,
+    and return list of tuples, [(x1, y1), (x2, y2)...] such that
+    each tuple is a coordinate - (row, columns), starting with 0.
+    Sort coordinates initially by rows in ascending order.
+    Also, sort coordinates of the row by columns in descending order.
+    """"""
+
+def get_row(lst, x):
+    """"""    You are given a 2 dimensional data, as a nested lists,
+    which is similar to matrix, however, unlike matrices,
+    each row may contain a different number of columns.
+    Given lst, and integer x, find integers x in the list,
+    and return list of tuples, [(x1, y1"
+"Input: array: a list of non-negative integers
+Output: a sorted array"
+"Input: str: a string
+Output: str: a string encrypted with the alphabet being rotated
+1: for each character ch in str:
+2:     if ch is a letter:
+3:         if ch is a lowercase letter:
+4:             return chr(ord(ch) + 2)
+5:         if ch is a uppercase letter:
+6:             return chr(ord(ch) + 2)
+7:     if ch is a space:
+8:         return ch
+9: return None"
+"Input: lst: a list of integers
+Output: next_smallest: the 2nd smallest element of lst
+1: for each element in lst:
+2:     if lst[i] is the 2nd smallest element:
+3:         return lst[i]
+4: return None"
+"Input: str: a string
+Output: int: the number of boredoms
+1: for each word in str:
+2:     if word starts with ""I"":
+3:         return 1
+4: return 0"
+"Input: x, y, z
+Output: True"
+"Input: message: a string
+Output: encoded_message: a string"
+"Input: lst: a list of integers
+Output: sum: the sum of the digits of the largest prime number
+1: largest_prime = 0
+2: for each integer in lst:
+3:     if isPrime(integer):
+4:         if integer > largest_prime:
+5:             largest_prime = integer
+6: return sum(map(int, str(largest_prime)))"
+"Input: dict: a dictionary
+Output: True/False"
+"Input: n: an integer
+Output: array: a list of integers that are prime numbers and less than n"
+"Input: a, b: two integers
+Output: product: the product of a and b
+1: product = a * b
+2: return product"
+"Input: s: a string
+Output: count: an integer
+1: count = 0
+2: for each index i in range(len(s)):
+3:     if s[i] is a vowel and i % 2 == 0:
+4:         count += 1
+5: return count"
+"Input: value: a string representing a number
+Output: closest_int: the closest integer to value
+1: closest_int = round(float(value))
+2: return closest_int"
+"Input: n: a positive integer
+Output: a list of n integers, where element at index i represents the number of stones in the level (i+1)"
+"Input: s: a string of words separated by commas or spaces
+Output: a list of words"
+"Input: x, y: two positive numbers
+Output: num: the biggest even integer number that is in the range [x, y] inclusive
+1: if x % 2 == 0 and y % 2 == 0:
+2:     return x if x > y else y
+3: elif x % 2 == 0 and y % 2!= 0:
+4:     return x if x > y else y - 1
+5: elif x % 2!= 0 and y % 2 == 0:
+6:     return x if x > y else y + 1
+7: else:
+8:     return -1"
+"Input: n: an integer
+m: an integer
+Output: a string"
+"Input: x: a list of positive integers
+Output: a sorted list of all elements that hasn't any even digit"
+"Input: arr: an array of integers
+Output: arr: an array of strings"
+"Input: n: a positive integer
+Output: a list of size n, such that the value of the element at index i is the factorial of i if i is even
+or the sum of numbers from 1 to i otherwise."
+"Input: n: a positive integer
+Output: even: an even integer
+Output: odd: an odd integer"
+"Input: arr: an array of integers
+Output: count: the number of elements in arr which has a sum of digits > 0"
+"Input: arr: a list of integers
+Output: True/False"
+"Input: lst1: a list of integers
+Input: lst2: a list of integers
+Output: ""YES"" or ""NO"""
+"Input: str: a string
+Output: dict: a dictionary of the letter with the most repetition
+1: for each letter in str:
+2:     if letter in dict:
+3:         dict[letter] += 1
+4:     else:
+5:         dict[letter] = 1"
+"Input: s: a string
+c: a string
+Output: result: a string
+Output: check: a boolean"
+"Input: lst: a list of strings
+Output: lst: a list of integers
+1: for each string in lst:
+2:     count = 0
+3:     for each digit in string:
+4:         if int(digit) % 2 == 1:
+5:             count += 1
+6:     lst.append(count)"
+"Input: nums: a list of integers
+Output: min_sum: the minimum sum of any non-empty sub-array of nums
+1: min_sum = nums[0]
+2: for each i in range(1, len(nums)):
+3:     min_sum = min(min_sum, nums[i] + min_sum)
+4: return min_sum"
+"Input: grid: a list of lists of integers
+Output: int: the number of times you need to lower the buckets"
+"Input: arr: an array of non-negative integers
+Output: sorted array of non-negative integers"
+"Input: s: a string
+n: a natural number
+Output: a list of words from s that contain exactly n consonants"
+"Input: word: a string
+Output: closest_vowel: a string
+1: for each i in range(len(word) - 1):
+2:     if word[i] is a vowel and word[i + 1] is a consonant:
+3:         return word[i + 1]
+4: return """""
+"Input: lst: a list of two strings
+Output: 'Yes' or 'No'"
+"Input: arr: a list of integers
+k: a positive integer
+Output: a sorted list of length k with the maximum k numbers in arr"
+"Input: lst: a list of integers
+Output: sum: the sum of all the odd elements that are in even positions
+1: sum = 0
+2: for each integer in lst:
+3:     if integer % 2 == 0:
+4:         sum += integer
+5: return sum"
+"Input: arr: a list of integers
+k: a positive integer
+Output: sum: the sum of the elements with at most two digits from the first k elements of arr"
+"Input: n: a positive integer
+Output: a sorted list that has the odd numbers in collatz sequence.
+1: for i in range(1, n+1):
+2:     if i % 2 == 1:
+3:         return [i]
+4: return []"
+"Input: date: a string representing a date
+Output: True if the date is valid otherwise False"
+"Input: txt: a string of words
+Output: list of words split on whitespace, if no whitespaces exists in the text you should split on commas ',' if no commas
+exists you should return the number of lower-case letters with odd order in the alphabet, ord('a') = 0, ord('b') = 1,... ord('z') = 25"
+"Input: lst: a list of integers
+Output: True or False"
+"Input: interval1, interval2: two intervals
+Output: ""YES"" or ""NO"""
+"Input: arr: [1, -2, 3, -4, 5]
+Output:
+1: 1 * 1 * 1 * 1 = 1
+2: -2 * -2 * 1 * 1 = -4
+3: 3 * 3 * -1 * 1 = -9
+4: -4 * 5 * -1 * 1 = -25
+5: 5 * 5 * 1 * 1 = 25"
+"Input: grid: a list of lists of integers
+k: a positive integer
+Output: a list of integers"
+"Input: n: a non-negative integer number
+Output: a list of the first n + 1 numbers of the Tribonacci sequence"
+"Input: n: a positive integer
+Output: product of the odd digits in n
+1: if n is even:
+2:     return 0
+3: else:
+4:     product = 1
+5:     for each digit in str(n):
+6:         if int(digit) % 2 == 1:
+7:             product *= int(digit)
+8:     return product"
+"Input: str: a string
+Output: bool: True if and only if there is a valid subsequence of brackets"
+"Input: lst: a list of numbers
+Output: sum: the sum of squared numbers in lst"
+"Input: txt: a string
+Output: True or False"
+"Input: arr: a list of integers
+Output: index: the largest index of an element which is not greater than or
+    equal to the element immediately preceding it. If no such element exists
+    then return -1."
+"Input: lst: a list of integers
+Output: a tuple (a, b)
+1: for each integer in lst:
+2:     if integer is negative:
+3:         if integer is the largest negative integer:
+4:             return (integer, None)
+5:         else:
+6:             return (None, integer)
+7: return (a, b)"
+"Input: a, b: two integers
+Output: a, b: the larger of the two integers"
+"Input: n: a positive integer
+Output: True or False"
+"Input: n: a positive integer
+Output: the special factorial of n"
+"Input: text: a string
+Output: text: a string with all spaces replaced with underscores"
+"Input: file_name: a string representing a file's name
+Output: 'Yes' if the file's name is valid, and 'No' otherwise."
+"Input: lst: a list of integers
+Output: sum: the sum of all entries in lst
+1: for each integer in lst:
+2:     if index is a multiple of 3:
+3:         square the integer
+4:     if index is a multiple of 4:
+5:         cube the integer
+6:     if index is not a multiple of 3 or 4:
+7:         do nothing
+8:     add the integer to sum
+9: return sum"
+"Input: sentence: a string
+Output: words: a string that contains the words from the original sentence,
+    whose lengths are prime numbers,
+    the order of the words in the new string should be the same as the original one."
+"Input: x: a string, representing a fraction
+n: a string, representing a fraction
+Output: True or False"
+"Input: nums: a list of integers
+Output: a sorted list of integers"
+"Input: nums: an array of numbers
+Output: count: the number of elements in the array that are greater than 10 and both first and last digits of a number are odd (1, 3, 5, 7, 9)"
+"Input: n: a positive integer
+Output: the number of triples (a[i], a[j], a[k]) of a where i < j < k, 
+and a[i] + a[j] + a[k] is a multiple of 3"
+"Input: planet1: ""Mercury""
+Input: planet2: ""Venus""
+Output: (""Venus"", ""Mercury"")"
+"Input: lst: a list of strings
+Output: a list of strings in sorted order"
+"Input: n: an integer
+Output: x or y
+1: if n is a prime number:
+2:     return x
+3: else:
+4:     return y"
+"Input: lst: a list of numbers
+Output: sum: the sum of the squares of the numbers in lst that are odd
+1: if lst is empty:
+2:     return 0
+3: else:
+4:     sum = 0
+5:     for each number in lst:
+6:         if number is not negative and is an integer:
+7:             sum = sum + (number * number)
+8:     return sum"
+"Input: game: a list of scores
+Input: guess: a list of scores
+Output: a list of scores"
+"Input: class_name: a string
+Output: extension: a string"
+"Input: a: a string
+b: a string
+Output: True or False"
+"Input: num: an integer
+Output: even: an integer that is the number of even digits
+Output: odd: an integer that is the number of odd digits"
+"Input: num: a positive integer
+Output: roman: a string of roman numeral equivalent to num"
+"Input: a, b, c: three sides of a triangle
+Output: True or False"
+"Input: list of strings
+Output: string"
+"Input: number: int
+Output: [total number of eaten carrots, number of carrots left after your meals]"
+"Input: operator: [1, 2, 3, 4, 5]
+Input: operand: [2, 3, 4, 5, 6]
+Output:
+1: for i in range(len(operator)):
+2:     for j in range(len(operand)):
+3:         if operator[i] == 1:
+4:             return operand[j] + operand[j+1]
+5:         elif operator[i] == 2:
+6:             return operand[j] - operand[j+1]
+7:         elif operator[i] == 3:
+8:             return operand[j] * operand[j+1]
+9:         elif operator[i] == 4:
+10:             return operand[j] // operand[j+1]
+11:         elif operator[i] == 5:
+12:             return operand[j] ** operand[j+1]
+13:         else:
+14:             return None"
+"Input: str: a string
+Output: str: the resulted string"
+"Input: text: a string
+Output: md5: a string"
+"Input: a, b: two positive integers
+Output: a list of integers between a and b, in ascending order"

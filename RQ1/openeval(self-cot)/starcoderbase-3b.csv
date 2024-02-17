@@ -1,0 +1,1239 @@
+"Step 1. Initialize sum as 0.
+Step 2. Iterate through array.
+    -add value to sum.
+    -If sum < K, return 0.
+    -If sum > K, return 1.
+Step 3. Return 2."
+"How to solve:
+Step 1. Initialize min_count as 0.
+Step 2. Iterate through array.
+    -If current value is smaller than min_count, update min_count.
+Step 3. Return min_count."
+"How to solve:
+Step 1. Initialize a variable to store the binary representation of n.
+Step 2. Initialize a variable to store the value of l.
+Step 3. Initialize a variable to store the value of r.
+Step 4. Initialize a variable to store the value of n.
+Step 5. Initialize a variable to store the value of l.
+Step 6. Initialize a variable to store the value of r.
+Step 7. Initialize a variable to store the value of n.
+Step 8. Initialize a variable to store the value of l.
+Step 9. Initialize a variable to store the value of r.
+Step 10. Initialize a variable to store the value of n.
+Step 11. Initialize a variable to store the value of l.
+Step 12. Initialize a variable to store the value of r.
+Step 13. Initialize a variable to store the value of n.
+Step 14. Initialize a variable to store the value of l.
+Step 15. Initialize a variable to store the value of r.
+Step 16. Initialize a variable to store the value of n.
+Step"
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through all pairs of elements in array A.
+    -If sum of two elements is divisible by K, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize sum of two parts as 0.
+Step 2. Iterate through array.
+    -If sum of two parts is equal to n, return True.
+    -If sum of two parts is less than n, add the element to the first part.
+    -If sum of two parts is greater than n, add the element to the second part.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize parity as 0.
+Step 2. Iterate through the number.
+    -If the number is odd, add 1 to parity.
+    -If the number is even, add 0 to parity.
+Step 3. Return parity."
+"def missing_elements ( vec ) :
+    """"""Write a function that takes a list of integers and returns a list of missing elements.
+    The function first iterates through the input list and modifies the elements by changing the sign of the element at the index equal to the absolute value of the current element minus one.
+    Then, it iterates through the modified list and appends the indices of the positive elements plus one to the output list.
+    Finally, it returns the output list.
+    """"""
+    output = []
+    for i in range(len(vec)):
+        if vec[i] > 0:
+            vec[i] = -vec[i]
+    for i in range(len(vec)):
+        if vec[i] > 0:
+            output.append(i+1)
+    return output"
+"How to solve:
+Step 1. Initialize the length of the longest subsequence as 0.
+Step 2. Iterate through the array.
+    -If the current element is not present in the subsequence, add 1 to the length of the subsequence.
+    -If the current element is present in the subsequence, add 1 to the length of the subsequence and remove the current element from the subsequence.
+Step 3. Return the length of the longest subsequence."
+"How to solve:
+Step 1. Initialize a dictionary to store the prime factors of each number.
+Step 2. Iterate through the list of numbers.
+    -If the number is not in the dictionary, add it to the dictionary and set the value to 1.
+    -If the number is in the dictionary, increment the value by 1.
+Step 3. Return the dictionary."
+"Step 1. Initialize the sum of difference as 0.
+Step 2. Iterate through the array.
+    -If the current element is greater than the kth largest element, update the kth largest element.
+    -If the current element is less than the kth largest element, update the sum of difference.
+Step 3. Return the minimum value of sum of difference."
+"How to solve:
+Step 1. Initialize total time as 0.
+Step 2. Iterate through A and B.
+    -If A[i] == B[i], increment total time by 1.
+    -If A[i]!= B[i], move B[i] to the front of B and move A[i] to the end of A.
+    -Increment total time by 2.
+Step 3. Return total time."
+"Step 1. Initialize even count as 0.
+Step 2. Iterate through array.
+    -If array[i] is even, increment even count.
+Step 3. Return even count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If count < k, increment count.
+    -If count == k, increment count.
+    -If count > k, decrement count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize the list of numbers to be checked.
+Step 2. Iterate through the list of numbers.
+    -If the number is divisible by any of the numbers in the list, return False.
+    -If the number is 1, return True.
+    -If the number is greater than the integer, return True.
+    -If the number is less than the integer, divide the number by the current number and subtract the result from the number.
+Step 3. Return False."
+"Step 1. Initialize XOR value as 0.
+Step 2. Iterate through the input integer.
+    -If the remainder of the input integer divided by 4 is 0, XOR value = input integer.
+    -If the remainder of the input integer divided by 4 is 1, XOR value = 1.
+    -If the remainder of the input integer divided by 4 is 2, XOR value = input integer + 1.
+    -If the remainder of the input integer divided by 4 is 3, XOR value = 0.
+Step 3. Return XOR value."
+"How to solve:
+Step 1. Initialize a random number a between 2 and n-1.
+Step 2. Calculate a raised to the power of (n-1)/2 modulo n.
+Step 3. Check if the result is equal to 1 or n-1.
+    -If it is, return 1.
+    -If it is not, return -1.
+Step 4. If all t iterations pass the test, return 1."
+"How to solve:
+Step 1. Initialize defeat condition as False.
+Step 2. Iterate through strings.
+    -If defeat condition is True, return True.
+    -If defeat condition is False and current string is defeat condition, return True.
+    -If defeat condition is False and current string is not defeat condition, return False.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize result as 0.
+Step 2. Initialize a, b, c, d, x as given.
+Step 3. Calculate result as (x * (a + b) * (c - d)) / ((a * d) - (b * c)).
+Step 4. Return result."
+"### Given a piece of code, output the corresponding implementation idea.
+### Example:
+#"
+"How to solve:
+Step 1. Initialize power number count as 0.
+Step 2. Iterate through numbers.
+    -If number is power number, increment power number count.
+Step 3. Return power number count."
+"How to solve:
+Step 1. Initialize product as 1.
+Step 2. If y is 0, return product.
+Step 3. Multiply product by x and subtract it from product.
+Step 4. Call product(x, y-1) to calculate product."
+"How to solve:
+Step 1. Initialize count0, count1, count2, and count3 as 0.
+Step 2. Iterate through the list.
+    -If the current element is divisible by 4, then increment the count of the corresponding element.
+    -If the count of integers divisible by 4 is even for all four possible remainders (0, 1, 2, and 3), then return 1.
+    -Otherwise, return 2."
+"How to solve:
+Step 1. Initialize result as 0.
+Step 2. Iterate through the array.
+    -If the current element is greater than the previous element, increase the result by 1.
+    -If the current element is less than the previous element, set the result to 1.
+Step 3. Return result."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. If the sum is equal to 0, increment the count.
+Step 3. If the current index is equal to the length of the array, return the count.
+Step 4. Otherwise, recursively call the function with the current index incremented by 1 and the sum minus the current element.
+Step 5. Recursively call the function with the current index incremented by 1 and the sum plus the current element."
+"def center_hexadecagonal_num ( n ) :
+    """"""Write a function that takes an integer n and returns the center hexadecagonal number for that value.
+    """"""
+    return n * ( n + 1 ) // 2"
+"def seriesFunc ( n ) :
+    """"""Write a function that takes an integer n and returns the sum of the squares of the first n natural numbers, the sum of the first n natural numbers, and adds 1 to the total sum.
+    """"""
+    sum_of_squares = 0
+    sum_of_natural_numbers = 0
+    for i in range(1, n+1):
+        sum_of_squares += i**2
+        sum_of_natural_numbers += i
+    return sum_of_squares, sum_of_natural_numbers, sum_of_natural_numbers + 1"
+"How to solve:
+Step 1. Initialize maxSum as 0.
+Step 2. Iterate through all the factors of n.
+    -If the current factor is greater than maxSum, update maxSum.
+Step 3. Return maxSum."
+"How to solve:
+Step 1. Initialize x and y as 0.
+Step 2. Iterate through operations.
+    -If x is less than or equal to y, return True.
+    -If x is greater than y, return False.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize center octadecagon number as 0.
+Step 2. Iterate through n.
+    -add value to center octadecagon number.
+    -If center octadecagon number < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize a and b as 0.
+Step 2. Iterate through a and b.
+    -If a is greater than b, return a - b.
+    -If a is less than b, return b - a.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through n.
+    -Calculate square of each number.
+    -Add square to sum.
+Step 3. Return sum/n."
+"How to solve:
+Step 1. Initialize a min heap.
+Step 2. Iterate through the array.
+    -Add the element to the heap.
+    -If the heap size is greater than k, remove the smallest element from the heap.
+Step 3. Return the smallest element."
+"How to solve:
+Step 1. Initialize chicks as 0.
+Step 2. Raise 3 to the power of n-1.
+Step 3. Return chicks."
+"Step 1. Initialize the sequence as 1.
+Step 2. Iterate through the sequence.
+    -Multiply the previous term by 2.
+    -Add the difference between the current index and 1.
+Step 3. Return the nth term."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the array.
+    -If product of current element and previous element is less than k, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through numbers from 1 to n.
+    -If current number % 10 == d, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize smallest positive integer as 1.
+Step 2. Iterate through array.
+    -If current element is not present in array, return smallest positive integer.
+    -If current element is present in array, increment smallest positive integer by 1.
+Step 3. Return smallest positive integer."
+"def ways ( n ) :
+    """"""Write a function that takes an integer n and returns the number of ways to climb a staircase with n steps.
+    Each time, you can either climb 1 or 2 steps.
+    """"""
+    if n == 1 :
+        return 1
+    elif n == 2 :
+        return 2
+    else :
+        return ways(n-1) + ways(n-2)"
+"How to solve:
+Step 1. Initialize the sum of squares as 0.
+Step 2. Initialize the size of the square as 1.
+Step 3. Iterate through the length of the rectangle.
+    -Iterate through the breadth of the rectangle.
+        -Calculate the area of the square.
+        -Add the area of the square to the sum of squares.
+        -If the area of the square is greater than the size of the square, then update the size of the square.
+Step 4. Return the sum of squares."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through numbers from 1 to N.
+    -add value to sum.
+Step 3. Return sum."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through array.
+    -If current element is 0, increment count by 1.
+    -If current element is 1, decrement count by 1.
+    -If current element is 0 and count is greater than 0, return count.
+Step 3. Return -1."
+"How to solve:
+Step 1. Initialize max_len as 0.
+Step 2. Iterate through the array.
+    -If the current element is 0, increment max_len by 1.
+    -If the current element is not 0, set max_len to 1.
+Step 3. Return max_len."
+"How to solve:
+Step 1. Initialize min_arr as an array of size k.
+Step 2. Initialize max_arr as an array of size k.
+Step 3. Iterate through array.
+    -If current element is smaller than the minimum element in the array, update the minimum element in the array.
+    -If current element is greater than the maximum element in the array, update the maximum element in the array.
+    -If current element is smaller than the minimum element in the array, update the minimum element in the array.
+    -If current element is greater than the maximum element in the array, update the maximum element in the array.
+Step 4. Return the maximum element in the array."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through array.
+    -If array[i] * array[i+1] *... * array[i+k-1] <= k, increment count by 1.
+Step 3. Return count."
+"Step 1. Initialize a list of integers.
+Step 2. Iterate through the array.
+    -If the current element is not present in the list, add it to the list.
+    -If the current element is present in the list, remove it from the list.
+Step 3. Return the sum of absolute differences between each element in the sorted array and its corresponding index plus one."
+"How to solve:
+Step 1. Initialize min_element as the first element of the array.
+Step 2. Initialize product as the product of min_element and (n - 1).
+Step 3. Iterate through the array.
+    -If the element is smaller than min_element, update min_element.
+    -Update product as product * (n - 1).
+Step 4. Return product."
+"How to solve:
+Step 1. Initialize max difference as 0.
+Step 2. Iterate through array.
+    -If current element is greater than previous element, add current element to max difference.
+    -Else subtract current element from max difference.
+Step 3. Return max difference."
+"How to solve:
+Step 1. Initialize variables for x1, y1, x2, y2, and a, b, c.
+Step 2. If a == 0, return False.
+Step 3. If b == 0, return False.
+Step 4. If c == 0, return False.
+Step 5. If a == 0, return False.
+Step 6. If b == 0, return False.
+Step 7. If c == 0, return False.
+Step 8. If a == 0, return False.
+Step 9. If b == 0, return False.
+Step 10. If c == 0, return False.
+Step 11. If a == 0, return False.
+Step 12. If b == 0, return False.
+Step 13. If c == 0, return False.
+Step 14. If a == 0, return False.
+Step 15. If b == 0, return False.
+Step 16. If c == 0, return False.
+Step 17."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through all values from 0 to a.
+    -If a XOR i = 0, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize max AND as 0.
+Step 2. Iterate through L and R.
+    -If L and R are both 0, return 0.
+    -If L is 0, return R.
+    -If R is 0, return L.
+    -If L and R are both 1, return 1.
+    -If L is 1, return 1.
+    -If R is 1, return 1.
+    -If L and R are both 0, return 0.
+    -If L is 0, return R.
+    -If R is 0, return L.
+    -If L and R are both 1, return 1.
+    -If L is 1, return 1.
+    -If R is 1, return 1.
+    -If L and R are both 0, return 0.
+    -If L is 0, return R.
+    -If R is 0, return L.
+    -If L and R are both 1, return 1.
+    -If L is 1, return 1.
+    -If R is 1, return 1."
+"Step 1. Initialize smallest number as -1.
+Step 2. Iterate through array.
+    -If smallest number is -1, set it to current number.
+    -If current number is a factor of smallest number, set smallest number to current number.
+Step 3. Return smallest number."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through n.
+    -Add value to sum.
+    -Multiply sum by 3.
+Step 3. Return sum."
+"Step 1. Initialize a 2D array `arr` with all elements as 0.
+Step 2. Iterate through the array and for each element, add 1 to the corresponding submatrix.
+Step 3. Initialize a variable `xor` as 0.
+Step 4. Iterate through the array and for each element, add the corresponding submatrix to `xor`.
+Step 5. Return `xor`."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through numbers from 0 to N (inclusive).
+    -Initialize temp as 0.
+    -Iterate through numbers from 0 to N (inclusive).
+        -Set temp to temp ^ number.
+    -If temp == number, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a counter variable as 0.
+Step 2. Iterate through the array.
+    -If the current element is not present in the hashmap, increment the counter by 1.
+    -If the current element is present in the hashmap, return False.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize the result as False.
+Step 2. Initialize the binary representation of the input number as a string.
+Step 3. Iterate through the binary representation of the input number.
+    -If the current bit is set to 1, then set the result as True.
+    -If the current bit is set to 0, then set the result as False.
+Step 4. Return the result."
+"How to solve:
+Step 1. Initialize the maximum partition count as 0.
+Step 2. Iterate through the string.
+    -If the current character is equal to the previous character, increment the maximum partition count.
+    -If the current character is not equal to the previous character, set the maximum partition count to 0.
+Step 3. Return the maximum partition count."
+"How to solve:
+Step 1. Initialize result as 0.
+Step 2. Iterate through N.
+    -If N is divisible by K, result = N.
+    -Else result = N - (N % K).
+Step 3. Return result."
+"How to solve:
+Step 1. Initialize result as 0.
+Step 2. Initialize var1 and var2 as the first and second elements of the array respectively.
+Step 3. Iterate from 2 to N.
+    -Add the current element to result.
+    -Add the product of result and the current element to result.
+Step 4. Return the final value of result."
+"Step 1. Initialize a variable to store the result.
+Step 2. Iterate through the reversals.
+    -Swap the elements within the range.
+Step 3. Return the result."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through numbers.
+    -If sum is greater than n, return False.
+    -If sum is equal to n, return True.
+    -If sum is less than n, add the number to sum."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through a.
+    -If a is equal to b, increment count by 1.
+    -If a is not equal to b, return -1.
+Step 3. Return count."
+"def tidyNum ( str, len ) :
+    """"""Write a function that takes a string and its length as input and returns a modified string.
+    The function iterates through the string from the second-to-last character to the first character.
+    If a character is greater than the next character, it subtracts 1 from that character and sets all subsequent characters to 9.
+    The modified string is then returned.
+    """""""
+"How to solve:
+Step 1. Initialize minimum value as 0.
+Step 2. Iterate through array.
+    -If minimum value is 0, set it to current value.
+    -If current value is less than minimum value, set minimum value to current value.
+    -If current value is greater than minimum value, set minimum value to log(current value) * length of array.
+Step 3. Return minimum value."
+"def largestSubStr ( s ) :
+    """"""Write a function that takes a string as input and returns the largest substring of the input string that does not end with the character '1'.
+    If the input string is empty or consists only of '1' characters, the function should return ""-1"".
+    """"""
+    if not s:
+        return -1
+    if s[0] == '1':
+        return -1
+    start = 0
+    end = 0
+    max_len = 0
+    while end < len(s):
+        if s[end] == '1':
+            end += 1
+            continue
+        if end - start + 1 > max_len:
+            max_len = end - start + 1
+        end += 1
+    if end - start + 1 > max_len:
+        max_len = end - start + 1
+    return max_len"
+"Step 1. Initialize count of each element as 0.
+Step 2. Iterate through array.
+    -If count of current element is less than k, increment count of current element.
+    -If count of current element is greater than k, decrement count of current element.
+    -If count of current element is equal to k, remove current element from array.
+Step 3. Return length of array after removing minimum number of elements."
+"Step 1. Initialize the size of the array as 0.
+Step 2. Iterate through the array.
+    -add value to the size.
+    -If the size is odd, return the middle element.
+    -If the size is even, calculate the median by taking the average of the two middle elements.
+Step 3. Return the median."
+"Step 1. Initialize step count as 0.
+Step 2. Iterate through array.
+    -If element is 1, add 1 to step count.
+    -If element is -1, add absolute difference between element and -1 to step count.
+    -If element is 0, add 2 to step count.
+Step 3. Return step count."
+"How to solve:
+Step 1. Initialize n as 1.
+Step 2. If n is equal to 1, return 0.
+Step 3. Initialize v as an empty list.
+Step 4. Subtract 1 from n.
+Step 5. Initialize result as 0.
+Step 6. Enter a while loop.
+    -If n is equal to 1, return result.
+    -Append the remainder of n divided by 5 to v.
+    -Update n to be the floor division of n by 5.
+    -Update result by multiplying it by 10 and adding the current element in v.
+Step 7. Return 2 times the result."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the input.
+    -If the count is 0, set count to 1.
+    -If the count is 1, set count to 0.
+    -If the count is 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize the closest multiple as 0.
+Step 2. Iterate through the range of n.
+    -If the closest multiple is greater than n, return closest multiple.
+    -If the closest multiple is greater than x, return x.
+    -If the closest multiple is less than x, return closest multiple.
+Step 3. Return closest multiple."
+"def sumOfTheSeries ( n ) :
+    """"""Write a function that takes an integer n and returns the sum of a series.
+    The series is generated by starting with 0 and adding 2 to each subsequent number in the series.
+    The series should include all numbers from 0 to n (inclusive).
+    """"""
+    if n == 0 :
+        return 0
+    else :
+        return n + sumOfTheSeries( n - 1 )"
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through n.
+    -Initialize new series as 1.
+    -Iterate through new series.
+        -If new series is odd, add 2 to new series.
+        -Else, add 1 to new series.
+    -Add new series to sum.
+Step 3. Return sum."
+"How to solve:
+Step 1. Initialize max count as 0.
+Step 2. Iterate through array.
+    -If current count is greater than max count, update max count.
+    -If current count is equal to max count, update max value.
+Step 3. Return max value."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the list.
+    -If the current element is a power of 2, increment count by 1.
+Step 3. Return count."
+"def toggle ( n ) :
+    """"""Write a function that takes an integer as input and returns the result of toggling all the bits in the binary representation of the integer.
+    """"""
+    return n ^ ( n - 1 )"
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the list.
+    -If the element is 1, count += 1.
+    -If the element is 0, count -= 1.
+    -If the element is 1 and count is negative, return -1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize degree value as 0.
+Step 2. Iterate through radian value.
+    -add value to degree value.
+Step 3. Return degree value."
+"How to solve:
+Step 1. Initialize floor division as 0.
+Step 2. Iterate through n.
+    -If n is even, divide n by 2.
+    -If n is odd, divide n by 2 and add 1.
+Step 3. Return floor division."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through n.
+    -Calculate sum = sum + a * (n - 1) + d.
+Step 3. Return sum."
+"How to solve:
+Step 1. Initialize the largest power of 2 as 1.
+Step 2. Iterate through the input number.
+    -If the input number is odd, return 1.
+    -If the input number is even, divide the input number by 2.
+Step 3. Return the largest power of 2 that divides the input number."
+"How to solve:
+Step 1. Initialize the total number of squares as 0.
+Step 2. Iterate through moves.
+    -If moves is 0, return total number of squares.
+    -If moves is 1, move the row one step up.
+    -If moves is 2, move the row one step down.
+    -If moves is 3, move the column one step left.
+    -If moves is 4, move the column one step right.
+    -If moves is 5, move the row one step up and move the column one step left.
+    -If moves is 6, move the row one step up and move the column one step right.
+    -If moves is 7, move the row one step down and move the column one step left.
+    -If moves is 8, move the row one step down and move the column one step right.
+    -Add the total number of squares to the total number of squares.
+Step 3. Return total number of squares."
+"def findNumber ( n ) :
+    """"""Write a function that takes an integer as input and returns the next number in a sequence where each number is the sum of the previous number and the current index.
+    """"""
+    if n == 1:
+        return 1
+    else:
+        return n + findNumber(n-1)"
+"def findSmallest ( s ) :
+    """"""Write a function that takes a string as input and returns the string with the smallest lexicographically possible permutation.
+    The function first finds the last occurrence of each character in the string and stores it in a list.
+    Then, it sorts the string and compares each character with its corresponding character in the sorted string.
+    If a character is not in the correct position, the function swaps it with the character at its last occurrence.
+    Finally, the function returns the modified string."""""""
+"Step 1. Initialize array with length n.
+Step 2. Fill array with consecutive odd numbers followed by consecutive even numbers.
+Step 3. Calculate sum of elements in array from index l-1 to index r."
+"How to solve:
+Step 1. Initialize HCF as 1.
+Step 2. Find the minimum of x and y.
+Step 3. If both x and y are divisible by the minimum, return the minimum.
+Step 4. If x is divisible by y, return y.
+Step 5. If y is divisible by x, return x.
+Step 6. If neither x nor y is divisible by the minimum, iterate from the minimum divided by 2 to 1, checking if both x and y are divisible by the current number.
+Step 7. If a common factor is found, return that number.
+Step 8. If no common factor is found, return 1."
+"Step 1. Initialize A and B as 1 and 2 respectively.
+Step 2. Iterate through N.
+    -If N is 1, return A.
+    -If N is 2, return B.
+    -If N is 3, return A + B.
+    -If N is 4, return A + B + 1.
+    -If N is 5, return A + B + 2.
+    -If N is 6, return A + B + 3.
+    -If N is 7, return A + B + 4.
+    -If N is 8, return A + B + 5.
+    -If N is 9, return A + B + 6.
+    -If N is 10, return A + B + 7.
+    -If N is 11, return A + B + 8.
+    -If N is 12, return A + B + 9.
+    -If N is 13, return A + B + 10.
+    -If N is 14, return A + B + 11.
+    -If N is 15, return A"
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through str.
+    -If substr is present in str, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize EMI as 0.
+Step 2. Calculate monthly interest rate.
+Step 3. Calculate loan tenure in months.
+Step 4. Calculate EMI.
+Step 5. Return EMI."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through A, B, C.
+    -If A * C > B * B, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through numbers from l to r.
+    -If the last digit of the number is 2, 3, or 9, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize longest subsequence length as 1.
+Step 2. Iterate through the array.
+    -If the current element is greater than the previous element, then update the longest subsequence length.
+    -If the current element is less than the previous element, then update the longest subsequence length to 1.
+Step 3. Return the longest subsequence length."
+"def findMaxLenEven ( str ) :
+    """"""Write a function that takes a string as input and returns the longest even-length substring that consists of only alphanumeric characters.
+    If there is no such substring, the function should return ""-1"".
+    """"""
+    max_len = 0
+    max_str = """"
+    for i in range(len(str)):
+        if str[i].isalnum() and len(str[i:]) % 2 == 0 and len(str[i:]) > max_len:
+            max_len = len(str[i:])
+            max_str = str[i:]
+    return max_str"
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through n.
+    -If n is divisible by 2, add 1 to count.
+    -If n is not divisible by 2, divide n by 2.
+Step 3. Return count."
+"def lexo_small ( n, k ) :
+    """"""Write a function that takes two integers, n and k, and returns a string.
+    The function creates a string of length n, consisting of all 'a' characters.
+    It then modifies the string by replacing some of the 'a' characters with other lowercase letters.
+    The number of replacements is determined by the value of k.
+    The function iterates through the string in reverse order and performs the following steps for each character:
+- Subtract the current index from k.
+   
+- If k is greater than or equal to 0, check if k is greater than or equal to 26.
+    If it is, replace the character at the current index with 'z' and subtract 26 from k.
+    Otherwise, calculate the ASCII value of the character to be replaced by adding k to 97 and subtracting 1.
+    Replace the character at the current index with the corresponding lowercase letter and subtract the difference between the ASCII values of the replaced character and 'a' from k.
+   
+- If k is less than 0, exit the loop.
+   
+- Add the current index to k.
+   
+- Repeat the above steps for"
+"How to solve:
+Step 1. Initialize total distance as 0.
+Step 2. Initialize number of stops as n.
+Step 3. While number of stops > 0:
+    -Calculate the distance covered by dividing the fuel by the number of stops and adding it to the total distance covered.
+    -Decrement the number of stops by 1.
+Step 4. Return total distance."
+"Step 1. Initialize sum of elements before split point as 0.
+Step 2. Initialize sum of elements after split point as 0.
+Step 3. Iterate through array.
+    -add value to sum of elements before split point.
+    -add value to sum of elements after split point.
+Step 4. If sum of elements before split point is equal to one-third of the total sum of the array and sum of elements after split point is equal to two-thirds of the total sum of the array, return 1.
+Step 5. If sum of elements before split point is not equal to one-third of the total sum of the array and sum of elements after split point is not equal to two-thirds of the total sum of the array, return 0."
+"How to solve:
+Step 1. Initialize a boolean variable to False.
+Step 2. Iterate through the sentence.
+    -If the current character is the same as the word, set the boolean to True.
+    -If the current character is not the same as the word, set the boolean to False.
+Step 3. Return the boolean."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through digits of n.
+    -add 1 to count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize sum of all three integers as 0.
+Step 2. Iterate through all four integers.
+    -If sum of all three integers is equal to the given integer, return True.
+    -If sum of all three integers is not equal to the given integer, add the given integer to the sum of all three integers.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize x and y as 0.
+Step 2. Iterate through x and y.
+    -If x is greater than y, return False.
+    -If x is equal to y, return True.
+    -If x is less than y, shift x to the right by 1 bit."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If current character is same as previous character, increment count.
+    -Else, reset count to 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If character is '0', increment index by 1.
+    -If character is '1', increment index by 2.
+    -Increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize min_diff as 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+"How to solve:
+Step 1. Initialize max_count as 0.
+Step 2. Iterate through left to right.
+    -If the current number is 0, set max_count to 0.
+    -Else, set max_count to max_count + 1.
+Step 3. Return max_count."
+"How to solve:
+Step 1. Initialize result as 1.
+Step 2. Iterate through the number of bits.
+    -If the current bit is 1, multiply result by 2.
+Step 3. Return result."
+"How to solve:
+Step 1. Initialize sum of proper divisors as 0.
+Step 2. Iterate through numbers from 1 to n.
+    -If number is not divisible by any number from 1 to n, return False.
+    -Else, add number to sum of proper divisors.
+Step 3. If sum of proper divisors is equal to n, return True."
+"How to solve:
+Step 1. Initialize total number of days as 0.
+Step 2. Initialize number of leap years as 0.
+Step 3. Initialize number of non-leap years as 0.
+Step 4. Initialize number of centuries as 0.
+Step 5. Initialize number of leap centuries as 0.
+Step 6. Calculate number of leap years.
+    -If year is divisible by 4, add 1 to number of leap years.
+Step 7. Calculate number of non-leap years.
+    -If year is divisible by 100, subtract 1 from number of non-leap years.
+    -If year is divisible by 400, add 1 to number of non-leap years.
+Step 8. Calculate number of centuries.
+    -If year is divisible by 1000, subtract 1 from number of centuries.
+Step 9. Calculate total number of days.
+    -Add number of non-leap years.
+    -Add twice the number of leap years.
+Step 10. Calculate"
+"How to solve:
+Step 1. Initialize diagonal length as 0.
+Step 2. Iterate through the input number.
+    -If the number is negative, return -1.
+    -If the number is even, add 1 to diagonal length.
+    -If the number is odd, add 2 to diagonal length.
+Step 3. Return diagonal length."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through n.
+    -If n % 10 == d, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize a set to store all digits of the number.
+Step 2. Iterate through the number.
+    -If the digit is already in the set, return False.
+    -Else add the digit to the set.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize a counter as 0.
+Step 2. Iterate through the list.
+    -If the current element is divisible by 3, add 1 to the counter.
+    -If the current element is divisible by 5, add 1 to the counter.
+    -If the counter is equal to n, return True.
+Step 3. Return False."
+"Step 1. Initialize array with 0s.
+Step 2. Initialize nth element to 4.
+Step 3. Iterate through array.
+    -If nth element is odd, set nth element to nth element//2 multiplied by 10 and added to 4.
+    -If nth element is even, set nth element to nth element//2-1 multiplied by 10 and added to 7.
+Step 4. Return nth element."
+"How to solve:
+Step 1. Initialize array with 0s and length n+1.
+Step 2. Initialize first element as 3 and second element as 5.
+Step 3. Iterate through array.
+    -If index is odd, set element at index to element at index//2 multiplied by 10 and added with 3.
+    -If index is even, set element at index to element at index//2-1 multiplied by 10 and added with 5.
+Step 4. Return element at index n."
+"How to solve:
+Step 1. Initialize array with 0s and length n+1.
+Step 2. Initialize first element as 1 and second element as 2.
+Step 3. Iterate through array.
+    -If index is odd, multiply element at index i//2 by 10 and add 1.
+    -If index is even, multiply element at index (i//2)-1 by 10 and add 2.
+    -Return element at index n."
+"def isPossibleToZero ( a, n ) :
+    """"""Write a function that takes an array of integers and its length as input and returns True if it is possible to form a number by concatenating the elements of the array such that the resulting number is divisible by 11.
+    Otherwise, it returns False.
+    """"""
+    if n == 1 :
+        return True
+    if n % 2 == 0 :
+        return False
+    if a[n//2] % 11 == 0 :
+        return isPossibleToZero ( a, n//2 )
+    else :
+        return False"
+"How to solve:
+Step 1. Initialize area as 0.
+Step 2. If l, b, h are all positive, then calculate area and return it.
+Step 3. Return -1."
+"How to solve:
+Step 1. Initialize a new string.
+Step 2. Iterate through the string.
+    -If the character is alphabetic, capitalize it.
+    -Append the character to the new string.
+Step 3. Return the new string."
+"Step 1. Initialize bucket number as 0.
+Step 2. Iterate through p.
+    -If p is divisible by 2, return bucket number.
+    -If p is not divisible by 2, divide p by 2 and add 1 to bucket number.
+Step 3. Return bucket number."
+"How to solve:
+Step 1. Initialize a set.
+Step 2. Iterate through the array.
+    -If the element is not present in the set, add it to the set.
+    -If the element is present in the set, return False.
+Step 3. Return True."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If string[i] is not equal to string[i+1], increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize most common number as 0.
+Step 2. Iterate through lower and higher.
+    -If lower is greater than most common number, update most common number to lower.
+    -If higher is greater than most common number, update most common number to higher.
+Step 3. Return most common number."
+"def extractMaximum ( ss ) :
+    """"""Write a function that takes a string as input and returns the maximum number that can be extracted from the string.
+    The function iterates through each character in the string and checks if it is a digit.
+    If it is, the function builds a number by multiplying the previous number by 10 and adding the current digit.
+    If the character is not a digit, the function compares the current number with the previous maximum number and updates the maximum if necessary.
+    Finally, the function returns the maximum number extracted from the string.
+    """"""
+    max = 0
+    for i in range(len(ss)):
+        if ss[i].isdigit():
+            max = max * 10 + int(ss[i])
+        else:
+            max = max if max > int(ss[i]) else int(ss[i])
+    return max"
+"Step 1. Initialize the longest integer as 0.
+Step 2. Iterate through the string.
+    -If the current character is a digit, add it to the longest integer.
+    -If the current character is not a digit, check if the current longest integer is greater than the length of the string.
+        -If it is, return the longest integer.
+        -If it is not, update the longest integer to the current character.
+Step 3. Return the longest integer."
+"How to solve:
+Step 1. Initialize N and M as 0.
+Step 2. Iterate through operations.
+    -If N is greater than M, subtract M from N.
+    -If N is less than M, subtract N from M.
+    -If N is equal to M, return 0.
+    -If N is greater than 0 and M is less than 0, multiply N and M.
+Step 3. Return the product of N and M."
+"How to solve:
+Step 1. Initialize a boolean variable to False.
+Step 2. Iterate through the string.
+    -If the current character is the same as the previous character, return False.
+    -If the current character is not the same as the previous character, set the boolean variable to True.
+Step 3. Return the boolean variable."
+"How to solve:
+Step 1. Initialize largest power of 2 as 1.
+Step 2. Iterate through n.
+    -If n is 1, return largest power of 2.
+    -If n is 2, return 2.
+    -If n is 3, return 2.
+    -If n is 4, return 4.
+    -If n is 5, return 4.
+    -If n is 6, return 4.
+    -If n is 7, return 4.
+    -If n is 8, return 8.
+    -If n is 9, return 8.
+    -If n is 10, return 8.
+    -If n is 11, return 8.
+    -If n is 12, return 8.
+    -If n is 13, return 8.
+    -If n is 14, return 8.
+    -If n is 15, return 8.
+    -If n is 16, return 16.
+    -If n is 17, return 16.
+    -If n is 18, return"
+"How to solve:
+Step 1. Initialize a counter variable to 0.
+Step 2. Iterate through both strings.
+    -If the current character of the string is not equal to the previous character, return False.
+    -If the current character of the string is equal to the previous character, increment the counter variable.
+Step 3. Return True if the counter variable is equal to the length of the string."
+"How to solve:
+Step 1. Initialize difference between x and y as 0.
+Step 2. If difference between x and y is not equal to 1, return True.
+Step 3. Return False."
+"def tribWord ( n ) :
+    """"""Write a function that takes an integer n and returns the nth Tribonacci word.
+    The Tribonacci word is a sequence of strings where each string is formed by concatenating the previous two strings in the sequence.
+    The first three strings in the sequence are ""1"", ""12"", and ""1213"".
+    The function should iterate from 3 to n and update the values of Sn_1, Sn_2, and Sn_3 accordingly.
+    Finally, it should return Sn_3, which represents the nth Tribonacci word.
+    """"""
+    if n == 1:
+        return ""1""
+    elif n == 2:
+        return ""12""
+    elif n == 3:
+        return ""1213""
+    else:
+        return tribWord(n-1) + tribWord(n-2) + tribWord(n-3)"
+""
+"How to solve:
+Step 1. Initialize result as 0.
+Step 2. Iterate through n.
+    -If result is 0, return 0.
+    -If result is 1, return 1.
+    -If result is 2, return 0.
+    -If result is 3, return 1.
+Step 3. Return result."
+"Step 1. Initialize sum as 0.
+Step 2. Initialize m as 0.
+Step 3. Iterate through numbers from 1 to N.
+    -If number is multiple of a, add it to m.
+    -If m is multiple of 2, add it to sum.
+Step 4. Return ans."
+"How to solve:
+Step 1. Initialize N as 0.
+Step 2. If N is less than or equal to 2, return N.
+Step 3. If N is less than or equal to 4, return N + 3.
+Step 4. If (N - 4) is divisible by 4, return N + 1.
+Step 5. If (N - 4) modulo 4 is less than or equal to 2, return N + 2.
+Step 6. Otherwise, return N - 1."
+"How to solve:
+Step 1. Initialize oddCount as 0.
+Step 2. Iterate through array.
+    -If current element is odd, add 1 to oddCount.
+    -If oddCount is 0, return True.
+    -If oddCount is not 0, return False."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. If N is equal to 1, return count.
+Step 3. If N is greater than 1, return count + countSum(N-2, L, R)."
+"How to solve:
+Step 1. Initialize min as 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+"How to solve:
+Step 1. Initialize a variable to store the smallest number.
+Step 2. Iterate through the string.
+    -If the current character is a digit, add it to the variable.
+    -If the current character is not a digit, subtract the current character from the variable.
+Step 3. Return the variable."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through the array.
+    -If the current element is greater than the previous element, add 1 to count and update previous element to current element.
+    -If the current element is less than or equal to the previous element, update previous element to current element.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize sum and count as 0.
+Step 2. Iterate through s.
+    -add value to sum.
+    -add 1 to count.
+Step 3. Return sum/count."
+""
+"How to solve:
+Step 1. Initialize LCM as 1.
+Step 2. Iterate through all possible pairs of numbers.
+    -If LCM is 1, return 1.
+    -If LCM is greater than 1, return LCM.
+Step 3. Return 1."
+The function should return the count of trailing zeros.
+"How to solve:
+Step 1. Initialize max_sum as 0.
+Step 2. Iterate through the array.
+    -XOR all elements to the left of the current element.
+    -XOR all elements to the right of the current element.
+    -If XOR of all elements to the left of the current element and XOR of all elements to the right of the current element is greater than max_sum, update max_sum.
+Step 3. Return the index of the element in the array such that the sum of the XOR of all elements to the left of it and the XOR of all elements to the right of it is maximum."
+"Step 1. Initialize the length of the longest decreasing subsequence as 0.
+Step 2. Iterate through the array.
+    -If the current element is greater than the previous element, then update the length of the longest decreasing subsequence.
+Step 3. Return the length of the longest decreasing subsequence."
+"How to solve:
+Step 1. Initialize minimum element to 0.
+Step 2. Iterate through array.
+    -If array[i] + k < minimum element, then set minimum element to array[i] + k.
+    -If array[i] - k > minimum element, then return -1.
+Step 3. Return minimum element."
+"How to solve:
+Step 1. Initialize a counter as 0.
+Step 2. Iterate through the number K.
+    -If the current counter is 0, set it to 1.
+    -If the current counter is not 0, increment it by 1.
+Step 3. If the current counter is 0, return -1.
+Step 4. Return the current counter."
+"How to solve:
+Step 1. Initialize minimum number of operations as 0.
+Step 2. Iterate through array.
+    -If array[i] is not equal to i, add 1 to minimum number of operations.
+Step 3. Return minimum number of operations."
+"How to solve:
+Step 1. Initialize sum as 0.
+Step 2. Iterate through numbers.
+    -add value to sum.
+Step 3. Return sum."
+"How to solve:
+Step 1. Initialize a variable to store the square root of the input number.
+Step 2. If the input number is 0, return 0.
+Step 3. If the input number is 1, return 1.
+Step 4. If the input number is greater than 1, divide the input number by 2.
+Step 5. Multiply the result of step 4 by 2.
+Step 6. Repeat steps 4 to 6 until the result is less than the input number.
+Step 7. Return the result of step 6."
+"How to solve:
+Step 1. Initialize p and q as 0.
+Step 2. Iterate through p and q.
+    -add value to p and q.
+    -If p and q are divided by 100, return the probability.
+Step 3. Return 0."
+"def XorAscii ( str1, len1 ) :
+    """"""Write a function that takes a string and its length as input and returns the XOR of the ASCII values of all the characters in the string.
+    """"""
+    xor = 0
+    for i in range(len1):
+        xor = xor ^ ord(str1[i])
+    return xor"
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through n.
+    -If n is divisible by 2, divide n by 2.
+    -Else, add 1 to count.
+Step 3. If count is odd, return False.
+Step 4. Return True."
+"How to solve:
+Step 1. Initialize a variable to store the vowels.
+Step 2. Iterate through the string.
+    -If the current character is not in the vowels, return False.
+    -If the current character is in the vowels, add it to the vowels variable.
+Step 3. Iterate through the vowels variable.
+    -If the current character is not in the string, return False.
+    -If the current character is in the string, remove it from the string.
+Step 4. If the string is empty, return True."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through numbers from low to high.
+    -If the last digit of number is greater than or equal to k, increment count.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize min_abs_diff as 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+"How to solve:
+Step 1. Initialize the area as 0.
+Step 2. If radius is negative, return -1.
+Step 3. Iterate through the radius.
+    -Calculate the area of a triangle with the radius.
+    -Add the area to the total area.
+Step 4. Return the total area."
+"How to solve:
+Step 1. Initialize a new string.
+Step 2. Iterate through the string.
+    -If the character is not in the new string, add it.
+Step 3. Return the new string."
+"Step 1. Initialize the array as a list.
+Step 2. Iterate through the array and find the missing number.
+Step 3. Return the missing number."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through string.
+    -If string[i:i+3] == ""010"", increment count.
+Step 3. Return count."
+"Step 1. Initialize a variable to store the first even number.
+Step 2. Iterate through the array.
+    -If the current element is even, store it in the variable.
+    -If the current element is odd, return the variable.
+Step 3. Return -1 if the array is empty."
+"How to solve:
+Step 1. Initialize xorArr as 0.
+Step 2. Initialize ans as 0.
+Step 3. Iterate through the array.
+    -Calculate XOR of xorArr and current element.
+    -Compare XOR value with current value of ans.
+    -Update ans if the XOR value is greater.
+Step 4. Return ans."
+"How to solve:
+Step 1. Initialize a boolean variable to False.
+Step 2. If sx = dx and sy = dy, return True.
+Step 3. If sx = dx and sy!= dy, return False.
+Step 4. If sx!= dx and sy = dy, return False.
+Step 5. If sx!= dx and sy!= dy, return True."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. If n is odd, return 0.
+Step 3. Iterate through all possible pairs of numbers.
+    -If sum of two numbers is divisible by 4, increment count by 1.
+Step 4. Return count."
+"Step 1. Initialize a dictionary to store the count of each element in the array.
+Step 2. Iterate through the array.
+    -If the current element is present in the dictionary, add 1 to the count of the element.
+    -If the current element is not present in the dictionary, add 0 to the count of the element.
+Step 3. Return the count of the element."
+"How to solve:
+Step 1. Initialize a node with height 0.
+Step 2. Iterate through height.
+    -If height is 0, return 1.
+    -If height is not 0, add 1 to the number of nodes in the left subtree.
+    -Add 1 to the number of nodes in the right subtree.
+    -Return the sum of the two numbers."
+"How to solve:
+Step 1. Initialize steps as 0.
+Step 2. If source == dest, return steps.
+Step 3. If source > dest, swap source and dest.
+Step 4. If source == dest, return steps.
+Step 5. If source < dest, calculate steps.
+Step 6. If source > dest, subtract steps from source.
+Step 7. If source == dest, return steps.
+Step 8. If source < dest, calculate steps.
+Step 9. If source > dest, subtract steps from source.
+Step 10. If source == dest, return steps.
+Step 11. If source < dest, calculate steps.
+Step 12. If source > dest, subtract steps from source.
+Step 13. If source == dest, return steps.
+Step 14. If source < dest, calculate steps.
+Step 15. If source > dest, subtract steps from source.
+Step 16. If source == dest, return steps.
+Step 17. If source < dest, calculate steps.
+Step 18. If source > dest, subtract steps"
+"Step 1. Initialize count as 1.
+Step 2. Initialize result as ''.
+Step 3. Iterate through n.
+    -If count is 1, add value to result.
+    -Else, add count to result.
+    -If count is 1, add value to result.
+    -Else, add count to result.
+    -If count is 1, add value to result.
+    -Else, add count to result.
+    -If count is 1, add value to result.
+    -Else, add count to result.
+    -If count is 1, add value to result.
+    -Else, add count to result.
+    -If count is 1, add value to result.
+    -Else, add count to result.
+    -If count is 1, add value to result.
+    -Else, add count to result.
+    -If count is 1, add value to result.
+    -Else, add count to result.
+    -If count is 1, add value to result.
+    -Else, add count to result.
+    -If count is 1, add value to result.
+    -Else, add count to result.
+    -If count is"
+"How to solve:
+Step 1. Initialize the maximum length as 0.
+Step 2. Iterate through the array.
+    -If the product of all elements in the array is non-negative, return N.
+    -If the product of all elements in the array is negative, update the maximum length.
+Step 3. Return the maximum length."
+"How to solve:
+Step 1. Initialize normal value as 0.
+Step 2. Calculate normal value.
+Step 3. Return normal value."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through array.
+    -If sum of current subarray is less than target, increment count by 1.
+Step 3. Return count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Sort the list.
+Step 3. Iterate through the list.
+    -Iterate through the list again.
+        -If the value is less than L, increment count.
+Step 4. Return count."
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Iterate through numbers from l to r.
+    -If number is divisible by 2 and 3, increment count by 1.
+Step 3. Return count."
+"def toggleLastMBits ( n, m ) :
+    """"""Write a function that takes two integers, n and m, and returns the result of toggling the last m bits of n.
+    """"""
+    return n ^ ( 1 << ( m - 1 ) )"
+"How to solve:
+Step 1. Initialize count as 0.
+Step 2. Initialize rem as 0.
+Step 3. Initialize L as 0.
+Step 4. Initialize R as 0.
+Step 5. Initialize K as 0.
+Step 6. Iterate through L to R.
+    -If K is equal to 9, replace it with 0.
+    -If rem is equal to K, increment count.
+    -If rem is not equal to K, divide rem by 9.
+    -If rem is not equal to K, divide rem by 9.
+    -If rem is not equal to K, divide rem by 9.
+    -If rem is not equal to K, divide rem by 9.
+    -If rem is not equal to K, divide rem by 9.
+    -If rem is not equal to K, divide rem by 9.
+    -If rem is not equal to K, divide rem by 9.
+    -If rem is not equal to K, divide rem by 9.
+    -If rem is not equal to K, divide rem by 9.
+    -If rem is not equal to K, divide rem"
+"How to solve:
+Step 1. Initialize product as 1.
+Step 2. Initialize log as 1.
+Step 3. Iterate through n.
+    -Multiply product by 10.
+    -Multiply log by log of 10.
+Step 4. Return first k digits of product."
+"Step 1. Initialize first element as -1.
+Step 2. Iterate through the list.
+    -If current element is greater than first element, set first element as current element.
+    -If current element is less than first element, return first element.
+Step 3. Return -1."
+"How to solve:
+Step 1. Initialize minimum increase as 0.
+Step 2. Iterate through a, b, c.
+    -If a < b and b < c, add 1 to minimum increase.
+    -If a > b and b > c, add 1 to minimum increase.
+Step 3. Return minimum increase."

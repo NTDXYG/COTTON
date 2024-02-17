@@ -1,0 +1,2495 @@
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the decimal part of the number.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance, your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for operation in operations:
+        balance += operation
+        if balance < 0:
+            return True
+    return False
+
+
+def truncate_number(number: float) -> float:
+    """""" Given a positive floating point number, it can be decomposed into
+    and integer part (largest integer smaller than given number) and decimals
+    (leftover part always smaller than 1).
+
+    Return the decimal part of the number.
+    """"""
+    return round"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" Given a list of deposit and withdrawal operations on a bank account that starts with zero balance,
+    return True if at any point the balance of account falls below zero, otherwise return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def parse_nested_parens(paren_string: str) -> List[int]:
+    """""" Input to this function is a string represented multiple groups for nested parentheses separated by spaces.
+    For each of the group, output the deepest level of nesting of parentheses.
+    E.g. (()()) has maximum two levels of nesting while ((())) has three.
+    """"""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through strings.
+    -If substring is found in string, return True.
+    -If substring is not found, return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the sum and product of all the integers in a list.
+""""""
+
+#### Output:
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the sum and product of all the integers in a list.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through numbers.
+    -If the number is greater than the current maximum, return True.
+    -If the number is less than the current maximum, return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Perform binary XOR on these inputs and return result also as a string.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return None.
+Step 5. Return None.
+Step 6. Return None.
+Step 7. Return None.
+Step 8. Return None.
+Step 9. Return None.
+Step 10. Return None.
+Step 11. Return None.
+Step 12. Return None.
+Step 13. Return None.
+Step 14. Return None.
+Step 15. Return None.
+Step 16. Return None.
+Step 17. Return None.
+Step 18. Return None.
+Step 19. Return None.
+Step 20. Return None.
+Step 21. Return None.
+Step 22. Return None.
+Step 23. Return None.
+Step 24. Return None.
+Step 25. Return None.
+Step 26. Return None.
+Step 27. Return None.
+Step 28. Return None.
+Step 29. Return None.
+Step 30. Return None.
+Step 31. Return None.
+Step 32. Return None."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance > 0, return True.
+Step 5. Return False.
+Step 6. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 7. Return False.
+Step 8. Iterate through operations.
+    -add value to account balance.
+    -If account balance > 0, return True.
+Step 9. Return False.
+Step 10. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 11. Return False.
+Step 12. Iterate through operations.
+    -add value to account balance.
+    -If account balance > 0, return True.
+Step 13. Return False.
+Step 14. Iterate through operations.
+    -add value to account balance.
+    -If account balance"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through all prefixes.
+    -Add all prefixes to the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list.
+    -Return the list."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through string.
+    -Count distinct characters.
+    -Return the number of distinct characters."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through substrings.
+    -If substring is found in the original string, return True.
+    -If substring is not found in the original string, return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the string with numbers sorted from smallest to largest"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+    -If account balance > 0, return True.
+Step 5. Return False.
+Step 6. Iterate through operations.
+    -add value to account balance.
+    -If account balance > 0, return False.
+    -If account balance < 0, return True.
+    -If account balance > 0, return True.
+    -If account balance > 0, return False.
+    -If account balance < 0, return False.
+    -If account balance > 0, return True.
+    -If account balance < 0, return False.
+    -If account balance > 0, return True.
+    -If account balance > 0, return False.
+    -If account balance < 0, return False.
+    -If account balance > 0, return True.
+    -If account balance"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return True.
+Step 5. Return False.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False.
+Step 30. Return False.
+Step 31. Return False.
+Step 32. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return True.
+Step 5. Return False.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False.
+Step 30. Return False.
+Step 31. Return False.
+Step 32. Return False."
+"[1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4194304, 8388608, 16777216, 4"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through numbers.
+    -If number is not in the list, add it to the list.
+    -If number is in the list, remove it from the list.
+    -If number is in the list, return True.
+    -If number is not in the list, return False.
+    -If number is in the list, return False.
+    -If number is in the list, return False.
+    -If number is in the list, return False.
+    -If number is not in the list, return False.
+    -If number is not in the list, return False.
+    -If number is not in the list, return False.
+    -If number is not in the list, return False.
+    -If number is not in the list, return False.
+    -If number is not in the list, return False.
+    -If number is not in the list, return"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the string flipped.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Concatenate list of strings into a single string.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through strings.
+    -If string starts with prefix, return True.
+Step 5. Return False.
+Step 6. Return True.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+#### Output:
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through strings.
+    -If string starts with prefix, return True.
+Step 5. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"True if n is prime, and False otherwise."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+Step 5. Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+Step 6. Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+Step 7. Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+Step 8. Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+Step 9. Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+Step 10. Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+Step 11. Return the number of times the digit 7 appears in"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through even indicies.
+    -If the value at the even indicies is equal to the value of the even indicies of l,
+    then sort the even indicies.
+    -If the value at the even indicies is not equal to the value of the even indicies of l,
+    then sort the odd indicies.
+    -If the value at the even indicies is not equal to the value of the even indicies of l,
+    then sort the odd indicies.
+    -If the value at the even indicies is equal to the value of the even indicies of l,
+    then sort the even indicies.
+    -If the value at the even indicies is not equal to the value of the even indicies of l,
+    then sort the odd indicies.
+    -If the value at the even indicies is not equal to the value of the even indicies of l,"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return True.
+Step 5. Return False.
+Step 6. Return True.
+Step 7. Return False.
+Step 8. Return True.
+Step 9. Return True.
+Step 10. Return False.
+Step 11. Return True.
+Step 12. Return True.
+Step 13. Return True.
+Step 14. Return True.
+Step 15. Return True.
+Step 16. Return True.
+Step 17. Return True.
+Step 18. Return True.
+Step 19. Return True.
+Step 20. Return True.
+Step 21. Return True.
+Step 22. Return True.
+Step 23. Return True.
+Step 24. Return True.
+Step 25. Return True.
+Step 26. Return True.
+Step 27. Return True.
+Step 28. Return True.
+Step 29. Return True.
+Step 30. Return True.
+Step 31. Return True.
+Step 32. Return True."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def incr_list(l: list):
+    """"""Return list with elements incremented by 1.
+    """"""
+    return [i + 1 for i in l]"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance > 0, return False.
+Step 5. Return True."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+
+def change_base(x: int, base: int):
+    """"""Change numerical base of input number x to base.
+    return string representation after the conversion.
+    base numbers are less than 10.
+    """"""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"True if given string is a palindrome, False otherwise.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return True.
+Step 5. Return False.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False.
+Step 30. Return False.
+Step 31. Return False.
+Step 32. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return n-th Fibonacci number."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through brackets.
+    -If brackets[i] == ""<"" or brackets[i] == "">"", return True.
+    -If brackets[i] == ""("" or brackets[i] == "")"", return False.
+    -If brackets[i] == ""["" or brackets[i] == ""]"", return False.
+    -If brackets[i] == ""{"" or brackets[i] == ""}"", return False.
+    -If brackets[i] == ""{"" or brackets[i] == ""}"", return False.
+    -If brackets[i] == ""{"" or brackets[i] == ""}"", return False.
+    -If brackets[i] == ""{"" or brackets[i] == ""}"", return False.
+    -If brackets[i] == ""{"" or brackets[i] == ""}"", return False.
+    -If brackets[i] == ""{"" or brackets[i] == ""}"", return False.
+    -If brackets["
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance > 0, return False.
+Step 5. Return True.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through common elements.
+    -If common element is not None, return True.
+    -If common element is None, return False.
+Step 5. Return True.
+Step 6. Return False.
+Step 7. Return None.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+
+def common(l1: list, l2: list) -> list:
+    """"""Return sorted unique common elements for two lists.
+    """"""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and with"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def derivative(xs: list):
+    """""" xs represent coefficients of a polynomial.
+    xs[0] + xs[1] * x + xs[2] * x^2 +....
+     Return derivative of this polynomial in the same form.
+    """"""
+
+    return [x * x for x in xs]
+
+
+def below_zero(operations: List[int"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return True.
+Step 5. Return False.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False.
+Step 30. Return False.
+Step 31. Return False.
+Step 32. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the smallest even value in the array.
+Step 5. Return the smallest index in the array.
+Step 6. Return the smallest even value in the array.
+Step 7. Return the smallest index in the array.
+Step 8. Return the smallest even value in the array.
+Step 9. Return the smallest index in the array.
+Step 10. Return the smallest even value in the array.
+Step 11. Return the smallest index in the array.
+Step 12. Return the smallest even value in the array.
+Step 13. Return the smallest index in the array.
+Step 14. Return the smallest even value in the array.
+Step 15. Return the smallest index in the array.
+Step 16. Return the smallest even value in the array.
+Step 17. Return the smallest index in the array.
+Step 18. Return the smallest even value in the array.
+Step 19. Return the smallest index in the array.
+Step 20"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return -1."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance > 0, return False.
+Step 5. Return True.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return -1.
+Step 5. Return -1.
+Step 6. Return -1.
+Step 7. Return -1.
+Step 8. Return -1.
+Step 9. Return -1.
+Step 10. Return -1.
+Step 11. Return -1.
+Step 12. Return -1.
+Step 13. Return -1.
+Step 14. Return -1.
+Step 15. Return -1.
+Step 16. Return -1.
+Step 17. Return -1.
+Step 18. Return -1.
+Step 19. Return -1.
+Step 20. Return -1.
+Step 21. Return -1.
+Step 22. Return -1.
+Step 23. Return -1.
+Step 24. Return -1.
+Step 25. Return -1.
+Step 26. Return -1.
+Step 27. Return -1.
+Step 28. Return -1.
+Step 29"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return True.
+Step 5. Return False.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False.
+Step 30. Return False.
+Step 31. Return False.
+Step 32. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the first list that has the same number of chars as the second list.
+""""""
+
+
+def total_match(lst1, lst2):
+    """"""
+    Write a function that accepts two lists of strings and returns the list that has 
+    total number of chars in the all strings of the list less than the other list.
+
+    if the two lists have the same number of chars, return the first list.
+    """"""
+
+
+def total_match(lst1, lst2):
+    """"""
+    Write a function that accepts two lists of strings and returns the list that has 
+    total number of chars in the all strings of the list less than the other list.
+
+    if the two lists have the same number of chars, return the first list.
+    """"""
+
+
+def total_match(lst1, lst2):
+    """"""
+    Write a function that accepts two lists of strings and returns the"
+True if a is a multiplication of 3 prime numbers and False otherwise.
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"True if a is a cube of some integer number.
+False otherwise.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    Write a function that takes a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance.
+    Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def iscube(a):
+    """"""
+    Write a function that takes an integer a and returns True 
+    if this ingeger is a cube of some integer number.
+    Note: you may assume the input is always valid.
+    """"""
+
+    return a**3 == a**2 == a == 0
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    Write a function that takes a list of deposit and withdrawal operations on a bank account that starts with"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"True if string is a prime number or False otherwise
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through words in the sentence.
+    -If the word is not empty, replace the word with a new word.
+    -If the word is empty, return False.
+Step 5. Return True.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True.
+Step 6. Return False.
+Step 7. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 8. Return False.
+Step 9. Return True.
+Step 10. Return False.
+Step 11. Return True.
+Step 12. Return False.
+Step 13. Return True.
+Step 14. Return False.
+Step 15. Return True.
+Step 16. Return False.
+Step 17. Return True.
+Step 18. Return False.
+Step 19. Return True.
+Step 20. Return False.
+Step 21. Return True.
+Step 22. Return False.
+Step 23. Return True.
+Step 24. Return False.
+Step 25. Return True.
+Step 26. Return"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Sort the array in ascending order if the sum( first index value, last index value) is odd,
+    or sort it in descending order if the sum( first index value, last index value) is even."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the string encrypted with the alphabet being rotated.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return None if there is no such element."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through words.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with ""I"", add value to account balance.
+    -If word starts with"
+"True
+False
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    account_balance = 0
+    for operation in operations:
+        account_balance += operation
+        if account_balance < 0:
+            return True
+    return False
+
+
+def any_int(x, y, z):
+    """"""
+    Create a function that takes 3 numbers.
+    Returns true if one of the numbers is equal to the sum of the other two, and all numbers are integers.
+    Returns false in any other cases.
+    """"""
+    return x == y == z
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    account_balance = 0
+    for operation in operations:
+        account_balance += operation"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the sum of its digits."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 353, 359, 361, 367, 371, 373, 379, 383, 389, 397, 401, 419, 421, 431, 433, 439, 447, 453, 459, 461, 467, 471, 473, 479, 483, 489"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the product of the two numbers.
+""""""
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    balance = 0
+    for op in operations:
+        balance += op
+    return balance < 0
+
+
+def multiply(a, b):
+    """"""Complete the function that takes two integers and returns 
+    the product of their unit digits.
+    Assume the input is always valid.
+    """"""
+    return a * b
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return account balance.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def make_a_pile(n):
+    """"""    Given a positive integer n, you have to make a pile of n levels of stones.
+    The first level has n stones.
+    The"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through words.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return True.
+Step 5. Return False.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False.
+Step 30. Return False.
+Step 31. Return False.
+Step 32. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return -1 if n is greater than m.
+""""""
+
+
+def rounded_avg(n, m):
+    """"""You are given two positive integers n and m, and your task is to compute the
+    average of the integers from n through m (including n and m). 
+    Round the answer to the nearest integer and convert that to binary.
+    If n is greater than m, return -1.
+    """"""
+
+#### Output:
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return -1 if n is greater than m.
+""""""
+
+
+def rounded_avg(n, m):
+    """"""You are given two positive integers n and m, and your task is to compute the
+    average"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through the array.
+    -If the number is between 1 and 9, replace each digit by its corresponding name from
+    ""One"", ""Two"", ""Three"", ""Four"", ""Five"", ""Six"", ""Seven"", ""Eight"", ""Nine"".
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+
+def by_length(arr):
+    """"""    Given an array of integers, sort the integers that are between 1 and 9 inclusive,
+    reverse the resulting array, and then replace each digit by its corresponding name from
+    ""One"", ""Two"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" Implement the function below_zero that takes a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance.
+    Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" Implement the function below_zero that takes a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance.
+    Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+    -If account balance < 0, return True.
+Step 5. Return True.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through the array.
+    -If the sum of digits of the array is greater than 0, return True.
+    -If the sum of digits of the array is less than 0, return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return ""YES"" if all elements of lst1 are even, else ""NO""."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through the dictionary and return the most common letter.
+    -If there are multiple letters with the same occurrence, return all of them."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through strings.
+    -If string is odd, replace string with number of odd digits in string.
+    -If string is even, replace string with number of even digits in string.
+    -If string is not odd, replace string with number of odd digits in string.
+    -If string is not even, replace string with number of even digits in string.
+    -If string is odd and even, replace string with number of odd digits in string.
+    -If string is odd and even, replace string with number of even digits in string.
+    -If string is odd and even, replace string with number of even digits in string.
+    -If string is odd and even, replace string with number of even digits in string.
+    -If string is odd and even, replace string with number of even digits in string.
+    -If string is odd and even, replace string with number of even digits in string."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through the array.
+    -If the sum of the sub-array is greater than the minimum sum, return the minimum sum.
+    -If the sum of the sub-array is less than the minimum sum, return the maximum sum.
+    -If the sum of the sub-array is equal to the minimum sum, return the sum.
+    -If the sum of the sub-array is equal to the maximum sum, return the sum.
+    -If the sum of the sub-array is less than or equal to the maximum sum, return the sum.
+    -If the sum of the sub-array is greater than or equal to the minimum sum, return the sum."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through the rows and columns of the grid.
+    -If the value of the column is greater than the capacity, return True.
+    -If the value of the row is greater than the capacity, return True.
+    -If the value of the column is equal to the capacity, return True.
+    -If the value of the row is equal to the capacity, return True.
+    -If the value of the column is equal to the capacity, return True.
+    -If the value of the row is equal to the capacity, return True.
+    -If the value of the column is equal to the capacity, return True.
+    -If the value of the row is equal to the capacity, return True.
+    -If the value of the column is equal to the capacity, return True.
+    -If the value of the row is equal to the capacity, return True.
+    -If the value of the column"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance += op
+
+    if balance < 0:
+        return True
+    else:
+        return False
+
+
+def sort_array(arr):
+    """"""    In this Kata, you have to sort an array of non-negative integers according to
+    number of ones in their binary representation in ascending order."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"Yes
+No
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for operation in operations:
+        balance += operation
+        if balance < 0:
+            return True
+    return False
+
+
+def match_parens(lst):
+    """"""
+    Your task is to check if it is possible to concatenate the two strings in
+    some order, that the resulting string will be good.
+    A string S is considered to be good if and only if all parentheses in S
+    are balanced. For example: the string '(())()' is good, while the string
+    '())' is not.
+    Return 'Yes' if there's a way to make a good string, and return 'No' otherwise.
+    """"""
+
+    balance = 0
+    for operation in lst:
+        balance += operation
+        if balance < 0:
+            return True
+    return False
+
+
+def below_zero"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through the array and return the maximum value in the array.
+    -If the maximum value is greater than the k, return the k.
+    -If the maximum value is less than the k, return the k.
+    -If the maximum value is equal to the k, return the k.
+    -If the maximum value is greater than or equal to the k, return the k.
+    -If the maximum value is less than or equal to the k, return the k.
+    -If the maximum value is equal to the k, return the k.
+    -If the maximum value is greater than or equal to the k, return the k.
+    -If the maximum value is less than or equal to the k, return the k.
+    -If the maximum value is equal to the k, return the k.
+    -If the maximum value is greater than or equal to the k, return the k."
+"def solution(lst):
+    """"""Given a non-empty list of integers, return the sum of all of the odd elements that are in even positions.
+    """"""
+    return sum(x for x in lst if x % 2 == 0)"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"True
+False
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return True.
+Step 5. Return False.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False.
+Step 30. Return False.
+Step 31. Return False.
+Step 32. Return False."
+"True
+False
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+    return sorted(operations) == sorted(operations)
+
+
+def is_sorted(lst):
+    """"""
+    Given a list of numbers, return whether or not they are sorted
+    in ascending order. If list has more than 1 duplicate of the same
+    number, return False. Assume no negative numbers and only integers.
+    """"""
+    return sorted(lst) == sorted(lst)
+
+
+def below_zero(operations: List[int]) -> bool:
+    """"""
+    Given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through intervals.
+    -If the first interval is greater than the second, return True.
+    -If the first interval is less than the second, return False.
+    -If the first interval is equal to the second, return True.
+    -If the first interval is not equal to the second, return False.
+    -If the first interval is not greater than the second, return False.
+    -If the first interval is not less than the second, return False.
+    -If the first interval is not equal to the second, return False.
+    -If the first interval is not greater than the second, return False.
+    -If the first interval is not less than the second, return False.
+    -If the first interval is not equal to the second, return False.
+    -If the first interval is not greater than the second, return False.
+    -If the first interval is not less than"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return None for empty arr.
+""""""
+
+#### Output:
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return None for empty arr.
+""""""
+
+#### Output:
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return None for empty arr.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return 0 if all digits are odd.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+    balance = 0
+    for op in operations:
+        balance += op
+        if balance < 0:
+            return True
+    return False
+
+
+def digits(n):
+    """"""Given a positive integer n, return the product of the odd digits.
+    Return 0 if all digits are even.
+    """"""
+
+    return 0 if n % 2 == 0 else n"
+"True if and only if there is a valid subsequence of brackets where at least one bracket in the subsequence is nested.
+False otherwise.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return -1 if there is no element in the array."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return None.
+Step 5. Return None.
+Step 6. Return None.
+Step 7. Return None.
+Step 8. Return None.
+Step 9. Return None.
+Step 10. Return None.
+Step 11. Return None.
+Step 12. Return None.
+Step 13. Return None.
+Step 14. Return None.
+Step 15. Return None.
+Step 16. Return None.
+Step 17. Return None.
+Step 18. Return None.
+Step 19. Return None.
+Step 20. Return None.
+Step 21. Return None.
+Step 22. Return None.
+Step 23. Return None.
+Step 24. Return None.
+Step 25. Return None.
+Step 26. Return None.
+Step 27. Return None.
+Step 28. Return None.
+Step 29. Return None.
+Step 30. Return None.
+Step 31. Return None.
+Step 32. Return None."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return None if the values are equal.
+""""""
+
+
+def compare_two(a, b):
+    """"""
+    Create a function that takes integers, floats, or strings representing
+    real numbers, and returns the larger variable in its given variable type.
+    Return None if the values are equal.
+    Note: If a real number is represented as a string, the floating point might be. or,
+    """"""
+
+#### Output:
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return None if the values are equal.
+""""""
+
+
+def compare_three(a, b):
+    """"""
+    Create a function that takes integers, floats, or strings representing
+    real numbers, and returns the"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return True.
+Step 5. Return False.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False.
+Step 30. Return False.
+Step 31. Return False.
+Step 32. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"Yes
+No
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the sum of all entries.
+""""""
+
+
+def sum_squares(lst):
+    """"""""
+    This function will take a list of integers. For all entries in the list, the function shall square the integer entry if its index is a 
+    multiple of 3 and will cube the integer entry if its index is a multiple of 4 and not a multiple of 3. The function will not 
+    change the entries in the list whose indexes are not a multiple of 3 or 4. The function shall then return the sum of all entries.
+    """"""
+
+#### Output:
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the sum of all entries.
+""""""
+
+
+def sum_squares(lst):"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through words in the sentence.
+    -If the word is prime, add it to the new sentence.
+    -If the word is not prime, return False.
+    -If the word is not prime, return True.
+    -If the word is prime, return True.
+    -If the word is not prime, return False.
+    -If the word is prime, return False.
+    -If the word is not prime, return False.
+    -If the word is prime, return True.
+    -If the word is not prime, return False.
+    -If the word is prime, return True.
+    -If the word is not prime, return False.
+    -If the word is prime, return True.
+    -If the word is not prime, return False.
+    -If the word is prime, return True.
+    -If the word is not prime, return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return True.
+Step 5. Return False.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False.
+Step 30. Return False.
+Step 31. Return False.
+Step 32. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True.
+Step 6. Return False.
+Step 7. Return False.
+Step 8. Return False.
+Step 9. Return False.
+Step 10. Return False.
+Step 11. Return False.
+Step 12. Return False.
+Step 13. Return False.
+Step 14. Return False.
+Step 15. Return False.
+Step 16. Return False.
+Step 17. Return False.
+Step 18. Return False.
+Step 19. Return False.
+Step 20. Return False.
+Step 21. Return False.
+Step 22. Return False.
+Step 23. Return False.
+Step 24. Return False.
+Step 25. Return False.
+Step 26. Return False.
+Step 27. Return False.
+Step 28. Return False.
+Step 29. Return False"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through numbers.
+    -If the first digit of a number is odd, return True.
+    -If the last digit of a number is odd, return True.
+    -If the first digit of a number is even, return True.
+    -If the last digit of a number is even, return True.
+    -If the first digit of a number is even, return True.
+    -If the last digit of a number is even, return True.
+    -If the first digit of a number is even, return True.
+    -If the last digit of a number is even, return True.
+    -If the first digit of a number is even, return True.
+    -If the last digit of a number is even, return True.
+    -If the first digit of a number is even, return True.
+    -If the last digit of a number is even, return True.
+    -"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return an empty tuple if planet1 or planet2
+    are not correct planet names.
+Step 5. Return an empty tuple if planet1 or planet2
+    are not correct planet names.
+Step 6. Return an empty tuple if planet1 or planet2
+    are not correct planet names.
+Step 7. Return an empty tuple if planet1 or planet2
+    are not correct planet names.
+Step 8. Return an empty tuple if planet1 or planet2
+    are not correct planet names.
+Step 9. Return an empty tuple if planet1 or planet2
+    are not correct planet names.
+Step 10. Return an empty tuple if planet1 or planet2
+    are not correct planet names.
+Step 11. Return an empty tuple if planet1 or planet2
+    are not correct planet names.
+Step 12"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+    -If account balance > 0, return True.
+Step 5. Return False.
+Step 6. Iterate through operations.
+    -add value to account balance.
+    -If account balance > 0, return False.
+    -If account balance < 0, return True.
+Step 7. Return False.
+Step 8. Iterate through operations.
+    -add value to account balance.
+    -If account balance > 0, return True.
+    -If account balance < 0, return False.
+Step 9. Return False.
+Step 10. Iterate through operations.
+    -add value to account balance.
+    -If account balance > 0, return True.
+    -If account balance < 0, return False.
+Step 11. Return False.
+Step 12. Iterate through operations.
+    -"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through guesses.
+    -If guesses[i] == game[i], return True.
+    -If guesses[i]!= game[i], return False.
+    -If guesses[i] == game[i], return 0.
+    -If guesses[i]!= game[i], return abs(game[i] - guesses[i])."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through extensions.
+    -If the extension's strength is the same as the strongest extension's strength, then
+    return the extension's name.
+    -If the extension's strength is different than the strongest extension's strength,
+    then return the strongest extension's name.
+    -If the extension's strength is different than the strongest extension's strength,
+    then return the strongest extension's name.
+    -If the extension's strength is different than the strongest extension's strength,
+    then return the strongest extension's name.
+    -If the extension's strength is different than the strongest extension's strength,
+    then return the strongest extension's name.
+    -If the extension's strength is different than the strongest extension's strength,
+    then return the strongest extension's name.
+    -If the extension's strength is different than the strongest extension's strength,
+    then return"
+True
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the number of even and odd digits respectively.
+""""""
+
+
+def below_zero(operations: List[int]) -> bool:
+    """""" You're given a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance. Your task is to detect if at any point the balance of account falls below zero, and
+    at that point function should return True. Otherwise it should return False.
+    """"""
+
+#### Output:
+How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the number of even and odd digits respectively.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the word with maximum number of unique characters.
+Step 5. If multiple strings have maximum number of unique characters, return the one which comes first in lexicographical order.
+Step 6. Return the word with maximum number of unique characters.
+Step 7. Return the word with maximum number of unique characters.
+Step 8. Return the word with maximum number of unique characters.
+Step 9. Return the word with maximum number of unique characters.
+Step 10. Return the word with maximum number of unique characters.
+Step 11. Return the word with maximum number of unique characters.
+Step 12. Return the word with maximum number of unique characters.
+Step 13. Return the word with maximum number of unique characters.
+Step 14. Return the word with maximum number of unique characters.
+Step 15. Return the word with maximum number of unique characters.
+Step 16. Return the word with maximum number of unique characters.
+Step 17. Return the word with maximum"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Return the number of eaten carrots after your meals.
+Step 5. Return the number of carrots left after your meals."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+"""""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False.
+Step 4. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return False.
+Step 5. Return True.
+Step 6. Return False.
+Step 7. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 8. Return False.
+Step 9. Return True.
+Step 10. Return False.
+Step 11. Return True.
+Step 12. Return False.
+Step 13. Return True.
+Step 14. Return False.
+Step 15. Return True.
+Step 16. Return False.
+Step 17. Return True.
+Step 18. Return False.
+Step 19. Return True.
+Step 20. Return False.
+Step 21. Return True.
+Step 22. Return False.
+Step 23. Return True.
+Step 24. Return False.
+Step 25. Return True.
+Step 26. Return"

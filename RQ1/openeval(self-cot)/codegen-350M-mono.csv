@@ -1,0 +1,1191 @@
+"def validPosition ( arr, N, K ) :
+    """"""Write a function that takes in an array, the length of the array, and a number K.
+    The function calculates the sum of all the elements in the array.
+    Then, it checks each element in the array and counts how many elements, when increased by K, would be greater than the sum of all the other elements in the array.
+    Finally, the function returns the count.
+    """"""
+
+#"
+"def minLen ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the frequency of the maximum value in the array.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return 0."
+"def isSpiltPossible ( n, a ) :
+    """"""Write a function that takes an integer n and a list of integers a.
+    The function checks if it is possible to split the list into two parts such that the sum of each part is equal.
+    If it is possible, the function returns True, otherwise it returns False.
+    """"""
+
+#"
+"def findParity ( x ) :
+    """"""Write a function that takes an integer as input and returns 1 if the number has odd parity (an odd number of 1 bits in its binary representation) or 0 if it has even parity (an even number of 1 bits in its binary representation).
+    """"""
+
+#"
+"def missing_elements ( vec ) :
+    """"""Write a function that takes a list of integers and returns a list of missing elements.
+    The function first iterates through the input list and modifies the elements by changing the sign of the element at the index equal to the absolute value of the current element minus one.
+    Then, it iterates through the modified list and appends the indices of the positive elements plus one to the output list.
+    Finally, it returns the output list.
+    """"""
+
+#"
+"def findSubsequence ( arr, n ) :
+    """"""Write a function that takes an array of integers and its length as input and returns the length of the longest subsequence in the array such that each element in the subsequence has at least one digit in common with every other element in the subsequence.
+    """"""
+
+#"
+"def Prime_factors ( a ) :
+    """"""Write a function that takes a list of integers and returns the number of distinct prime factors for each integer in the list.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def run_tasks ( A, B ) :
+    """"""Write a function that takes two lists, A and B, and returns the total time it takes to complete a series of tasks.
+    The function iterates through the lists, comparing each element from A with the corresponding element from B.
+    If the elements are equal, the total time is incremented by 1.
+    If the elements are not equal, the element from B is moved to the front of the list and the element from A is moved to the end of the list.
+    The total time is incremented by 2 in this case.
+    The function continues this process until all elements in A have been compared.
+    Finally, the function returns the total time.
+    """"""
+
+#"
+"def calculate ( array, size ) :
+    """"""Write a function that takes an array and its size as input and returns the count of even numbers in the array, excluding 0 and 2.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def Survives ( n ) :
+    """"""Write a function that takes an integer as input and returns True if the integer survives the given condition, or False otherwise.
+    The condition is as follows: starting from 2, divide the integer by the current number and subtract the result from the integer.
+    Repeat this process until the current number is greater than the integer.
+    If the integer reaches 1 at any point, return True.
+    If the integer is divisible by any of the current numbers, return False.
+    """"""
+
+#"
+"def computeXOR ( n ) :
+    """"""Write a function that takes an integer as input and computes the XOR of the integer with a specific pattern.
+    The function uses a switch statement to determine the XOR value based on the remainder of the input integer divided by 4.
+    The switch statement has four cases: 
+- If the remainder is 0, the function returns the input integer itself.
+   
+- If the remainder is 1, the function returns 1.
+   
+- If the remainder is 2, the function returns the input integer plus 1.
+   
+- If the remainder is 3, the function returns 0.
+   
+If the input integer does not match any of the cases, the function returns an empty string.
+    """"""
+
+#"
+"def lehmann_test( n, t ) :
+    """"""Write a function that takes two parameters, n and t, and performs the Lehmann primality test.
+    The function generates a random number a between 2 and n-1, and calculates the value of a raised to the power of (n-1)/2 modulo n.
+    It then checks if the result is equal to 1 or n-1.
+    If it is, the function generates a new random number a and repeats the process t times.
+    If the result is not equal to 1 or n-1, the function returns -1.
+    If all t iterations pass the test, the function returns 1.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def product ( x, y ) :
+    """"""Write a function that takes two numbers, x and y, and returns their product.
+    The function uses recursion to calculate the product by repeatedly adding x to itself y times.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def lenOfLongIncSubArr ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the length of the longest increasing subarray in the given array.
+    """"""
+
+#"
+"def subsetSum ( arr, n, i, sum, count ) :
+    """"""Write a function that takes an array of integers, the length of the array, the current index, a target sum, and a count.
+    The function recursively calculates the number of subsets of the array that sum up to the target sum.
+    The base case is when the current index is equal to the length of the array.
+    If the sum is equal to 0, the count is incremented.
+    The function then calls itself twice, once subtracting the current element from the sum and once without subtracting.
+    Finally, the function returns the count.
+    """"""
+
+#"
+"def center_hexadecagonal_num ( n ) :
+    """"""Write a function that takes an integer n and returns the center hexadecagonal number for that value.
+    """"""
+
+#"
+"def seriesFunc ( n ) :
+    """"""Write a function that takes an integer n and returns the sum of the squares of the first n natural numbers, the sum of the first n natural numbers, and adds 1 to the total sum.
+    """"""
+
+#"
+"def maxSumLCM ( n ) :
+    """"""Write a function that takes an integer n and returns the maximum sum of all the factors of n.
+    """"""
+
+#"
+"def findGreater ( x, y ) :
+    """"""Write a function that takes two numbers, x and y, and returns True if x is less than or equal to y, and False otherwise.
+    """"""
+
+#"
+"def center_octadecagon_num ( n ) :
+    """"""Write a function that takes an integer n and returns the center octadecagon number.
+    The center octadecagon number is calculated using the formula 9 * n * n - 9 * n + 1.
+    """"""
+
+#"
+"def percent ( a, b ) :
+    """"""Write a function that takes two numbers, a and b, and returns the percentage increase or decrease from a to b.
+    """"""
+
+#"
+"def AvgofSquareN ( n ) :
+    """"""Write a function that takes an integer n and returns the average of the squares of the first n natural numbers.
+    """"""
+
+#"
+"def ksmallest ( arr, n, k ) :
+    """"""Write a function that takes an array, its length, and an integer k as input.
+    The function returns the kth smallest element in the array.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def findTerm ( n ) :
+    """"""Write a function that takes an integer n and returns the nth term of a sequence.
+    The sequence starts with 1 and each subsequent term is calculated by multiplying the previous term by 2 and adding the difference between the current index and 1.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return 1.
+Step 3. Return 0."
+"def getOccurence ( n, d ) :
+    """"""Write a function that takes two integers, n and d, and returns the number of times the digit d occurs in the numbers from 1 to n (inclusive).
+    """"""
+
+#"
+"def findMissingPositive ( arr, n ) :
+    """"""Write a function that takes an array of integers and its length as input and returns the smallest positive integer that is missing from the array.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def calculateAreaSum ( l, b ) :
+    """"""Write a function that takes two parameters, l and b, representing the length and breadth of a rectangle.
+    The function calculates the sum of the areas of all the squares that can fit inside the rectangle.
+    It starts with a square of size 1 and gradually increases the size until it reaches the maximum size that can fit inside the rectangle.
+    The function returns the total area of all the squares.
+    """"""
+
+#"
+"def count_2 ( N ) :
+    """"""Write a function that takes an integer N and returns the sum of all numbers from 1 to N.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return -1."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return 0.
+Step 3. Return 0."
+"def maxOfSegmentMins ( a, n, k ) :
+    """"""Write a function that takes an array 'a', its length 'n', and an integer 'k' as input and returns the maximum value of the minimum elements in each segment of size 'k' in the array.
+    If 'k' is equal to 1, the function should return the minimum element in the array.
+    If 'k' is equal to 2, the function should return the maximum value between the first and last element in the array.
+    Otherwise, the function should return the maximum element in the array.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return 1.
+Step 3. Return 0."
+"def permutation ( arr, n ) :
+    """"""Write a function that takes an array and an integer as input and returns the sum of absolute differences between each element in the sorted array and its corresponding index plus one.
+    """"""
+
+#### Output:
+
+def permutation ( arr, n ) :
+    """"""Write a function that takes an array and an integer as input and returns the sum of absolute differences between each element in the sorted array and its corresponding index plus one.
+    """"""
+
+#### Output:
+
+def permutation ( arr, n ) :
+    """"""Write a function that takes an array and an integer as input and returns the sum of absolute differences between each element in the sorted array and its corresponding index plus one.
+    """"""
+
+#### Output:
+
+def permutation ( arr, n ) :
+    """"""Write a function that takes an array and an integer as input and returns the sum of absolute differences between each element in the sorted array and its corresponding index plus one.
+    """"""
+
+#### Output:
+
+def permutation ( arr, n ) :
+    """"""Write a function that takes an array and an integer as input and returns the sum of absolute differences between each element"
+"def getMinCost ( arr, n ) :
+    """"""Write a function that takes an array of integers and the length of the array as input.
+    The function should find the minimum element in the array and return the product of the minimum element and (n - 1), where n is the length of the array.
+    """"""
+
+#"
+"def maxDistance ( array ) :
+    """"""Write a function that takes an array of integers and returns the maximum difference between any two elements in the array, where the difference is calculated by adding or subtracting the index of the element from the element itself.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def countSolutions ( a ) :
+    """"""Write a function that takes an integer as input and counts the number of solutions to the equation a = i + (a XOR i), where i ranges from 0 to a (inclusive).
+    The function should return the count of solutions.
+    """"""
+
+#"
+"def maxAND ( L, R ) :
+    """"""Write a function that takes two integers, L and R, and returns the maximum value of the bitwise AND operation between L and R.
+    """"""
+
+#"
+"def findSmallest ( a, n ) :
+    """"""Write a function that takes an array of integers and its length as input and returns the smallest number in the array that is a factor of all other numbers in the array.
+    If there is no such number, the function should return -1.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def isUnique ( a, n, k ) :
+    """"""Write a function that takes an array of integers, the length of the array, and an integer k.
+    The function should return True if the sum of the array elements plus the length of the array minus 1 is equal to k, and False otherwise.
+    """"""
+
+#"
+"def onlyFirstAndLastAreSet ( n ) :
+    """"""Write a function that takes an integer as input and returns True if only the first and last bits of the binary representation of the integer are set to 1, or False otherwise.
+    """"""
+
+#"
+"def maxPartition ( s ) :
+    """"""Write a function that takes a string as input and returns the maximum number of partitions that can be made such that each partition consists of consecutive identical characters.
+    """"""
+
+#"
+"def findNum ( N, K ) :
+    """"""Write a function that takes two integers, N and K, and returns N if N is divisible by K, otherwise it returns N minus the remainder of N divided by K.
+    """"""
+
+#"
+"def successiveChange ( arr, N ) :
+    """"""Write a function that takes an array and an integer N as input and returns the result of a successive change calculation.
+    The function initializes a variable ""result"" to 0.
+    It then assigns the first element of the array to a variable ""var1"" and the second element to a variable ""var2"".
+    The ""result"" variable is updated by adding ""var1"" and ""var2"" and adding the product of ""var1"" and ""var2"" divided by 100.
+    
+
+The function then enters a loop that iterates from 2 to N.
+    In each iteration, the ""result"" variable is updated by adding the current element of the array and adding the product of ""result"" and the current element divided by 100.
+    
+
+Finally, the function returns the final value of the ""result"" variable.
+    """"""
+
+#"
+"def answer ( arr, ranges, reversals, index ) :
+    """"""Write a function that takes in four parameters: an array, a list of ranges, the number of reversals, and an index.
+    The function returns the value at the given index after performing the specified number of reversals on the array.
+    Each reversal involves swapping the elements within a given range.
+    """"""
+
+#"
+"def judgeSquareSum ( n ) :
+    """"""Write a function that takes an integer as input and returns True if the integer can be expressed as the sum of two squares, and False otherwise.
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return -1."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def findMinValue ( arr, n ) :
+    """"""Write a function that takes an array of numbers and its length as input and returns the minimum value of a number such that the sum of the logarithms of all the numbers in the array is less than the logarithm of the minimum value multiplied by the length of the array.
+    """"""
+
+#"
+"def longestSubString(s) :
+    """"""Write a function that takes a string as input and returns the longest substring of the input string that does not end with the character '1'.
+    If the input string is empty or consists only of '1' characters, the function should return ""-1"".
+    """"""
+
+#"
+"def MinRemove ( a, n, k ) :
+    """"""Write a function that takes an array 'a', its length 'n', and an integer 'k' as input.
+    The function removes the minimum number of elements from the array such that the count of each element is at most 'k'.
+    The function returns the length of the modified array.
+    """"""
+
+#"
+"def getMedian( arr, n ) :
+    """"""Write a function that takes an array, its size, and an integer k as input and returns the median of the array after adding k elements to it.
+    The function first calculates the size of the array after adding k elements.
+    It then sorts the array in ascending order.
+    If the size is even, the function calculates the median by taking the average of the two middle elements.
+    If the size is odd, the function simply returns the middle element as the median.
+    """"""
+
+#"
+"Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def findNthEvenDigitNumber ( n ) :
+    """"""Write a function that takes an integer n and returns the nth even digit number.
+    The function first checks if n is equal to 1, in which case it returns 0.
+    Otherwise, it creates an empty list v and subtracts 1 from n.
+    It then enters a while loop where it appends the remainder of n divided by 5 to the list v and updates n to be the floor division of n by 5.
+    After the loop, the function initializes a variable result to 0.
+    It then iterates over the elements in the list v in reverse order and updates the result by multiplying it by 10 and adding the current element.
+    Finally, the function returns 2 times the result.
+    """"""
+
+#"
+"def areSetBitsIncreasing ( n ) :
+    """"""Write a function that takes an integer as input and returns True if the number has a sequence of increasing set bits (bits that are set to 1) and False otherwise.
+    """"""
+
+#"
+"def closestMultiple ( n, x ) :
+    """"""Write a function that takes two integers, n and x, and returns the closest multiple of x to n.
+    If x is greater than n, it returns x.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def find_maxm ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the maximum value in the array that occurs the same number of times as its value.
+    """"""
+
+#"
+"def countPairs ( a, n ) :
+    """"""Write a function that takes a list of integers and the length of the list as input.
+    The function counts the number of pairs of integers in the list where one integer is the power of 2 greater than the other integer.
+    The function returns the count of such pairs.
+    """"""
+
+#"
+"def toggle ( n ) :
+    """"""Write a function that takes an integer as input and returns the result of toggling all the bits in the binary representation of the integer.
+    """"""
+
+#"
+"def minChanges ( A, n ) :
+    """"""Write a function that takes a list A and an integer n as input and returns the minimum number of changes needed in the list A to satisfy the following condition: if A[i-1] = 1, A[i+1] = 1, and A[i] = 0, then A[i+1] should be changed to 0.
+    The function should return the total number of changes made.
+    """"""
+
+#"
+"def Convert ( radian ) :
+    """"""Write a function that takes a radian value as input and converts it to degrees.
+    The function should return the degree value.
+    """"""
+
+#"
+"def edgeDisjoint ( n ) :
+    """"""Write a function that takes an integer as input and returns the floor division of that number by 2.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def makeEven ( n ) :
+    """"""Write a function that takes an integer as input and returns the largest power of 2 that divides the input number.
+    If the input number is even, the function should return 2.
+    """"""
+
+#### Output:
+
+def is_prime(n) :
+    """"""Write a function that takes an integer as input and returns True if the input number is prime, and False otherwise.
+    """"""
+
+#### Output:
+
+def is_prime_iterative(n) :
+    """"""Write a function that takes an integer as input and returns True if the input number is prime, and False otherwise.
+    """"""
+
+#### Output:
+
+def is_prime_recursive(n) :
+    """"""Write a function that takes an integer as input and returns True if the input number is prime, and False otherwise.
+    """"""
+
+#### Output:
+
+def is_prime_recursive_iterative(n) :
+    """"""Write a function that takes an integer as input and returns True if the input number is prime, and False otherwise.
+    """"""
+
+#### Output:
+
+def is_prime_recursive_rec"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def findNumber ( n ) :
+    """"""Write a function that takes an integer as input and returns the next number in a sequence where each number is the sum of the previous number and the current index.
+    """"""
+
+#"
+"def findSmallest ( s ) :
+    """"""Write a function that takes a string as input and returns the string with the smallest lexicographically possible permutation.
+    The function first finds the last occurrence of each character in the string and stores it in a list.
+    Then, it sorts the string and compares each character with its corresponding character in the sorted string.
+    If a character is not in the correct position, the function swaps it with the character at its last occurrence.
+    Finally, the function returns the modified string.
+    """"""
+
+#"
+"def sum_of_even_odd(n) :
+    """"""Write a function that takes a number n as input.
+    The function should return the sum of the even numbers and odd numbers.
+    """"""
+
+#### Output:
+def sum_of_even_odd(n) :
+    """"""Write a function that takes a number n as input.
+    The function should return the sum of the even numbers and odd numbers.
+    """"""
+
+#### Output:
+def sum_of_even_odd(n) :
+    """"""Write a function that takes a number n as input.
+    The function should return the sum of the even numbers and odd numbers.
+    """"""
+
+#### Output:
+def sum_of_even_odd(n) :
+    """"""Write a function that takes a number n as input.
+    The function should return the sum of the even numbers and odd numbers.
+    """"""
+
+#### Output:
+def sum_of_even_odd(n) :
+    """"""Write a function that takes a number n as input.
+    The function should return the sum of the even numbers and odd numbers.
+    """"""
+
+#### Output:"
+"def getHCF ( x, y ) :
+    """"""Write a function that takes two integers, x and y, and returns their highest common factor (HCF).
+    The function first finds the minimum of x and y.
+    If both x and y are divisible by the minimum, the function returns the minimum as the HCF.
+    Otherwise, the function iterates from the minimum divided by 2 to 1, checking if both x and y are divisible by the current number.
+    If a common factor is found, the function returns that number as the HCF.
+    If no common factor is found, the function returns 1.
+    """"""
+
+#"
+"def findNthNumber ( A, B, N ) :
+    """"""Write a function that takes three parameters A, B, and N and returns the Nth number in a sequence.
+    The sequence starts with A and B, and each subsequent number is the sum of the previous two numbers.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def emi_calculator ( p, r, t ) :
+    """"""Write a function that calculates the equated monthly installment (EMI) for a loan.
+    The function takes three parameters: the principal amount (p), the annual interest rate (r), and the loan tenure in years (t).
+    The function first converts the annual interest rate to a monthly interest rate by dividing it by 12 and 100.
+    It then converts the loan tenure from years to months by multiplying it by 12.
+    The EMI is calculated using the formula: EMI = (p * r * (1 + r)^t) / ((1 + r)^t - 1).
+    Finally, the function returns the calculated EMI.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def longestAr ( n, arr ) :
+    """"""Write a function that takes an integer n and a list of integers arr.
+    The function should find the length of the longest arithmetic subsequence in arr.
+    An arithmetic subsequence is a sequence of numbers in which the difference between any two consecutive numbers is the same.
+    The function should return the length of the longest arithmetic subsequence.
+    """"""
+
+#"
+"def findMaxLenEven ( str ) :
+    """"""Write a function that takes a string as input and returns the longest even-length substring that consists of only alphanumeric characters.
+    If there is no such substring, the function should return ""-1"".
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def maxDistance ( n, fuel ) :
+    """"""Write a function that takes two parameters, n and fuel, and returns the maximum distance that can be covered given the number of stops (n) and the amount of fuel available.
+    The function calculates the distance covered by dividing the fuel by the number of stops and adding it to the total distance covered.
+    It then decrements the number of stops by 1 and repeats the process until there are no more stops.
+    Finally, it returns the total distance covered.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return 0."
+"def isWordPresent ( sentence, word ) :
+    """"""Write a function that takes a sentence and a word as input and returns True if the word is present in the sentence, and False otherwise.
+    """"""
+
+#"
+"def countDigit ( n ) :
+    """"""Write a function that takes an integer and returns the number of digits in that integer.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def isRotation ( x, y ) :
+    """"""Write a function that takes two integers, x and y, and returns True if y is a rotation of x or False otherwise.
+    A rotation of x is defined as shifting the binary representation of x to the left by 32 bits and performing a bitwise OR operation with the original x.
+    The function checks if the resulting value is equal to y and returns True if it is, otherwise it continues shifting the value to the right by 1 bit until it is less than y.
+    If the value becomes less than y without being equal to it, the function returns False.
+    """"""
+
+#"
+"def countConsecutive ( s ) :
+    """"""Write a function that takes a string as input and counts the number of consecutive characters that are not the same.
+    The function should return the count.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return 0."
+"def findMinRemoval ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the minimum number of elements that need to be removed from the array such that the absolute difference between adjacent elements is minimized.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def setBitNumber ( n ) :
+    """"""Write a function that takes an integer and returns the next power of 2 that is greater than or equal to the input number.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def pentdiagonal ( a ) :
+    """"""Write a function that takes a number as input and returns the pentagonal diagonal length.
+    If the input number is negative, the function should return -1.
+    """"""
+
+#"
+"def frequencyDigits ( n, d ) :
+    """"""Write a function that takes two integers, n and d, and returns the frequency of the digit d in the number n.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def printNthElement ( n ) :
+    """"""Write a function that takes an integer n as input and returns the nth element of an array.
+    The array is initialized with 0s and has a length of n+1.
+    The first element of the array is set to 4 and the second element is set to 7.
+    For each index i from 3 to n+1, if i is odd, the value at index i is set to the value at index i//2 multiplied by 10 and added to 4.
+    If i is even, the value at index i is set to the value at index (i//2)-1 multiplied by 10 and added to 7.
+    Finally, the function returns the value at index n of the array.
+    """"""
+
+#"
+"def printNthElement ( n ) :
+    """"""Write a function that takes an integer n and returns the nth element of an array.
+    The array is initialized with 0s and has a length of n+1.
+    The first element is set to 3 and the second element is set to 5.
+    For each index i from 3 to n+1, if i is odd, the element at index i is set to the element at index i//2 multiplied by 10 and added with 3.
+    If i is even, the element at index i is set to the element at index (i//2)-1 multiplied by 10 and added with 5.
+    Finally, the function returns the element at index n.
+    """"""
+
+#"
+"def printNthElement ( n ) :
+    """"""Write a function that takes an integer n and returns the nth element of an array.
+    The array is initialized with 0s and has a length of n+1.
+    The first element is set to 1 and the second element is set to 2.
+    For each subsequent element, if the index is odd, the element is calculated by multiplying the element at index i//2 by 10 and adding 1.
+    If the index is even, the element is calculated by multiplying the element at index (i//2)-1 by 10 and adding 2.
+    The function returns the element at index n.
+    """"""
+
+#"
+"def isPossibleToZero ( a, n ) :
+    """"""Write a function that takes an array of integers and its length as input and returns True if it is possible to form a number by concatenating the elements of the array such that the resulting number is divisible by 11.
+    Otherwise, it returns False.
+    """"""
+
+#"
+"def squareArea ( l, b, h ) :
+    """"""Write a function that takes three parameters representing the length, breadth, and height of a square.
+    The function should return the area of the square if all the parameters are positive, otherwise it should return -1.
+    """"""
+
+#"
+"def FirstAndLast ( string ) :
+    """"""Write a function that takes a string as input and returns a new string where the first and last letter of each word in the input string are capitalized.
+    The function should ignore any non-alphabetic characters.
+    """"""
+
+#"
+"def findBucketNo ( p ) :
+    """"""Write a function that takes an integer p and returns the bucket number where p belongs.
+    The bucket number is calculated by taking the ceiling of the square root of (8 * p + 1) minus 1, divided by 2.
+    """"""
+
+#"
+"def areDistinct ( arr ) :
+    """"""Write a function that takes an array as input and returns True if all the elements in the array are distinct (i.
+   e.
+  , there are no duplicate elements), and False otherwise.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def mostCommon(lower, higher):
+    """"""Write a function that takes two numbers, lower and higher, and returns the most common number between them.
+    If lower and higher are equal, the function should return lower.
+    Otherwise, the function should return 2.
+    """"""
+
+#"
+"def extractMaximum ( ss ) :
+    """"""Write a function that takes a string as input and returns the maximum number that can be extracted from the string.
+    The function iterates through each character in the string and checks if it is a digit.
+    If it is, the function builds a number by multiplying the previous number by 10 and adding the current digit.
+    If the character is not a digit, the function compares the current number with the previous maximum number and updates the maximum if necessary.
+    Finally, the function returns the maximum number extracted from the string.
+    """"""
+
+#"
+"def longestInteger ( s, length ) :
+    """"""Write a function that takes a string and its length as input and returns the longest substring of consecutive integers in the string.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def getPower ( n ) :
+    """"""Write a function that takes an integer n and returns the largest power of 2 that is less than or equal to n.
+    """"""
+
+#"
+"def sameDigits( A, B ) :
+    """"""Write a function that takes two integers, A and B, and returns True if both A and B have the same number of digits, and False otherwise.
+    """"""
+
+#"
+"def isPossible ( x, y ) :
+    """"""Write a function that takes two integers, x and y, and returns True if the difference between x and y is not equal to 1, or False otherwise.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def fnMod ( n ) :
+    """"""Write a function that takes an integer as input and returns 0 if the remainder of dividing the integer by 4 is 0 or 3, and returns 1 if the remainder is 1 or 2.
+    """"""
+
+#"
+"def calculate_sum ( a, N ) :
+    """"""Write a function that takes two parameters, `a` and `N`, and calculates the sum of all numbers that are multiples of `a` up to `N`.
+    The function first calculates the number of multiples of `a` up to `N` and stores it in the variable `m`.
+    Then, it calculates the sum of all numbers from 1 to `m` using the formula `(m * (m + 1)) / 2` and stores it in the variable `sum`.
+    Finally, it multiplies `a` by `sum` and returns the result as `ans`.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def countSum2 ( N, L, R ) :
+    """"""Write a function that takes three parameters: N, L, and R.
+    The function returns the count of numbers between L and R (inclusive) that can be formed by adding N-1 numbers.
+    If N is equal to 1, the function returns the count of numbers between L and R (inclusive).
+    If N is greater than 1, the function returns the count of numbers between L and R (inclusive) that can be formed by adding N-2 numbers, plus 1.
+    If none of the conditions are met, the function returns 0.
+    """"""
+
+#"
+"def findMin ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the smallest positive integer that is not present in the array.
+    """"""
+
+#"
+"def smallestPoss ( s, n ) :
+    """"""Write a function that takes a string and an integer as input and returns the smallest possible number that can be formed by rearranging the digits of the string.
+    """"""
+
+#"
+"def totalBoxesRemoved ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the total number of boxes removed.
+    The function iterates through the array and compares each element with the previous element.
+    If the current element is greater than the previous element, the difference is added to the count and the current element is replaced with the previous element.
+    If the current element is less than or equal to the previous element, the previous element is updated to the current element.
+    Finally, the function returns the count.
+    """"""
+
+#"
+"def averageValue ( s ) :
+    """"""Write a function that takes a string as input and returns the average value of the ASCII codes of its characters.
+    """""""
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return -1."
+"def lcm ( x, y ) :
+    """"""Write a function that takes two integers, x and y, and returns their least common multiple (LCM).
+    """"""
+
+#"
+"def CountTrailingZeros ( n ) :
+    """"""Write a function that takes an integer as input and counts the number of trailing zeros in its binary representation.
+    The function should return the count of trailing zeros.
+    """"""
+
+#"
+"def Xor_Sum_2 ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the index of the element in the array such that the sum of the XOR of all elements to the left of it and the XOR of all elements to the right of it is maximum.
+    """"""
+
+#"
+"def lds ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the length of the longest decreasing subsequence in the array.
+    """"""
+
+#"
+"def equalize ( arr, n, k ) :
+    """"""Write a function that takes an array, its length, and a value k.
+    The function checks if it is possible to make all elements of the array equal by adding or subtracting k from each element.
+    If it is possible, the function returns the minimum element of the array plus k.
+    Otherwise, it returns -1.
+    """"""
+
+#"
+"def numLen ( K ) :
+    """"""Write a function that takes an integer K and returns the length of the smallest repeating sequence of the number 1 when divided by K.
+    If there is no repeating sequence, return -1.
+    """"""
+
+#"
+"def changeTheArray ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the minimum number of operations required to change all elements of the array to the same number.
+    Each operation involves subtracting or adding 1 to an element of the array.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def sqroot ( s ) :
+    """"""Write a function that takes a number as input and returns its square root.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def XorAscii ( str1, len1 ) :
+    """"""Write a function that takes a string and its length as input and returns the XOR of the ASCII values of all the characters in the string.
+    """"""
+
+#"
+"def check_binary ( n ) :
+    """"""Write a function that takes an integer as input and checks if its binary representation contains consecutive 1's.
+    If it does, the function should return False.
+    Otherwise, it should return True.
+    """"""
+
+#"
+"def areVowelsInOrder ( s ) :
+    """"""Write a function that takes a string as input and returns True if the vowels in the string are in alphabetical order, and False otherwise.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def minAbsDiff ( n ) :
+    """"""Write a function that takes an integer as input and returns the minimum absolute difference between the input number and the nearest power of 2.
+    """"""
+
+#"
+"def ReuleauxArea ( r ) :
+    """"""Write a function that takes a radius as input and returns the area of a Reuleaux triangle with that radius.
+    If the input radius is negative, the function should return -1.
+    """"""
+
+#"
+"def newString ( s ) :
+    """"""Write a function that takes a string as input and returns a new string that contains all the characters from the input string sorted in alphabetical order.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def minSteps ( str ) :
+    """"""Write a function that takes a string as input and counts the number of occurrences of the substring ""010"" in the string.
+    The function returns the count.
+    """"""
+
+#"
+"def firstEven ( arr, n ) :
+    """"""Write a function that takes an array and its length as input and returns the first element in the array that appears an odd number of times.
+    """"""
+
+#"
+"def maxXOR ( arr, n ) :
+    """"""Write a function that takes an array of integers and the length of the array as input.
+    The function calculates the XOR of all the elements in the array and stores it in a variable called xorArr.
+    Then, it initializes a variable called ans to 0.
+    The function then iterates through the array and calculates the XOR of xorArr and the current element.
+    It compares this XOR value with the current value of ans and updates ans if the XOR value is greater.
+    Finally, the function returns the value of ans.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return 0.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def AVLnodes ( height ) :
+    """"""Write a function that takes an integer height and returns the number of nodes in an AVL tree of that height.
+    """"""
+
+#"
+"def steps ( source, step, dest ) :
+    """"""Write a function that takes three integers: source, step, and dest.
+    The function calculates the minimum number of steps needed to reach the destination (dest) starting from the source, where each step can be either positive or negative.
+    If it is not possible to reach the destination, the function returns sys.
+   maxsize.
+    """"""
+
+#"
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return N.
+Step 3. Return N."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return 1.
+Step 3. Return 0."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"How to solve:
+Step 1. Initialize account balance as 0.
+Step 2. Iterate through operations.
+    -add value to account balance.
+    -If account balance < 0, return True.
+Step 3. Return False."
+"def toggleLastMBits ( n, m ) :
+    """"""Write a function that takes two integers, n and m, and returns the result of toggling the last m bits of n.
+    """"""
+
+#"
+"def countNumbers ( L, R, K ) :
+    """"""Write a function that takes three integers L, R, and K as input and returns the count of numbers between L and R (inclusive) that are divisible by 9 or have a remainder of K when divided by 9.
+    If K is equal to 9, it is replaced with 0 before performing the calculations.
+    The function calculates the total number of numbers between L and R, divides it by 9 to get the number of numbers divisible by 9, and calculates the remainder.
+    It then iterates through the numbers from R to R - rem (inclusive) and checks if the remainder of each number divided by 9 is equal to K.
+    If it is, it increments the count.
+    Finally, it returns the count.
+    """"""
+
+#"
+"def firstkdigits ( n, k ) :
+    """"""Write a function that takes two integers, n and k, and returns the first k digits of the product of n and the logarithm of n to the base 10.
+    """"""
+
+#"
+"def FindElement ( A, n ) :
+    """"""Write a function that takes a list of integers and the length of the list as input.
+    The function should find and return the first element in the list that is greater than all the elements before it and less than all the elements after it.
+    If no such element exists, the function should return -1.
+    """"""
+
+#"
+"def minimumIncrease ( a, b, c ) :
+    """"""Write a function that takes three integers as input and returns the minimum increase needed to make the sum of the two smallest integers greater than or equal to the largest integer.
+    """"""
+
+#"

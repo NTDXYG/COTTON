@@ -1,0 +1,1729 @@
+":
+Input: numbers: list of numbers
+Output: True if any two numbers are closer to each other than threshold, False otherwise.
+1: for each number in numbers:
+2:     if number is not None:
+3:         if number is not None:
+4:             if abs(number - next_number) < threshold:
+5:                 return True
+6:         return False
+7: return None"
+":
+Input: paren_string: a string containing multiple groups of nested parentheses
+Output: list of strings: a list of the separate groups of nested parentheses
+1: for each character ch in paren_string:
+2:     if ch is a left parenthesis:
+3:         append the string of chars to the list
+4:     if ch is a right parenthesis:
+5:         append the string of chars to the list
+6:     if ch is a space:
+7:         append the string of chars to the list
+8:     if ch is a closing bracket:
+9:         if the list is not empty:
+10:             if the last element of the list is a left parenthesis:
+11:                 append the string of chars to the list
+12:             if the last element of the list is a right parenthesis:
+13:                 append the string of chars to the list
+14:             if the last element of the list is a closing bracket:
+15:                 append the string of chars to the list
+16:         if the list is empty:
+17:             append the string of chars to the list
+18: return the list of strings
+19:"
+":
+Input: number: a positive floating point number
+Output: dec: the decimal part of the number
+1: if number is not a float:
+2:     raise TypeError(""number must be a float"")
+3: if number is not positive:
+4:     raise ValueError(""number must be positive"")
+5: if number is not an integer:
+6:     raise TypeError(""number must be an integer"")
+7: if number is 0:
+8:     raise ValueError(""number must be non-zero"")
+9: if number is not an integer:
+10:     raise TypeError(""number must be an integer"")
+11: if number is not a float:
+12:     raise TypeError(""number must be a float"")
+13: if number is 0:
+14:     raise ValueError(""number must be non-zero"")
+15: if number is not an integer:
+16:     raise TypeError(""number must be an integer"")
+17: if number is not a float:
+18:     raise TypeError(""number must be a float"")
+19: if number is 0:
+20:     raise ValueError(""number must be non-zero"")"
+":
+Input: operations: a list of deposit and withdrawal operations on a bank account that starts with
+    zero balance
+Output: True: if the balance of account falls below zero, and False otherwise
+1: for each operation in operations:
+2:     if operation < 0:
+3:         return True
+4: return False"
+":
+Input: numbers: a list of numbers
+Output: MAD: the mean absolute deviation of the list of numbers
+1: MAD = 0.0
+2: for each number x in numbers:
+3:     MAD = MAD + abs(x - x_mean)
+4: MAD = MAD / len(numbers)
+5: return MAD"
+":
+Input: numbers: a list of integers
+Output: intersperse: a list of integers
+1: for each i in range(len(numbers)):
+2:     if i == len(numbers) - 1:
+3:         return numbers
+4:     intersperse.append(numbers[i])
+5:     intersperse.append(delimeter)
+6: return intersperse"
+":
+Input: paren_string: a string
+Output: nested_parens: a list of ints representing the deepest level of nesting of parentheses
+1: nested_parens = []
+2: for each group in paren_string:
+3:     if group is not empty:
+4:         nested_parens.append(len(group))
+5: return nested_parens
+6: return None"
+":
+Input: strings: a list of strings
+Output: filtered_strings: a list of strings
+1: for each string in strings:
+2:     if substring in string:
+3:         append string
+4: return filtered_strings"
+":
+Input: numbers: [1, 2, 3, 4]
+Output: (15, 24)
+1: for each integer in numbers:
+2:     sum += integer
+3:     product *= integer
+4: return sum, product
+5: return None, None"
+":
+Input: numbers: a list of integers
+Output: rolling_max: a list of integers
+1: for each element in numbers:
+2:     if element is greater than the previous element:
+3:         append element
+4:     else:
+5:         append the maximum element in the list
+6: return rolling_max"
+":
+Input: str: a string
+Output: str: a palindrome that begins with str
+1: if str is a palindrome:
+2:     return str
+3: else:
+4:     # Find the longest postfix of supplied string that is a palindrome.
+5:         longest_postfix = """"
+6:         for i in range(len(str)):
+7:             if is_palindrome(str[i:]):
+8:                 longest_postfix = str[i:]
+9:                 break
+10:         # Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+11:         return str + longest_postfix[::-1]"
+":
+Input: a: ""101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101"
+":
+Input: strings: a list of strings
+Output: longest: the longest string in strings
+1: if strings is empty:
+2:     return None
+3: else:
+4:         return max(strings, key=len)"
+":
+Input: a: int, b: int
+Output: gcd: int
+1: gcd = a if a == b else greatest_common_divisor(a, b)
+2: return gcd"
+":
+Input: string: a string
+Output: prefixes: a list of all prefixes from shortest to longest of the input string
+1: prefixes = []
+2: for i in range(len(string)):
+3:     prefixes.append(string[:i+1])
+4: return prefixes"
+":
+Input: n: an integer
+Output: str: a string containing space-delimited numbers starting from 0 upto n inclusive.
+1: return a string containing space-delimited numbers starting from 0 upto n inclusive.
+2:     for each number i in range(n+1):
+3:         return str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str + str +"
+":
+Input: string: a string
+Output: count: an integer
+1: for each character ch in string:
+2:     if ch appears more than once in string:
+3:         count += 1
+4: return count"
+":
+Input: music_string: a string representing musical notes in a special ASCII format
+Output: list of integers corresponding to how many beats does each not last.
+1: for each character ch in str:
+2:     if ch is 'o':
+3:         return [4]
+4:     if ch is 'o|':
+5:         return [2, 2]
+6:     if ch is '.':
+7:         return [1, 1]
+8: return None"
+":
+Input: string: a string
+Output: count: how many times substring can be found in string
+1: for each character ch in string:
+2:     if ch in substring:
+3:         count += 1
+4: return count"
+":
+Input: numbers: a string
+Output: sorted_numbers: a string
+1: for each character ch in str:
+2:     if ch is 'zero':
+3:         return 'zero'
+4:     if ch is 'one':
+5:         return 'one'
+6:     if ch is 'two':
+7:         return 'two'
+8:     if ch is 'three':
+9:         return 'three'
+10:     if ch is 'four':
+11:         return 'four'
+12:     if ch is 'five':
+13:         return 'five'
+14:     if ch is'six':
+15:         return'six'
+16:     if ch is'seven':
+17:         return'seven'
+18:     if ch is 'eight':
+19:         return 'eight'
+20:     if ch is 'nine':
+21:         return 'nine'
+22: return None"
+":
+Input: numbers: a list of numbers
+Output: closest_elements: a tuple of two numbers
+1: closest_elements = (smallest_number, largest_number)
+2: smallest_number = min(numbers)
+3: largest_number = max(numbers)
+4: return closest_elements"
+":
+Input: numbers: list of numbers
+Output: rescaled_numbers: list of numbers
+1: rescaled_numbers = [n / max(numbers) for n in numbers]
+2: return rescaled_numbers"
+":
+Input: values: a list of any python values
+Output: filtered_values: a list of integers
+1: for each value v in values:
+2:     if v is an integer:
+3:         yield v
+4: return None"
+":
+Input: string: a string
+Output: length: length of given string
+1: return len(string)"
+":
+Input: n: an integer
+Output: largest_divisor: the largest number that divides n evenly, smaller than n
+1: if n is a multiple of any number smaller than n, return n
+2: if n is a multiple of any number larger than n, return n
+3: return None"
+":
+Input: n: an integer
+Output: factors: a list of factors of n in the order from smallest to largest
+1: factors = []
+2: for i in range(1, n + 1):
+3:     if n % i == 0:
+4:         factors.append(i)
+5: return factors"
+":
+Input: numbers: a list of integers
+Output: numbers: a list of integers
+1: for each number n in numbers:
+2:     if n in numbers:
+3:         numbers.remove(n)
+4: return numbers"
+":
+Input: string: a string
+Output: string: a string with lowercase characters flipped
+1: for each character ch in string:
+2:     if ch is lowercase:
+3:         return ch.upper()
+4:     else:
+5:         return ch.lower()
+6: return None"
+":
+Input: strings: list of strings
+Output: concatenated_string: concatenated string
+1: for each string in strings:
+2:     concatenated_string += string
+3: return concatenated_string"
+":
+Input: strings: a list of strings
+Output: filtered: a list of strings that start with prefix
+1: for each string in strings:
+2:     if string starts with prefix:
+3:         append string to filtered
+4: return filtered"
+":
+Input: l: a list of numbers
+Output: l_pos: a list of positive numbers
+1: for each number n in l:
+2:     if n < 0:
+3:         continue
+4:     else:
+5:         l_pos.append(n)
+6: return l_pos"
+":
+Input: n: a number
+Output: True: if n is prime, and False otherwise.
+1: if n is greater than 1:
+2:     if n is even:
+3:         return False
+4:     else:
+5:         return True
+6: return None"
+":
+Input: xs: list of coefficients of a polynomial
+Output: x: a zero point
+1: for each i in range(len(xs)):
+2:     if xs[i]!= 0:
+3:         return x
+4: return None"
+":
+Input: l: a list
+Output: l' such that l' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal
+1: for each i in range(len(l)):
+2:     if i % 3 == 0:
+3:         continue
+4:     else:
+5:         l'[i] = l[i]
+6: return l'"
+":
+Input: l: a list
+Output: l: a sorted list of unique elements
+1: for each element e in l:
+2:     if e not in l:
+3:         l.append(e)
+4: return l"
+":
+Input: l: a list
+Output: max_element: the maximum element in the list
+1: max_element = max(l)
+2: return max_element"
+":
+Input: n: an integer
+Output: fizzbuzz: a string
+1: if n is divisible by 7:
+2:     if n is divisible by 11:
+3:         return fizzbuzz: ""fizzbuzz""
+4:     if n is divisible by 13:
+5:         return fizzbuzz: ""buzz""
+6:     return fizzbuzz: ""fizzbuzz""
+7: return None"
+":
+Input: l: a list
+Output: l' such that l' is identical to l in the odd indicies, while its values at the even indicies are equal
+to the values of the even indicies of l, but sorted.
+1: for each i in range(len(l)):
+2:     if i % 2 == 0:
+3:         l'[i] = l[i]
+4:     else:
+5:         l'[i] = l[i+1]
+6: return l'"
+":
+Input: s: a string encoded with encode_cyclic function.
+Output: decoded string.
+1: for each character ch in s:
+2:     if ch appears more than once in s:
+3:         return ch
+4: return None"
+":
+Input: n: an integer
+Output: n-th number that is a Fibonacci number and it's also prime.
+1: if n is even:
+2:     return n-1
+3: else:
+4:     return n-2
+5: return None"
+":
+Input: l: a list of integers
+Output: True if there are three distinct elements in the list that sum to zero, and False otherwise.
+1: for each element i in l:
+2:     if i + j + k == 0:
+3:         return True
+4: return False"
+":
+Input: n: an integer
+Output: collisions: an integer
+1: collisions = 0
+2: for each car in the left side:
+3:     if car is moving right to left:
+4:         if car is moving left to right:
+5:             collisions += 1
+6: return collisions
+7: return None"
+":
+Input: l: a list
+Output: l: a list with elements incremented by 1.
+1: for each element i in l:
+2:     l[i] = l[i] + 1
+3: return l
+4: return None"
+":
+Input: l: a list of integers
+Output: True if there are two distinct elements in the list that sum to zero, and False otherwise.
+1: for each element in l:
+2:     if the element is a negative number:
+3:         return False
+4:     if the element is a positive number:
+5:         return False
+6:     if the element is zero:
+7:         return False
+8:     if the element is not a number:
+9:         return False
+10:     if the element is not a number:
+11:         return False
+12:     if the element is not a number:
+13:         return False
+14:     if the element is not a number:
+15:         return False
+16:     if the element is not a number:
+17:         return False
+18:     if the element is not a number:
+19:         return False
+20:     if the element is not a number:
+21:         return False
+22:     if the element is not a number:
+23:         return False
+24:     if the element is not a number:
+25:         return False
+26"
+":
+Input: x: int
+Output: str: string representation after the conversion.
+1: if base is less than 10:
+2:     return str(x)
+3:     return str(x)
+4:     return str(x)
+5:     return str(x)
+6:     return str(x)
+7:     return str(x)
+8:     return str(x)
+9:     return str(x)
+10:     return str(x)
+11:     return None"
+":
+Input: a, h: positive integers
+Output: area of a triangle
+1: if h <= 0 or a <= 0:
+2:     return None
+3: area = 0.5 * a * h
+4: return area"
+":
+Input: n: an integer
+Output: fib4(n): an integer
+1: fib4(0) -> 0
+2: fib4(1) -> 0
+3: fib4(2) -> 2
+4: fib4(3) -> 0
+5: fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4).
+6: fib4(n) = fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4)
+7: fib4(n) = fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4)
+8: fib4(n) = fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4)
+9: fib4(n) = fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4"
+":
+Input: l: a list of integers
+Output: median: the median of the list l
+1: l.sort()
+2: if len(l) % 2 == 0:
+3:     return (l[len(l) // 2] + l[len(l) // 2 - 1]) / 2
+4: else:
+5:     return l[len(l) // 2]"
+":
+Input: text: a string
+Output: True: if text is a palindrome
+False: otherwise
+1: if text is empty:
+2:     return True
+3: else:
+4:         return is_palindrome(text[1:-1])
+5: return False"
+":
+Input: n: an integer
+Output: p: a prime integer
+1: if n is a power of 2:
+2:     return 2
+3: else:
+4:         return 2^(n-1) modulo p
+5: return None"
+":
+Input: s: a string encoded with encode_shift function.
+Output: decoded string.
+1: for each character ch in s:
+2:     if ch is in alphabet:
+3:         return ch
+4: return None"
+":
+Input: str: a string
+Output: str: a string without vowels.
+1: for each character ch in str:
+2:     if ch is vowel:
+3:         return None
+4: return str"
+":
+Input: l: a list of integers
+Output: True if all numbers in the list l are below threshold t.
+1: for each number n in l:
+2:     if n < t:
+3:         return False
+4: return True"
+":
+
+Input: x: int, y: int
+Output: sum: int
+1: sum = x + y
+2: return sum"
+":
+Input: s0: a string
+Input: s1: a string
+Output: True if the two strings have the same characters, False otherwise.
+1: for each character ch in s0:
+2:     if ch in s1:
+3:         return True
+4: return False"
+":
+
+Input: n: an integer
+Output: n-th Fibonacci number
+1: fib(1) = 1
+2: fib(2) = 1
+3: fib(3) = 2
+4: fib(4) = 3
+5: fib(5) = 5
+6: fib(6) = 8
+7: fib(7) = 13
+8: fib(8) = 21
+9: fib(9) = 34
+10: fib(10) = 55
+11: fib(11) = 89
+12: fib(12) = 144
+13: fib(13) = 233
+14: fib(14) = 377
+15: fib(15) = 610
+16: fib(16) = 987
+17: fib(17) = 1597
+18: fib(18) = 2584
+19: fib(19) = 4181
+20: fib(20) = 6765
+21: fib(21) = 10946
+22: fib(22) = 17711
+23: fib(23) = 28657
+24: fib(24) = 46368
+25: fib(25) = 75025
+26:"
+":
+Input: brackets: ""<"" and "">""
+Output: True
+1: for each character in brackets:
+2:     if brackets.count(brackets[i])!= brackets.count(brackets[i+1]):
+3:         return False
+4: return True"
+":
+Input: l: a list of integers
+Output: True if the list is monotonically increasing or decreasing.
+1: for each i in range(len(l) - 1):
+2:     if l[i] > l[i + 1]:
+3:         return False
+4:     if l[i] < l[i + 1]:
+5:         return False
+6: return True"
+":
+Input: l1: list of integers
+Input: l2: list of integers
+Output: list of integers
+1: for each element e in l1:
+2:     if e in l2:
+3:         return e
+4: return None"
+":
+Input: n: an integer
+Output: largest_prime_factor: the largest prime factor of n
+1: if n is prime:
+2:     return n
+3: else:
+4:         for i in range(2, n):
+5:             if n % i == 0:
+6:                 return i
+7:         return None"
+":
+Input: n: a number
+Output: sum: the sum of numbers from 1 to n
+1: for each number i in range(1, n+1):
+2:     sum = sum + i
+3: return sum"
+":
+Input: brackets: a string of ""("" and "")"".
+Output: True or False
+1: for each character ch in brackets:
+2:     if ch is ""("" and ch is not "")"":
+3:         return False
+4:     if ch is "")"" and ch is not ""(""
+5:         return False
+6: return True"
+":
+Input: xs: coefficients of a polynomial
+Output: derivative: derivative of this polynomial in the same form
+1: for each x in xs:
+2:     if x is a constant:
+3:         return 0
+4:     if x is a variable:
+5:         return 1
+6:     if x is a polynomial:
+7:         return xs[0] + xs[1] * x + xs[2] * x^2 +....
+8:     return None"
+":
+Input: n: an integer
+Output: fibfib(n): an integer
+1: fibfib(0) == 0
+2: fibfib(1) == 0
+3: fibfib(2) == 1
+4: fibfib(n) == fibfib(n-1) + fibfib(n-2) + fibfib(n-3).
+5: fibfib(n) == fibfib(n-1) + fibfib(n-2) + fibfib(n-3) + fibfib(n-4) + fibfib(n-5) + fibfib(n-6) + fibfib(n-7) + fibfib(n-8) + fibfib(n-9) + fibfib(n-10) + fibfib(n-11) + fibfib(n-12) + fibfib(n-13) + fibfib(n-14) + fibfib(n-15) + fibfib(n-16) + fibfib(n-17) + fibfib(n-"
+":
+Input: s: a string
+Output: count: an integer
+1: for each character ch in s:
+2:     if ch is 'a' or 'e' or 'i' or 'o' or 'u':
+3:         count += 1
+4: return count"
+":
+Input: x: an integer
+Output: x_shifted: a string
+1: if shift > number of digits, return reversed digits
+2:     x_shifted = x[shift:] + x[:shift]
+3: return x_shifted
+4: return None"
+":
+Input: s: a string
+Output: sum: an integer
+1: for each character ch in s:
+2:     if ch is a digit:
+3:         sum += ord(ch)
+4: return sum"
+":
+Input: s: a string that represents the number of apples and oranges 
+        n: a integer that represent the total number of the fruits in the basket
+Output: m: the number of the mango fruits in the basket
+1: if s is a string that represents the number of apples and oranges 
+2:     if n is a integer that represent the total number of the fruits in the basket
+3:         if s is a string that represents the number of apples and oranges 
+4:             if n is a integer that represent the total number of the fruits in the basket
+5:                 if s is a string that represents the number of apples and oranges 
+6:                     if n is a integer that represent the total number of the fruits in the basket
+7:                         if s is a string that represents the number of apples and oranges 
+8:                             if n is a integer that represent the total number of the fruits in the basket
+9:                                if s is a string that represents the number of apples and oranges 
+10:                                    if n is a integer that represent the total number of the fruits in the basket
+11:                                        if s is a string that represents the number of apples and oranges"
+":
+Input: arr: a list of integers
+Output: [ smalest_value, its index ]
+1: if arr is empty:
+2:     return []
+3: for each i in range(len(arr)):
+4:         if arr[i] % 2 == 0:
+5:             return [arr[i], i]
+6: return []"
+":
+Input: lst: a list of positive integers
+Output: max: the greatest integer that is greater than zero, and has a frequency greater than or equal to the value of the integer itself.
+1: for each integer in lst:
+2:     if max is -1:
+3:         return -1
+4:     if max is None:
+5:         max = integer
+6:     if integer > max:
+7:         max = integer
+8: return max"
+":
+Input: lst: a list of integers
+Output: lst: a list of integers in strange order
+1: for each i in range(len(lst)):
+2:     for j in range(i+1, len(lst)):
+3:         if lst[i] > lst[j]:
+4:             lst[i], lst[j] = lst[j], lst[i]
+5: return lst"
+":
+Input: a, b, c: three sides of a triangle
+Output: area: area of the triangle rounded to 2 decimal points if the three sides 
+form a valid triangle. Otherwise return -1
+1: if a + b > c:
+2:     if a + c > b:
+3:         if b + c > a:
+4:             return round((a * b * 0.5), 2)
+5:         return -1
+6:     return -1
+7: return -1
+8: return -1"
+":
+Input: q: a palindromic list
+Output: True if q will fly, and False otherwise
+1: if q is balanced:
+2:     if the sum of its elements is less than or equal to w:
+3:         return True
+4:     return False"
+":
+Input: arr: a list of integers
+Output: min_changes: an integer that denotes the minimum number of elements that need to be changed to make the array palindromic
+1: min_changes = 0
+2: for each element in arr:
+3:     if arr[i]!= arr[len(arr) - i - 1]:
+4:         min_changes += 1
+5: return min_changes"
+":
+Input: lst1: a list of strings
+        lst2: a list of strings
+Output: lst3: a list of strings
+1: if lst1 and lst2 have the same number of chars:
+2:     return lst1
+3: else:
+4:     return lst2
+5: return None"
+":
+Input: a: a number
+Output: True or False
+1: if a is less then 100:
+2:     if a is divisible by 3:
+3:         return True
+4:     if a is divisible by 5:
+4:         return True
+5:     if a is divisible by 7:
+5:         return True
+6:     return False"
+":
+Input: x: an integer
+Output: True if x is a simple power of n and False in other cases.
+1: if n**int=x:
+2:     return True
+3: return False"
+":
+Input: a: an integer
+Output: True: if a is a cube of some integer number.
+1: if a is not a cube of some integer number:
+2:     return False
+3: return None"
+":
+Input: num: a string
+Output: count: a number of the digits
+1: count = 0
+2: for each character ch in num:
+3:     if ch in 'ABCDEF':
+4:         count += 1
+5: return count"
+":
+Input: decimal: a number in decimal form
+Output: binary: a string, with each character representing a binary number
+1:
+2:     binary = 'db'
+3:     binary += decimal_to_binary(decimal // 2)
+4:     binary += decimal_to_binary(decimal % 2)
+5:     return binary
+6: return None"
+":
+Input: s: a string
+Output: True: if s is happy, False: otherwise
+1: if len(s) < 3:
+2:     return False
+3: for i in range(len(s) - 2):
+4:         if s[i] == s[i + 1] and s[i + 1] == s[i + 2]:
+5:             return True
+6:     return False"
+":
+Input: grades: a list of GPA
+Output: letter_grades: a list of letter grades
+1: for each GPA in grades:
+2:     if GPA < 3.0:
+3:         return ""E""
+4:     if GPA < 2.7:
+5:         return ""D""
+6:     if GPA < 2.3:
+7:         return ""D-""
+8:     if GPA < 2.0:
+9:         return ""C-""
+10:     if GPA < 1.7:
+11:         return ""C""
+12:     if GPA < 1.3:
+13:         return ""C-""
+14:     if GPA < 1.0:
+15:         return ""B-""
+16:     if GPA < 0.7:
+17:         return ""B""
+18:     if GPA < 0.3:
+19:         return ""B-""
+20:     if GPA < 0.0:
+21:         return ""A-""
+22:     if GPA < 0.7:
+23:         return ""A""
+24:     if GPA < 0.3:
+25:         return """
+":
+Input: str: a string
+Output: True or False: True if the string length is a prime number or False otherwise
+1: if the string length is a prime number:
+2:     if the string length is a prime number:
+3:         return True
+4:     return False"
+":
+Input: n: a positive integer
+Output: count: an integer
+1: count = 0
+2: for each i in range(1, n+1):
+3:     if i == 1:
+4:         count += 1
+5:     elif i == n:
+6:         count += 1
+7:     else:
+8:         if i % 10 == 1:
+9:             count += 1
+10: return count"
+":
+Input: N: a positive integer
+Output: the total sum of its digits in binary
+1: return N % 2
+2: return N // 2
+3: return N + solve(N // 2)
+4: return N + solve(N // 2) + solve(N // 2)
+5: return N + solve(N // 2) + solve(N // 2) + solve(N // 2)
+6: return N + solve(N // 2) + solve(N // 2) + solve(N // 2) + solve(N // 2)
+7: return N + solve(N // 2) + solve(N // 2) + solve(N // 2) + solve(N // 2) + solve(N // 2)
+8: return N + solve(N // 2) + solve(N // 2) + solve(N // 2) + solve(N // 2) + solve(N // 2) + solve(N // 2)
+9: return N + solve(N // 2) + solve(N // 2) + solve(N // 2) + solve(N // 2) + solve(N // 2) + solve(N // 2"
+":
+Input: lst: a non-empty list of integers
+Output: lst: a list of integers
+1: for each element in lst:
+2:     if element is even:
+3:         if element is odd:
+4:             return lst
+5:         return lst.append(element)
+6: return None"
+":
+Input: s: a string
+Output: ordered_s: an ordered version of s
+1: for each word in s:
+2:     ordered_s = ordered_s + word
+3: return ordered_s
+4: return None"
+":
+Input: lst: a nested list
+Output: list of tuples, [(x1, y1), (x2, y2)...] such that
+        each tuple is a coordinate - (row, columns), starting with 0.
+        Sort coordinates of the row by columns in descending order.
+        Also, sort coordinates of the row by columns in ascending order.
+        Sort coordinates of the row by rows in ascending order.
+        Sort coordinates of the row by rows in descending order.
+        Sort coordinates of the row by rows in ascending order.
+        Sort coordinates of the row by rows in descending order.
+        Sort coordinates of the row by rows in ascending order.
+        Sort coordinates of the row by rows in descending order.
+        Sort coordinates of the row by rows in ascending order.
+        Sort coordinates of the row by rows in descending order.
+        Sort coordinates of the row by rows in ascending order.
+        Sort coordinates of the row by rows in descending order.
+        Sort coordinates of the row by rows in ascending order.
+        Sort coordinates of the row by rows in descending order.
+        Sort coordinates of the row by rows in ascending order.
+        Sort coordinates of the row"
+":
+Input: array: a list of non-negative integers
+Output: sorted_array: a sorted list of non-negative integers
+1: for each index i in range(len(array)):
+2:     if sum(first index value, last index value) is odd:
+3:         swap(first index value, last index value)
+4:         swap(first index value, last index value)
+5:         swap(first index value, last index value)
+6:         swap(first index value, last index value)
+7:         swap(first index value, last index value)
+8:         swap(first index value, last index value)
+9:         swap(first index value, last index value)
+10:         swap(first index value, last index value)
+11:         swap(first index value, last index value)
+12:         swap(first index value, last index value)
+13:         swap(first index value, last index value)
+14:         swap(first index value, last index value)
+15:         swap(first index value, last index value)"
+":
+Input: str: a string
+Output: str: a string encrypted with the alphabet being rotated.
+1: for each character ch in str:
+2:     if ch is a letter:
+3:         return ch
+4:     if ch is a number:
+5:         return ch
+6:     if ch is a space:
+7:         return ch
+8:     if ch is a punctuation mark:
+9:         return ch
+10:     if ch is a symbol:
+11:         return ch
+12:     if ch is a capital letter:
+13:         return ch
+14:     if ch is a lowercase letter:
+15:         return ch
+16:     if ch is a capital letter:
+17:         return ch
+18:     if ch is a lowercase letter:
+19:         return ch
+20:     if ch is a capital letter:
+21:         return ch
+22:     if ch is a lowercase letter:
+23:         return ch
+24:     if ch is a capital letter:
+25:         return ch
+26:     if ch is a lowercase letter:
+27:         return ch
+28:"
+":
+Input: lst: a list of integers
+Output: next_smallest: the 2nd smallest element of the list
+1: for each element in lst:
+2:     if lst[i] < lst[i+1]:
+3:         return lst[i+1]
+4: return None"
+":
+Input: str: a string
+Output: int: the number of boredoms in the string
+1: count = 0
+2: for each word in str:
+3:     if word.startswith('I'):
+4:         count += 1
+5: return count"
+":
+Input: x: a number
+Input: y: a number
+Input: z: a number
+Output: true if x+y+z = x+y and all numbers are integers.
+Output: false in any other cases."
+":
+Input: message: a string
+Output: encoded: a string
+1: for each character ch in message:
+2:     if ch is a vowel:
+3:         replace ch with the letter that appears 2 places ahead of that vowel in the english alphabet
+4:     else:
+5:         replace ch with the letter that appears 2 places ahead of that letter in the english alphabet
+6: return encoded
+7: return None"
+":
+Input: lst: a list of integers
+Output: sum: an integer
+1: for each integer in lst:
+2:     if the integer is prime:
+3:         return the sum of its digits
+4: return None"
+":
+Input: dict: a dictionary
+Output: True or False
+1: if dict is empty:
+2:     return False
+3:     for key in dict:
+4:         if not isinstance(key, str):
+5:             return False
+6:         if not isinstance(dict[key], str):
+7:             return False
+8:         if key.lower()!= dict[key].lower():
+9:             return False
+10:         if key.upper()!= dict[key].upper():
+11:             return False
+12:     return True"
+":
+Input: n: a non-negative integer
+Output: primes: a list of the first n prime numbers less than n
+1: for each integer i in range(2, n):
+2:     if i is prime:
+3:         primes.append(i)
+4: return primes"
+":
+Input: a, b: integers
+Output: product: an integer
+1: if a is a multiple of b:
+2:     product = a * b
+3: return product
+4: return None"
+":
+Input: s: a string
+Output: count: an integer
+1: for each character ch in s:
+2:     if ch is an uppercase vowel:
+3:         count += 1
+4: return count"
+":
+Input: value: a string representing a number
+Output: integer: the closest integer to value
+1: integer = int(value)
+2: if integer == 0:
+3:     return 0
+4: elif integer > 0:
+5:     return integer
+6: else:
+7:     return -integer
+8: return None"
+":
+Input: n: a positive integer
+Output: a list of integers:
+1:     if n is odd:
+2:         return [n, n+1, n+2, n+3, n+4, n+5, n+6, n+7, n+8, n+9, n+10]
+3:     if n is even:
+4:         return [n, n+2, n+4, n+6, n+8, n+10]
+5: return None"
+":
+Input: s: a string
+Output: words: an array of words
+1: words = s.split(',')
+2: return words
+3: return [word for word in words]
+4: return [word for word in words if len(word) > 0]"
+":
+Input: x: a positive integer
+Input: y: a positive integer
+Output: num: a positive integer
+1: if num is in the range [x, y] inclusive:
+2:     return num
+3: return -1"
+":
+Input: n: a positive integer
+Input: m: a positive integer
+Output: rounded_avg: a binary number
+1: if n is greater than m:
+2:     return -1
+3: else:
+4:     return rounded_avg:
+5:     for each integer i in range(n, m + 1):
+6:         rounded_avg: i
+7:         rounded_avg: i + 1
+8:         rounded_avg: i + 2
+9:     return rounded_avg:
+10:     rounded_avg: n
+11:     rounded_avg: m
+12:     rounded_avg: n + 1
+13:     rounded_avg: m + 1
+14:     rounded_avg: n + 2
+15:     rounded_avg: m + 2
+16:     rounded_avg: n + 3
+17:     rounded_avg: m + 3
+18:     rounded_avg: n + 4
+19:     rounded_avg: m + 4
+20:     rounded_avg: n + 5
+21:     rounded_avg"
+":
+Input: x: a list of positive integers
+Output: y: a sorted list of all elements that hasn't any even digit
+1: for each element y in x:
+2:     if y has an even digit:
+3:         return None
+4:     else:
+5:         y.append(y)
+6: return y"
+":
+Input: arr: a list of integers
+Output: sorted_arr: a list of integers
+1: for each i in range(len(arr)):
+2:     if arr[i] in range(1,10):
+3:         sorted_arr.append(arr[i])
+4: return sorted_arr"
+":
+Input: n: a number
+Output: a list of size n, such that the value of the element at index i is the factorial of i if i is even
+or the sum of numbers from 1 to i otherwise.
+1: if i is even:
+2:     return [1] * i
+3: else:
+4:     return [1] + [i for i in range(1, i)]
+5: return [i for i in range(1, n + 1)]"
+":
+Input: n: a positive integer
+Output: (even_count, odd_count)
+1: even_count: the number of even integer palindromes
+2: odd_count: the number of odd integer palindromes
+3: even_count = 0
+4: odd_count = 0
+5: even_count = 0
+6: odd_count = 0
+7: even_count = 0
+8: odd_count = 0
+9: even_count = 0
+10: odd_count = 0
+11: even_count = 0
+12: odd_count = 0
+13: even_count = 0
+14: odd_count = 0
+15: even_count = 0
+16: odd_count = 0
+17: even_count = 0
+18: odd_count = 0
+19: even_count = 0
+20: odd_count = 0
+21: even_count = 0
+22: odd_count = 0
+23: even_count = 0
+24: odd_count = 0
+25: even_count = 0
+26: odd_count = 0
+27: even_count = 0
+28: odd"
+":
+Input: arr: an array of integers
+Output: count: the number of elements which has a sum of digits > 0
+1: for each element in arr:
+2:     if the sum of digits of element is > 0:
+3:         count += 1
+4: return count"
+":
+Input: arr: a list of integers
+Output: True: if it is possible to obtain the sorted array by performing the above operation
+False: if it is not possible to obtain the sorted array by performing the above operation
+1: if the given array is empty then return True
+2: if the given array is empty then return False
+3: if the given array is empty then return True
+4: if the given array is empty then return False
+5: if the given array is empty then return True
+6: if the given array is empty then return False
+7: if the given array is empty then return True
+8: if the given array is empty then return False
+9: if the given array is empty then return True
+10: if the given array is empty then return False
+11: if the given array is empty then return True
+12: if the given array is empty then return False
+13: if the given array is empty then return True
+14: if the given array is empty then return False
+15: if the given array is empty then return True
+16: if the given array is empty then return False
+17: if the given array is empty then return True
+18: if the given"
+":
+Input: lst1: a list of integers
+Input: lst2: a list of integers
+Output: ""YES"" or ""NO""
+1: if lst1 is a list of even numbers, return ""YES"".
+2: if lst2 is a list of even numbers, return ""YES"".
+3: if lst1 is a list of odd numbers, return ""NO"".
+4: if lst2 is a list of odd numbers, return ""NO"".
+5: if lst1 is a list of even numbers and lst2 is a list of odd numbers, return ""NO"".
+6: if lst1 is a list of odd numbers and lst2 is a list of even numbers, return ""NO"".
+7: return ""NO"" if the lists are not the same length.
+8: return ""NO"" if the lists are not the same length.
+9: return ""NO"" if the lists are not the same length.
+10: return ""NO"" if the lists are not the same length.
+11: return ""NO"" if the lists are not the same length.
+12: return ""NO"" if the lists are not the same length."
+":
+Input: test: a string
+Output: histogram: a dictionary
+1: for each character ch in test:
+2:     if ch not in histogram:
+3:         histogram[ch] = 1
+4:     else:
+5:         histogram[ch] += 1
+6: return histogram"
+":
+Input: s: a string
+Input: c: a string
+Output: result: a string
+Output: is_palindrome: a boolean
+1: result = """"
+2: is_palindrome = True
+3: for each character in s:
+4:     if character in c:
+5:         is_palindrome = False
+6:         continue
+7:     result += character
+8: return result, is_palindrome"
+":
+Input: lst: a list of strings
+Output: lst: a list of strings
+1: for each string in lst:
+2:     if the string consists of only digits, return the string
+3:     else:
+4:         count = 0
+5:         for each character in the string:
+6:             if character is an odd digit:
+7:                 count += 1
+8:         return [string, count]
+9: return None"
+":
+Input: nums: a list of integers
+Output: min_sum: the minimum sum of any non-empty sub-array of nums
+1: min_sum = nums[0]
+2: for each i in range(1, len(nums)):
+3:     min_sum = min(min_sum, nums[i] + min_sum)
+4: return min_sum"
+":
+Input: grid: a rectangular grid of wells
+Output: num_fill: an integer
+1: for each row in grid:
+2:     for each 1 in row:
+3:         if num_fill < capacity:
+4:             num_fill += 1
+5:         else:
+6:             return num_fill
+7: return None"
+":
+Input: arr: a list of non-negative integers
+Output: arr: a sorted list of non-negative integers
+1: for each number n in arr:
+2:     if n is odd:
+3:         return None
+4:     else:
+5:         return n
+6: return None"
+":
+Input: s: a string
+Output: words: a list of all words from string s that contain exactly n consonants
+1: words = []
+2: for each word in s:
+3:     if the number of consonants in word is equal to n:
+4:         words.append(word)
+5: return words
+6: return []"
+":
+Input: word: a string
+Output: closest_vowel: a string
+1: for each character ch in word:
+2:     if ch is a vowel:
+3:         return ch
+4:     if ch is a consonant:
+5:         if ch is the first in word:
+6:             closest_vowel = ch
+7:         if ch is the last in word:
+8:             closest_vowel = ch
+9:         if ch is not the first and not the last in word:
+10:             closest_vowel = ch
+11: return closest_vowel"
+":
+Input: lst: a list of strings
+Output: 'Yes' if there's a way to make a good string, and return 'No' otherwise.
+1: for each string in lst:
+2:     if the string is empty:
+3:         return 'No'
+4:     if the string is not empty:
+5:         if the string is not balanced:
+6:             return 'No'
+7:         if the string is balanced:
+8:             if the string is good:
+9:                 return 'Yes'
+10:             if the string is not good:
+11:                 return 'No'
+12: return 'No'"
+":
+Input: arr: a list of integers
+Output: arr: a list of integers
+1: for each element in arr:
+2:     if arr[i] > arr[i+1]:
+3:         swap arr[i] and arr[i+1]
+4: return arr"
+":
+Input: lst: a list of integers
+Output: sum: an integer
+1: for each element in lst:
+2:     if the element is odd:
+3:         if the element is even:
+4:             sum += element
+5: return sum"
+":
+Input: arr: a non-empty array of integers
+Output: sum: the sum of the elements with at most two digits from the first k elements of arr
+1: for each element i in arr:
+2:     if i <= k:
+3:         sum += i
+4: return sum"
+":
+Input: n: a positive integer
+Output: collatz_sequence: a list of odd numbers in collatz sequence
+1: collatz_sequence = [1]
+2: if n is even:
+3:     collatz_sequence.append(n / 2)
+4:     return collatz_sequence
+5: if n is odd:
+6:     collatz_sequence.append(3 * n + 1)
+7:     return collatz_sequence
+8: return None"
+":
+Input: date: a string
+Output: True: if the date is valid otherwise False.
+1: if date is empty:
+2:     return False
+3: if date is not empty:
+4:     if date is not in the format: mm-dd-yyyy:
+5:         return False
+6:     if date is not in the format: mm-dd-yyyy:
+7:         return False
+8:     if date is not in the format: mm-dd-yyyy:
+9:         return False
+10:     if date is not in the format: mm-dd-yyyy:
+11:         return False
+12:     if date is not in the format: mm-dd-yyyy:
+13:         return False
+14:     if date is not in the format: mm-dd-yyyy:
+15:         return False
+16:     if date is not in the format: mm-dd-yyyy:
+17:         return False
+18:     if date is not in the format: mm-dd-yyyy:
+19:         return False
+20:     if date is not in the format: mm"
+":
+Input: txt: a string
+Output: words: a list of words split on whitespace, if no whitespaces exists in the text you should split on commas ',' if no commas exists you should return the number of lower-case letters with odd order in the alphabet, ord('a') = 0, ord('b') = 1,... ord('z') = 25
+1: words = txt.split()
+2: return words"
+":
+Input: lst: a list of numbers
+Output: is_sorted: True if list is sorted, False otherwise
+1: for each number in lst:
+2:     if number is not in lst:
+3:         return False
+4: return True"
+":
+Input: interval1 = (start, end), interval2 = (start, end)
+Output: ""YES"" or ""NO""
+1: if the length of the intersection is a prime number, return ""YES"",
+2: otherwise, return ""NO"".
+3: return ""NO""
+4: return ""YES""
+5: if the length of the intersection is a prime number, return ""YES"",
+6: otherwise, return ""NO"".
+7: return ""NO""
+8: return ""YES""
+9: return ""NO""
+10: return ""YES""
+11: return ""NO""
+12: return ""NO""
+13: return ""NO""
+14: return ""NO""
+15: return ""NO""
+16: return ""NO""
+17: return ""NO""
+18: return ""NO""
+19: return ""NO""
+20: return ""NO""
+21: return ""NO""
+22: return ""NO""
+23: return ""NO""
+24: return ""NO""
+25: return ""NO""
+26: return ""NO""
+27: return ""NO""
+28: return ""NO""
+29: return """
+":
+Input: arr: a list of integers
+Output: sum of magnitudes of integers multiplied by product of all signs
+1: for each number in arr:
+2:     if number is positive:
+3:         return number * prod_signs(arr)
+4:     if number is negative:
+5:         return number * prod_signs(arr)
+6:     if number is 0:
+7:         return None
+8: return sum of magnitudes of integers multiplied by product of all signs
+9: return prod_signs(arr)
+10: return None"
+":
+Input: grid: a list of lists of integers
+Output: lst_A: a list of integers
+1: for each cell in grid:
+2:     if cell is not empty:
+3:         lst_A.append(cell)
+4: return lst_A"
+":
+Input: n: a non-negative integer
+Output: list: a list of the first n + 1 numbers of the Tribonacci sequence
+1: if n is even:
+2:     return [tri(n - 1) + tri(n - 2) + tri(n + 1)]
+3: if n is odd:
+4:     return [tri(n - 1) + tri(n - 2) + tri(n + 1)]
+5: return [tri(n - 1) + tri(n - 2) + tri(n + 1)]
+6: return [tri(n - 1) + tri(n - 2) + tri(n + 1)]
+7: return [tri(n - 1) + tri(n - 2) + tri(n + 1)]
+8: return [tri(n - 1) + tri(n - 2) + tri(n + 1)]
+9: return [tri(n - 1) + tri(n - 2) + tri(n + 1)]
+10: return [tri(n - 1) + tri(n - 2) + tri(n + 1)]
+11: return [tri(n"
+":
+Input: n: a positive integer
+Output: product of odd digits in n
+1: if n is even:
+2:     return 0
+3: for each digit d in n:
+4:         if d is odd:
+5:             return d
+6: return 0"
+":
+Input: string: a string
+Output: boolean: True if and only if there is a valid subsequence of brackets 
+where at least one bracket in the subsequence is nested.
+1: if string is empty:
+2:     return False
+3:     for each character ch in string:
+4:         if ch is '(' or '[' or '{':
+5:             if ch is '(' and string[string.index(ch) + 1] is ')':
+6:                 return True
+7:             if ch is '[' and string[string.index(ch) + 1] is ']':
+8:                 return True
+9:             if ch is '{' and string[string.index(ch) + 1] is '}':
+10:                 return True
+11:         return False"
+":
+Input: lst: a list of numbers
+Output: sum_squares: the sum of squared numbers in the given list
+1: for each element in lst:
+2:     if element is a number:
+3:         sum_squares += element**2
+4: return sum_squares"
+":
+Input: txt: a string
+Output: True: if the last character of txt is an alphabetical character and is not a part of a word, and False otherwise.
+1: if txt[-1].isalpha():
+2:     if txt[-1].isalpha() and not txt[-1].isnumeric():
+3:         return True
+4: return False"
+":
+Input: arr: a list of integers
+Output: index: an integer
+1: for each element i in arr:
+2:     if i > arr[i-1]:
+3:         return i
+4: return -1"
+":
+Input: lst: a list of integers
+Output: (a, b): a tuple of the largest negative integer, and the smallest positive integer in lst
+1: if lst is empty:
+2:     return None
+3:     a = None
+4:     b = None
+5:     for i in lst:
+6:         if i > 0:
+7:             a = i
+8:         elif i < 0:
+9:             b = i
+10:     return (a, b)"
+":
+Input: a, b: integers, floats, or strings representing real numbers
+Output: a, b: integers, floats, or strings representing real numbers
+1: if a is None:
+2:     return b
+3: if b is None:
+4:     return a
+5: if a > b:
+6:         return a
+7: if b > a:
+8:         return b
+9: return None"
+":
+Input: n: a positive integer
+Output: True or False
+1: if n can be written as the sum of exactly 4 positive even numbers:
+2:     if n is even:
+3:         return True
+4:     else:
+5:         return False"
+":
+Input: n: an integer
+Output: factorial: an integer
+1: factorial = 1
+2: for each i in range(1, n+1):
+3:     factorial = factorial * i
+4: return factorial"
+":
+Input: text: a string
+Output: text: a string with spaces replaced with underscores
+1: for each character ch in text:
+2:     if ch is a space:
+3:         return ch
+4:     if ch is a space:
+5:         return ch
+6:     if ch is a space:
+7:         return ch
+8:     if ch is a space:
+9:         return ch
+10:     if ch is a space:
+11:         return ch
+12:     if ch is a space:
+13:         return ch
+14:     if ch is a space:
+15:         return ch
+16:     if ch is a space:
+17:         return ch
+18:     if ch is a space:
+19:         return ch
+20:     if ch is a space:
+21:         return ch
+22:     if ch is a space:
+23:         return ch
+24:     if ch is a space:
+25:         return ch
+26:     if ch is a space:
+27:         return ch
+28:     if ch is a space:
+29:         return ch
+30:"
+":
+Input: file_name: a string
+Output: 'Yes' if the the file's name is valid, and returns 'No' otherwise.
+1: if file_name is not a string:
+2:     return 'No'
+3: if file_name contains more than three digits ('0'-'9'):
+4:     return 'No'
+5: if file_name contains a dot '.':
+6:     return 'No'
+7: if file_name contains exactly one dot '.':
+8:     return 'No'
+9: if file_name contains exactly one of these: ['txt', 'exe', 'dll']:
+10:     return 'Yes'
+11: return 'No'"
+":
+Input: lst: a list of integers
+Output: sum: the sum of all entries in lst
+1: for each entry in lst:
+2:     if index is a multiple of 3:
+3:         sum = sum + entry
+4:     if index is a multiple of 4:
+5:         sum = sum + entry
+6:     if index is not a multiple of 3 or 4:
+7:         sum = sum + entry
+8: return sum"
+":
+Input: sentence: a string
+Output: words: a string
+1: words = """"
+2: for each word in sentence:
+3:     if len(word) > 1:
+4:         if len(word) > len(words):
+5:             words = word
+6: return words"
+":
+Input: x, n
+Output: True or False
+1: if x * n evaluates to a whole number:
+2:     if x * n is a whole number:
+3:         return True
+4:     else:
+5:         return False
+6: return None"
+":
+Input: nums: a list of integers
+Output: nums_sorted: a sorted list of integers
+1: for each item in nums:
+2:     if item is not None:
+3:         nums_sorted.append(item)
+4: return nums_sorted"
+":
+Input: nums: a list of integers
+Output: count: an integer
+1: for each num in nums:
+2:     if num > 10 and num % 10 == 1 and num % 100!= 1:
+3:         count += 1
+4: return count"
+":
+Input: n: an integer
+Output: number of triples: an integer
+1: a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2: for each i in range(1, n):
+3:     if a[i] + a[j] + a[k] is a multiple of 3:
+4:         return i * i - i + 1
+5: return 0"
+":
+Input: planet1: Mercury, planet2: Venus
+Output: (Venus, Mars, Jupiter, Saturn, Uranus)
+1: planet1 = ""Mercury""
+2: planet2 = ""Venus""
+3: if planet1 == ""Mercury"":
+4:     if planet2 == ""Venus"":
+5:         return (Venus, Mars, Jupiter, Saturn, Uranus)
+6:     if planet2 == ""Mars"":
+7:         return (Venus, Mars, Jupiter, Saturn, Uranus)
+8:     if planet2 == ""Jupiter"":
+9:         return (Venus, Mars, Jupiter, Saturn, Uranus)
+10:     if planet2 == ""Saturn"":
+11:         return (Venus, Mars, Jupiter, Saturn, Uranus)
+12:     if planet2 == ""Uranus"":
+13:         return (Venus, Mars, Jupiter, Saturn, Uranus)
+14:     if planet2 == ""Neptune"":
+15:         return (Venus, Mars, Jupiter, Saturn, Uranus)
+16: return ()"
+":
+Input: lst: a list of strings
+Output: lst: a list of strings in sorted order
+1: for each word in lst:
+2:     if len(word) is odd:
+3:         lst.remove(word)
+4: return lst
+5: return None"
+":
+Input: n: a number
+Output: x: a value
+Output: y: a value
+1: if n is a prime number:
+2:     return x
+3: else:
+4:     return y
+5: return None"
+":
+Input: lst: a list of numbers
+Output: sum_of_squares: the sum of squares of the odd numbers in lst
+1: for each number in lst:
+2:     if number is odd:
+3:         sum_of_squares += number ** 2
+4: return sum_of_squares
+5: return 0"
+":
+Input: game: a list of scores
+        guess: a list of guesses
+Output: score_diff: a list of the same length as guess, where each index shows how far off each guess was.
+1: for each index i in guess:
+2:     if i in game:
+3:         score_diff[i] = abs(guess[i] - game[i])
+4: return score_diff"
+":
+Input: class_name: a string
+Output: strongest_extension: a string
+1: class_name = ""Slices""
+2: extensions = [""SErviNGSliCes"", ""Cheese"", ""StuFfed""]
+3: for each extension in extensions:
+4:     if extension.startswith(""SErviNGSliCes""):
+5:         return ""Slices.SErviNGSliCes""
+6: return ""Slices.SErviNGSliCes""
+7: return ""Slices.SErviNGSliCes""
+8: return ""Slices.SErviNGSliCes""
+9: return ""Slices.SErviNGSliCes""
+10: return ""Slices.SErviNGSliCes""
+11: return ""Slices.SErviNGSliCes""
+12: return ""Slices.SErviNGSliCes""
+13: return ""Slices.SErviNGSliCes""
+14: return ""Slic"
+":
+Input: a = ""abcd"", b = ""cdabcdab""
+Output: True
+Input: a = ""abcd"", b = ""abcdabcdab""
+Output: True
+Input: a = ""abcd"", b = ""abcdabcd""
+Output: False"
+":
+Input: num: a number
+Output: (even, odd)
+1: if num is even:
+2:     return (even, num - even)
+3: else:
+4:     return (odd, num - odd)
+5: return None"
+":
+Input: number: an integer
+Output: roman: a string
+1: if number is 1:
+2:     return 'I'
+3: elif number is 2:
+4:         return 'II'
+5: elif number is 3:
+6:             return 'III'
+7: elif number is 4:
+8:                 return 'IV'
+9: elif number is 5:
+10:                 return 'V'
+11: elif number is 6:
+12:                 return 'VI'
+13: elif number is 7:
+14:                 return 'VII'
+15: elif number is 8:
+16:                 return 'VIII'
+17: elif number is 9:
+18:                 return 'IX'
+19: elif number is 10:
+20:                 return 'X'
+21: elif number is 11:
+22:                 return 'XI'
+23: elif number is 12:
+24:                 return 'XII'
+25: elif number is 13:
+26:                 return 'XIII'
+27: elif number is 14:
+28:                 return 'XIV"
+":
+Input: a, b, c: three integers
+Output: True or False: True if a, b, c form a right-angled triangle, False otherwise.
+1: if a + b > c:
+2:     if a**2 + b**2 == c**2:
+3:         return True
+4:     return False"
+":
+Input: words: a list of strings
+Output: max_word: a string
+1: for each word in words:
+2:     if len(word) == max_len:
+3:         return word
+4: return None"
+":
+Input: number: a number
+Output: [ total number of eaten carrots after your meals,
+         the number of carrots left after your meals ]
+1: total = number
+2: if total >= need:
+3:     return [ total - need, need ]
+4:     return [ total, need ]
+5: return [ total, remaining ]"
+":
+Input: operator, operand: lists of strings
+Output: result: a list of integers
+1: for each i in range(len(operator)):
+2:     if operator[i] == '+':
+3:         result.append(operand[i] + operand[i+1])
+4:     if operator[i] == '-':
+5:         result.append(operand[i] - operand[i+1])
+6:     if operator[i] == '*':
+7:         result.append(operand[i] * operand[i+1])
+8:     if operator[i] == '//':
+9:         result.append(operand[i] // operand[i+1])
+10:     if operator[i] == '**':
+11:         result.append(operand[i] ** operand[i+1])
+12: return result"
+":
+Input: s: a string
+Output: s: a string
+1: if s contains no letters, return s
+2: if s contains no letters, return s
+3: if s contains no letters, return s
+4: if s contains no letters, return s
+5: if s contains no letters, return s
+6: if s contains no letters, return s
+7: if s contains no letters, return s
+8: if s contains no letters, return s
+9: if s contains no letters, return s
+10: if s contains no letters, return s
+11: if s contains no letters, return s
+12: if s contains no letters, return s
+13: if s contains no letters, return s
+14: if s contains no letters, return s
+15: if s contains no letters, return s
+16: if s contains no letters, return s
+17: if s contains no letters, return s
+18: if s contains no letters, return s
+19: if s contains no letters, return s
+20: if s contains no letters, return s
+21: if s contains no letters, return s
+22: if s contains no letters, return s"
+":
+Input: text: a string
+Output: md5: a string
+1: if 'text' is an empty string, return None
+2:     md5 = md5(text.encode())
+3: return md5
+4: return None"
+":
+Input: a, b: positive integers
+Output: list of integers: even integers between a and b, in ascending order
+1: for each integer i in range(a, b + 1):
+2:     if i % 2 == 0:
+3:         yield i
+4: return None"
