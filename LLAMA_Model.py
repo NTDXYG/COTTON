@@ -69,7 +69,7 @@ class LLAMASeq2Seq():
         model = LlamaForCausalLM.from_pretrained(
             self.base_model,
             # quantization_config=q_config,
-            torch_dtype=torch.float16,
+            torch_dtype=torch.bfloat16,
             device_map="auto",
             trust_remote_code=True
         )
